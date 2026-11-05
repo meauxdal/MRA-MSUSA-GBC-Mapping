@@ -1,0 +1,221 @@
+{
+  "mra": {
+    "0": {
+      "name": "Doughnut Derby",
+      "filename": "11_Doughnut_Derby.png",
+      "identification": "existing repository label"
+    },
+    "1": {
+      "name": "Moat Madness",
+      "filename": "03_Moat_Madness.png",
+      "identification": "existing repository label"
+    },
+    "2": {
+      "name": "Round Table Trouble",
+      "filename": "01_Round_Table_Trouble.png",
+      "identification": "existing repository label"
+    },
+    "3": {
+      "name": "Drawbridge Derby",
+      "filename": "02_Drawbridge_Derby.png",
+      "identification": "existing repository label"
+    },
+    "4": {
+      "name": "Pete's Dungeon",
+      "filename": "04_Pete's_Dungeon.png",
+      "identification": "existing repository label"
+    },
+    "5": {
+      "name": "Raceway",
+      "filename": "09_Raceway.png",
+      "identification": "existing repository label"
+    },
+    "6": {
+      "name": "Crazy Curves",
+      "filename": "10_Crazy_Curves.png",
+      "identification": "existing repository label"
+    },
+    "8": {
+      "name": "Swashbuckling Sand Chase",
+      "filename": "13_Swashbuckling_Sand_Chase.png",
+      "identification": "existing repository label"
+    },
+    "9": {
+      "name": "Cutthroat Cove",
+      "filename": "14_Cutthroat_Cove.png",
+      "identification": "existing repository label"
+    },
+    "10": {
+      "name": "Jolly Roger Ramps",
+      "filename": "15_Jolly_Roger_Ramps.png",
+      "identification": "existing repository label"
+    },
+    "11": {
+      "name": "Ludwig Von Drake's Test Track",
+      "filename": "21_Ludwig_Von_Drake's_Test_Track.png",
+      "identification": "existing repository label"
+    },
+    "12": {
+      "name": "Pete's Treasure Oasis",
+      "filename": "16_Pete's_Treasure_Oasis.png",
+      "identification": "existing repository label"
+    },
+    "13": {
+      "name": "Pioneer Prairie",
+      "filename": "05_Pioneer_Prairie.png",
+      "identification": "existing repository label"
+    },
+    "14": {
+      "name": "Pete's Dessert Disaster",
+      "filename": "12_Pete's_Dessert_Disaster.png",
+      "identification": "existing repository label"
+    },
+    "15": {
+      "name": "River Ruckus",
+      "filename": "07_River_Ruckus.png",
+      "identification": "existing repository label"
+    },
+    "16": {
+      "name": "Frozen Frontier",
+      "filename": "06_Frozen_Frontier.png",
+      "identification": "existing repository label"
+    },
+    "17": {
+      "name": "Pete's Hunting Hideout",
+      "filename": "08_Pete's_Hunting_Hideout.png",
+      "identification": "existing repository label"
+    },
+    "18": {
+      "name": "Pete's Big Top Showdown",
+      "filename": "20_Pete's_Big_Top_Showdown.png",
+      "identification": "existing repository label"
+    },
+    "19": {
+      "name": "Pete's Mansion",
+      "filename": "22_Pete's_Mansion.png",
+      "identification": "existing repository label"
+    },
+    "20": {
+      "name": "Roller Coaster Roadway",
+      "filename": "17_Roller_Coaster_Roadway.png",
+      "identification": "existing repository label"
+    },
+    "21": {
+      "name": "Really Rapid Rapids",
+      "filename": "18_Really_Rapid_Rapids.png",
+      "identification": "existing repository label"
+    },
+    "22": {
+      "name": "Fairground Follies",
+      "filename": "19_Fairground_Follies.png",
+      "identification": "existing repository label"
+    }
+  },
+  "msusa": {
+    "0": {
+      "name": "Los Angeles",
+      "filename": "01_Los_Angeles.png",
+      "identification": "existing repository label"
+    },
+    "1": {
+      "name": "Secret Track!",
+      "filename": "21_Secret_Track!.png",
+      "identification": "existing repository label"
+    },
+    "2": {
+      "name": "Gulf Coast",
+      "filename": "13_Gulf_Coast.png",
+      "identification": "existing repository label"
+    },
+    "3": {
+      "name": "Grand Canyon",
+      "filename": "02_Grand_Canyon.png",
+      "identification": "existing repository label"
+    },
+    "4": {
+      "name": "Montana",
+      "filename": "06_Montana.png",
+      "identification": "existing repository label"
+    },
+    "5": {
+      "name": "Louisiana",
+      "filename": "14_Louisiana.png",
+      "identification": "existing repository label"
+    },
+    "6": {
+      "name": "Milwaukee",
+      "filename": "09_Milwaukee.png",
+      "identification": "existing repository label"
+    },
+    "7": {
+      "name": "Indianapolis",
+      "filename": "15_Indianapolis.png",
+      "identification": "existing repository label"
+    },
+    "8": {
+      "name": "Daytona Beach",
+      "filename": "19_Daytona_Beach.png",
+      "identification": "existing repository label"
+    },
+    "9": {
+      "name": "Smoky Mountains",
+      "filename": "17_Smoky_Mountains.png",
+      "identification": "existing repository label"
+    },
+    "10": {
+      "name": "Yosemite",
+      "filename": "03_Yosemite.png",
+      "identification": "existing repository label"
+    },
+    "11": {
+      "name": "Boston",
+      "filename": "16_Boston.png",
+      "identification": "existing repository label"
+    },
+    "12": {
+      "name": "Florida Everglades",
+      "filename": "18_Florida_Everglades.png",
+      "identification": "existing repository label"
+    },
+    "13": {
+      "name": "Utah",
+      "filename": "08_Utah.png",
+      "identification": "existing repository label"
+    },
+    "14": {
+      "name": "Colorado",
+      "filename": "10_Colorado.png",
+      "identification": "existing repository label"
+    },
+    "15": {
+      "name": "Texas",
+      "filename": "12_Texas.png",
+      "identification": "existing repository label"
+    },
+    "16": {
+      "name": "San Francisco",
+      "filename": "04_San_Francisco.png",
+      "identification": "existing repository label"
+    },
+    "17": {
+      "name": "Seattle",
+      "filename": "05_Seattle.png",
+      "identification": "existing repository label"
+    },
+    "18": {
+      "name": "Yellowstone",
+      "filename": "07_Yellowstone.png",
+      "identification": "existing repository label"
+    },
+    "19": {
+      "name": "Nebraska",
+      "filename": "11_Nebraska.png",
+      "identification": "existing repository label"
+    },
+    "20": {
+      "name": "Washington D.C.",
+      "filename": "20_Washington_D.C..png",
+      "identification": "existing repository label"
+    }
+  }
+}

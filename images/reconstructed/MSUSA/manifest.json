@@ -1,0 +1,611 @@
+[
+  {
+    "index": 0,
+    "name": "Los Angeles",
+    "file": "01_Los_Angeles.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2496,
+    "height": 1856,
+    "descriptor": "0x080032",
+    "selectors": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16
+    ],
+    "low_plane": "0x12c000",
+    "high_plane": "0x12d1ae",
+    "metatile_bank": "0x26",
+    "graphics": [
+      "0x0fc000",
+      "0x0fd001"
+    ],
+    "palette": "0x080338",
+    "animation_uploads": 4,
+    "unmapped_8px_tiles": 0,
+    "sha256": "97082436cc24cc36f36dfd12769fc284fb9a318652f37a882a5565c24ad25da3"
+  },
+  {
+    "index": 1,
+    "name": "Secret Track!",
+    "file": "21_Secret_Track!.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 3136,
+    "height": 2592,
+    "descriptor": "0x080039",
+    "selectors": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      11
+    ],
+    "low_plane": "0x12e35c",
+    "high_plane": "0x130260",
+    "metatile_bank": "0x27",
+    "graphics": [
+      "0x0fdfe2",
+      "0x0fefe3"
+    ],
+    "palette": "0x080538",
+    "animation_uploads": 8,
+    "unmapped_8px_tiles": 0,
+    "sha256": "8026daa22afc6bd102afc30ed19a1126561414387a469c38401df2adfafb22bf"
+  },
+  {
+    "index": 2,
+    "name": "Gulf Coast",
+    "file": "13_Gulf_Coast.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 1664,
+    "height": 2464,
+    "descriptor": "0x080040",
+    "selectors": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      20
+    ],
+    "low_plane": "0x132164",
+    "high_plane": "0x13310a",
+    "metatile_bank": "0x28",
+    "graphics": [
+      "0x0fff64",
+      "0x100f65"
+    ],
+    "palette": "0x080738",
+    "animation_uploads": 2,
+    "unmapped_8px_tiles": 0,
+    "sha256": "030dfeb3263b9dcd848ec2bffba38817a6d4bcc859478eb4bc53f330e32002a1"
+  },
+  {
+    "index": 3,
+    "name": "Grand Canyon",
+    "file": "02_Grand_Canyon.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2752,
+    "height": 1824,
+    "descriptor": "0x080047",
+    "selectors": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      4
+    ],
+    "low_plane": "0x1340b0",
+    "high_plane": "0x1353d8",
+    "metatile_bank": "0x29",
+    "graphics": [
+      "0x101e56",
+      "0x102e57"
+    ],
+    "palette": "0x080938",
+    "animation_uploads": 0,
+    "unmapped_8px_tiles": 0,
+    "sha256": "da03935e2119b1271efc5972ad7ab6ac07a135002c257465706f3e8a01a775f0"
+  },
+  {
+    "index": 4,
+    "name": "Montana",
+    "file": "06_Montana.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2144,
+    "height": 2080,
+    "descriptor": "0x08004e",
+    "selectors": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      0,
+      23
+    ],
+    "low_plane": "0x136700",
+    "high_plane": "0x137805",
+    "metatile_bank": "0x2a",
+    "graphics": [
+      "0x103e08",
+      "0x104e09"
+    ],
+    "palette": "0x080b38",
+    "animation_uploads": 0,
+    "unmapped_8px_tiles": 0,
+    "sha256": "320a49907956f141c7d8ffb8def28f2823303b5e1b50e8e35302f98aaa9fe4e0"
+  },
+  {
+    "index": 5,
+    "name": "Louisiana",
+    "file": "14_Louisiana.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 1600,
+    "height": 1952,
+    "descriptor": "0x080055",
+    "selectors": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      0,
+      15
+    ],
+    "low_plane": "0x13890a",
+    "high_plane": "0x1394f6",
+    "metatile_bank": "0x2b",
+    "graphics": [
+      "0x105dba",
+      "0x106dbb"
+    ],
+    "palette": "0x080d38",
+    "animation_uploads": 5,
+    "unmapped_8px_tiles": 0,
+    "sha256": "b99c602c93b1d45941ca0e6044e16f01d6f62001e82a95aff603b27ade2bf6a6"
+  },
+  {
+    "index": 6,
+    "name": "Milwaukee",
+    "file": "09_Milwaukee.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 1376,
+    "height": 1312,
+    "descriptor": "0x08005c",
+    "selectors": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      0,
+      6
+    ],
+    "low_plane": "0x13a0e2",
+    "high_plane": "0x13a7c7",
+    "metatile_bank": "0x2c",
+    "graphics": [
+      "0x107dbc",
+      "0x108dbd"
+    ],
+    "palette": "0x080f38",
+    "animation_uploads": 0,
+    "unmapped_8px_tiles": 0,
+    "sha256": "0726386297553bdb0dd2314030789867609af746e44ebebbf25580b37ca947ba"
+  },
+  {
+    "index": 7,
+    "name": "Indianapolis",
+    "file": "15_Indianapolis.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 1856,
+    "height": 1504,
+    "descriptor": "0x080063",
+    "selectors": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      0,
+      13
+    ],
+    "low_plane": "0x13aeac",
+    "high_plane": "0x13b954",
+    "metatile_bank": "0x2d",
+    "graphics": [
+      "0x109dae",
+      "0x10adaf"
+    ],
+    "palette": "0x081138",
+    "animation_uploads": 0,
+    "unmapped_8px_tiles": 0,
+    "sha256": "c9bedce8dd2f17530641755fd96c28f395871d6f5386920de969804435047b0c"
+  },
+  {
+    "index": 8,
+    "name": "Daytona Beach",
+    "file": "19_Daytona_Beach.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 1568,
+    "height": 1856,
+    "descriptor": "0x08006a",
+    "selectors": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      0,
+      21
+    ],
+    "low_plane": "0x13c3fc",
+    "high_plane": "0x13cf18",
+    "metatile_bank": "0x2e",
+    "graphics": [
+      "0x10bd60",
+      "0x10cd61"
+    ],
+    "palette": "0x081338",
+    "animation_uploads": 1,
+    "unmapped_8px_tiles": 0,
+    "sha256": "c9b074c415fb42e020b276790383de1e6aeeeb356b7689fd9802561d8754e0cd"
+  },
+  {
+    "index": 9,
+    "name": "Smoky Mountains",
+    "file": "17_Smoky_Mountains.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2464,
+    "height": 1984,
+    "descriptor": "0x080071",
+    "selectors": [
+      9,
+      9,
+      9,
+      9,
+      9,
+      0,
+      12
+    ],
+    "low_plane": "0x13da34",
+    "high_plane": "0x13ecdc",
+    "metatile_bank": "0x2f",
+    "graphics": [
+      "0x10dc82",
+      "0x10ec83"
+    ],
+    "palette": "0x081538",
+    "animation_uploads": 0,
+    "unmapped_8px_tiles": 0,
+    "sha256": "961d656277e7531fd3bffcf7c68fe0f9f82a922d485bec818f65fafed695f7f4"
+  },
+  {
+    "index": 10,
+    "name": "Yosemite",
+    "file": "03_Yosemite.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 1888,
+    "height": 2240,
+    "descriptor": "0x080078",
+    "selectors": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      0,
+      29
+    ],
+    "low_plane": "0x13ff84",
+    "high_plane": "0x140fa8",
+    "metatile_bank": "0x30",
+    "graphics": [
+      "0x10fc34",
+      "0x110c35"
+    ],
+    "palette": "0x081738",
+    "animation_uploads": 1,
+    "unmapped_8px_tiles": 0,
+    "sha256": "a8b678952a23d62265c32198a9c15b96ff35494e588c56dba4f98dee86ff01fc"
+  },
+  {
+    "index": 11,
+    "name": "Boston",
+    "file": "16_Boston.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 3136,
+    "height": 1856,
+    "descriptor": "0x08007f",
+    "selectors": [
+      11,
+      11,
+      11,
+      11,
+      11,
+      0,
+      27
+    ],
+    "low_plane": "0x141fcc",
+    "high_plane": "0x143602",
+    "metatile_bank": "0x31",
+    "graphics": [
+      "0x111bf6",
+      "0x112bf7"
+    ],
+    "palette": "0x081938",
+    "animation_uploads": 1,
+    "unmapped_8px_tiles": 0,
+    "sha256": "558c353af81252f995ee48396f25c2bab3df0e5d345491178f00994920cd7570"
+  },
+  {
+    "index": 12,
+    "name": "Florida Everglades",
+    "file": "18_Florida_Everglades.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2176,
+    "height": 2272,
+    "descriptor": "0x080086",
+    "selectors": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      0,
+      22
+    ],
+    "low_plane": "0x144c38",
+    "high_plane": "0x145f16",
+    "metatile_bank": "0x32",
+    "graphics": [
+      "0x1138a8",
+      "0x1148a9"
+    ],
+    "palette": "0x081b38",
+    "animation_uploads": 4,
+    "unmapped_8px_tiles": 0,
+    "sha256": "93c6db9f23548e0c27f677334b4dc7efb4f49773bf55d46ebf72eb0d0aface90"
+  },
+  {
+    "index": 13,
+    "name": "Utah",
+    "file": "08_Utah.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 3232,
+    "height": 2080,
+    "descriptor": "0x08008d",
+    "selectors": [
+      13,
+      13,
+      13,
+      13,
+      13,
+      0,
+      24
+    ],
+    "low_plane": "0x1471f4",
+    "high_plane": "0x148b9b",
+    "metatile_bank": "0x33",
+    "graphics": [
+      "0x11587a",
+      "0x11687b"
+    ],
+    "palette": "0x081d38",
+    "animation_uploads": 6,
+    "unmapped_8px_tiles": 0,
+    "sha256": "1a8b3c9bbb3f6d2a188371ad36e4f56942cd04c68be4238a81109e96e133314d"
+  },
+  {
+    "index": 14,
+    "name": "Colorado",
+    "file": "10_Colorado.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 3104,
+    "height": 2240,
+    "descriptor": "0x080094",
+    "selectors": [
+      14,
+      14,
+      14,
+      14,
+      14,
+      0,
+      5
+    ],
+    "low_plane": "0x14a542",
+    "high_plane": "0x14bfca",
+    "metatile_bank": "0x34",
+    "graphics": [
+      "0x11781c",
+      "0x11881d"
+    ],
+    "palette": "0x081f38",
+    "animation_uploads": 0,
+    "unmapped_8px_tiles": 0,
+    "sha256": "898ac8e3467951a677c2234d3eab11db9bccace38ffd8f390d7b01a30449e7c2"
+  },
+  {
+    "index": 15,
+    "name": "Texas",
+    "file": "12_Texas.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2816,
+    "height": 2240,
+    "descriptor": "0x08009b",
+    "selectors": [
+      15,
+      15,
+      15,
+      15,
+      15,
+      0,
+      25
+    ],
+    "low_plane": "0x14da52",
+    "high_plane": "0x14f264",
+    "metatile_bank": "0x35",
+    "graphics": [
+      "0x11981e",
+      "0x11a81f"
+    ],
+    "palette": "0x082138",
+    "animation_uploads": 0,
+    "unmapped_8px_tiles": 0,
+    "sha256": "5cdd5033d985f57c76e7ffd998e70dc5d793457b264282d225136385e34f8f9e"
+  },
+  {
+    "index": 16,
+    "name": "San Francisco",
+    "file": "04_San_Francisco.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2880,
+    "height": 1952,
+    "descriptor": "0x0800a2",
+    "selectors": [
+      16,
+      16,
+      16,
+      16,
+      16,
+      0,
+      11
+    ],
+    "low_plane": "0x150a76",
+    "high_plane": "0x151fea",
+    "metatile_bank": "0x36",
+    "graphics": [
+      "0x11b770",
+      "0x11c771"
+    ],
+    "palette": "0x082338",
+    "animation_uploads": 0,
+    "unmapped_8px_tiles": 0,
+    "sha256": "0f6cce6c8bb11efe0049be23c87544a222252e6a6e9f641d734fce33249c9b23"
+  },
+  {
+    "index": 17,
+    "name": "Seattle",
+    "file": "05_Seattle.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 3104,
+    "height": 2176,
+    "descriptor": "0x0800a9",
+    "selectors": [
+      17,
+      17,
+      17,
+      17,
+      17,
+      0,
+      30
+    ],
+    "low_plane": "0x15355e",
+    "high_plane": "0x154f24",
+    "metatile_bank": "0x37",
+    "graphics": [
+      "0x11d722",
+      "0x11e723"
+    ],
+    "palette": "0x082538",
+    "animation_uploads": 1,
+    "unmapped_8px_tiles": 0,
+    "sha256": "e576e8b38c2ce449782b83085e0105dc57a5683d8eae2cb9d56370e704a7af0d"
+  },
+  {
+    "index": 18,
+    "name": "Yellowstone",
+    "file": "07_Yellowstone.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2400,
+    "height": 2336,
+    "descriptor": "0x0800b0",
+    "selectors": [
+      18,
+      18,
+      18,
+      18,
+      18,
+      0,
+      19
+    ],
+    "low_plane": "0x1568ea",
+    "high_plane": "0x157e4f",
+    "metatile_bank": "0x38",
+    "graphics": [
+      "0x11f6f4",
+      "0x1206f5"
+    ],
+    "palette": "0x082738",
+    "animation_uploads": 12,
+    "unmapped_8px_tiles": 0,
+    "sha256": "7234b6df1267120c19fa877f9d2fdb83b901bb0908a1bf875acf53c4ae206d4d"
+  },
+  {
+    "index": 19,
+    "name": "Nebraska",
+    "file": "11_Nebraska.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 3104,
+    "height": 1984,
+    "descriptor": "0x0800b7",
+    "selectors": [
+      19,
+      19,
+      19,
+      19,
+      19,
+      0,
+      31
+    ],
+    "low_plane": "0x1593b4",
+    "high_plane": "0x15ab34",
+    "metatile_bank": "0x39",
+    "graphics": [
+      "0x121626",
+      "0x122627"
+    ],
+    "palette": "0x082938",
+    "animation_uploads": 0,
+    "unmapped_8px_tiles": 0,
+    "sha256": "d6da37d802f18c5088f96f6c88fa57b159217cc3497087a9c1faba1ee33be464"
+  },
+  {
+    "index": 20,
+    "name": "Washington D.C.",
+    "file": "20_Washington_D.C..png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2944,
+    "height": 2528,
+    "descriptor": "0x0800be",
+    "selectors": [
+      20,
+      20,
+      20,
+      20,
+      20,
+      0,
+      26
+    ],
+    "low_plane": "0x15c2b4",
+    "high_plane": "0x15df1a",
+    "metatile_bank": "0x3a",
+    "graphics": [
+      "0x1235d8",
+      "0x1245d9"
+    ],
+    "palette": "0x082b38",
+    "animation_uploads": 6,
+    "unmapped_8px_tiles": 0,
+    "sha256": "3bf0ffbf4e36c0f263f627dffc73c8c766f7c6d3134eb1fa2c32c94b2adc81e7"
+  }
+]

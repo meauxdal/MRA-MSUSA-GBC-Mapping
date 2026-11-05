@@ -1,0 +1,272 @@
+{
+  "method": "Isolated original-ROM horizontal renderer; six coordinate samples per course.",
+  "limits": "Validates background tile IDs/attributes, not every rendered pixel, objects, or gameplay state.",
+  "rom_sha256": {
+    "mra": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "msusa": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470"
+  },
+  "games": {
+    "mra": [
+      {
+        "index": 0,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 1,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 2,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 3,
+        "samples": 6,
+        "tile_attribute_pairs": 153,
+        "unmapped": 0
+      },
+      {
+        "index": 4,
+        "samples": 6,
+        "tile_attribute_pairs": 150,
+        "unmapped": 144
+      },
+      {
+        "index": 5,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 6,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 8,
+        "samples": 6,
+        "tile_attribute_pairs": 153,
+        "unmapped": 0
+      },
+      {
+        "index": 9,
+        "samples": 6,
+        "tile_attribute_pairs": 153,
+        "unmapped": 0
+      },
+      {
+        "index": 10,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 11,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 12,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 13,
+        "samples": 6,
+        "tile_attribute_pairs": 153,
+        "unmapped": 0
+      },
+      {
+        "index": 14,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 15,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 16,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 17,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 18,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 19,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 20,
+        "samples": 6,
+        "tile_attribute_pairs": 153,
+        "unmapped": 0
+      },
+      {
+        "index": 21,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 22,
+        "samples": 6,
+        "tile_attribute_pairs": 153,
+        "unmapped": 0
+      }
+    ],
+    "msusa": [
+      {
+        "index": 0,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 1,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 2,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 3,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 4,
+        "samples": 6,
+        "tile_attribute_pairs": 153,
+        "unmapped": 0
+      },
+      {
+        "index": 5,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 6,
+        "samples": 6,
+        "tile_attribute_pairs": 153,
+        "unmapped": 0
+      },
+      {
+        "index": 7,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 8,
+        "samples": 6,
+        "tile_attribute_pairs": 153,
+        "unmapped": 0
+      },
+      {
+        "index": 9,
+        "samples": 6,
+        "tile_attribute_pairs": 153,
+        "unmapped": 0
+      },
+      {
+        "index": 10,
+        "samples": 6,
+        "tile_attribute_pairs": 153,
+        "unmapped": 0
+      },
+      {
+        "index": 11,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 12,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 13,
+        "samples": 6,
+        "tile_attribute_pairs": 153,
+        "unmapped": 0
+      },
+      {
+        "index": 14,
+        "samples": 6,
+        "tile_attribute_pairs": 153,
+        "unmapped": 0
+      },
+      {
+        "index": 15,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 16,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      },
+      {
+        "index": 17,
+        "samples": 6,
+        "tile_attribute_pairs": 153,
+        "unmapped": 0
+      },
+      {
+        "index": 18,
+        "samples": 6,
+        "tile_attribute_pairs": 153,
+        "unmapped": 0
+      },
+      {
+        "index": 19,
+        "samples": 6,
+        "tile_attribute_pairs": 153,
+        "unmapped": 0
+      },
+      {
+        "index": 20,
+        "samples": 6,
+        "tile_attribute_pairs": 155,
+        "unmapped": 0
+      }
+    ]
+  }
+}

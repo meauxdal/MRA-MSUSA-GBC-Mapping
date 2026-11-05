@@ -1,0 +1,22 @@
+{
+  "21": {
+    "name": "Extra 21: walled garden",
+    "filename": "21_Walled_Garden.png",
+    "status": "coherent source background; descriptive label only; gameplay identity and reachability unverified"
+  },
+  "22": {
+    "name": "Extra 22: log arena",
+    "filename": "22_Log_Arena.png",
+    "status": "coherent source background; descriptive label only; gameplay identity and reachability unverified"
+  },
+  "23": {
+    "name": "Extra 23: unresolved graphics",
+    "filename": "23_Unresolved_Graphics.png",
+    "status": "unresolved: descriptor-referenced graphics render scrambled terrain; this is a diagnostic source rendering, not a corrected map"
+  },
+  "24": {
+    "name": "Extra 24: city arena",
+    "filename": "24_City_Arena.png",
+    "status": "partial source background; 145 non-ROM subtile reads transparent; descriptive label only; gameplay identity and reachability unverified"
+  }
+}

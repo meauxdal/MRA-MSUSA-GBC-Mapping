@@ -1,0 +1,118 @@
+[
+  {
+    "index": 21,
+    "name": "Extra 21: walled garden",
+    "file": "21_Walled_Garden.png",
+    "status": "coherent source background; descriptive label only; gameplay identity and reachability unverified",
+    "width": 1248,
+    "height": 704,
+    "descriptor": "0x0800c5",
+    "selectors": [
+      21,
+      21,
+      21,
+      21,
+      21,
+      0,
+      10
+    ],
+    "low_plane": "0x15fb80",
+    "high_plane": "0x15fedc",
+    "metatile_bank": "0x3b",
+    "graphics": [
+      "0x12559a",
+      null
+    ],
+    "palette": "0x082d38",
+    "animation_uploads": 0,
+    "unmapped_8px_tiles": 0,
+    "sha256": "a2e7ad6e889c5c734566a95a76260dbd7cea84141a8f720144b01fddca117c08"
+  },
+  {
+    "index": 22,
+    "name": "Extra 22: log arena",
+    "file": "22_Log_Arena.png",
+    "status": "coherent source background; descriptive label only; gameplay identity and reachability unverified",
+    "width": 1024,
+    "height": 864,
+    "descriptor": "0x0800cc",
+    "selectors": [
+      22,
+      22,
+      22,
+      22,
+      22,
+      0,
+      10
+    ],
+    "low_plane": "0x160238",
+    "high_plane": "0x16059a",
+    "metatile_bank": "0x3c",
+    "graphics": [
+      "0x12622b",
+      null
+    ],
+    "palette": "0x082f38",
+    "animation_uploads": 0,
+    "unmapped_8px_tiles": 0,
+    "sha256": "29bbc04d60aec09612b3e2711ff4b8c22d57141dbcd3e260b1ba1fbd268fd05d"
+  },
+  {
+    "index": 23,
+    "name": "Extra 23: unresolved graphics",
+    "file": "23_Unresolved_Graphics.png",
+    "status": "unresolved: descriptor-referenced graphics render scrambled terrain; this is a diagnostic source rendering, not a corrected map",
+    "width": 1216,
+    "height": 864,
+    "descriptor": "0x0800d3",
+    "selectors": [
+      23,
+      23,
+      23,
+      23,
+      23,
+      0,
+      10
+    ],
+    "low_plane": "0x1608fc",
+    "high_plane": "0x160d00",
+    "metatile_bank": "0x3d",
+    "graphics": [
+      "0x12680c",
+      null
+    ],
+    "palette": "0x083138",
+    "animation_uploads": 0,
+    "unmapped_8px_tiles": 0,
+    "sha256": "a1806a4ba26c7cbeee09c16629a722294cd7853a521668639178273d83779008"
+  },
+  {
+    "index": 24,
+    "name": "Extra 24: city arena",
+    "file": "24_City_Arena.png",
+    "status": "partial source background; 145 non-ROM subtile reads transparent; descriptive label only; gameplay identity and reachability unverified",
+    "width": 1376,
+    "height": 928,
+    "descriptor": "0x0800da",
+    "selectors": [
+      24,
+      24,
+      24,
+      24,
+      24,
+      0,
+      10
+    ],
+    "low_plane": "0x161104",
+    "high_plane": "0x1615e5",
+    "metatile_bank": "0x3e",
+    "graphics": [
+      "0x12780d",
+      "0x12880e"
+    ],
+    "palette": "0x083338",
+    "animation_uploads": 0,
+    "unmapped_8px_tiles": 145,
+    "sha256": "e1569c607c05628b42410fedc4b29183e578edc5149e94987864859a365746f5"
+  }
+]

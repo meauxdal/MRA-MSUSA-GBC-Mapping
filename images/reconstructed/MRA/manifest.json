@@ -1,0 +1,640 @@
+[
+  {
+    "index": 0,
+    "name": "Doughnut Derby",
+    "file": "11_Doughnut_Derby.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2304,
+    "height": 1536,
+    "descriptor": "0x08002e",
+    "selectors": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12
+    ],
+    "low_plane": "0x110000",
+    "high_plane": "0x110d82",
+    "metatile_bank": "0x25",
+    "graphics": [
+      "0x0e8000",
+      "0x0e9001"
+    ],
+    "palette": "0x0802e4",
+    "animation_uploads": 6,
+    "unmapped_8px_tiles": 0,
+    "sha256": "9bed175ac271749d2e312aa9227516364045be08fb44a946b0330d551560bd6b"
+  },
+  {
+    "index": 1,
+    "name": "Moat Madness",
+    "file": "03_Moat_Madness.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2368,
+    "height": 1952,
+    "descriptor": "0x080035",
+    "selectors": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      11
+    ],
+    "low_plane": "0x111b04",
+    "high_plane": "0x112ca8",
+    "metatile_bank": "0x26",
+    "graphics": [
+      "0x0e9f82",
+      "0x0eaf83"
+    ],
+    "palette": "0x0804e4",
+    "animation_uploads": 2,
+    "unmapped_8px_tiles": 0,
+    "sha256": "6c1ecad1ef341057c716a2fd69de057f0df616784473e90125728a5958717e44"
+  },
+  {
+    "index": 2,
+    "name": "Round Table Trouble",
+    "file": "01_Round_Table_Trouble.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2112,
+    "height": 1248,
+    "descriptor": "0x08003c",
+    "selectors": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      11
+    ],
+    "low_plane": "0x113e4c",
+    "high_plane": "0x11485c",
+    "metatile_bank": "0x27",
+    "graphics": [
+      "0x0eb994",
+      "0x0ec995"
+    ],
+    "palette": "0x0806e4",
+    "animation_uploads": 1,
+    "unmapped_8px_tiles": 0,
+    "sha256": "6be4a68ec1633443c12ecb3150ef392c8b6e9fccf4f6732525c244e222ebac44"
+  },
+  {
+    "index": 3,
+    "name": "Drawbridge Derby",
+    "file": "02_Drawbridge_Derby.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2208,
+    "height": 1984,
+    "descriptor": "0x080043",
+    "selectors": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      11
+    ],
+    "low_plane": "0x11526c",
+    "high_plane": "0x116324",
+    "metatile_bank": "0x28",
+    "graphics": [
+      "0x0ed926",
+      "0x0ee927"
+    ],
+    "palette": "0x0808e4",
+    "animation_uploads": 2,
+    "unmapped_8px_tiles": 0,
+    "sha256": "15cb924ddae86f4be327dba53280f23fb31f749b66d68e18328b316a4562a795"
+  },
+  {
+    "index": 4,
+    "name": "Pete's Dungeon",
+    "file": "04_Pete's_Dungeon.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2912,
+    "height": 1664,
+    "descriptor": "0x08004a",
+    "selectors": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      0,
+      22
+    ],
+    "low_plane": "0x1173dc",
+    "high_plane": "0x11865a",
+    "metatile_bank": "0x29",
+    "graphics": [
+      "0x0ef848",
+      "0x0f0849"
+    ],
+    "palette": "0x080ae4",
+    "animation_uploads": 4,
+    "unmapped_8px_tiles": 144,
+    "sha256": "abfa288db81ba3262e3657ec90b6420e9bb5affb6a79534e658a41297d49006c"
+  },
+  {
+    "index": 5,
+    "name": "Raceway",
+    "file": "09_Raceway.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2368,
+    "height": 1056,
+    "descriptor": "0x080051",
+    "selectors": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      0,
+      12
+    ],
+    "low_plane": "0x1198d8",
+    "high_plane": "0x11a264",
+    "metatile_bank": "0x2a",
+    "graphics": [
+      "0x0f142a",
+      "0x0f242b"
+    ],
+    "palette": "0x080ce4",
+    "animation_uploads": 0,
+    "unmapped_8px_tiles": 0,
+    "sha256": "66792d49dc2772d56881387d9c1f2b536c58027265b78af2bdc9b19ebd44ba86"
+  },
+  {
+    "index": 6,
+    "name": "Crazy Curves",
+    "file": "10_Crazy_Curves.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2240,
+    "height": 1568,
+    "descriptor": "0x080058",
+    "selectors": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      0,
+      12
+    ],
+    "low_plane": "0x11abf0",
+    "high_plane": "0x11b958",
+    "metatile_bank": "0x2b",
+    "graphics": [
+      "0x0f33dc",
+      "0x0f43dd"
+    ],
+    "palette": "0x080ee4",
+    "animation_uploads": 1,
+    "unmapped_8px_tiles": 0,
+    "sha256": "d506a631e20c1a05b55411b1a1b871e19d878dd00acf9c2952a22cfe7acfe664"
+  },
+  {
+    "index": 8,
+    "name": "Swashbuckling Sand Chase",
+    "file": "13_Swashbuckling_Sand_Chase.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 1888,
+    "height": 1504,
+    "descriptor": "0x08005f",
+    "selectors": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      0,
+      24
+    ],
+    "low_plane": "0x11c6c0",
+    "high_plane": "0x11d197",
+    "metatile_bank": "0x2c",
+    "graphics": [
+      "0x0f4f6e",
+      "0x0f5f6f"
+    ],
+    "palette": "0x0810e4",
+    "animation_uploads": 3,
+    "unmapped_8px_tiles": 0,
+    "sha256": "dba2c97909dbc9afe78a7621b04f5675ca55f02b5d19afded67d8a1422d6bad6"
+  },
+  {
+    "index": 9,
+    "name": "Cutthroat Cove",
+    "file": "14_Cutthroat_Cove.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 1888,
+    "height": 1280,
+    "descriptor": "0x080066",
+    "selectors": [
+      9,
+      9,
+      9,
+      9,
+      9,
+      0,
+      24
+    ],
+    "low_plane": "0x11dc6e",
+    "high_plane": "0x11e5a8",
+    "metatile_bank": "0x2d",
+    "graphics": [
+      "0x0f6f50",
+      "0x0f7f51"
+    ],
+    "palette": "0x0812e4",
+    "animation_uploads": 7,
+    "unmapped_8px_tiles": 0,
+    "sha256": "e0db7930f9674ef7b92e53161a5a6a6035c02cc85f18460731e90ca4a3f3cf59"
+  },
+  {
+    "index": 10,
+    "name": "Jolly Roger Ramps",
+    "file": "15_Jolly_Roger_Ramps.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2112,
+    "height": 1376,
+    "descriptor": "0x08006d",
+    "selectors": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      0,
+      24
+    ],
+    "low_plane": "0x11eee2",
+    "high_plane": "0x11f9fa",
+    "metatile_bank": "0x2e",
+    "graphics": [
+      "0x0f8f02",
+      "0x0f9f03"
+    ],
+    "palette": "0x0814e4",
+    "animation_uploads": 5,
+    "unmapped_8px_tiles": 0,
+    "sha256": "1fb86279415ce96af4eb03d13b9d2d634495e671537fd2608da6c96a9a2e023e"
+  },
+  {
+    "index": 11,
+    "name": "Ludwig Von Drake's Test Track",
+    "file": "21_Ludwig_Von_Drake's_Test_Track.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 1856,
+    "height": 1568,
+    "descriptor": "0x080074",
+    "selectors": [
+      11,
+      11,
+      11,
+      11,
+      11,
+      0,
+      11
+    ],
+    "low_plane": "0x120512",
+    "high_plane": "0x12102e",
+    "metatile_bank": "0x2f",
+    "graphics": [
+      "0x0faea4",
+      "0x0fbea5"
+    ],
+    "palette": "0x0816e4",
+    "animation_uploads": 1,
+    "unmapped_8px_tiles": 0,
+    "sha256": "268f0f50b9b9d0d47bb0588f92ba2ce25a092341f1fc9d11702f768214fc871c"
+  },
+  {
+    "index": 12,
+    "name": "Pete's Treasure Oasis",
+    "file": "16_Pete's_Treasure_Oasis.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2368,
+    "height": 1920,
+    "descriptor": "0x08007b",
+    "selectors": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      0,
+      22
+    ],
+    "low_plane": "0x121b4a",
+    "high_plane": "0x122ca4",
+    "metatile_bank": "0x30",
+    "graphics": [
+      "0x0fc8f6",
+      "0x0fd8f7"
+    ],
+    "palette": "0x0818e4",
+    "animation_uploads": 1,
+    "unmapped_8px_tiles": 0,
+    "sha256": "0bbf6df6f8c08c6c76e45a89485e92045968baa6dcaa4fdb4a9519465401b17a"
+  },
+  {
+    "index": 13,
+    "name": "Pioneer Prairie",
+    "file": "05_Pioneer_Prairie.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 1952,
+    "height": 1440,
+    "descriptor": "0x080082",
+    "selectors": [
+      13,
+      13,
+      13,
+      13,
+      13,
+      0,
+      13
+    ],
+    "low_plane": "0x123dfe",
+    "high_plane": "0x1248b9",
+    "metatile_bank": "0x31",
+    "graphics": [
+      "0x0fe458",
+      "0x0ff459"
+    ],
+    "palette": "0x081ae4",
+    "animation_uploads": 2,
+    "unmapped_8px_tiles": 0,
+    "sha256": "87a29731269590e7af95a2f1890a9091775f68d104c24868aac83b28592441d5"
+  },
+  {
+    "index": 14,
+    "name": "Pete's Dessert Disaster",
+    "file": "12_Pete's_Dessert_Disaster.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 3776,
+    "height": 1984,
+    "descriptor": "0x080089",
+    "selectors": [
+      14,
+      0,
+      14,
+      14,
+      0,
+      0,
+      12
+    ],
+    "low_plane": "0x125374",
+    "high_plane": "0x12700a",
+    "metatile_bank": "0x25",
+    "graphics": [
+      "0x0e8000",
+      "0x0e9001"
+    ],
+    "palette": "0x0802e4",
+    "animation_uploads": 6,
+    "unmapped_8px_tiles": 0,
+    "sha256": "07aabc23aabdf8b0689ecc7f84a65f800fce049d9c054904da796ed2983d1d9a"
+  },
+  {
+    "index": 15,
+    "name": "River Ruckus",
+    "file": "07_River_Ruckus.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2560,
+    "height": 1888,
+    "descriptor": "0x080090",
+    "selectors": [
+      15,
+      15,
+      15,
+      15,
+      15,
+      0,
+      13
+    ],
+    "low_plane": "0x128ca0",
+    "high_plane": "0x129f12",
+    "metatile_bank": "0x32",
+    "graphics": [
+      "0x1003aa",
+      "0x1013ab"
+    ],
+    "palette": "0x081ce4",
+    "animation_uploads": 5,
+    "unmapped_8px_tiles": 0,
+    "sha256": "5a457ea2513d46ffec5543d80320eebe875a95323c49693906a801e8f636d8ca"
+  },
+  {
+    "index": 16,
+    "name": "Frozen Frontier",
+    "file": "06_Frozen_Frontier.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2304,
+    "height": 1376,
+    "descriptor": "0x080097",
+    "selectors": [
+      16,
+      16,
+      16,
+      16,
+      16,
+      0,
+      13
+    ],
+    "low_plane": "0x12b184",
+    "high_plane": "0x12bd9e",
+    "metatile_bank": "0x33",
+    "graphics": [
+      "0x10236c",
+      "0x10336d"
+    ],
+    "palette": "0x081ee4",
+    "animation_uploads": 3,
+    "unmapped_8px_tiles": 0,
+    "sha256": "1f1c02061abf7ba29d1ad16ee3b9b56e8887debb426bff3360fe2faf1a6ae4ae"
+  },
+  {
+    "index": 17,
+    "name": "Pete's Hunting Hideout",
+    "file": "08_Pete's_Hunting_Hideout.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 1728,
+    "height": 1664,
+    "descriptor": "0x08009e",
+    "selectors": [
+      17,
+      17,
+      17,
+      17,
+      17,
+      0,
+      22
+    ],
+    "low_plane": "0x12c9b8",
+    "high_plane": "0x12d4b2",
+    "metatile_bank": "0x34",
+    "graphics": [
+      "0x10435e",
+      "0x10535f"
+    ],
+    "palette": "0x0820e4",
+    "animation_uploads": 5,
+    "unmapped_8px_tiles": 0,
+    "sha256": "e17815748bc4a611f470117ae0edd564462ac90deb52d473c63ed8057905a54d"
+  },
+  {
+    "index": 18,
+    "name": "Pete's Big Top Showdown",
+    "file": "20_Pete's_Big_Top_Showdown.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 2496,
+    "height": 1792,
+    "descriptor": "0x0800a5",
+    "selectors": [
+      18,
+      18,
+      18,
+      18,
+      18,
+      0,
+      22
+    ],
+    "low_plane": "0x12f018",
+    "high_plane": "0x13012a",
+    "metatile_bank": "0x35",
+    "graphics": [
+      "0x105e60",
+      "0x106e61"
+    ],
+    "palette": "0x0824e4",
+    "animation_uploads": 7,
+    "unmapped_8px_tiles": 0,
+    "sha256": "9401a9cb130374339d7a71e3e74040bb1d54f851a56ec03f85486597b2722a30"
+  },
+  {
+    "index": 19,
+    "name": "Pete's Mansion",
+    "file": "22_Pete's_Mansion.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 1600,
+    "height": 1344,
+    "descriptor": "0x0800ac",
+    "selectors": [
+      19,
+      19,
+      19,
+      19,
+      19,
+      0,
+      22
+    ],
+    "low_plane": "0x12dfac",
+    "high_plane": "0x12e7e2",
+    "metatile_bank": "0x36",
+    "graphics": [
+      "0x1079c2",
+      "0x1089c3"
+    ],
+    "palette": "0x0826e4",
+    "animation_uploads": 0,
+    "unmapped_8px_tiles": 0,
+    "sha256": "98ba99c8204c7f0d1d8996d16f999781d0ff8cf053856fdb91663145219e0346"
+  },
+  {
+    "index": 20,
+    "name": "Roller Coaster Roadway",
+    "file": "17_Roller_Coaster_Roadway.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 1824,
+    "height": 1600,
+    "descriptor": "0x0800b3",
+    "selectors": [
+      20,
+      20,
+      20,
+      20,
+      20,
+      0,
+      27
+    ],
+    "low_plane": "0x13123c",
+    "high_plane": "0x131d60",
+    "metatile_bank": "0x37",
+    "graphics": [
+      "0x1099b4",
+      "0x10a9b5"
+    ],
+    "palette": "0x0822e4",
+    "animation_uploads": 3,
+    "unmapped_8px_tiles": 0,
+    "sha256": "cc8cb947b76e3a5bb5d3677ae7df955dec557fd8fdd9c251495107b5dd9dab23"
+  },
+  {
+    "index": 21,
+    "name": "Really Rapid Rapids",
+    "file": "18_Really_Rapid_Rapids.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 1856,
+    "height": 1728,
+    "descriptor": "0x0800ba",
+    "selectors": [
+      21,
+      21,
+      21,
+      21,
+      21,
+      0,
+      27
+    ],
+    "low_plane": "0x132884",
+    "high_plane": "0x1334c2",
+    "metatile_bank": "0x38",
+    "graphics": [
+      "0x10b876",
+      "0x10c877"
+    ],
+    "palette": "0x0828e4",
+    "animation_uploads": 8,
+    "unmapped_8px_tiles": 0,
+    "sha256": "7adcc01c49e1454a1515297c5fe6a54a98755d0726ab285d0c95e3e0ac14c5c1"
+  },
+  {
+    "index": 22,
+    "name": "Fairground Follies",
+    "file": "19_Fairground_Follies.png",
+    "status": "background reconstruction; objects and runtime changes not included",
+    "width": 1504,
+    "height": 2016,
+    "descriptor": "0x0800c1",
+    "selectors": [
+      22,
+      22,
+      22,
+      22,
+      22,
+      0,
+      27
+    ],
+    "low_plane": "0x134100",
+    "high_plane": "0x134c93",
+    "metatile_bank": "0x39",
+    "graphics": [
+      "0x10d838",
+      "0x10e839"
+    ],
+    "palette": "0x082ae4",
+    "animation_uploads": 5,
+    "unmapped_8px_tiles": 0,
+    "sha256": "fd8ee92eb5099dd70febcb9ddd4979c81cf6dd968061902dc2642c47b2c099c6"
+  }
+]

@@ -1,0 +1,159 @@
+{
+  "method": "Isolated original regular loader, six renderer samples and three CGB raster windows per extra slot.",
+  "limits": "Source-decoding checks only. Slot 23 remains visually scrambled; slot 24 has non-ROM reads. Names, reachability, alternative loaders, objects and runtime changes remain unverified.",
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "loader": [
+    {
+      "index": 21,
+      "staged_graphics": [
+        {
+          "vram_bank": 0,
+          "bytes": 3216
+        }
+      ],
+      "loaded_map_plane_bytes": 1716,
+      "loader_graphics_reads": [
+        {
+          "bank": 73,
+          "source": 21914,
+          "wram_bank": 1
+        },
+        {
+          "bank": 60,
+          "source": 9073,
+          "wram_bank": 2
+        }
+      ],
+      "unloaded_graphics_tile_uses": 0,
+      "unmapped_subtiles": 0
+    },
+    {
+      "index": 22,
+      "staged_graphics": [
+        {
+          "vram_bank": 0,
+          "bytes": 1504
+        }
+      ],
+      "loaded_map_plane_bytes": 1728,
+      "loader_graphics_reads": [
+        {
+          "bank": 73,
+          "source": 25131,
+          "wram_bank": 1
+        },
+        {
+          "bank": 61,
+          "source": 9077,
+          "wram_bank": 2
+        }
+      ],
+      "unloaded_graphics_tile_uses": 0,
+      "unmapped_subtiles": 0
+    },
+    {
+      "index": 23,
+      "staged_graphics": [
+        {
+          "vram_bank": 0,
+          "bytes": 4096
+        }
+      ],
+      "loaded_map_plane_bytes": 2052,
+      "loader_graphics_reads": [
+        {
+          "bank": 73,
+          "source": 26636,
+          "wram_bank": 1
+        },
+        {
+          "bank": 62,
+          "source": 8817,
+          "wram_bank": 2
+        }
+      ],
+      "unloaded_graphics_tile_uses": 0,
+      "unmapped_subtiles": 0
+    },
+    {
+      "index": 24,
+      "staged_graphics": [
+        {
+          "vram_bank": 0,
+          "bytes": 4096
+        },
+        {
+          "vram_bank": 1,
+          "bytes": 560
+        }
+      ],
+      "loaded_map_plane_bytes": 2494,
+      "loader_graphics_reads": [
+        {
+          "bank": 73,
+          "source": 30733,
+          "wram_bank": 1
+        },
+        {
+          "bank": 74,
+          "source": 18446,
+          "wram_bank": 2
+        }
+      ],
+      "unloaded_graphics_tile_uses": 0,
+      "unmapped_subtiles": 145
+    }
+  ],
+  "renderer": [
+    {
+      "index": 21,
+      "samples": 6,
+      "tile_attribute_pairs": 153,
+      "unmapped": 0
+    },
+    {
+      "index": 22,
+      "samples": 6,
+      "tile_attribute_pairs": 155,
+      "unmapped": 0
+    },
+    {
+      "index": 23,
+      "samples": 6,
+      "tile_attribute_pairs": 155,
+      "unmapped": 0
+    },
+    {
+      "index": 24,
+      "samples": 6,
+      "tile_attribute_pairs": 147,
+      "unmapped": 145
+    }
+  ],
+  "pixels": [
+    {
+      "index": 21,
+      "windows": 3,
+      "pixels": 69120,
+      "result": "exact"
+    },
+    {
+      "index": 22,
+      "windows": 3,
+      "pixels": 69120,
+      "result": "exact"
+    },
+    {
+      "index": 23,
+      "windows": 3,
+      "pixels": 69120,
+      "result": "exact"
+    },
+    {
+      "index": 24,
+      "windows": 3,
+      "pixels": 67840,
+      "result": "exact"
+    }
+  ]
+}

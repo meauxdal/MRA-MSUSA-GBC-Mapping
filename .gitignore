@@ -1,3 +1,5 @@
 .github/
 .ignore/
 /local
+__pycache__/
+*.pyc

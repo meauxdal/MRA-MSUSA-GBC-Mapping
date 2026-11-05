@@ -1,0 +1,268 @@
+{
+  "method": "Three windows per course rendered by PyBoy 2.9.0 with original tile bytes/palettes and sprites disabled.",
+  "limits": "Background rasterization check; source-plane indexing is checked separately against original ROM code. Does not prove gameplay state, sprites, animation timing, or all map pixels.",
+  "games": {
+    "mra": [
+      {
+        "index": 0,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 1,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 2,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 3,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 4,
+        "windows": 3,
+        "pixels": 68864,
+        "result": "exact"
+      },
+      {
+        "index": 5,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 6,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 8,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 9,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 10,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 11,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 12,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 13,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 14,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 15,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 16,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 17,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 18,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 19,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 20,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 21,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 22,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      }
+    ],
+    "msusa": [
+      {
+        "index": 0,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 1,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 2,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 3,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 4,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 5,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 6,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 7,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 8,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 9,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 10,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 11,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 12,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 13,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 14,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 15,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 16,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 17,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 18,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 19,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      },
+      {
+        "index": 20,
+        "windows": 3,
+        "pixels": 69120,
+        "result": "exact"
+      }
+    ]
+  }
+}

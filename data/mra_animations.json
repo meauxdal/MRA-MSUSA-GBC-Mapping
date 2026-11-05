@@ -1,0 +1,583 @@
+{
+  "0": [
+    {
+      "dest": 36864,
+      "bank": 30,
+      "source": 17824,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36928,
+      "bank": 30,
+      "source": 18160,
+      "vram_bank": 0,
+      "tiles": 2
+    },
+    {
+      "dest": 36960,
+      "bank": 30,
+      "source": 18336,
+      "vram_bank": 0,
+      "tiles": 2
+    },
+    {
+      "dest": 36992,
+      "bank": 30,
+      "source": 18480,
+      "vram_bank": 0,
+      "tiles": 1
+    },
+    {
+      "dest": 37008,
+      "bank": 30,
+      "source": 18560,
+      "vram_bank": 0,
+      "tiles": 2
+    },
+    {
+      "dest": 37040,
+      "bank": 30,
+      "source": 18704,
+      "vram_bank": 0,
+      "tiles": 2
+    }
+  ],
+  "1": [
+    {
+      "dest": 36864,
+      "bank": 31,
+      "source": 21728,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36928,
+      "bank": 31,
+      "source": 22208,
+      "vram_bank": 0,
+      "tiles": 4
+    }
+  ],
+  "2": [
+    {
+      "dest": 36864,
+      "bank": 31,
+      "source": 20448,
+      "vram_bank": 0,
+      "tiles": 6
+    }
+  ],
+  "3": [
+    {
+      "dest": 36864,
+      "bank": 31,
+      "source": 20768,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36928,
+      "bank": 31,
+      "source": 21248,
+      "vram_bank": 0,
+      "tiles": 4
+    }
+  ],
+  "4": [
+    {
+      "dest": 36864,
+      "bank": 31,
+      "source": 23808,
+      "vram_bank": 0,
+      "tiles": 8
+    },
+    {
+      "dest": 36992,
+      "bank": 31,
+      "source": 24208,
+      "vram_bank": 0,
+      "tiles": 6
+    },
+    {
+      "dest": 37088,
+      "bank": 31,
+      "source": 24512,
+      "vram_bank": 0,
+      "tiles": 2
+    },
+    {
+      "dest": 37120,
+      "bank": 31,
+      "source": 24624,
+      "vram_bank": 0,
+      "tiles": 2
+    }
+  ],
+  "5": [],
+  "6": [
+    {
+      "dest": 36864,
+      "bank": 31,
+      "source": 22672,
+      "vram_bank": 0,
+      "tiles": 4
+    }
+  ],
+  "8": [
+    {
+      "dest": 36864,
+      "bank": 30,
+      "source": 18896,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36928,
+      "bank": 30,
+      "source": 19360,
+      "vram_bank": 0,
+      "tiles": 1
+    },
+    {
+      "dest": 36944,
+      "bank": 30,
+      "source": 19424,
+      "vram_bank": 0,
+      "tiles": 1
+    }
+  ],
+  "9": [
+    {
+      "dest": 36864,
+      "bank": 30,
+      "source": 19504,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36928,
+      "bank": 30,
+      "source": 19968,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36992,
+      "bank": 30,
+      "source": 20176,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 37056,
+      "bank": 30,
+      "source": 20384,
+      "vram_bank": 0,
+      "tiles": 6
+    },
+    {
+      "dest": 37152,
+      "bank": 30,
+      "source": 20688,
+      "vram_bank": 0,
+      "tiles": 8
+    },
+    {
+      "dest": 37280,
+      "bank": 30,
+      "source": 21088,
+      "vram_bank": 0,
+      "tiles": 3
+    },
+    {
+      "dest": 37328,
+      "bank": 30,
+      "source": 21248,
+      "vram_bank": 0,
+      "tiles": 5
+    }
+  ],
+  "10": [
+    {
+      "dest": 36864,
+      "bank": 30,
+      "source": 21520,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36928,
+      "bank": 30,
+      "source": 21984,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36992,
+      "bank": 30,
+      "source": 22192,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 37056,
+      "bank": 30,
+      "source": 22400,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 37120,
+      "bank": 30,
+      "source": 22608,
+      "vram_bank": 0,
+      "tiles": 4
+    }
+  ],
+  "11": [
+    {
+      "dest": 36864,
+      "bank": 31,
+      "source": 25232,
+      "vram_bank": 0,
+      "tiles": 4
+    }
+  ],
+  "12": [
+    {
+      "dest": 36864,
+      "bank": 31,
+      "source": 24752,
+      "vram_bank": 0,
+      "tiles": 4
+    }
+  ],
+  "13": [
+    {
+      "dest": 36864,
+      "bank": 31,
+      "source": 23008,
+      "vram_bank": 0,
+      "tiles": 6
+    },
+    {
+      "dest": 36960,
+      "bank": 31,
+      "source": 23328,
+      "vram_bank": 0,
+      "tiles": 4
+    }
+  ],
+  "14": [
+    {
+      "dest": 36864,
+      "bank": 30,
+      "source": 17824,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36928,
+      "bank": 30,
+      "source": 18160,
+      "vram_bank": 0,
+      "tiles": 2
+    },
+    {
+      "dest": 36960,
+      "bank": 30,
+      "source": 18336,
+      "vram_bank": 0,
+      "tiles": 2
+    },
+    {
+      "dest": 36992,
+      "bank": 30,
+      "source": 18480,
+      "vram_bank": 0,
+      "tiles": 1
+    },
+    {
+      "dest": 37008,
+      "bank": 30,
+      "source": 18560,
+      "vram_bank": 0,
+      "tiles": 2
+    },
+    {
+      "dest": 37040,
+      "bank": 30,
+      "source": 18704,
+      "vram_bank": 0,
+      "tiles": 2
+    }
+  ],
+  "15": [
+    {
+      "dest": 36864,
+      "bank": 30,
+      "source": 22832,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36928,
+      "bank": 30,
+      "source": 23376,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36992,
+      "bank": 30,
+      "source": 23856,
+      "vram_bank": 0,
+      "tiles": 8
+    },
+    {
+      "dest": 37120,
+      "bank": 30,
+      "source": 24896,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 37184,
+      "bank": 30,
+      "source": 25104,
+      "vram_bank": 0,
+      "tiles": 2
+    }
+  ],
+  "16": [
+    {
+      "dest": 36864,
+      "bank": 30,
+      "source": 25232,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36928,
+      "bank": 30,
+      "source": 25696,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36992,
+      "bank": 30,
+      "source": 25904,
+      "vram_bank": 0,
+      "tiles": 2
+    }
+  ],
+  "17": [
+    {
+      "dest": 36864,
+      "bank": 31,
+      "source": 16416,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36928,
+      "bank": 31,
+      "source": 16880,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36992,
+      "bank": 31,
+      "source": 17088,
+      "vram_bank": 0,
+      "tiles": 9
+    },
+    {
+      "dest": 37200,
+      "bank": 31,
+      "source": 18016,
+      "vram_bank": 0,
+      "tiles": 2
+    },
+    {
+      "dest": 37136,
+      "bank": 31,
+      "source": 17552,
+      "vram_bank": 0,
+      "tiles": 4
+    }
+  ],
+  "18": [
+    {
+      "dest": 36864,
+      "bank": 31,
+      "source": 18352,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36928,
+      "bank": 31,
+      "source": 18816,
+      "vram_bank": 0,
+      "tiles": 8
+    },
+    {
+      "dest": 37152,
+      "bank": 31,
+      "source": 19488,
+      "vram_bank": 0,
+      "tiles": 6
+    },
+    {
+      "dest": 37248,
+      "bank": 31,
+      "source": 19888,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 37056,
+      "bank": 31,
+      "source": 19088,
+      "vram_bank": 0,
+      "tiles": 6
+    },
+    {
+      "dest": 37312,
+      "bank": 31,
+      "source": 20032,
+      "vram_bank": 0,
+      "tiles": 3
+    },
+    {
+      "dest": 37360,
+      "bank": 31,
+      "source": 20240,
+      "vram_bank": 0,
+      "tiles": 3
+    }
+  ],
+  "19": [],
+  "20": [
+    {
+      "dest": 36864,
+      "bank": 30,
+      "source": 26032,
+      "vram_bank": 0,
+      "tiles": 6
+    },
+    {
+      "dest": 36960,
+      "bank": 30,
+      "source": 26432,
+      "vram_bank": 0,
+      "tiles": 6
+    },
+    {
+      "dest": 37056,
+      "bank": 30,
+      "source": 26832,
+      "vram_bank": 0,
+      "tiles": 6
+    }
+  ],
+  "21": [
+    {
+      "dest": 36864,
+      "bank": 30,
+      "source": 27264,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36928,
+      "bank": 30,
+      "source": 27728,
+      "vram_bank": 0,
+      "tiles": 2
+    },
+    {
+      "dest": 36960,
+      "bank": 30,
+      "source": 27872,
+      "vram_bank": 0,
+      "tiles": 2
+    },
+    {
+      "dest": 36992,
+      "bank": 30,
+      "source": 28032,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 37056,
+      "bank": 30,
+      "source": 28560,
+      "vram_bank": 0,
+      "tiles": 3
+    },
+    {
+      "dest": 37104,
+      "bank": 30,
+      "source": 28784,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 37168,
+      "bank": 30,
+      "source": 29248,
+      "vram_bank": 0,
+      "tiles": 2
+    },
+    {
+      "dest": 37200,
+      "bank": 30,
+      "source": 29392,
+      "vram_bank": 0,
+      "tiles": 2
+    }
+  ],
+  "22": [
+    {
+      "dest": 36864,
+      "bank": 30,
+      "source": 29520,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36928,
+      "bank": 30,
+      "source": 30000,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 36992,
+      "bank": 30,
+      "source": 30464,
+      "vram_bank": 0,
+      "tiles": 4
+    },
+    {
+      "dest": 37056,
+      "bank": 30,
+      "source": 30736,
+      "vram_bank": 0,
+      "tiles": 2
+    },
+    {
+      "dest": 37088,
+      "bank": 30,
+      "source": 30880,
+      "vram_bank": 0,
+      "tiles": 2
+    }
+  ]
+}

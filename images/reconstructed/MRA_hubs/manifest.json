@@ -1,0 +1,80 @@
+[
+  {
+    "index": 0,
+    "name": "Garage and test track entrance",
+    "identification": "visual description; not an in-game title",
+    "file": "00_Garage_and_test_track_entrance.png",
+    "width": 544,
+    "height": 544,
+    "map": "0x180500",
+    "graphics": "0x198100",
+    "palette": "0x18f700",
+    "status": "base background; runtime map edits, sprites, and animation changes not included",
+    "sha256": "736e98b679a2f77ce316d929c2b06ad36eeb02a35ffc8daa1f7222c317585cfb"
+  },
+  {
+    "index": 1,
+    "name": "Town",
+    "identification": "visual description; not an in-game title",
+    "file": "01_Town.png",
+    "width": 1024,
+    "height": 768,
+    "map": "0x188100",
+    "graphics": "0x19c000",
+    "palette": "0x19b500",
+    "status": "base background; runtime map edits, sprites, and animation changes not included",
+    "sha256": "bd3c9570480026ebb023c0336a5f5027b6628975a445b957309cf2e986214e9c"
+  },
+  {
+    "index": 2,
+    "name": "Railway and river",
+    "identification": "visual description; not an in-game title",
+    "file": "02_Railway_and_river.png",
+    "width": 896,
+    "height": 768,
+    "map": "0x18c300",
+    "graphics": "0x1a4000",
+    "palette": "0x19f800",
+    "status": "base background; runtime map edits, sprites, and animation changes not included",
+    "sha256": "4af5baa9c15167841cb3a209bc776edff7482b39d85eb77f8dfcd7d884177f95"
+  },
+  {
+    "index": 3,
+    "name": "Mushroom clearing",
+    "identification": "visual description; not an in-game title",
+    "file": "03_Mushroom_clearing.png",
+    "width": 480,
+    "height": 544,
+    "map": "0x190500",
+    "graphics": "0x1a8000",
+    "palette": "0x1a7700",
+    "status": "base background; runtime map edits, sprites, and animation changes not included",
+    "sha256": "55a0580f38d360b97ddea1977e2b97cab8e5215054685773b904ad07ff910af8"
+  },
+  {
+    "index": 4,
+    "name": "Treehouse clearing",
+    "identification": "visual description; not an in-game title",
+    "file": "04_Treehouse_clearing.png",
+    "width": 800,
+    "height": 704,
+    "map": "0x18e500",
+    "graphics": "0x1acd00",
+    "palette": "0x1b0000",
+    "status": "base background; runtime map edits, sprites, and animation changes not included",
+    "sha256": "8cf7e6d68dd14b75556ac1e0cbb17ed4b2f89f9d655baf33179dd899d4bc653f"
+  },
+  {
+    "index": 5,
+    "name": "Railway strip",
+    "identification": "visual description; not an in-game title",
+    "file": "05_Railway_strip.png",
+    "width": 1024,
+    "height": 224,
+    "map": "0x196100",
+    "graphics": "0x1a4000",
+    "palette": "0x19f800",
+    "status": "base background; runtime map edits, sprites, and animation changes not included",
+    "sha256": "30e04d21331d7b4a070e8cfb88f762247e4d97945796aa218b63992f94d00c76"
+  }
+]
