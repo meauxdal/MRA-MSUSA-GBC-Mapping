@@ -1,0 +1,134 @@
+{
+  "method": "Compare every accumulator, frame index and upload request with original ROM code over one complete combined cycle per course.",
+  "limits": "Isolated nominal updates; excludes gameplay stalls, MRA LY gate skips, sprites and runtime map edits.",
+  "games": {
+    "msusa": [
+      {
+        "index": 0,
+        "ticks": 224,
+        "uploads": 112,
+        "result": "exact"
+      },
+      {
+        "index": 1,
+        "ticks": 256,
+        "uploads": 184,
+        "result": "exact"
+      },
+      {
+        "index": 2,
+        "ticks": 56,
+        "uploads": 14,
+        "result": "exact"
+      },
+      {
+        "index": 3,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 4,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 5,
+        "ticks": 256,
+        "uploads": 92,
+        "result": "exact"
+      },
+      {
+        "index": 6,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 7,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 8,
+        "ticks": 32,
+        "uploads": 4,
+        "result": "exact"
+      },
+      {
+        "index": 9,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 10,
+        "ticks": 128,
+        "uploads": 16,
+        "result": "exact"
+      },
+      {
+        "index": 11,
+        "ticks": 64,
+        "uploads": 8,
+        "result": "exact"
+      },
+      {
+        "index": 12,
+        "ticks": 128,
+        "uploads": 28,
+        "result": "exact"
+      },
+      {
+        "index": 13,
+        "ticks": 96,
+        "uploads": 72,
+        "result": "exact"
+      },
+      {
+        "index": 14,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 15,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 16,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 17,
+        "ticks": 64,
+        "uploads": 2,
+        "result": "exact"
+      },
+      {
+        "index": 18,
+        "ticks": 576,
+        "uploads": 864,
+        "result": "exact"
+      },
+      {
+        "index": 19,
+        "ticks": 128,
+        "uploads": 84,
+        "result": "exact"
+      },
+      {
+        "index": 20,
+        "ticks": 64,
+        "uploads": 72,
+        "result": "exact"
+      }
+    ]
+  }
+}

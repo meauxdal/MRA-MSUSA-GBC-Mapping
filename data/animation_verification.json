@@ -1,0 +1,268 @@
+{
+  "method": "Compare every accumulator, frame index and upload request with original ROM code over one complete combined cycle per course.",
+  "limits": "Isolated nominal updates; excludes gameplay stalls, MRA LY gate skips, sprites and runtime map edits.",
+  "games": {
+    "mra": [
+      {
+        "index": 0,
+        "ticks": 2560,
+        "uploads": 1520,
+        "result": "exact"
+      },
+      {
+        "index": 1,
+        "ticks": 28,
+        "uploads": 14,
+        "result": "exact"
+      },
+      {
+        "index": 2,
+        "ticks": 12,
+        "uploads": 3,
+        "result": "exact"
+      },
+      {
+        "index": 3,
+        "ticks": 28,
+        "uploads": 14,
+        "result": "exact"
+      },
+      {
+        "index": 4,
+        "ticks": 12,
+        "uploads": 12,
+        "result": "exact"
+      },
+      {
+        "index": 5,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 6,
+        "ticks": 20,
+        "uploads": 5,
+        "result": "exact"
+      },
+      {
+        "index": 8,
+        "ticks": 84,
+        "uploads": 63,
+        "result": "exact"
+      },
+      {
+        "index": 9,
+        "ticks": 168,
+        "uploads": 168,
+        "result": "exact"
+      },
+      {
+        "index": 10,
+        "ticks": 168,
+        "uploads": 126,
+        "result": "exact"
+      },
+      {
+        "index": 11,
+        "ticks": 28,
+        "uploads": 7,
+        "result": "exact"
+      },
+      {
+        "index": 12,
+        "ticks": 28,
+        "uploads": 7,
+        "result": "exact"
+      },
+      {
+        "index": 13,
+        "ticks": 168,
+        "uploads": 63,
+        "result": "exact"
+      },
+      {
+        "index": 14,
+        "ticks": 2560,
+        "uploads": 1520,
+        "result": "exact"
+      },
+      {
+        "index": 15,
+        "ticks": 672,
+        "uploads": 672,
+        "result": "exact"
+      },
+      {
+        "index": 16,
+        "ticks": 168,
+        "uploads": 84,
+        "result": "exact"
+      },
+      {
+        "index": 17,
+        "ticks": 168,
+        "uploads": 147,
+        "result": "exact"
+      },
+      {
+        "index": 18,
+        "ticks": 224,
+        "uploads": 252,
+        "result": "exact"
+      },
+      {
+        "index": 19,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 20,
+        "ticks": 16,
+        "uploads": 12,
+        "result": "exact"
+      },
+      {
+        "index": 21,
+        "ticks": 896,
+        "uploads": 1176,
+        "result": "exact"
+      },
+      {
+        "index": 22,
+        "ticks": 672,
+        "uploads": 588,
+        "result": "exact"
+      }
+    ],
+    "msusa": [
+      {
+        "index": 0,
+        "ticks": 224,
+        "uploads": 112,
+        "result": "exact"
+      },
+      {
+        "index": 1,
+        "ticks": 256,
+        "uploads": 184,
+        "result": "exact"
+      },
+      {
+        "index": 2,
+        "ticks": 56,
+        "uploads": 14,
+        "result": "exact"
+      },
+      {
+        "index": 3,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 4,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 5,
+        "ticks": 256,
+        "uploads": 92,
+        "result": "exact"
+      },
+      {
+        "index": 6,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 7,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 8,
+        "ticks": 32,
+        "uploads": 4,
+        "result": "exact"
+      },
+      {
+        "index": 9,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 10,
+        "ticks": 128,
+        "uploads": 16,
+        "result": "exact"
+      },
+      {
+        "index": 11,
+        "ticks": 64,
+        "uploads": 8,
+        "result": "exact"
+      },
+      {
+        "index": 12,
+        "ticks": 128,
+        "uploads": 28,
+        "result": "exact"
+      },
+      {
+        "index": 13,
+        "ticks": 96,
+        "uploads": 72,
+        "result": "exact"
+      },
+      {
+        "index": 14,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 15,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 16,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 17,
+        "ticks": 64,
+        "uploads": 2,
+        "result": "exact"
+      },
+      {
+        "index": 18,
+        "ticks": 576,
+        "uploads": 864,
+        "result": "exact"
+      },
+      {
+        "index": 19,
+        "ticks": 1,
+        "uploads": 0,
+        "result": "exact"
+      },
+      {
+        "index": 20,
+        "ticks": 64,
+        "uploads": 72,
+        "result": "exact"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "encoded_frames": 73,
+  "duration_ms": 9640,
+  "timing_error_ms": -3.798828125,
+  "bytes": 49886,
+  "sha256": "88064bf0323e3c6ea164438f430ae0ec9540c6c2389d93328f9e46b86ef89876",
+  "source": "MSUSA/07_Yellowstone.gif",
+  "crop": [
+    1588,
+    1078,
+    1972,
+    1334
+  ]
+}
