@@ -1,18 +1,10 @@
 # Map formats and evidence
 
-The decoder targets the two exact ROM revisions identified in `tools/maps.py`
-by SHA-256. ROMs are supplied by the user under ignored `local/`; none are
-embedded in the tools. Addresses below are hexadecimal. A banked CPU address
-`bb:aaaa` converts to file offset `bb * 4000 + aaaa - 4000` for `4000..7fff`.
+The tools target the two ROM revisions whose SHA-256 hashes are pinned in `tools/maps.py`. You supply the ROMs under the ignored `local/` folder; none are embedded. All addresses are hexadecimal. A banked CPU address `bb:aaaa` in `4000..7fff` is file offset `bb * 4000 + aaaa - 4000`. Routines and RAM traced so far are indexed in [ENGINE.md](ENGINE.md).
 
 ## Race backgrounds
 
-Both games use the same fundamental format. Bank `20` starts with a table of
-**big-endian** 16-bit descriptor pointers. A descriptor has seven selector bytes.
-Selector 0 chooses two far pointers, each encoded **bank, high, low**, to the map
-planes. Each plane begins with one byte of width and one byte of height, followed
-by `width * height` bytes in row order. These are not terrain categories: the two
-bytes at each coordinate combine into an offset into a metatile definition bank.
+Both games use the same format. Bank `20` starts with a table of **big-endian** 16-bit descriptor pointers. Each descriptor has seven selector bytes. Selector 0 picks two far pointers, each stored as **bank, high, low**, to the two map planes. Each plane is one width byte, one height byte, then `width * height` bytes in row order. The two plane bytes at each cell combine into an offset into a metatile definition bank.
 
 | Table / routine | MRA file offset | MSUSA file offset |
 | --- | --- | --- |
@@ -24,215 +16,98 @@ bytes at each coordinate combine into an offset into a metatile definition bank.
 | Horizontal terrain renderer | `001a40` | `001622` |
 | Map row lookup | `001c43` | `001825` |
 
-MRA has 23 descriptor slots, with slot 7 null, yielding 22 known courses. The
-first 21 MSUSA slots correspond to the 21 existing named courses. Additional
-MSUSA slots 21–24 exist, with shorter graphics descriptors in several cases;
-they export separately as research backgrounds (see below).
-Engine order is different from the numbered filenames. `data/catalog.json`
-matches the old PNG names using the map-plane offsets printed in the old grids.
+MRA has 23 descriptor slots; slot 7 is null, leaving 22 courses. MSUSA's first 21 slots are the 21 named courses, and slots 21–24 are extra slots exported separately (see below). Engine order differs from the course numbering used in filenames; `data/catalog.json` maps each engine index to its course name and file.
 
-Selector 1 chooses the graphics descriptor, whose first byte is the metatile
-definition bank. Its next three bytes are an additional resource pointer (not
-used for the base-background raster; traced to MSUSA's terrain lookup below).
-Its following two far pointers select
-background tile graphics for VRAM banks 0 and 1. Each graphics resource begins
-with a block count; zero means 256. Each block is 16 bytes: one native 8×8,
-two-bitplane Game Boy tile. Selector 4 chooses a 64-byte RGB555 palette resource.
+Selector 1 picks the graphics descriptor. Its first byte is the metatile definition bank. The next three bytes are a far pointer to the course's terrain resource (see [Terrain](#terrain)). The following two far pointers select the background tile graphics for VRAM banks 0 and 1. Each graphics resource starts with a block count, where zero means 256, followed by 16-byte blocks: one native 8×8 two-bitplane Game Boy tile each. Selector 4 picks a 64-byte RGB555 palette resource.
 
-For a map cell `(x,y)`, let `L` and `H` be the bytes in the two planes. Its 32×32
-pixel metatile contains 16 native tiles. Subtile `(sx,sy)`, each in `0..3`, is the
-two-byte `(tile_id, CGB_attribute)` pair at this **file offset**:
+For map cell `(x,y)`, let `L` and `H` be the bytes from the two planes. The cell is a 32×32-pixel metatile made of 16 native tiles. Subtile `(sx,sy)`, each in `0..3`, is the two-byte `(tile_id, CGB_attribute)` pair at this **file offset**:
 
 ```text
 metatile_bank * 0x4000 + L + H * 0x100 + sx * 0x400 + sy * 0x1000
 ```
 
-CGB attribute bits select palette (0–2), graphics bank (3), horizontal flip (5),
-vertical flip (6), and sprite priority (7). Priority does not change a background
-pixel's color. The game uses signed background addressing: tile 0 begins at
-VRAM `9000`, while tile 128 begins at `8800`. The raw graphics resources are
-already ordered by tile ID.
+CGB attribute bits select the palette (0–2), the graphics bank (3), horizontal flip (5), vertical flip (6) and priority (7). Priority does not change a background pixel's color. The games use signed background tile addressing: tile 0 starts at VRAM `9000` and tile 128 at `8800`. The raw graphics resources are already in tile-ID order.
 
-The exported RGB channels are the original five-bit components shifted left
-three bits (0–248), matching the tested PyBoy rasterizer. No display tint,
-color correction, antialiasing, or resizing is applied to the full-size PNGs.
-Overview grids alone are resized for browsing.
+Exported RGB values are the original five-bit components shifted left by three (0–248), matching PyBoy's rasterizer. Full-size images have no tint, color correction, antialiasing or resizing; only the overview grids are resized.
 
 ### Animation uploads
 
-The static graphics resources contain placeholders for some animated tiles.
-`tools/trace_animations.py` executes the game's own animation routine with frame
-counters forced to wrap to frame zero, then records source/destination pointer
-metadata at the graphics-upload routine. `tools/maps.py` applies those uploads
-to the raw tile set before rasterization.
+Some animated tiles are placeholders in the static graphics. `tools/trace_animations.py` runs the game's own animation routine with the frame counters forced to frame zero, and records each upload's source and destination at the graphics-upload routine. `tools/maps.py` applies those uploads before rasterizing.
 
-| Routine | MRA bank:address | MSUSA bank:address |
+| Routine | MRA | MSUSA |
 | --- | --- | --- |
-| Animation dispatch | `1e:421f` (bypasses the LY gate at `4215`) | `10:41e2` |
+| Animation dispatch | `1e:421f` (skips the LY gate at `4215`) | `10:41e2` |
 | Upload queue hook | `00:1477` | `00:10e5` |
 
-MRA's selector is `ce7b`; MSUSA's is `ce8c`. MSUSA animation counters occupy
-WRAM bank 5 at `dca0..dcb7`, including Yellowstone's 12 separate streams. The
-default capture uses `ce60=0`. A separate `msusa_animations_special.json` captures
-the `ce60=1` branch, which changes Nebraska's animation uploads. The gameplay
-meaning of that branch is not yet established; it is not silently applied to the
-default maps. Animation phase and game state still matter; a static map is not
-a complete representation of every frame or gameplay mode.
+The animation selector is at `ce7b` in MRA and `ce8c` in MSUSA. MSUSA's animation counters are in WRAM bank 5 at `dca0..dcb7`, including Yellowstone's 12 separate streams. The default capture uses `ce60=0`. A separate capture, `msusa_animations_special.json`, records the `ce60=1` branch, which changes Nebraska's animation uploads. What sets that branch during play is unknown, so it is not applied to the default maps.
 
-### Complete animated course loops
+### Animated course loops
 
-`tools/animations.py` hooks the original stream helpers to recover the stream
-table, destination tile range, frame source pointers, rate, and initial phase.
-Metadata is in `data/animation_sequences.json`; the `--special` run writes a
-separate `animation_sequences_special.json`. The helpers are MRA `1e:453e` /
-`1f:6578` and MSUSA `10:4407` / `11:7f95` / `17:48f9`.
+`tools/animations.py` hooks the games' stream helpers to recover each stream's destination tile range, frame source pointers, rate and starting phase. The helpers are MRA `1e:453e` / `1f:6578` and MSUSA `10:4407` / `11:7f95` / `17:48f9`. Results go to `data/animation_sequences.json`, or `animation_sequences_special.json` with `--special`.
 
-Each update adds an 8-bit rate to an 8-bit accumulator. Overflow increments the
-frame index modulo the stream's frame count and requests a tile upload. The
-period in updates is `256 * frame_count / gcd(rate, 256 * frame_count)`. The
-combined course period is the least common multiple of its stream periods.
-All recovered streams have disjoint destination ranges; overlapping streams
-are rejected because they would need ordered upload replay. The longest current
-combined period is 2,560 updates, about 42.86 seconds.
+Each update adds an 8-bit rate to an 8-bit accumulator. On overflow, the frame index advances modulo the stream's frame count and a tile upload is queued. A stream's period in updates is `256 * frame_count / gcd(rate, 256 * frame_count)`, and a course's combined period is the least common multiple of its stream periods. The longest is 2,560 updates, about 42.86 seconds. All recovered streams write to disjoint tile ranges; the exporter rejects overlapping streams, which would need ordered replay.
 
-Initialization calls MRA `1e:4045` or MSUSA `10:404b` for accumulator phases.
-MSUSA's animation workspace is cleared first: its initializer resets only nine
-frame-index bytes while Yellowstone uses twelve streams. Otherwise three indices
-inherit unrelated boot/menu RAM (observed `ee` in the isolated baseline). These
-exports use canonical frame-zero indices and ROM initializer accumulator phases,
-not that transient inherited state.
+The initializers are MRA `1e:4045` and MSUSA `10:404b`; they set the accumulator phases. MSUSA's initializer resets only nine frame-index bytes, but Yellowstone has twelve streams, so three indices inherit leftover boot/menu RAM (observed as `ee`). The exports clear the workspace first and then apply the ROM's accumulator phases, so every loop starts from frame zero.
 
-Nominal timing is one update per 70,224-cycle display frame at 4,194,304 Hz,
-using the constants in the installed PyBoy runtime. This represents uninterrupted
-gameplay updates, not performance stalls, pauses, or MRA's scanline-gate skips.
-A live MSUSA Los Angeles check observed 172 updates in 180 display frames, with
-occasional two-frame gaps, so actual gameplay can run slower. These skips depend
-on gameplay workload and are not baked into a universal course GIF.
+Timing assumes one update per 70,224-cycle frame at 4,194,304 Hz (about 59.73 Hz). This is uninterrupted gameplay. Real play can run slower: a live MSUSA Los Angeles run showed 172 updates in 180 frames. Those skips depend on workload and are not baked in. MRA's scanline-gate skips are not modeled either.
 
-`export_animations.py` rasterizes directly to palette indices (the 32 original
-background palette entries plus a transparent index). It updates only affected
-tiles, streams delta rectangles through pinned Pillow's GIF encoder, and retains
-only a few full canvases. There is no color quantization or resizing. Identical
-adjacent frames merge; transparent non-ROM margins remain transparent. Delays
-are differences between rounded absolute centisecond boundaries, keeping total
-loop error below 5 ms. Viewers may impose their own minimum delay on very short
-frames. All frames use disposal 1 and a shared palette; the first frame is a full
-canvas so the loop seam restores the initial background.
+`tools/export_animations.py` rasterizes straight to palette indices: the 32 original background colors plus one transparent index. It redraws only changed tiles and writes delta rectangles with Pillow's GIF encoder, without quantization or resizing. Identical adjacent frames are merged. Each frame delay is the difference between rounded absolute centisecond timestamps, so the total loop error stays under 5 ms. Viewers may enforce their own minimum delay on very short frames. Every frame uses disposal 1 and the shared palette; the first frame is a full canvas, so the loop restarts cleanly.
 
-Outputs: `images/animated/MRA/` (20 GIFs), `MSUSA/` (12), and `MSUSA_special/`
-(Nebraska only; unchanged dispatch entries are not duplicated). Manifests also
-record static courses, per-file hashes, encoded frame counts, sizes, duration
-and timing error. Full GIF export was measured at roughly 90 seconds. A native
-384×256 Yellowstone detail crop and its coordinates are saved beside the folders
-as `Yellowstone_detail.gif` / `.json`; it is a preview, not a full-stage map.
+Outputs are `images/animated/MRA/` (20 GIFs), `MSUSA/` (12) and `MSUSA_special/` (Nebraska only). Each manifest lists the static courses as well as per-file hashes, frame counts, sizes, durations and timing error.
 
-`verify_animations.py` compares **every** accumulator, frame index, and upload
-request against original ROM code over each course's complete combined cycle,
-including the separate MSUSA branch. `verify_animation_exports.py` checks every
-GIF frame header, total duration and hash, three independent full-map raster
-phases, and the first three decoded GIF composites at native resolution. Later
-GIF frames are checked structurally rather than exhaustively decompressed.
-Results: `data/animation_verification*.json` and
-`data/animation_export_verification*.json`. All 32 default GIFs and the separate
-variant pass. Static course PNGs are unchanged. Hubs, sprites, runtime map edits,
-palette-only effects and animation of the extra research slots are outside this
-course tile-upload pass.
+### Terrain
 
-### Source terrain boundaries (MSUSA prototype)
+`tools/terrain.py` translates each game's point-terrain lookup: MSUSA `00:1f08` and MRA `00:2308`. The lookup uses the two map planes, the row table, and the terrain far pointer from the graphics descriptor (staged at `c60a..c60c` in MSUSA and `c62a..c62c` in MRA).
 
-`tools/terrain.py` translates MSUSA's integer-world-point lookup `00:1f08`.
-It uses the two map planes, the row table, and the graphics descriptor's
-previously unused far pointer (staged at `c60a..c60c`). For combined map value
-`N = L + 256*H`, the terrain record starts at resource offset
-`2*(N + floor(N/2))`. Each of its two three-byte records covers one 16-pixel
-horizontal half of the 32x32 cell. The shape byte, first terrain byte's flip
-flags, and fixed-ROM height profiles at `3980..39ff` select one of two terrain
-bytes. The caller at `1ff9` masks the selected byte to six bits and dispatches
-through bank 1's `6ee2` table. This supports shaped boundaries within cells,
-including diagonals; it is not an 8x8 artwork-tile occupancy test.
+For combined map value `N = L + 256*H`, the cell's terrain record starts at resource offset `2*(N + floor(N/2))`. The record is two three-byte halves, one for each 16-pixel-wide half of the 32×32 cell. In each half, the first byte is a shape byte and the next two are terrain bytes. The shape byte, the first terrain byte's flip flags (bit 6 mirrors the half horizontally; bit 7 flips the comparison vertically), and a fixed-ROM table of 16-entry height profiles (starting at MSUSA `3980` and MRA `3380`) decide which terrain byte applies at each pixel. Shape family `70` is a vertical split at a column; the other families draw a height curve. This allows diagonal and curved boundaries inside a cell; it is not an 8×8 tile occupancy test. The record must stay within one ROM bank, because the CPU adds the offset without switching banks.
 
-The initial export is **Nebraska only**, engine index 19, resource `092700`.
-`verify_terrain.py` compares selected raw bytes against the original ROM
-lookup at corners, seeded random points, and transition neighbors for every
-distinct cell definition. All **7,600 samples / 380 definitions** pass; this
-is not exhaustive per-pixel emulation. The first broader check caught an
-off-by-one translation of `CPL; ADD 21`; corrected before final export.
+In MSUSA, the caller at `00:1ff9` masks the selected byte to six bits and dispatches through bank 1's table at `6ee2`, with code 0 and 1 handlers at `01:6eec` and `01:6eef`. The MRA caller and handler table have not been traced. What each code does in play is still unknown, so codes stay numeric.
 
-```powershell
-python tools/verify_terrain.py
-python tools/export_terrain.py
-```
+| Codes used | Courses |
+| --- | --- |
+| 0, 1 | All 21 MSUSA courses; 17 MRA courses |
+| 0, 1, 2 | MRA Moat Madness, Drawbridge Derby, Really Rapid Rapids, Fairground Follies |
+| 0, 1, 2, 3 | MRA Pete's Hunting Hideout |
 
-Outputs under `images/terrain/MSUSA/`: `_codes.png` stores numeric terrain
-codes as grayscale pixel values; `_regions.png` colors code 0 blue and code 1
-orange; `_boundaries.png` draws one-pixel pink lines at code changes over the
-native background. `_preview.png` thickens those lines for browsing only.
-Metadata and the verification report preserve dimensions, source and limits.
-The tools accept `--index`, but other courses have not been validated yet.
+`tools/export_terrain.py` writes four images per course under `images/terrain/MRA/` and `MSUSA/`:
 
-**Limits:** These are static point-terrain regions. Behavior names, racer
-clearance, moving objects, camera limits, runtime edits, and playable-area
-reachability are not verified. No automatic cropping or solid/free labels
-are inferred. MRA's corresponding lookup remains untraced.
+- `_codes.png`: grayscale, where each pixel value is the terrain code.
+- `_regions.png`: code 0 blue, 1 orange, 2 purple, 3 yellow.
+- `_boundaries.png`: one-pixel pink lines at every code change, drawn over the native background.
+- `_preview.png`: thicker lines for browsing, with a legend.
+
+Each course also gets a JSON file with dimensions, resource offset and per-code pixel counts.
+
+`tools/verify_terrain.py --game all` runs the original ROM lookup at every cell definition's corners, at seeded random points, and next to every transition, then compares against the translation. All 43 courses pass: 246,604 samples over 12,473 unique cell definitions. `--exports` additionally checks the saved PNGs at 132 points per course. This is sampled equivalence, not exhaustive per-pixel emulation. Reports are `data/terrain_verification_*.json`.
+
+**Limits:** these are static point classifications. They do not show kart clearance (a kart is larger than a point), moving objects, camera limits, runtime map edits or which areas are reachable.
 
 ### Unmapped margins
 
-Pete's Dungeon contains 144 subtile lookups that land outside the switchable
-ROM window, in the far-right margin of the declared map rectangle. Those tiles
-are transparent, not guessed. Their exact behavior depends on non-ROM memory;
-the exporter records the count in the manifest. Other known course backgrounds
-have no such unmapped lookups. These margins have not been established as
-reachable camera space.
+Pete's Dungeon has 144 subtile lookups in the far-right margin of its map that land outside the switchable ROM window. They read non-ROM memory, so they are exported as transparent rather than guessed, and the manifest records the count. No other course has such lookups. Whether the camera can reach this margin is unverified.
 
-### Four additional MSUSA slots
+### Four extra MSUSA slots
 
-`tools/export_maps.py --extras` exports engine indices 21–24 to
-`images/reconstructed/MSUSA_extras/`, without changing the named-course set.
-`data/msusa_extras.json` supplies descriptive labels and per-slot limitations.
+`tools/export_maps.py --extras` exports engine slots 21–24 to `images/reconstructed/MSUSA_extras/`, separate from the named courses. `data/msusa_extras.json` gives descriptive labels and per-slot limits.
 
-| Slot | Descriptor | Graphics descriptor | Bytes | Source rendering |
+| Slot | Descriptor | Graphics descriptor | Bytes | Rendering |
 | --- | --- | --- | --- | --- |
-| 21 | `0800c5` | `08027b` | 7 | Coherent walled garden, 1248×704 |
-| 22 | `0800cc` | `080282` | 7 | Coherent log arena, 1024×864 |
-| 23 | `0800d3` | `080289` | 7 | Scrambled graphics, 1216×864; unresolved |
+| 21 | `0800c5` | `08027b` | 7 | Walled garden, 1248×704 |
+| 22 | `0800cc` | `080282` | 7 | Log arena, 1024×864 |
+| 23 | `0800d3` | `080289` | 7 | Scrambled graphics, 1216×864 |
 | 24 | `0800da` | `080290` | 10 | City arena, 1376×928; 145 transparent non-ROM subtiles |
 
-The first three graphics descriptors end after the bank-0 graphics pointer.
-Their extents follow from the next graphics-descriptor pointers in the table.
-The regular loader at `00:1921` does **not** respect these extents: it reads a
-second far pointer from the next descriptor's first three bytes. The isolated
-loader records bank-1 source CPU addresses `2371`, `2375`, and `2271`, which lie
-in fixed ROM rather than the switchable bank. These reads are not valid declared
-bank-1 resources. All mapped subtiles in slots 21–23 select VRAM bank 0, so these
-bank-1 reads do not affect the exported source backgrounds. The exporter treats
-the absent bank-1 resource as absent; it does not fabricate pointers.
+The graphics descriptors for slots 21–23 end after the bank-0 graphics pointer; their length follows from the next pointer in the table. The regular loader `00:1921` ignores this and reads a bank-1 far pointer from the first three bytes of the next descriptor, giving fixed-ROM CPU addresses `2371`, `2375` and `2271`. These are not real bank-1 resources. No mapped subtile in slots 21–23 uses VRAM bank 1, so this does not affect the exports, and the exporter treats bank 1 as absent.
 
-`tools/verify_msusa_extras.py` calls the original regular loader with LCD enabled
-(its graphics-transfer path waits for VBlank), checks both complete loaded map
-planes and the declared graphics bytes staged before VRAM transfer, then checks
-six terrain-renderer samples and three rasterizer windows per slot. Every mapped
-subtile uses graphics within its declared resource. Slot 23's declared bank-0
-resource is exactly what this loader stages, but renders scrambled terrain; a
-passing source check is not evidence that its assets are correct. Slot 24's
-non-ROM reads depend on other memory and remain transparent. Results are in
-`data/msusa_extras_verification.json`.
+`tools/verify_msusa_extras.py` runs the original loader with the LCD on (its graphics transfer waits for VBlank). It compares both loaded map planes and the staged graphics bytes, then checks six renderer samples and three raster windows per slot. Every mapped subtile uses graphics inside its declared resource.
 
-No normal gameplay path to these four slots, in-game names, or alternative
-loader has been established. Their status as active arenas versus unused
-remnants remains unresolved. No animation uploads are assumed for these slots.
-The grid includes slot 23 explicitly as an unresolved diagnostic image.
+Slot 23 renders exactly what the loader stages, and it is still scrambled, so the source data itself is wrong or incomplete for it. A heuristic search over simple fixes (uniform tile-number offsets, a 128-tile rotation, each named course's tileset) found nothing coherent, though it was not exhaustive. The fault could be in tile numbering, the referenced tileset, or the metatile definitions. Slot 24's non-ROM reads depend on other memory and stay transparent. No route to these slots in normal play, in-game names, or alternate loader has been found, and no animation uploads are assumed for them.
 
-## MRA exploration backgrounds
+## MRA exploration areas
 
-The exploration engine is separate and copies executable routines from ROM into
-WRAM. Six 17-byte map descriptors begin at file offset `194997` (bank `65:4997`).
-Their pointers use **bank, low, high**, unlike the race format. The graphics
-selector chooses a 16-byte resource descriptor at `194500`.
+The exploration engine is separate from the race engine and copies its routines from ROM into WRAM before running them. Six 17-byte map descriptors start at file offset `194997` (`65:4997`). Their pointers are stored as **bank, low, high**, unlike the race format. The graphics selector picks a 16-byte resource descriptor at `194500`.
 
-A map resource begins with a mode byte (all six are zero), width and height in
-native 8-pixel tiles, an attribute dictionary pointer, and a token-stream pointer.
-The tile-ID dictionary starts immediately after the seven-byte header. Each
-dictionary entry gives four consecutive tiles. The token stream expands as:
+A map resource starts with a mode byte (zero for all six), width and height in 8-pixel tiles, an attribute dictionary pointer and a token-stream pointer. The tile-ID dictionary follows the seven-byte header; each entry is four consecutive tiles. The token stream expands as follows:
 
 | Token | Meaning |
 | --- | --- |
@@ -241,54 +116,28 @@ dictionary entry gives four consecutive tiles. The token stream expands as:
 | `fd ll hh` | Entry `hhll` |
 | `ff token count` | Repeat the following entry `count` times (zero means 256) |
 
-The original decompressor is at file `1902d5`, executed at WRAM `c4d5`. It writes
-attributes to WRAM banks 2–4 and tile IDs to banks 5–7. This plane order matters.
+The original decompressor is at file offset `1902d5` and runs from WRAM `c4d5`. It writes attributes to WRAM banks 2–4 and tile IDs to banks 5–7, and that plane order matters.
 
-The graphics resource has three 16-bit pointers: the primary dictionary,
-secondary stream, and secondary dictionary. The primary stream begins at byte 6.
-Graphics tokens emit pairs: `00` two zero bytes, `01` two `ff` bytes, `02` four
-zero bytes, `03` four `ff` bytes, `fe` two literal bytes, `04..fd` a dictionary
-pair, and `ff` ends the stream. The secondary stream loads VRAM bank 1 first;
-the primary loads bank 0 and may continue into bank 1. `tools/hubs.py` preserves
-that order, including streams that cross the bank boundary within a token.
+The graphics resource has three 16-bit pointers: the primary dictionary, the secondary stream and the secondary dictionary. The primary stream starts at byte 6. Graphics tokens emit byte pairs: `00` two zero bytes, `01` two `ff` bytes, `02` four zero bytes, `03` four `ff` bytes, `fe` two literal bytes, `04..fd` a dictionary pair, and `ff` ends the stream. The secondary stream loads VRAM bank 1 first; the primary stream then loads bank 0 and may run on into bank 1. `tools/hubs.py` keeps that order, including streams that cross the bank boundary in the middle of a token.
 
-The palette pointer is part of the selected graphics descriptor. Exports use
-the same RGB555 conversion as the race maps. Names assigned to these six maps
-are visual descriptions, not verified in-game titles.
+The palette pointer is part of the graphics descriptor and uses the same RGB555 conversion as the race maps. The six map names are visual descriptions, not in-game titles.
 
 ### Pluto holes
 
-The source exploration layouts include filled and open Pluto holes. In the
-observed fresh town state, runtime map edits replace five 4×4-tile hole patches
-with grass: 80 tiles total. Those account for all map differences between the
-source town layout and the captured live RAM. The source-layout export preserves
-the holes. Whether a particular hole is visible depends on game state; a map
-should not imply that all holes are simultaneously visible during play.
+The source layouts include open and filled Pluto holes. In a fresh town state, runtime edits replace five 4×4-tile hole patches with grass (80 tiles), and those account for every difference between the source town layout and live RAM. The exports keep the source layout, so they show all holes at once, which never happens in play.
 
-## Validation and limits
+## Verification
 
-- `tools/verify_maps.py`: calls the **original ROM horizontal renderer** at six
-  coordinate samples per known course and compares emitted tile IDs/attributes.
-  All 43 pass. Results: `data/verification.json`.
-- `tools/verify_pixels.py`: loads the decoded tile bytes and original palettes
-  into the emulator, with sprites disabled, and compares three rasterized windows
-  per course against the actual exported PNG. All 43 pass; transparent unmapped
-  pixels are excluded. Results: `data/pixel_verification.json`.
-- `tools/verify_hubs.py`: calls the **original RAM decompression routines** and
-  compares complete map planes plus 8,192 graphics bytes for all six hubs. All
-  six pass exactly. Results: `data/hub_verification.json`.
-- `tools/verify_msusa_extras.py`: separately checks the four extra MSUSA slots
-  against the original regular loader, renderer and CGB rasterizer, subject to
-  the unresolved graphics and non-ROM-read limits described above.
+| Script | Method | Result |
+| --- | --- | --- |
+| `verify_maps.py` | Calls the original horizontal renderer at six points per course and compares the tile IDs and attributes it emits. | 43/43; `data/verification.json` |
+| `verify_pixels.py` | Loads the decoded tiles and palettes into the emulator with sprites off and compares three raster windows per course with the exported PNG. | 43/43, about 2.97 million pixels; `data/pixel_verification.json` |
+| `verify_hubs.py` | Runs the original decompressors and compares both full map planes and 8,192 graphics bytes. | 6/6 exact; `data/hub_verification.json` |
+| `verify_msusa_extras.py` | Original loader, renderer and rasterizer checks (see above). | 4/4 source-exact; `data/msusa_extras_verification.json` |
+| `verify_animations.py` | Compares every accumulator, frame index and upload request with the original code over each course's full cycle. | 10,635 updates (2,080 for the variant); `data/animation_verification*.json` |
+| `verify_animation_exports.py` | Checks every GIF frame header, duration and hash, three full-map raster phases, and the first three decoded frames at native size. Later frames are checked structurally. | 32 GIFs + variant; `data/animation_export_verification*.json` |
+| `verify_terrain.py` | Sampled comparison against the original point lookup (see [Terrain](#terrain)). | 43/43; `data/terrain_verification_*.json` |
 
-These checks distinguish source decoding from gameplay completeness. Current
-exports are background layers. Sprites, pickups, opponents, some start/finish
-markers, state-dependent scenery, animated map changes, and special-mode
-variants require further tracing. The checks do not establish every map pixel
-against a naturally reached gameplay camera position.
+These checks confirm that the source data is decoded correctly. They do not show that every pixel can be reached by the gameplay camera, and they cover background layers only: sprites, pickups, opponents, some start/finish markers, state-dependent scenery and runtime map edits are outside their scope.
 
-The emulator interface and memory APIs are documented by
-[PyBoy](https://docs.pyboy.dk/api/pyboy.html). LR35902 opcode facts for the range
-disassembler are read from the locally installed
-[PyBoy opcode definitions](https://github.com/Baekalfen/PyBoy). Generated ROM
-listings and save states are kept under ignored `local/`.
+The emulator interface is [PyBoy](https://docs.pyboy.dk/api/pyboy.html). `tools/gbdis.py` takes file offsets and disassembles a range using PyBoy's opcode tables. Generated listings and save states stay in the ignored `local/` folder.
