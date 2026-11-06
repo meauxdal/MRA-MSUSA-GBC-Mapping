@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 4,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Montana",
+  "width": 2144,
+  "height": 2080,
+  "resource_offset": 548736,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 721542,
+    "1": 3737978
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "06_Montana_codes.png",
+      "sha256": "a0e33990a6d5342b3f796fdd067cb9af8332b3158f899a2b75a79f8850342461"
+    },
+    "regions": {
+      "file": "06_Montana_regions.png",
+      "sha256": "cf83d51151fb31502828a6c58e823bddb2dfefce13d49bdbdfef1dae2534e3d3"
+    },
+    "boundaries": {
+      "file": "06_Montana_boundaries.png",
+      "sha256": "28e3be8267d8b4169ad83eb76de7c297e887ec1f8db2a356a51430b597f88db0"
+    },
+    "preview": {
+      "file": "06_Montana_preview.png",
+      "sha256": "26a2a2ab0be1a89846ad0ba1e93fe4c4f1f35dd496763e39ba0073d465c51a7f"
+    }
+  }
+}

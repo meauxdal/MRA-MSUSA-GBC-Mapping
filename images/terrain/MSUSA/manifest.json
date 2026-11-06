@@ -1,0 +1,695 @@
+[
+  {
+    "game": "msusa",
+    "index": 0,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Los Angeles",
+    "width": 2496,
+    "height": 1856,
+    "resource_offset": 540672,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 914798,
+      "1": 3717778
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "01_Los_Angeles_codes.png",
+        "sha256": "3ed9f2439ae96aa03dcacc00c1d556c49714b5c70112e4ff1bc9ac73954e1af4"
+      },
+      "regions": {
+        "file": "01_Los_Angeles_regions.png",
+        "sha256": "7143708b09c34dba260c747950681ece21c7ce5e7f4bb8a4e4a66e27deacb4b2"
+      },
+      "boundaries": {
+        "file": "01_Los_Angeles_boundaries.png",
+        "sha256": "6f51983fca7e68541a5ad5861c09165da0c7ba9de00d741621203276ebeaa2ce"
+      },
+      "preview": {
+        "file": "01_Los_Angeles_preview.png",
+        "sha256": "3eb8c1a3eb5d9a57820f3c83fe3ad33d8efa0d57a84c3652e09159cb3a714e02"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 1,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Secret Track!",
+    "width": 3136,
+    "height": 2592,
+    "resource_offset": 543744,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 1013506,
+      "1": 7115006
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "21_Secret_Track!_codes.png",
+        "sha256": "fc7b76322748a3ecb01743c79d2b92fba28a949ebd63ba44e100c03f2d3a638e"
+      },
+      "regions": {
+        "file": "21_Secret_Track!_regions.png",
+        "sha256": "7fa41f45f64b3ffab92c1c9756eaac96a73869a642f82c0662dc16a8177b2bd4"
+      },
+      "boundaries": {
+        "file": "21_Secret_Track!_boundaries.png",
+        "sha256": "188c14338742906b455c1d11753116e52b66e814967e72bf1622bf1913ad5fab"
+      },
+      "preview": {
+        "file": "21_Secret_Track!_preview.png",
+        "sha256": "7c81e9345bd758aee0c6819499442738ac226d6db84b724c068952fae3355b52"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 2,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Gulf Coast",
+    "width": 1664,
+    "height": 2464,
+    "resource_offset": 606208,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 680184,
+      "1": 3419912
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "13_Gulf_Coast_codes.png",
+        "sha256": "a6a4af0bfdc02741ee480c322309718bbc78ed87ea09840c3a1378e77ef20078"
+      },
+      "regions": {
+        "file": "13_Gulf_Coast_regions.png",
+        "sha256": "753ffe2e4a2acdff0564116a197b4ac5f364dea19d9f776875d155c6abed72b7"
+      },
+      "boundaries": {
+        "file": "13_Gulf_Coast_boundaries.png",
+        "sha256": "e2f7c7a9a7b75bade86eb0f7664af9324016aa50542d0b3fe18791b9be84c8b6"
+      },
+      "preview": {
+        "file": "13_Gulf_Coast_preview.png",
+        "sha256": "ac0b042d806aa51d12f9c6aff24486ed93355ba87a8e5a48f54856830e6b27f6"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 3,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Grand Canyon",
+    "width": 2752,
+    "height": 1824,
+    "resource_offset": 546048,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 612424,
+      "1": 4407224
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "02_Grand_Canyon_codes.png",
+        "sha256": "55028863edefd0a114781773ada1a41d4f6e1c0a42d3bb42166a063a443f6654"
+      },
+      "regions": {
+        "file": "02_Grand_Canyon_regions.png",
+        "sha256": "ac81087e609c1ddad956785d36c9eaffa9d28b846b9e966698e7e316f01dfcce"
+      },
+      "boundaries": {
+        "file": "02_Grand_Canyon_boundaries.png",
+        "sha256": "e851aa25ec7e46b18847f76cfbf98fbed4a91d19b44e69f07b3da1e69cc7e735"
+      },
+      "preview": {
+        "file": "02_Grand_Canyon_preview.png",
+        "sha256": "cd403adcc5f45ac9e2dbc056ce2abbecceadcf60f0743d937eee969758646509"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 4,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Montana",
+    "width": 2144,
+    "height": 2080,
+    "resource_offset": 548736,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 721542,
+      "1": 3737978
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "06_Montana_codes.png",
+        "sha256": "a0e33990a6d5342b3f796fdd067cb9af8332b3158f899a2b75a79f8850342461"
+      },
+      "regions": {
+        "file": "06_Montana_regions.png",
+        "sha256": "cf83d51151fb31502828a6c58e823bddb2dfefce13d49bdbdfef1dae2534e3d3"
+      },
+      "boundaries": {
+        "file": "06_Montana_boundaries.png",
+        "sha256": "28e3be8267d8b4169ad83eb76de7c297e887ec1f8db2a356a51430b597f88db0"
+      },
+      "preview": {
+        "file": "06_Montana_preview.png",
+        "sha256": "26a2a2ab0be1a89846ad0ba1e93fe4c4f1f35dd496763e39ba0073d465c51a7f"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 5,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Louisiana",
+    "width": 1600,
+    "height": 1952,
+    "resource_offset": 551424,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 400308,
+      "1": 2722892
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "14_Louisiana_codes.png",
+        "sha256": "7b0eaa4a894e0ff44870db3b94818f89f66d3d6cdfdc66242b61827d4758f096"
+      },
+      "regions": {
+        "file": "14_Louisiana_regions.png",
+        "sha256": "b4e54f3da6a20152aa8559b2b75cf914899191fba52c64f69a6148e8be28a3f8"
+      },
+      "boundaries": {
+        "file": "14_Louisiana_boundaries.png",
+        "sha256": "b39eaa220b5adb8f40c864da9dd74faa5c21e445f62223f50041d0dc0f5e2407"
+      },
+      "preview": {
+        "file": "14_Louisiana_preview.png",
+        "sha256": "feec12a9758be540c02647a317e903571974d8186d1b2216f5f017eb747c22b6"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 6,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Milwaukee",
+    "width": 1376,
+    "height": 1312,
+    "resource_offset": 576128,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 544916,
+      "1": 1260396
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "09_Milwaukee_codes.png",
+        "sha256": "68d9beac90ce15dd82a5ac0eeec40ac27ae8acd5cc7881d748a953b893bea5ae"
+      },
+      "regions": {
+        "file": "09_Milwaukee_regions.png",
+        "sha256": "662b9ed7a08e5dd18b60bf88412bc2c8f6005a73ce8a05ae9c1114ee96768cad"
+      },
+      "boundaries": {
+        "file": "09_Milwaukee_boundaries.png",
+        "sha256": "14f071651904953e3c3fd643f60993c396b39d8e7b584f9d2f4a097af0fc711c"
+      },
+      "preview": {
+        "file": "09_Milwaukee_preview.png",
+        "sha256": "ec1964dc19a3a483e5486047f3954043f04c1ff37a219a864be167a95ae344ba"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 7,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Indianapolis",
+    "width": 1856,
+    "height": 1504,
+    "resource_offset": 578798,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 643866,
+      "1": 2147558
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "15_Indianapolis_codes.png",
+        "sha256": "bd121419d047d1a9ad7f19afeba0c7e3b2ecff02e2487ad8261b4fc3480dd445"
+      },
+      "regions": {
+        "file": "15_Indianapolis_regions.png",
+        "sha256": "68286331911ebeae2460b126c8b58d8150420222c6caa5e643069ad9c35019f3"
+      },
+      "boundaries": {
+        "file": "15_Indianapolis_boundaries.png",
+        "sha256": "71bc20d375e053eb9d1b019f2329b8b97b786309b995375b2ff104e10f57c29b"
+      },
+      "preview": {
+        "file": "15_Indianapolis_preview.png",
+        "sha256": "2b380ac9414c97e5b2d608a4c47072ad2051a2af1026898c699f4bfa80d60f07"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 8,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Daytona Beach",
+    "width": 1568,
+    "height": 1856,
+    "resource_offset": 581870,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 845414,
+      "1": 2064794
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "19_Daytona_Beach_codes.png",
+        "sha256": "a04c28251f9179f81ba0bc7466534b504168ee8904b6fa54c2b68da5576c0345"
+      },
+      "regions": {
+        "file": "19_Daytona_Beach_regions.png",
+        "sha256": "a43aa550377923ffc0fc9ccf75cfb913f6d83592ef7577a28621dc426ff38f4a"
+      },
+      "boundaries": {
+        "file": "19_Daytona_Beach_boundaries.png",
+        "sha256": "345ddd52030ad136571487bd0a36ea9ce9057a2e576e6fb75307ca0419c21c73"
+      },
+      "preview": {
+        "file": "19_Daytona_Beach_preview.png",
+        "sha256": "39e5444ebfb14f42e4f7e9696fe7a7bffad2e4bef486e90263d48e46ca7e315f"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 9,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Smoky Mountains",
+    "width": 2464,
+    "height": 1984,
+    "resource_offset": 564736,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 2220527,
+      "1": 2668049
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "17_Smoky_Mountains_codes.png",
+        "sha256": "2d2b007740f6def2317d85cf0da95a822592a6f35efd1251f0c60bd4ffa4261c"
+      },
+      "regions": {
+        "file": "17_Smoky_Mountains_regions.png",
+        "sha256": "bfbfc1cf39fb24f3cd40e550aa88123391862da0f01a60d47c635f49abdf860f"
+      },
+      "boundaries": {
+        "file": "17_Smoky_Mountains_boundaries.png",
+        "sha256": "bac70d768651f3bd594083d09e7ec07299b6bc22a59a9a7a2c0c9972c3d8cee6"
+      },
+      "preview": {
+        "file": "17_Smoky_Mountains_preview.png",
+        "sha256": "016d0dc98f6a43001e2939d2c5f29ae45e4246b640556a1e30e067998f11ed7e"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 10,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Yosemite",
+    "width": 1888,
+    "height": 2240,
+    "resource_offset": 567424,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 1360276,
+      "1": 2868844
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "03_Yosemite_codes.png",
+        "sha256": "e4840a8bc72ab439b79232222e960b5ab699b9e48a5f9fcaaa27e745969081b8"
+      },
+      "regions": {
+        "file": "03_Yosemite_regions.png",
+        "sha256": "1efee232de2497f7b430668aaf724c12ced58a56876548a7d0e50ee18eca5f76"
+      },
+      "boundaries": {
+        "file": "03_Yosemite_boundaries.png",
+        "sha256": "b2375a4229779de55851f9c37e8494eabae209bd32ecab97e899f64448c5cb42"
+      },
+      "preview": {
+        "file": "03_Yosemite_preview.png",
+        "sha256": "816a41cbb01af7bbfa6d00a34ad41561c595414dafb27480a43ee173a42cb01c"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 11,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Boston",
+    "width": 3136,
+    "height": 1856,
+    "resource_offset": 557056,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 1421486,
+      "1": 4398930
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "16_Boston_codes.png",
+        "sha256": "e4579a02dff71bfabbd1c1506d5a583ecef13b4138a8145b86c36ddb938717b9"
+      },
+      "regions": {
+        "file": "16_Boston_regions.png",
+        "sha256": "ad4bd1b24fb17a54195c782b79fd39c899ae624e301d4bf5b0c62e9f0dce3eba"
+      },
+      "boundaries": {
+        "file": "16_Boston_boundaries.png",
+        "sha256": "23456eda10624abfce3380b035626c92a6395ef5c743ee48123be07d66b86f97"
+      },
+      "preview": {
+        "file": "16_Boston_preview.png",
+        "sha256": "8567b2417b0ce01eb51817bbc7d688c426b7744b3b1e52dbbb6d25d7caa4f26d"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 12,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Florida Everglades",
+    "width": 2176,
+    "height": 2272,
+    "resource_offset": 560128,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 675340,
+      "1": 4268532
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "18_Florida_Everglades_codes.png",
+        "sha256": "ae5ed917b5f5f4df6f3b8f801be94500f6666e0679907069ca2a3f88452624e6"
+      },
+      "regions": {
+        "file": "18_Florida_Everglades_regions.png",
+        "sha256": "3b1713be54a2954bd3a0764f19fcfa25d6088ed572f1a230713c5558babc32cb"
+      },
+      "boundaries": {
+        "file": "18_Florida_Everglades_boundaries.png",
+        "sha256": "a3383e2611dc4572ca361ea28fe7ecad48b3a657305522804a64802e188d206b"
+      },
+      "preview": {
+        "file": "18_Florida_Everglades_preview.png",
+        "sha256": "d50b08da941ec9843543bf00ffbcee109313c859b87ddfc6a8df049afc6c4f65"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 13,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Utah",
+    "width": 3232,
+    "height": 2080,
+    "resource_offset": 562816,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 855602,
+      "1": 5866958
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "08_Utah_codes.png",
+        "sha256": "79828dabbd5fbbfc7efa3081e5d437d6a31525a66b10d04c49a3d9bf84a566ef"
+      },
+      "regions": {
+        "file": "08_Utah_regions.png",
+        "sha256": "1bce6725b5cd53b34a217730d3482162db1870e86e0753f897dcae91a1b9956b"
+      },
+      "boundaries": {
+        "file": "08_Utah_boundaries.png",
+        "sha256": "e3fe32bf53b13eba76d8b345b1660561038f94f93da07c2ce7d8d8b30a32ad1f"
+      },
+      "preview": {
+        "file": "08_Utah_preview.png",
+        "sha256": "282baf62a035072b8950199357747bde0d5b6a06353e0cd28eb4577297bf7861"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 14,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Colorado",
+    "width": 3104,
+    "height": 2240,
+    "resource_offset": 573440,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 1129046,
+      "1": 5823914
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "10_Colorado_codes.png",
+        "sha256": "cd9aba1e7fde8e5d7dc8c8f30e2c7571cf355c164b25f86ca3ead552ac970ca2"
+      },
+      "regions": {
+        "file": "10_Colorado_regions.png",
+        "sha256": "a047c31abc50f6131f5b1b1c6388155ea1e7ce112a45fae8ccd3fd4777b57f08"
+      },
+      "boundaries": {
+        "file": "10_Colorado_boundaries.png",
+        "sha256": "91a28f98f7f197799b0d464b688dd492cee503007a79bdfb6c4790ea7505799f"
+      },
+      "preview": {
+        "file": "10_Colorado_preview.png",
+        "sha256": "06a3a345144cf33c1ef4e79bc1a677be41b68b6d75fdff3d5cbfd12e5e6b043b"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 15,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Texas",
+    "width": 2816,
+    "height": 2240,
+    "resource_offset": 589824,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 782502,
+      "1": 5525338
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "12_Texas_codes.png",
+        "sha256": "5323fd41e8b2535256d5b1438ee96794f1291451e3773f9b6698e3a7f9f0d7d3"
+      },
+      "regions": {
+        "file": "12_Texas_regions.png",
+        "sha256": "979aa5781d957b3aa0b7546a61a9e0bdd550d561bdcd420c90f5b43adaf90348"
+      },
+      "boundaries": {
+        "file": "12_Texas_boundaries.png",
+        "sha256": "eb8a838f5e5cd23bfddadbc146faf06303d8c298a3a25701c82f6cc5439fb1c3"
+      },
+      "preview": {
+        "file": "12_Texas_preview.png",
+        "sha256": "2ce4ee9b76ede4d16a0fd8dbaa2bb32c34322a072294a92264372246d8ffa379"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 16,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "San Francisco",
+    "width": 2880,
+    "height": 1952,
+    "resource_offset": 591744,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 4552202,
+      "1": 1069558
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "04_San_Francisco_codes.png",
+        "sha256": "ec53c0c7e63489b696f9e6103df2c6902e1326a1369a15e16f8ec26b176146fe"
+      },
+      "regions": {
+        "file": "04_San_Francisco_regions.png",
+        "sha256": "f995f342da54874a99fc3aa3c0a46a7b2bd6e82398842845d0c695dd9b6ff3c7"
+      },
+      "boundaries": {
+        "file": "04_San_Francisco_boundaries.png",
+        "sha256": "a0a645fef0197094df1c393095e68a1ce2503b43c33beb69ea9459067dcf41f7"
+      },
+      "preview": {
+        "file": "04_San_Francisco_preview.png",
+        "sha256": "d7bfcc9272c15a160031fecdcf2e053940e384a5be05c96d3dd4c15f9266351c"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 17,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Seattle",
+    "width": 3104,
+    "height": 2176,
+    "resource_offset": 594816,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 2461547,
+      "1": 4292757
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "05_Seattle_codes.png",
+        "sha256": "a0b9f406af4a20a56dcf97afba025d3c014b02f23f91bd1721fb10ba0a87debf"
+      },
+      "regions": {
+        "file": "05_Seattle_regions.png",
+        "sha256": "5620e6eafb83c7f6f1bed47ee595d73490cab75fad664686e39a776cf6e0b21f"
+      },
+      "boundaries": {
+        "file": "05_Seattle_boundaries.png",
+        "sha256": "367a6f54548b6d5f04ee50d1d2ac1a164e4bf9649b74b2f7d224bf752d839b36"
+      },
+      "preview": {
+        "file": "05_Seattle_preview.png",
+        "sha256": "fedbb0b7dd52b799624fc46e6fb84e91c36c7977b196c137c97af300e990ab71"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 18,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Yellowstone",
+    "width": 2400,
+    "height": 2336,
+    "resource_offset": 597888,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 1023864,
+      "1": 4582536
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "07_Yellowstone_codes.png",
+        "sha256": "0f622bcc841a39507809f97e730a26cbe4a5c31cd523c4cc774b4e54cc8fb2e5"
+      },
+      "regions": {
+        "file": "07_Yellowstone_regions.png",
+        "sha256": "50868c2f4de50a9b9d1188ab12b569ba83b6b3c56cd781b3663beffdaad387a5"
+      },
+      "boundaries": {
+        "file": "07_Yellowstone_boundaries.png",
+        "sha256": "c7f193008e5851132a1e54ed5af309d2f8121d7368b3e69a45687c49db5796db"
+      },
+      "preview": {
+        "file": "07_Yellowstone_preview.png",
+        "sha256": "4c2d301b810890479d5eb13b85fe12571e5f102715a26c78fdcf1678d98c44ca"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 19,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Nebraska",
+    "width": 3104,
+    "height": 1984,
+    "resource_offset": 599808,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 1141493,
+      "1": 5016843
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "11_Nebraska_codes.png",
+        "sha256": "dda75dddc8dbbbc4ccf036d59507a4cd9fa4ec92f6f93381c04ee805fe014631"
+      },
+      "regions": {
+        "file": "11_Nebraska_regions.png",
+        "sha256": "d12d9209e3580191825dccd05041b3c67e62f2cd91556e074fccd92ffc62d784"
+      },
+      "boundaries": {
+        "file": "11_Nebraska_boundaries.png",
+        "sha256": "43f53f83b672ab60e683056d59dbeb7b4d88fc05e9abd748fdce7d1094e2b08d"
+      },
+      "preview": {
+        "file": "11_Nebraska_preview.png",
+        "sha256": "8b1aa07aa9860a0c99648c47831b10b1dcdda9c032d4824c174dafa37bf7b2f1"
+      }
+    }
+  },
+  {
+    "game": "msusa",
+    "index": 20,
+    "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+    "name": "Washington D.C.",
+    "width": 2944,
+    "height": 2528,
+    "resource_offset": 602880,
+    "lookup": "00:1f08",
+    "codes": {
+      "0": 794142,
+      "1": 6648290
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "20_Washington_D.C._codes.png",
+        "sha256": "57ab07375a003ce98c5472bba08dbb98d352fe8f873a26103eefe9554ef67e1c"
+      },
+      "regions": {
+        "file": "20_Washington_D.C._regions.png",
+        "sha256": "cc37f1fc563fd7c3c8380b516a816f730a8435e35b742dfe6812faa03e93c338"
+      },
+      "boundaries": {
+        "file": "20_Washington_D.C._boundaries.png",
+        "sha256": "f577d24fa0d84ff52660fa941592e7b98d0a80197924f426fceddf18be23591c"
+      },
+      "preview": {
+        "file": "20_Washington_D.C._preview.png",
+        "sha256": "407024909edf16cecf921ef2ef1e188fb3f2f1737f2553b7585489c70e2a7aa7"
+      }
+    }
+  }
+]

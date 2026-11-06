@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 0,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Doughnut Derby",
+  "width": 2304,
+  "height": 1536,
+  "resource_offset": 540672,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 419167,
+    "1": 3119777
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "11_Doughnut_Derby_codes.png",
+      "sha256": "3c81a46c4348c10cdad81cb7cc727d1b9036b5309a63d9fed459d2bab3ec3162"
+    },
+    "regions": {
+      "file": "11_Doughnut_Derby_regions.png",
+      "sha256": "2bf81af1b4ebdddb35d0598f29fae79a7faffb8e3e0b81c96894baaa6e987693"
+    },
+    "boundaries": {
+      "file": "11_Doughnut_Derby_boundaries.png",
+      "sha256": "6b279c1bfc458575e6485a14bb08e45dfef6cb6f339858f8c3f9b667c37d8e72"
+    },
+    "preview": {
+      "file": "11_Doughnut_Derby_preview.png",
+      "sha256": "8ba1badf1e47e799bb53e7ee850f39343d497c8d3d992de73adbd398c6dd3002"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 6,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Milwaukee",
+  "width": 1376,
+  "height": 1312,
+  "resource_offset": 576128,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 544916,
+    "1": 1260396
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "09_Milwaukee_codes.png",
+      "sha256": "68d9beac90ce15dd82a5ac0eeec40ac27ae8acd5cc7881d748a953b893bea5ae"
+    },
+    "regions": {
+      "file": "09_Milwaukee_regions.png",
+      "sha256": "662b9ed7a08e5dd18b60bf88412bc2c8f6005a73ce8a05ae9c1114ee96768cad"
+    },
+    "boundaries": {
+      "file": "09_Milwaukee_boundaries.png",
+      "sha256": "14f071651904953e3c3fd643f60993c396b39d8e7b584f9d2f4a097af0fc711c"
+    },
+    "preview": {
+      "file": "09_Milwaukee_preview.png",
+      "sha256": "ec1964dc19a3a483e5486047f3954043f04c1ff37a219a864be167a95ae344ba"
+    }
+  }
+}

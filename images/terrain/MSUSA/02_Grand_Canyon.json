@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 3,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Grand Canyon",
+  "width": 2752,
+  "height": 1824,
+  "resource_offset": 546048,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 612424,
+    "1": 4407224
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "02_Grand_Canyon_codes.png",
+      "sha256": "55028863edefd0a114781773ada1a41d4f6e1c0a42d3bb42166a063a443f6654"
+    },
+    "regions": {
+      "file": "02_Grand_Canyon_regions.png",
+      "sha256": "ac81087e609c1ddad956785d36c9eaffa9d28b846b9e966698e7e316f01dfcce"
+    },
+    "boundaries": {
+      "file": "02_Grand_Canyon_boundaries.png",
+      "sha256": "e851aa25ec7e46b18847f76cfbf98fbed4a91d19b44e69f07b3da1e69cc7e735"
+    },
+    "preview": {
+      "file": "02_Grand_Canyon_preview.png",
+      "sha256": "cd403adcc5f45ac9e2dbc056ce2abbecceadcf60f0743d937eee969758646509"
+    }
+  }
+}

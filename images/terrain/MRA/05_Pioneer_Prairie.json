@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 13,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Pioneer Prairie",
+  "width": 1952,
+  "height": 1440,
+  "resource_offset": 578768,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 382966,
+    "1": 2427914
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "05_Pioneer_Prairie_codes.png",
+      "sha256": "8022172b4c3777f4713ff8d9686711d0d4b6daadb034e1224f138f4dea5da898"
+    },
+    "regions": {
+      "file": "05_Pioneer_Prairie_regions.png",
+      "sha256": "7aad78c3be9716bd7741b57aae00f0a226669d70b3d23c95b3f86311ad313bba"
+    },
+    "boundaries": {
+      "file": "05_Pioneer_Prairie_boundaries.png",
+      "sha256": "0bd8dd9c83244981dab7d39414d26d43f410c21678721084934e18276f3db66f"
+    },
+    "preview": {
+      "file": "05_Pioneer_Prairie_preview.png",
+      "sha256": "352191c6c4673e02169eac879519b31d49a10d9781bc232d9186e48fd6ee396e"
+    }
+  }
+}

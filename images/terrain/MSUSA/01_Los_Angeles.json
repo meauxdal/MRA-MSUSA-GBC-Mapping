@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 0,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Los Angeles",
+  "width": 2496,
+  "height": 1856,
+  "resource_offset": 540672,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 914798,
+    "1": 3717778
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "01_Los_Angeles_codes.png",
+      "sha256": "3ed9f2439ae96aa03dcacc00c1d556c49714b5c70112e4ff1bc9ac73954e1af4"
+    },
+    "regions": {
+      "file": "01_Los_Angeles_regions.png",
+      "sha256": "7143708b09c34dba260c747950681ece21c7ce5e7f4bb8a4e4a66e27deacb4b2"
+    },
+    "boundaries": {
+      "file": "01_Los_Angeles_boundaries.png",
+      "sha256": "6f51983fca7e68541a5ad5861c09165da0c7ba9de00d741621203276ebeaa2ce"
+    },
+    "preview": {
+      "file": "01_Los_Angeles_preview.png",
+      "sha256": "3eb8c1a3eb5d9a57820f3c83fe3ad33d8efa0d57a84c3652e09159cb3a714e02"
+    }
+  }
+}

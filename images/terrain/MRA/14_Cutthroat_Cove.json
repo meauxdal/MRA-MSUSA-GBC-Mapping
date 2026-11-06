@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 9,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Cutthroat Cove",
+  "width": 1888,
+  "height": 1280,
+  "resource_offset": 562972,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 323761,
+    "1": 2092879
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "14_Cutthroat_Cove_codes.png",
+      "sha256": "ac1bdd41a10cc38303b3c683901fea4a863fa2354147810be05a647b0bab307e"
+    },
+    "regions": {
+      "file": "14_Cutthroat_Cove_regions.png",
+      "sha256": "c17f2931ae77b45407c04868c5a3bcf2a7ca16298c3570e4452426b7b88e7920"
+    },
+    "boundaries": {
+      "file": "14_Cutthroat_Cove_boundaries.png",
+      "sha256": "8c60afa5598c5b09de87ec6d399942cde3633433b8f7d47a3c8d3d7034f4d4a2"
+    },
+    "preview": {
+      "file": "14_Cutthroat_Cove_preview.png",
+      "sha256": "a4d46f95afa30edd307b008bef30facb7668469bd2ba8b83015a48f6631302c0"
+    }
+  }
+}

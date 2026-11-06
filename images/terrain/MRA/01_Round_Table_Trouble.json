@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 2,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Round Table Trouble",
+  "width": 2112,
+  "height": 1248,
+  "resource_offset": 545664,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 430156,
+    "1": 2205620
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "01_Round_Table_Trouble_codes.png",
+      "sha256": "0c922cf5f1900c280f1de66e3eff8d4c2992606d6baaa6e3a749a2618903f8b4"
+    },
+    "regions": {
+      "file": "01_Round_Table_Trouble_regions.png",
+      "sha256": "92e99910b58e37314f9d8b20fd6c4c43f36d48f76f45ae22ad64b5d53857601b"
+    },
+    "boundaries": {
+      "file": "01_Round_Table_Trouble_boundaries.png",
+      "sha256": "496c71978a6fc4eb468ec3eafbda2412e6fc1b1131395146a7c1b738bd329b45"
+    },
+    "preview": {
+      "file": "01_Round_Table_Trouble_preview.png",
+      "sha256": "2f71fc0372305bf9e431e1addeab64edd95a487b726c9ead704b82af3f94cd05"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 17,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Seattle",
+  "width": 3104,
+  "height": 2176,
+  "resource_offset": 594816,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 2461547,
+    "1": 4292757
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "05_Seattle_codes.png",
+      "sha256": "a0b9f406af4a20a56dcf97afba025d3c014b02f23f91bd1721fb10ba0a87debf"
+    },
+    "regions": {
+      "file": "05_Seattle_regions.png",
+      "sha256": "5620e6eafb83c7f6f1bed47ee595d73490cab75fad664686e39a776cf6e0b21f"
+    },
+    "boundaries": {
+      "file": "05_Seattle_boundaries.png",
+      "sha256": "367a6f54548b6d5f04ee50d1d2ac1a164e4bf9649b74b2f7d224bf752d839b36"
+    },
+    "preview": {
+      "file": "05_Seattle_preview.png",
+      "sha256": "fedbb0b7dd52b799624fc46e6fb84e91c36c7977b196c137c97af300e990ab71"
+    }
+  }
+}

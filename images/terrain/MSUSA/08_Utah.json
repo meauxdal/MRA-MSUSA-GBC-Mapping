@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 13,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Utah",
+  "width": 3232,
+  "height": 2080,
+  "resource_offset": 562816,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 855602,
+    "1": 5866958
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "08_Utah_codes.png",
+      "sha256": "79828dabbd5fbbfc7efa3081e5d437d6a31525a66b10d04c49a3d9bf84a566ef"
+    },
+    "regions": {
+      "file": "08_Utah_regions.png",
+      "sha256": "1bce6725b5cd53b34a217730d3482162db1870e86e0753f897dcae91a1b9956b"
+    },
+    "boundaries": {
+      "file": "08_Utah_boundaries.png",
+      "sha256": "e3fe32bf53b13eba76d8b345b1660561038f94f93da07c2ce7d8d8b30a32ad1f"
+    },
+    "preview": {
+      "file": "08_Utah_preview.png",
+      "sha256": "282baf62a035072b8950199357747bde0d5b6a06353e0cd28eb4577297bf7861"
+    }
+  }
+}

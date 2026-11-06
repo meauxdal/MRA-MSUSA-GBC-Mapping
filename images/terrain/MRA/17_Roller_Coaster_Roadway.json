@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 20,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Roller Coaster Roadway",
+  "width": 1824,
+  "height": 1600,
+  "resource_offset": 586700,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 487456,
+    "1": 2430944
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "17_Roller_Coaster_Roadway_codes.png",
+      "sha256": "8eac11f889a8364491b767a0d9152826218b5264224efd5d32ed5970d6119573"
+    },
+    "regions": {
+      "file": "17_Roller_Coaster_Roadway_regions.png",
+      "sha256": "0ffe4bfd21b69b3a164d49f960c6c7cac15d4fea24acefe0cb3ad041a552c06f"
+    },
+    "boundaries": {
+      "file": "17_Roller_Coaster_Roadway_boundaries.png",
+      "sha256": "5a52d3024a879e10d5f18123be87e1762ee4072e7edd472b4f25b28f43293388"
+    },
+    "preview": {
+      "file": "17_Roller_Coaster_Roadway_preview.png",
+      "sha256": "f1640b351e5746d8ed3b3a945dc51e22473c5a9d46af795aa2eba8ac690d081a"
+    }
+  }
+}

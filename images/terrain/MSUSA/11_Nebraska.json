@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 19,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Nebraska",
+  "width": 3104,
+  "height": 1984,
+  "resource_offset": 599808,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 1141493,
+    "1": 5016843
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "11_Nebraska_codes.png",
+      "sha256": "dda75dddc8dbbbc4ccf036d59507a4cd9fa4ec92f6f93381c04ee805fe014631"
+    },
+    "regions": {
+      "file": "11_Nebraska_regions.png",
+      "sha256": "d12d9209e3580191825dccd05041b3c67e62f2cd91556e074fccd92ffc62d784"
+    },
+    "boundaries": {
+      "file": "11_Nebraska_boundaries.png",
+      "sha256": "43f53f83b672ab60e683056d59dbeb7b4d88fc05e9abd748fdce7d1094e2b08d"
+    },
+    "preview": {
+      "file": "11_Nebraska_preview.png",
+      "sha256": "8b1aa07aa9860a0c99648c47831b10b1dcdda9c032d4824c174dafa37bf7b2f1"
+    }
+  }
+}

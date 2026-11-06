@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 2,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Gulf Coast",
+  "width": 1664,
+  "height": 2464,
+  "resource_offset": 606208,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 680184,
+    "1": 3419912
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "13_Gulf_Coast_codes.png",
+      "sha256": "a6a4af0bfdc02741ee480c322309718bbc78ed87ea09840c3a1378e77ef20078"
+    },
+    "regions": {
+      "file": "13_Gulf_Coast_regions.png",
+      "sha256": "753ffe2e4a2acdff0564116a197b4ac5f364dea19d9f776875d155c6abed72b7"
+    },
+    "boundaries": {
+      "file": "13_Gulf_Coast_boundaries.png",
+      "sha256": "e2f7c7a9a7b75bade86eb0f7664af9324016aa50542d0b3fe18791b9be84c8b6"
+    },
+    "preview": {
+      "file": "13_Gulf_Coast_preview.png",
+      "sha256": "ac0b042d806aa51d12f9c6aff24486ed93355ba87a8e5a48f54856830e6b27f6"
+    }
+  }
+}

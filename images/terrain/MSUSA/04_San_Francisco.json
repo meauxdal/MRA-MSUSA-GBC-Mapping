@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 16,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "San Francisco",
+  "width": 2880,
+  "height": 1952,
+  "resource_offset": 591744,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 4552202,
+    "1": 1069558
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "04_San_Francisco_codes.png",
+      "sha256": "ec53c0c7e63489b696f9e6103df2c6902e1326a1369a15e16f8ec26b176146fe"
+    },
+    "regions": {
+      "file": "04_San_Francisco_regions.png",
+      "sha256": "f995f342da54874a99fc3aa3c0a46a7b2bd6e82398842845d0c695dd9b6ff3c7"
+    },
+    "boundaries": {
+      "file": "04_San_Francisco_boundaries.png",
+      "sha256": "a0a645fef0197094df1c393095e68a1ce2503b43c33beb69ea9459067dcf41f7"
+    },
+    "preview": {
+      "file": "04_San_Francisco_preview.png",
+      "sha256": "d7bfcc9272c15a160031fecdcf2e053940e384a5be05c96d3dd4c15f9266351c"
+    }
+  }
+}

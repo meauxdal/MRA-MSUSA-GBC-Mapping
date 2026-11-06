@@ -1,0 +1,34 @@
+{
+  "game": "mra",
+  "index": 21,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Really Rapid Rapids",
+  "width": 1856,
+  "height": 1728,
+  "resource_offset": 589824,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 445652,
+    "1": 2735758,
+    "2": 25758
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "18_Really_Rapid_Rapids_codes.png",
+      "sha256": "f6071fb3011fa6c0e794f765bb56e6e01ed42e50861ca76188f90d130ef1478f"
+    },
+    "regions": {
+      "file": "18_Really_Rapid_Rapids_regions.png",
+      "sha256": "667aeb6cc6610447dc6dc044c12aea4017ff9b661424bdc78ef432e133a55a4f"
+    },
+    "boundaries": {
+      "file": "18_Really_Rapid_Rapids_boundaries.png",
+      "sha256": "19bddb628484b1bc0e05ce2f5317fb498391b07c92be2e827098a5ef926efc31"
+    },
+    "preview": {
+      "file": "18_Really_Rapid_Rapids_preview.png",
+      "sha256": "428efbeb37544ba6a563d27e7f0cac24d7ef48db1fc63f99ded531861b15ca85"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 18,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Pete's Big Top Showdown",
+  "width": 2496,
+  "height": 1792,
+  "resource_offset": 598350,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 421120,
+    "1": 4051712
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "20_Pete's_Big_Top_Showdown_codes.png",
+      "sha256": "80f7f652080c719693401fa39a2f8183beb1c801bc3a93bfb618653e68e3fe18"
+    },
+    "regions": {
+      "file": "20_Pete's_Big_Top_Showdown_regions.png",
+      "sha256": "a5a514e87b7a63639436bbf87b8bf20d6a6ef986f6d4ee255b9abd6404992ab7"
+    },
+    "boundaries": {
+      "file": "20_Pete's_Big_Top_Showdown_boundaries.png",
+      "sha256": "e911c3af9bc22fdc0cd35f08b28bf50f0627cb457c6667e5dd7c9aa2857cfe34"
+    },
+    "preview": {
+      "file": "20_Pete's_Big_Top_Showdown_preview.png",
+      "sha256": "203c7825a9c4004e87badd1fb0d8904622c1cc9030991cd141973e730eab6e73"
+    }
+  }
+}

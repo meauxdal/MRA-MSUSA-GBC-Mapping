@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 20,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Washington D.C.",
+  "width": 2944,
+  "height": 2528,
+  "resource_offset": 602880,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 794142,
+    "1": 6648290
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "20_Washington_D.C._codes.png",
+      "sha256": "57ab07375a003ce98c5472bba08dbb98d352fe8f873a26103eefe9554ef67e1c"
+    },
+    "regions": {
+      "file": "20_Washington_D.C._regions.png",
+      "sha256": "cc37f1fc563fd7c3c8380b516a816f730a8435e35b742dfe6812faa03e93c338"
+    },
+    "boundaries": {
+      "file": "20_Washington_D.C._boundaries.png",
+      "sha256": "f577d24fa0d84ff52660fa941592e7b98d0a80197924f426fceddf18be23591c"
+    },
+    "preview": {
+      "file": "20_Washington_D.C._preview.png",
+      "sha256": "407024909edf16cecf921ef2ef1e188fb3f2f1737f2553b7585489c70e2a7aa7"
+    }
+  }
+}

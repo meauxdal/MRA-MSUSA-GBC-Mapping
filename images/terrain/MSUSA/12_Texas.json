@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 15,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Texas",
+  "width": 2816,
+  "height": 2240,
+  "resource_offset": 589824,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 782502,
+    "1": 5525338
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "12_Texas_codes.png",
+      "sha256": "5323fd41e8b2535256d5b1438ee96794f1291451e3773f9b6698e3a7f9f0d7d3"
+    },
+    "regions": {
+      "file": "12_Texas_regions.png",
+      "sha256": "979aa5781d957b3aa0b7546a61a9e0bdd550d561bdcd420c90f5b43adaf90348"
+    },
+    "boundaries": {
+      "file": "12_Texas_boundaries.png",
+      "sha256": "eb8a838f5e5cd23bfddadbc146faf06303d8c298a3a25701c82f6cc5439fb1c3"
+    },
+    "preview": {
+      "file": "12_Texas_preview.png",
+      "sha256": "2ce4ee9b76ede4d16a0fd8dbaa2bb32c34322a072294a92264372246d8ffa379"
+    }
+  }
+}

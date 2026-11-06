@@ -1,0 +1,13 @@
+{
+  "game": "msusa",
+  "index": 18,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "lookup": "00:1f08",
+  "method": "Original ROM with source planes/resource pointer; corners, seeded random points and transition neighbors per unique cell, plus 132 full-map samples.",
+  "unique_cells": 195,
+  "samples": 3846,
+  "elapsed_seconds": 1.682,
+  "complete_sample_set": true,
+  "resource_offset": 597888,
+  "limits": "Sampled point-lookup equivalence, not exhaustive per-pixel emulation or terrain behavior/reachability validation."
+}

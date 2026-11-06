@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 10,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Jolly Roger Ramps",
+  "width": 2112,
+  "height": 1376,
+  "resource_offset": 565618,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 277480,
+    "1": 2628632
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "15_Jolly_Roger_Ramps_codes.png",
+      "sha256": "fa65b4cb72ce042c2db5137dfee085724a790b284ee9f252fa5243bcca0f4920"
+    },
+    "regions": {
+      "file": "15_Jolly_Roger_Ramps_regions.png",
+      "sha256": "c99a542e36e5c74e49ec87877d0fef99e8aba573d19175f72c74c7ee02cf090f"
+    },
+    "boundaries": {
+      "file": "15_Jolly_Roger_Ramps_boundaries.png",
+      "sha256": "3810750d593f7f974b2586610118a81779c257f27a98e25b73383e2286928ca2"
+    },
+    "preview": {
+      "file": "15_Jolly_Roger_Ramps_preview.png",
+      "sha256": "e904cccb7e5ade1dd04fff5f5207cc1fa0f50240d50330db21d3d1fe3bf501cf"
+    }
+  }
+}

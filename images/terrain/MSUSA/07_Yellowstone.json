@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 18,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Yellowstone",
+  "width": 2400,
+  "height": 2336,
+  "resource_offset": 597888,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 1023864,
+    "1": 4582536
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "07_Yellowstone_codes.png",
+      "sha256": "0f622bcc841a39507809f97e730a26cbe4a5c31cd523c4cc774b4e54cc8fb2e5"
+    },
+    "regions": {
+      "file": "07_Yellowstone_regions.png",
+      "sha256": "50868c2f4de50a9b9d1188ab12b569ba83b6b3c56cd781b3663beffdaad387a5"
+    },
+    "boundaries": {
+      "file": "07_Yellowstone_boundaries.png",
+      "sha256": "c7f193008e5851132a1e54ed5af309d2f8121d7368b3e69a45687c49db5796db"
+    },
+    "preview": {
+      "file": "07_Yellowstone_preview.png",
+      "sha256": "4c2d301b810890479d5eb13b85fe12571e5f102715a26c78fdcf1678d98c44ca"
+    }
+  }
+}

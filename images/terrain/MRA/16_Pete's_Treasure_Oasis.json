@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 12,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Pete's Treasure Oasis",
+  "width": 2368,
+  "height": 1920,
+  "resource_offset": 576080,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 551930,
+    "1": 3994630
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "16_Pete's_Treasure_Oasis_codes.png",
+      "sha256": "937f4c2b90b587bec666faa866a24e380906c18cd536f7695f7c59d627d8cd3e"
+    },
+    "regions": {
+      "file": "16_Pete's_Treasure_Oasis_regions.png",
+      "sha256": "60f0cbafbda2170f1d5d400e0d1727968a4afccfe7471bf9b4c10b7202999363"
+    },
+    "boundaries": {
+      "file": "16_Pete's_Treasure_Oasis_boundaries.png",
+      "sha256": "51cf03d7012939b2c4663941e6116a9285a49f691526a1adfc85b7b5384a6eaf"
+    },
+    "preview": {
+      "file": "16_Pete's_Treasure_Oasis_preview.png",
+      "sha256": "9b5808acce10738585571ea69778a44dcd1279929925aa59e1dc224304f5ca6b"
+    }
+  }
+}

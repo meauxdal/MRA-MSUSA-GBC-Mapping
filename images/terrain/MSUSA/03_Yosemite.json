@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 10,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Yosemite",
+  "width": 1888,
+  "height": 2240,
+  "resource_offset": 567424,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 1360276,
+    "1": 2868844
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "03_Yosemite_codes.png",
+      "sha256": "e4840a8bc72ab439b79232222e960b5ab699b9e48a5f9fcaaa27e745969081b8"
+    },
+    "regions": {
+      "file": "03_Yosemite_regions.png",
+      "sha256": "1efee232de2497f7b430668aaf724c12ced58a56876548a7d0e50ee18eca5f76"
+    },
+    "boundaries": {
+      "file": "03_Yosemite_boundaries.png",
+      "sha256": "b2375a4229779de55851f9c37e8494eabae209bd32ecab97e899f64448c5cb42"
+    },
+    "preview": {
+      "file": "03_Yosemite_preview.png",
+      "sha256": "816a41cbb01af7bbfa6d00a34ad41561c595414dafb27480a43ee173a42cb01c"
+    }
+  }
+}

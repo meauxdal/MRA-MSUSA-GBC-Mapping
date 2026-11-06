@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 14,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Pete's Dessert Disaster",
+  "width": 3776,
+  "height": 1984,
+  "resource_offset": 540672,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 424092,
+    "1": 7067492
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "12_Pete's_Dessert_Disaster_codes.png",
+      "sha256": "a3a8756f4dc078bffecdf20438958c61fa53a9055201b8c0ed4c4214cbb096cf"
+    },
+    "regions": {
+      "file": "12_Pete's_Dessert_Disaster_regions.png",
+      "sha256": "93166e80e2824ce1e1072d3b90a9300b785f03441cbc747fe1ff1e403bd8dbf0"
+    },
+    "boundaries": {
+      "file": "12_Pete's_Dessert_Disaster_boundaries.png",
+      "sha256": "f6f11366826161f447489cc87615aabf839c9c8b764e78c2ccee57f6a999f132"
+    },
+    "preview": {
+      "file": "12_Pete's_Dessert_Disaster_preview.png",
+      "sha256": "fa28da6dc54da2e882c18d20eeefd1973184cf3af09117c07496454c7a7b221d"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "game": "mra",
+  "index": 3,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Drawbridge Derby",
+  "width": 2208,
+  "height": 1984,
+  "resource_offset": 547200,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 603852,
+    "1": 3769652,
+    "2": 7168
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "02_Drawbridge_Derby_codes.png",
+      "sha256": "11c081bd62cee4d6eb46bd7d183213a3327d582889640cb9abc32205cb42cc23"
+    },
+    "regions": {
+      "file": "02_Drawbridge_Derby_regions.png",
+      "sha256": "76d557ebbef4f5e62263d8b709ded1a609b6be9e0a7247922c8b6be3ec9a48d6"
+    },
+    "boundaries": {
+      "file": "02_Drawbridge_Derby_boundaries.png",
+      "sha256": "4db6ffbef38a850b7e7f9afcde04624b677b34301301a5c8577ed2f90020e291"
+    },
+    "preview": {
+      "file": "02_Drawbridge_Derby_preview.png",
+      "sha256": "8c4c9ae69eb0123855168bbe0d54b5e4e48ed9ac66e284eae4549afd47ca3e8c"
+    }
+  }
+}

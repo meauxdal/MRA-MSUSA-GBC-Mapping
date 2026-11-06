@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 11,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Boston",
+  "width": 3136,
+  "height": 1856,
+  "resource_offset": 557056,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 1421486,
+    "1": 4398930
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "16_Boston_codes.png",
+      "sha256": "e4579a02dff71bfabbd1c1506d5a583ecef13b4138a8145b86c36ddb938717b9"
+    },
+    "regions": {
+      "file": "16_Boston_regions.png",
+      "sha256": "ad4bd1b24fb17a54195c782b79fd39c899ae624e301d4bf5b0c62e9f0dce3eba"
+    },
+    "boundaries": {
+      "file": "16_Boston_boundaries.png",
+      "sha256": "23456eda10624abfce3380b035626c92a6395ef5c743ee48123be07d66b86f97"
+    },
+    "preview": {
+      "file": "16_Boston_preview.png",
+      "sha256": "8567b2417b0ce01eb51817bbc7d688c426b7744b3b1e52dbbb6d25d7caa4f26d"
+    }
+  }
+}

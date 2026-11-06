@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 11,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Ludwig Von Drake's Test Track",
+  "width": 1856,
+  "height": 1568,
+  "resource_offset": 573440,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 517362,
+    "1": 2392846
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "21_Ludwig_Von_Drake's_Test_Track_codes.png",
+      "sha256": "02a88f01ef76437ca0757e56d2d25d0d71f6019d303de4806d1f5af6910395f9"
+    },
+    "regions": {
+      "file": "21_Ludwig_Von_Drake's_Test_Track_regions.png",
+      "sha256": "cbc3318a274f5806de92f7debec4c877d337305fcd2f32671f9baf64a66d8919"
+    },
+    "boundaries": {
+      "file": "21_Ludwig_Von_Drake's_Test_Track_boundaries.png",
+      "sha256": "6a13087a62bc89b158405229e623f314fcfcaf54cef4259e4dc3466312136820"
+    },
+    "preview": {
+      "file": "21_Ludwig_Von_Drake's_Test_Track_preview.png",
+      "sha256": "1822967a935c038a7babf3f517aba72eaf70aea3e42c854bcbd40127e51dac0b"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 5,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Raceway",
+  "width": 2368,
+  "height": 1056,
+  "resource_offset": 549666,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 372700,
+    "1": 2127908
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "09_Raceway_codes.png",
+      "sha256": "7a9ad089b1572db9e39cf2aff6d270b617ff722c5b49c1f9fe780d109b3f6fed"
+    },
+    "regions": {
+      "file": "09_Raceway_regions.png",
+      "sha256": "e4de84d17eecae91caea821afc9568f3c1212ba49f538e84d2c32ee265ae2c6a"
+    },
+    "boundaries": {
+      "file": "09_Raceway_boundaries.png",
+      "sha256": "3bcf7abc7c8a4e1a114e3c2c7555a37a8a78f171d931a02dc8b6799765ec78e8"
+    },
+    "preview": {
+      "file": "09_Raceway_preview.png",
+      "sha256": "b0fb2c87e84f57e08e17eae2baba8e719e6afa4c77c31add58b3a444c94b40f8"
+    }
+  }
+}

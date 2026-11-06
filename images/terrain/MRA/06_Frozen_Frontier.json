@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 16,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Frozen Frontier",
+  "width": 2304,
+  "height": 1376,
+  "resource_offset": 584018,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 453405,
+    "1": 2716899
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "06_Frozen_Frontier_codes.png",
+      "sha256": "ddcefb2af3f39d06d6db12ab33ecac377c69811acf4d783698426a954d61f281"
+    },
+    "regions": {
+      "file": "06_Frozen_Frontier_regions.png",
+      "sha256": "d910153a1aed0f6618867e240526112f1cf9b92fe8e055c78d9e19a00224192c"
+    },
+    "boundaries": {
+      "file": "06_Frozen_Frontier_boundaries.png",
+      "sha256": "b24628e9d56b7a564f759a89841aa01c4d2a1130a0df3da033f47bf703f3a723"
+    },
+    "preview": {
+      "file": "06_Frozen_Frontier_preview.png",
+      "sha256": "f47fcd0552dcb4e3e5fb966515d08136ad31cbbb708f5d823f71bb08fc12742c"
+    }
+  }
+}

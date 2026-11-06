@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 6,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Crazy Curves",
+  "width": 2240,
+  "height": 1568,
+  "resource_offset": 557056,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 539610,
+    "1": 2972710
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "10_Crazy_Curves_codes.png",
+      "sha256": "89703755c333a838c9dbca90b63454bebb751fcbf6c68af901f7f1cbf776444c"
+    },
+    "regions": {
+      "file": "10_Crazy_Curves_regions.png",
+      "sha256": "4ccc5f63079bfad2c34249250842b3592c4faf97657a8a948230c7b13b2bed10"
+    },
+    "boundaries": {
+      "file": "10_Crazy_Curves_boundaries.png",
+      "sha256": "1647f247144410cfd52836721942e48eea5933dbd7030cc6208db5888cf00227"
+    },
+    "preview": {
+      "file": "10_Crazy_Curves_preview.png",
+      "sha256": "a857ad8ca07063a211982291a2b0f0d983bb4e4408900e42a5845d484e084cfa"
+    }
+  }
+}

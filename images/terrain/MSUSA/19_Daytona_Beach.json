@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 8,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Daytona Beach",
+  "width": 1568,
+  "height": 1856,
+  "resource_offset": 581870,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 845414,
+    "1": 2064794
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "19_Daytona_Beach_codes.png",
+      "sha256": "a04c28251f9179f81ba0bc7466534b504168ee8904b6fa54c2b68da5576c0345"
+    },
+    "regions": {
+      "file": "19_Daytona_Beach_regions.png",
+      "sha256": "a43aa550377923ffc0fc9ccf75cfb913f6d83592ef7577a28621dc426ff38f4a"
+    },
+    "boundaries": {
+      "file": "19_Daytona_Beach_boundaries.png",
+      "sha256": "345ddd52030ad136571487bd0a36ea9ce9057a2e576e6fb75307ca0419c21c73"
+    },
+    "preview": {
+      "file": "19_Daytona_Beach_preview.png",
+      "sha256": "39e5444ebfb14f42e4f7e9696fe7a7bffad2e4bef486e90263d48e46ca7e315f"
+    }
+  }
+}

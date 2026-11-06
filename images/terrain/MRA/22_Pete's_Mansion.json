@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 19,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Pete's Mansion",
+  "width": 1600,
+  "height": 1344,
+  "resource_offset": 595968,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 1276096,
+    "1": 874304
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "22_Pete's_Mansion_codes.png",
+      "sha256": "cba502a9b7abe7f066dfb1dbdfcb9257898628f9fb3a2ed77a7e3c6ffab41624"
+    },
+    "regions": {
+      "file": "22_Pete's_Mansion_regions.png",
+      "sha256": "b1c072061ac71d7cd9bfd582e840b65f46d9fa0d5e50e1def2a4b774e70fa1a7"
+    },
+    "boundaries": {
+      "file": "22_Pete's_Mansion_boundaries.png",
+      "sha256": "815d18ca7c1ea1b72b206acfb2c45b5de300891e3045583c124f2b6f5ce0eb01"
+    },
+    "preview": {
+      "file": "22_Pete's_Mansion_preview.png",
+      "sha256": "38c6f9898a68fb47eed8729918ac808073cc8bc2f1e3b01dd3b82487f6dc0e83"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "game": "mra",
+  "index": 22,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "lookup": "00:2308",
+  "method": "Original ROM with source planes/resource pointer; corners, seeded random points and transition neighbors per unique cell, plus 132 full-map samples.",
+  "unique_cells": 346,
+  "samples": 6682,
+  "elapsed_seconds": 3.123,
+  "complete_sample_set": true,
+  "resource_offset": 592896,
+  "limits": "Sampled point-lookup equivalence, not exhaustive per-pixel emulation or terrain behavior/reachability validation."
+}

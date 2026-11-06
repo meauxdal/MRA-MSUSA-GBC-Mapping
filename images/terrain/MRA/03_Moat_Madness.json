@@ -1,0 +1,34 @@
+{
+  "game": "mra",
+  "index": 1,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Moat Madness",
+  "width": 2368,
+  "height": 1952,
+  "resource_offset": 543366,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 392290,
+    "1": 4207550,
+    "2": 22496
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "03_Moat_Madness_codes.png",
+      "sha256": "9b210abc539122bd0ee77ff15ab0264611b959c5a7e65370f7dff6275b1c185c"
+    },
+    "regions": {
+      "file": "03_Moat_Madness_regions.png",
+      "sha256": "acf2922b39f8c8c21998eae6f0be633cf4193e97fa9f89772b9418a32b819e4c"
+    },
+    "boundaries": {
+      "file": "03_Moat_Madness_boundaries.png",
+      "sha256": "0efd5e84b6ad51538e435ca6c7b6ce5ae684dae9b8d0f325adb712831d7cd600"
+    },
+    "preview": {
+      "file": "03_Moat_Madness_preview.png",
+      "sha256": "bb01cee7e8d048e9d46cfcfffd3f7ae57c8987d8c1ab72dece241be8d81bb9b1"
+    }
+  }
+}

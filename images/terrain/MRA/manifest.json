@@ -1,0 +1,734 @@
+[
+  {
+    "game": "mra",
+    "index": 0,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Doughnut Derby",
+    "width": 2304,
+    "height": 1536,
+    "resource_offset": 540672,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 419167,
+      "1": 3119777
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "11_Doughnut_Derby_codes.png",
+        "sha256": "3c81a46c4348c10cdad81cb7cc727d1b9036b5309a63d9fed459d2bab3ec3162"
+      },
+      "regions": {
+        "file": "11_Doughnut_Derby_regions.png",
+        "sha256": "2bf81af1b4ebdddb35d0598f29fae79a7faffb8e3e0b81c96894baaa6e987693"
+      },
+      "boundaries": {
+        "file": "11_Doughnut_Derby_boundaries.png",
+        "sha256": "6b279c1bfc458575e6485a14bb08e45dfef6cb6f339858f8c3f9b667c37d8e72"
+      },
+      "preview": {
+        "file": "11_Doughnut_Derby_preview.png",
+        "sha256": "8ba1badf1e47e799bb53e7ee850f39343d497c8d3d992de73adbd398c6dd3002"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 1,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Moat Madness",
+    "width": 2368,
+    "height": 1952,
+    "resource_offset": 543366,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 392290,
+      "1": 4207550,
+      "2": 22496
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "03_Moat_Madness_codes.png",
+        "sha256": "9b210abc539122bd0ee77ff15ab0264611b959c5a7e65370f7dff6275b1c185c"
+      },
+      "regions": {
+        "file": "03_Moat_Madness_regions.png",
+        "sha256": "acf2922b39f8c8c21998eae6f0be633cf4193e97fa9f89772b9418a32b819e4c"
+      },
+      "boundaries": {
+        "file": "03_Moat_Madness_boundaries.png",
+        "sha256": "0efd5e84b6ad51538e435ca6c7b6ce5ae684dae9b8d0f325adb712831d7cd600"
+      },
+      "preview": {
+        "file": "03_Moat_Madness_preview.png",
+        "sha256": "bb01cee7e8d048e9d46cfcfffd3f7ae57c8987d8c1ab72dece241be8d81bb9b1"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 2,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Round Table Trouble",
+    "width": 2112,
+    "height": 1248,
+    "resource_offset": 545664,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 430156,
+      "1": 2205620
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "01_Round_Table_Trouble_codes.png",
+        "sha256": "0c922cf5f1900c280f1de66e3eff8d4c2992606d6baaa6e3a749a2618903f8b4"
+      },
+      "regions": {
+        "file": "01_Round_Table_Trouble_regions.png",
+        "sha256": "92e99910b58e37314f9d8b20fd6c4c43f36d48f76f45ae22ad64b5d53857601b"
+      },
+      "boundaries": {
+        "file": "01_Round_Table_Trouble_boundaries.png",
+        "sha256": "496c71978a6fc4eb468ec3eafbda2412e6fc1b1131395146a7c1b738bd329b45"
+      },
+      "preview": {
+        "file": "01_Round_Table_Trouble_preview.png",
+        "sha256": "2f71fc0372305bf9e431e1addeab64edd95a487b726c9ead704b82af3f94cd05"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 3,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Drawbridge Derby",
+    "width": 2208,
+    "height": 1984,
+    "resource_offset": 547200,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 603852,
+      "1": 3769652,
+      "2": 7168
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "02_Drawbridge_Derby_codes.png",
+        "sha256": "11c081bd62cee4d6eb46bd7d183213a3327d582889640cb9abc32205cb42cc23"
+      },
+      "regions": {
+        "file": "02_Drawbridge_Derby_regions.png",
+        "sha256": "76d557ebbef4f5e62263d8b709ded1a609b6be9e0a7247922c8b6be3ec9a48d6"
+      },
+      "boundaries": {
+        "file": "02_Drawbridge_Derby_boundaries.png",
+        "sha256": "4db6ffbef38a850b7e7f9afcde04624b677b34301301a5c8577ed2f90020e291"
+      },
+      "preview": {
+        "file": "02_Drawbridge_Derby_preview.png",
+        "sha256": "8c4c9ae69eb0123855168bbe0d54b5e4e48ed9ac66e284eae4549afd47ca3e8c"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 4,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Pete's Dungeon",
+    "width": 2912,
+    "height": 1664,
+    "resource_offset": 552474,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 356272,
+      "1": 4489296
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "04_Pete's_Dungeon_codes.png",
+        "sha256": "a259c786f14beb7ed2346670389bfeb29ff26e27aa3e99052f6fd3fe78fbd018"
+      },
+      "regions": {
+        "file": "04_Pete's_Dungeon_regions.png",
+        "sha256": "28bb61a7a14fa5198d78f2ec38b08d271018c050ff4d5dc3d87aaf17cff7baf5"
+      },
+      "boundaries": {
+        "file": "04_Pete's_Dungeon_boundaries.png",
+        "sha256": "0bb6c5b44c93f265b868de7657f51cb21c16810e2deac206075da62bc492487b"
+      },
+      "preview": {
+        "file": "04_Pete's_Dungeon_preview.png",
+        "sha256": "55a35befdc763e2ef668917e065c9f120efd60a19186d987c3ff80ad0b0bf2e0"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 5,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Raceway",
+    "width": 2368,
+    "height": 1056,
+    "resource_offset": 549666,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 372700,
+      "1": 2127908
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "09_Raceway_codes.png",
+        "sha256": "7a9ad089b1572db9e39cf2aff6d270b617ff722c5b49c1f9fe780d109b3f6fed"
+      },
+      "regions": {
+        "file": "09_Raceway_regions.png",
+        "sha256": "e4de84d17eecae91caea821afc9568f3c1212ba49f538e84d2c32ee265ae2c6a"
+      },
+      "boundaries": {
+        "file": "09_Raceway_boundaries.png",
+        "sha256": "3bcf7abc7c8a4e1a114e3c2c7555a37a8a78f171d931a02dc8b6799765ec78e8"
+      },
+      "preview": {
+        "file": "09_Raceway_preview.png",
+        "sha256": "b0fb2c87e84f57e08e17eae2baba8e719e6afa4c77c31add58b3a444c94b40f8"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 6,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Crazy Curves",
+    "width": 2240,
+    "height": 1568,
+    "resource_offset": 557056,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 539610,
+      "1": 2972710
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "10_Crazy_Curves_codes.png",
+        "sha256": "89703755c333a838c9dbca90b63454bebb751fcbf6c68af901f7f1cbf776444c"
+      },
+      "regions": {
+        "file": "10_Crazy_Curves_regions.png",
+        "sha256": "4ccc5f63079bfad2c34249250842b3592c4faf97657a8a948230c7b13b2bed10"
+      },
+      "boundaries": {
+        "file": "10_Crazy_Curves_boundaries.png",
+        "sha256": "1647f247144410cfd52836721942e48eea5933dbd7030cc6208db5888cf00227"
+      },
+      "preview": {
+        "file": "10_Crazy_Curves_preview.png",
+        "sha256": "a857ad8ca07063a211982291a2b0f0d983bb4e4408900e42a5845d484e084cfa"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 8,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Swashbuckling Sand Chase",
+    "width": 1888,
+    "height": 1504,
+    "resource_offset": 560116,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 378157,
+      "1": 2461395
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "13_Swashbuckling_Sand_Chase_codes.png",
+        "sha256": "cbe83bf2ce446b772a869659dc6c2d4db503be80d948a0748a8d46a5d2d1ddd4"
+      },
+      "regions": {
+        "file": "13_Swashbuckling_Sand_Chase_regions.png",
+        "sha256": "cfb646f856bb82c28b9d0d828322cef4b2b8559bf1a91f035d021cca5f559174"
+      },
+      "boundaries": {
+        "file": "13_Swashbuckling_Sand_Chase_boundaries.png",
+        "sha256": "12ebce6bb54f6dd21bb0a1a58a68765f69f8773cb562b4a43fdb20af7330f117"
+      },
+      "preview": {
+        "file": "13_Swashbuckling_Sand_Chase_preview.png",
+        "sha256": "7981db7fddd881dc7366d2025e8c49222c47785107aee0c966d61ae4782c1506"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 9,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Cutthroat Cove",
+    "width": 1888,
+    "height": 1280,
+    "resource_offset": 562972,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 323761,
+      "1": 2092879
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "14_Cutthroat_Cove_codes.png",
+        "sha256": "ac1bdd41a10cc38303b3c683901fea4a863fa2354147810be05a647b0bab307e"
+      },
+      "regions": {
+        "file": "14_Cutthroat_Cove_regions.png",
+        "sha256": "c17f2931ae77b45407c04868c5a3bcf2a7ca16298c3570e4452426b7b88e7920"
+      },
+      "boundaries": {
+        "file": "14_Cutthroat_Cove_boundaries.png",
+        "sha256": "8c60afa5598c5b09de87ec6d399942cde3633433b8f7d47a3c8d3d7034f4d4a2"
+      },
+      "preview": {
+        "file": "14_Cutthroat_Cove_preview.png",
+        "sha256": "a4d46f95afa30edd307b008bef30facb7668469bd2ba8b83015a48f6631302c0"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 10,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Jolly Roger Ramps",
+    "width": 2112,
+    "height": 1376,
+    "resource_offset": 565618,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 277480,
+      "1": 2628632
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "15_Jolly_Roger_Ramps_codes.png",
+        "sha256": "fa65b4cb72ce042c2db5137dfee085724a790b284ee9f252fa5243bcca0f4920"
+      },
+      "regions": {
+        "file": "15_Jolly_Roger_Ramps_regions.png",
+        "sha256": "c99a542e36e5c74e49ec87877d0fef99e8aba573d19175f72c74c7ee02cf090f"
+      },
+      "boundaries": {
+        "file": "15_Jolly_Roger_Ramps_boundaries.png",
+        "sha256": "3810750d593f7f974b2586610118a81779c257f27a98e25b73383e2286928ca2"
+      },
+      "preview": {
+        "file": "15_Jolly_Roger_Ramps_preview.png",
+        "sha256": "e904cccb7e5ade1dd04fff5f5207cc1fa0f50240d50330db21d3d1fe3bf501cf"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 11,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Ludwig Von Drake's Test Track",
+    "width": 1856,
+    "height": 1568,
+    "resource_offset": 573440,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 517362,
+      "1": 2392846
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "21_Ludwig_Von_Drake's_Test_Track_codes.png",
+        "sha256": "02a88f01ef76437ca0757e56d2d25d0d71f6019d303de4806d1f5af6910395f9"
+      },
+      "regions": {
+        "file": "21_Ludwig_Von_Drake's_Test_Track_regions.png",
+        "sha256": "cbc3318a274f5806de92f7debec4c877d337305fcd2f32671f9baf64a66d8919"
+      },
+      "boundaries": {
+        "file": "21_Ludwig_Von_Drake's_Test_Track_boundaries.png",
+        "sha256": "6a13087a62bc89b158405229e623f314fcfcaf54cef4259e4dc3466312136820"
+      },
+      "preview": {
+        "file": "21_Ludwig_Von_Drake's_Test_Track_preview.png",
+        "sha256": "1822967a935c038a7babf3f517aba72eaf70aea3e42c854bcbd40127e51dac0b"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 12,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Pete's Treasure Oasis",
+    "width": 2368,
+    "height": 1920,
+    "resource_offset": 576080,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 551930,
+      "1": 3994630
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "16_Pete's_Treasure_Oasis_codes.png",
+        "sha256": "937f4c2b90b587bec666faa866a24e380906c18cd536f7695f7c59d627d8cd3e"
+      },
+      "regions": {
+        "file": "16_Pete's_Treasure_Oasis_regions.png",
+        "sha256": "60f0cbafbda2170f1d5d400e0d1727968a4afccfe7471bf9b4c10b7202999363"
+      },
+      "boundaries": {
+        "file": "16_Pete's_Treasure_Oasis_boundaries.png",
+        "sha256": "51cf03d7012939b2c4663941e6116a9285a49f691526a1adfc85b7b5384a6eaf"
+      },
+      "preview": {
+        "file": "16_Pete's_Treasure_Oasis_preview.png",
+        "sha256": "9b5808acce10738585571ea69778a44dcd1279929925aa59e1dc224304f5ca6b"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 13,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Pioneer Prairie",
+    "width": 1952,
+    "height": 1440,
+    "resource_offset": 578768,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 382966,
+      "1": 2427914
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "05_Pioneer_Prairie_codes.png",
+        "sha256": "8022172b4c3777f4713ff8d9686711d0d4b6daadb034e1224f138f4dea5da898"
+      },
+      "regions": {
+        "file": "05_Pioneer_Prairie_regions.png",
+        "sha256": "7aad78c3be9716bd7741b57aae00f0a226669d70b3d23c95b3f86311ad313bba"
+      },
+      "boundaries": {
+        "file": "05_Pioneer_Prairie_boundaries.png",
+        "sha256": "0bd8dd9c83244981dab7d39414d26d43f410c21678721084934e18276f3db66f"
+      },
+      "preview": {
+        "file": "05_Pioneer_Prairie_preview.png",
+        "sha256": "352191c6c4673e02169eac879519b31d49a10d9781bc232d9186e48fd6ee396e"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 14,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Pete's Dessert Disaster",
+    "width": 3776,
+    "height": 1984,
+    "resource_offset": 540672,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 424092,
+      "1": 7067492
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "12_Pete's_Dessert_Disaster_codes.png",
+        "sha256": "a3a8756f4dc078bffecdf20438958c61fa53a9055201b8c0ed4c4214cbb096cf"
+      },
+      "regions": {
+        "file": "12_Pete's_Dessert_Disaster_regions.png",
+        "sha256": "93166e80e2824ce1e1072d3b90a9300b785f03441cbc747fe1ff1e403bd8dbf0"
+      },
+      "boundaries": {
+        "file": "12_Pete's_Dessert_Disaster_boundaries.png",
+        "sha256": "f6f11366826161f447489cc87615aabf839c9c8b764e78c2ccee57f6a999f132"
+      },
+      "preview": {
+        "file": "12_Pete's_Dessert_Disaster_preview.png",
+        "sha256": "fa28da6dc54da2e882c18d20eeefd1973184cf3af09117c07496454c7a7b221d"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 15,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "River Ruckus",
+    "width": 2560,
+    "height": 1888,
+    "resource_offset": 581330,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 514924,
+      "1": 4318356
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "07_River_Ruckus_codes.png",
+        "sha256": "2e3c5378784899222da4a2ccda922a86c3c723cea93a99c099dc476dad033ee5"
+      },
+      "regions": {
+        "file": "07_River_Ruckus_regions.png",
+        "sha256": "bfd95c598e00925fd5cc0a4e2a01782e9c01c1eff8ad19d76cc339122e41d353"
+      },
+      "boundaries": {
+        "file": "07_River_Ruckus_boundaries.png",
+        "sha256": "9030a2491de3019fa9bf1a0b4803980f574a13adcdfd3601d763d9cba01e8f43"
+      },
+      "preview": {
+        "file": "07_River_Ruckus_preview.png",
+        "sha256": "b82fe08754bcf417e52169a1e8c2e617fdf8d0d0eb7e225b7f17479860bb5df1"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 16,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Frozen Frontier",
+    "width": 2304,
+    "height": 1376,
+    "resource_offset": 584018,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 453405,
+      "1": 2716899
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "06_Frozen_Frontier_codes.png",
+        "sha256": "ddcefb2af3f39d06d6db12ab33ecac377c69811acf4d783698426a954d61f281"
+      },
+      "regions": {
+        "file": "06_Frozen_Frontier_regions.png",
+        "sha256": "d910153a1aed0f6618867e240526112f1cf9b92fe8e055c78d9e19a00224192c"
+      },
+      "boundaries": {
+        "file": "06_Frozen_Frontier_boundaries.png",
+        "sha256": "b24628e9d56b7a564f759a89841aa01c4d2a1130a0df3da033f47bf703f3a723"
+      },
+      "preview": {
+        "file": "06_Frozen_Frontier_preview.png",
+        "sha256": "f47fcd0552dcb4e3e5fb966515d08136ad31cbbb708f5d823f71bb08fc12742c"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 17,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Pete's Hunting Hideout",
+    "width": 1728,
+    "height": 1664,
+    "resource_offset": 600384,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 304800,
+      "1": 2551552,
+      "2": 12048,
+      "3": 6992
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "08_Pete's_Hunting_Hideout_codes.png",
+        "sha256": "4067a08fac6e0cd61e21d9305891f6be409e7f4a4a841582b2c33927688f13f4"
+      },
+      "regions": {
+        "file": "08_Pete's_Hunting_Hideout_regions.png",
+        "sha256": "6d16100e9de15ae0139be54377a2a77456b458d1cdb5cd56b88dd83b8c005348"
+      },
+      "boundaries": {
+        "file": "08_Pete's_Hunting_Hideout_boundaries.png",
+        "sha256": "eebad54b69d59130701acda0b81c2059c71ac4731f625d0268e41bc0a6dac4bc"
+      },
+      "preview": {
+        "file": "08_Pete's_Hunting_Hideout_preview.png",
+        "sha256": "247ae26581e8657c6a821c16da782cbd9919a08404cab00f68e4262633e7ba19"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 18,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Pete's Big Top Showdown",
+    "width": 2496,
+    "height": 1792,
+    "resource_offset": 598350,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 421120,
+      "1": 4051712
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "20_Pete's_Big_Top_Showdown_codes.png",
+        "sha256": "80f7f652080c719693401fa39a2f8183beb1c801bc3a93bfb618653e68e3fe18"
+      },
+      "regions": {
+        "file": "20_Pete's_Big_Top_Showdown_regions.png",
+        "sha256": "a5a514e87b7a63639436bbf87b8bf20d6a6ef986f6d4ee255b9abd6404992ab7"
+      },
+      "boundaries": {
+        "file": "20_Pete's_Big_Top_Showdown_boundaries.png",
+        "sha256": "e911c3af9bc22fdc0cd35f08b28bf50f0627cb457c6667e5dd7c9aa2857cfe34"
+      },
+      "preview": {
+        "file": "20_Pete's_Big_Top_Showdown_preview.png",
+        "sha256": "203c7825a9c4004e87badd1fb0d8904622c1cc9030991cd141973e730eab6e73"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 19,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Pete's Mansion",
+    "width": 1600,
+    "height": 1344,
+    "resource_offset": 595968,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 1276096,
+      "1": 874304
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "22_Pete's_Mansion_codes.png",
+        "sha256": "cba502a9b7abe7f066dfb1dbdfcb9257898628f9fb3a2ed77a7e3c6ffab41624"
+      },
+      "regions": {
+        "file": "22_Pete's_Mansion_regions.png",
+        "sha256": "b1c072061ac71d7cd9bfd582e840b65f46d9fa0d5e50e1def2a4b774e70fa1a7"
+      },
+      "boundaries": {
+        "file": "22_Pete's_Mansion_boundaries.png",
+        "sha256": "815d18ca7c1ea1b72b206acfb2c45b5de300891e3045583c124f2b6f5ce0eb01"
+      },
+      "preview": {
+        "file": "22_Pete's_Mansion_preview.png",
+        "sha256": "38c6f9898a68fb47eed8729918ac808073cc8bc2f1e3b01dd3b82487f6dc0e83"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 20,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Roller Coaster Roadway",
+    "width": 1824,
+    "height": 1600,
+    "resource_offset": 586700,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 487456,
+      "1": 2430944
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "17_Roller_Coaster_Roadway_codes.png",
+        "sha256": "8eac11f889a8364491b767a0d9152826218b5264224efd5d32ed5970d6119573"
+      },
+      "regions": {
+        "file": "17_Roller_Coaster_Roadway_regions.png",
+        "sha256": "0ffe4bfd21b69b3a164d49f960c6c7cac15d4fea24acefe0cb3ad041a552c06f"
+      },
+      "boundaries": {
+        "file": "17_Roller_Coaster_Roadway_boundaries.png",
+        "sha256": "5a52d3024a879e10d5f18123be87e1762ee4072e7edd472b4f25b28f43293388"
+      },
+      "preview": {
+        "file": "17_Roller_Coaster_Roadway_preview.png",
+        "sha256": "f1640b351e5746d8ed3b3a945dc51e22473c5a9d46af795aa2eba8ac690d081a"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 21,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Really Rapid Rapids",
+    "width": 1856,
+    "height": 1728,
+    "resource_offset": 589824,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 445652,
+      "1": 2735758,
+      "2": 25758
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "18_Really_Rapid_Rapids_codes.png",
+        "sha256": "f6071fb3011fa6c0e794f765bb56e6e01ed42e50861ca76188f90d130ef1478f"
+      },
+      "regions": {
+        "file": "18_Really_Rapid_Rapids_regions.png",
+        "sha256": "667aeb6cc6610447dc6dc044c12aea4017ff9b661424bdc78ef432e133a55a4f"
+      },
+      "boundaries": {
+        "file": "18_Really_Rapid_Rapids_boundaries.png",
+        "sha256": "19bddb628484b1bc0e05ce2f5317fb498391b07c92be2e827098a5ef926efc31"
+      },
+      "preview": {
+        "file": "18_Really_Rapid_Rapids_preview.png",
+        "sha256": "428efbeb37544ba6a563d27e7f0cac24d7ef48db1fc63f99ded531861b15ca85"
+      }
+    }
+  },
+  {
+    "game": "mra",
+    "index": 22,
+    "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+    "name": "Fairground Follies",
+    "width": 1504,
+    "height": 2016,
+    "resource_offset": 592896,
+    "lookup": "00:2308",
+    "codes": {
+      "0": 470544,
+      "1": 2551248,
+      "2": 10272
+    },
+    "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+    "files": {
+      "codes": {
+        "file": "19_Fairground_Follies_codes.png",
+        "sha256": "096c8a4f892145043d2d66e1494874690cd5ad0bbaabd8f2d4b62ee9f458babd"
+      },
+      "regions": {
+        "file": "19_Fairground_Follies_regions.png",
+        "sha256": "a5654d078ba1c584b76a30c7f5422023cb1069e2a247b112779b7356cb4edc28"
+      },
+      "boundaries": {
+        "file": "19_Fairground_Follies_boundaries.png",
+        "sha256": "bd299b1cca100c5e3af220bfd1cd745b3b10f55d6fec05b11b73adb9034224b8"
+      },
+      "preview": {
+        "file": "19_Fairground_Follies_preview.png",
+        "sha256": "58e5c5a7c952df07d464463345ebd728556cfc60e276650cce93bc6dfcc598ca"
+      }
+    }
+  }
+]

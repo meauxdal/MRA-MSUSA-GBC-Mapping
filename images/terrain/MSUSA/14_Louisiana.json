@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 5,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Louisiana",
+  "width": 1600,
+  "height": 1952,
+  "resource_offset": 551424,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 400308,
+    "1": 2722892
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "14_Louisiana_codes.png",
+      "sha256": "7b0eaa4a894e0ff44870db3b94818f89f66d3d6cdfdc66242b61827d4758f096"
+    },
+    "regions": {
+      "file": "14_Louisiana_regions.png",
+      "sha256": "b4e54f3da6a20152aa8559b2b75cf914899191fba52c64f69a6148e8be28a3f8"
+    },
+    "boundaries": {
+      "file": "14_Louisiana_boundaries.png",
+      "sha256": "b39eaa220b5adb8f40c864da9dd74faa5c21e445f62223f50041d0dc0f5e2407"
+    },
+    "preview": {
+      "file": "14_Louisiana_preview.png",
+      "sha256": "feec12a9758be540c02647a317e903571974d8186d1b2216f5f017eb747c22b6"
+    }
+  }
+}

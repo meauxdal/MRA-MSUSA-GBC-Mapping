@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 12,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Florida Everglades",
+  "width": 2176,
+  "height": 2272,
+  "resource_offset": 560128,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 675340,
+    "1": 4268532
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "18_Florida_Everglades_codes.png",
+      "sha256": "ae5ed917b5f5f4df6f3b8f801be94500f6666e0679907069ca2a3f88452624e6"
+    },
+    "regions": {
+      "file": "18_Florida_Everglades_regions.png",
+      "sha256": "3b1713be54a2954bd3a0764f19fcfa25d6088ed572f1a230713c5558babc32cb"
+    },
+    "boundaries": {
+      "file": "18_Florida_Everglades_boundaries.png",
+      "sha256": "a3383e2611dc4572ca361ea28fe7ecad48b3a657305522804a64802e188d206b"
+    },
+    "preview": {
+      "file": "18_Florida_Everglades_preview.png",
+      "sha256": "d50b08da941ec9843543bf00ffbcee109313c859b87ddfc6a8df049afc6c4f65"
+    }
+  }
+}

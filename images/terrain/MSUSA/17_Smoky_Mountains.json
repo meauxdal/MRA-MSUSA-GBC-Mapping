@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 9,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Smoky Mountains",
+  "width": 2464,
+  "height": 1984,
+  "resource_offset": 564736,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 2220527,
+    "1": 2668049
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "17_Smoky_Mountains_codes.png",
+      "sha256": "2d2b007740f6def2317d85cf0da95a822592a6f35efd1251f0c60bd4ffa4261c"
+    },
+    "regions": {
+      "file": "17_Smoky_Mountains_regions.png",
+      "sha256": "bfbfc1cf39fb24f3cd40e550aa88123391862da0f01a60d47c635f49abdf860f"
+    },
+    "boundaries": {
+      "file": "17_Smoky_Mountains_boundaries.png",
+      "sha256": "bac70d768651f3bd594083d09e7ec07299b6bc22a59a9a7a2c0c9972c3d8cee6"
+    },
+    "preview": {
+      "file": "17_Smoky_Mountains_preview.png",
+      "sha256": "016d0dc98f6a43001e2939d2c5f29ae45e4246b640556a1e30e067998f11ed7e"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "game": "mra",
+  "index": 17,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Pete's Hunting Hideout",
+  "width": 1728,
+  "height": 1664,
+  "resource_offset": 600384,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 304800,
+    "1": 2551552,
+    "2": 12048,
+    "3": 6992
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "08_Pete's_Hunting_Hideout_codes.png",
+      "sha256": "4067a08fac6e0cd61e21d9305891f6be409e7f4a4a841582b2c33927688f13f4"
+    },
+    "regions": {
+      "file": "08_Pete's_Hunting_Hideout_regions.png",
+      "sha256": "6d16100e9de15ae0139be54377a2a77456b458d1cdb5cd56b88dd83b8c005348"
+    },
+    "boundaries": {
+      "file": "08_Pete's_Hunting_Hideout_boundaries.png",
+      "sha256": "eebad54b69d59130701acda0b81c2059c71ac4731f625d0268e41bc0a6dac4bc"
+    },
+    "preview": {
+      "file": "08_Pete's_Hunting_Hideout_preview.png",
+      "sha256": "247ae26581e8657c6a821c16da782cbd9919a08404cab00f68e4262633e7ba19"
+    }
+  }
+}

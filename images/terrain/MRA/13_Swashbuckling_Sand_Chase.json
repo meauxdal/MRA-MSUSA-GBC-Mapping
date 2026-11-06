@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 8,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Swashbuckling Sand Chase",
+  "width": 1888,
+  "height": 1504,
+  "resource_offset": 560116,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 378157,
+    "1": 2461395
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "13_Swashbuckling_Sand_Chase_codes.png",
+      "sha256": "cbe83bf2ce446b772a869659dc6c2d4db503be80d948a0748a8d46a5d2d1ddd4"
+    },
+    "regions": {
+      "file": "13_Swashbuckling_Sand_Chase_regions.png",
+      "sha256": "cfb646f856bb82c28b9d0d828322cef4b2b8559bf1a91f035d021cca5f559174"
+    },
+    "boundaries": {
+      "file": "13_Swashbuckling_Sand_Chase_boundaries.png",
+      "sha256": "12ebce6bb54f6dd21bb0a1a58a68765f69f8773cb562b4a43fdb20af7330f117"
+    },
+    "preview": {
+      "file": "13_Swashbuckling_Sand_Chase_preview.png",
+      "sha256": "7981db7fddd881dc7366d2025e8c49222c47785107aee0c966d61ae4782c1506"
+    }
+  }
+}

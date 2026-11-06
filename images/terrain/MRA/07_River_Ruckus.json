@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 15,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "River Ruckus",
+  "width": 2560,
+  "height": 1888,
+  "resource_offset": 581330,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 514924,
+    "1": 4318356
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "07_River_Ruckus_codes.png",
+      "sha256": "2e3c5378784899222da4a2ccda922a86c3c723cea93a99c099dc476dad033ee5"
+    },
+    "regions": {
+      "file": "07_River_Ruckus_regions.png",
+      "sha256": "bfd95c598e00925fd5cc0a4e2a01782e9c01c1eff8ad19d76cc339122e41d353"
+    },
+    "boundaries": {
+      "file": "07_River_Ruckus_boundaries.png",
+      "sha256": "9030a2491de3019fa9bf1a0b4803980f574a13adcdfd3601d763d9cba01e8f43"
+    },
+    "preview": {
+      "file": "07_River_Ruckus_preview.png",
+      "sha256": "b82fe08754bcf417e52169a1e8c2e617fdf8d0d0eb7e225b7f17479860bb5df1"
+    }
+  }
+}

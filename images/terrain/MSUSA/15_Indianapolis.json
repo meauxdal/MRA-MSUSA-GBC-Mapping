@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 7,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Indianapolis",
+  "width": 1856,
+  "height": 1504,
+  "resource_offset": 578798,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 643866,
+    "1": 2147558
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "15_Indianapolis_codes.png",
+      "sha256": "bd121419d047d1a9ad7f19afeba0c7e3b2ecff02e2487ad8261b4fc3480dd445"
+    },
+    "regions": {
+      "file": "15_Indianapolis_regions.png",
+      "sha256": "68286331911ebeae2460b126c8b58d8150420222c6caa5e643069ad9c35019f3"
+    },
+    "boundaries": {
+      "file": "15_Indianapolis_boundaries.png",
+      "sha256": "71bc20d375e053eb9d1b019f2329b8b97b786309b995375b2ff104e10f57c29b"
+    },
+    "preview": {
+      "file": "15_Indianapolis_preview.png",
+      "sha256": "2b380ac9414c97e5b2d608a4c47072ad2051a2af1026898c699f4bfa80d60f07"
+    }
+  }
+}

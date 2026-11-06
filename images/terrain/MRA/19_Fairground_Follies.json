@@ -1,0 +1,34 @@
+{
+  "game": "mra",
+  "index": 22,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Fairground Follies",
+  "width": 1504,
+  "height": 2016,
+  "resource_offset": 592896,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 470544,
+    "1": 2551248,
+    "2": 10272
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "19_Fairground_Follies_codes.png",
+      "sha256": "096c8a4f892145043d2d66e1494874690cd5ad0bbaabd8f2d4b62ee9f458babd"
+    },
+    "regions": {
+      "file": "19_Fairground_Follies_regions.png",
+      "sha256": "a5654d078ba1c584b76a30c7f5422023cb1069e2a247b112779b7356cb4edc28"
+    },
+    "boundaries": {
+      "file": "19_Fairground_Follies_boundaries.png",
+      "sha256": "bd299b1cca100c5e3af220bfd1cd745b3b10f55d6fec05b11b73adb9034224b8"
+    },
+    "preview": {
+      "file": "19_Fairground_Follies_preview.png",
+      "sha256": "58e5c5a7c952df07d464463345ebd728556cfc60e276650cce93bc6dfcc598ca"
+    }
+  }
+}

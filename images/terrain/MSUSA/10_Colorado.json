@@ -1,0 +1,33 @@
+{
+  "game": "msusa",
+  "index": 14,
+  "rom_sha256": "9263a2138f5852177ea8a2436c6ddf6ec4ad41fc155d184b1773749533d6a470",
+  "name": "Colorado",
+  "width": 3104,
+  "height": 2240,
+  "resource_offset": 573440,
+  "lookup": "00:1f08",
+  "codes": {
+    "0": 1129046,
+    "1": 5823914
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "10_Colorado_codes.png",
+      "sha256": "cd9aba1e7fde8e5d7dc8c8f30e2c7571cf355c164b25f86ca3ead552ac970ca2"
+    },
+    "regions": {
+      "file": "10_Colorado_regions.png",
+      "sha256": "a047c31abc50f6131f5b1b1c6388155ea1e7ce112a45fae8ccd3fd4777b57f08"
+    },
+    "boundaries": {
+      "file": "10_Colorado_boundaries.png",
+      "sha256": "91a28f98f7f197799b0d464b688dd492cee503007a79bdfb6c4790ea7505799f"
+    },
+    "preview": {
+      "file": "10_Colorado_preview.png",
+      "sha256": "06a3a345144cf33c1ef4e79bc1a677be41b68b6d75fdff3d5cbfd12e5e6b043b"
+    }
+  }
+}

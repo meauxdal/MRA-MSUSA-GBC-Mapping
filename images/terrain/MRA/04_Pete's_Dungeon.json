@@ -1,0 +1,33 @@
+{
+  "game": "mra",
+  "index": 4,
+  "rom_sha256": "b289e0f55c6d3e8c230e2ccaa29f821e417e7a19e5b31d35b61c5f0516ccdca1",
+  "name": "Pete's Dungeon",
+  "width": 2912,
+  "height": 1664,
+  "resource_offset": 552474,
+  "lookup": "00:2308",
+  "codes": {
+    "0": 356272,
+    "1": 4489296
+  },
+  "limits": "Static integer-point terrain classes, not vehicle clearance, dynamic objects, camera bounds, or reachable-area proof. Numeric behavior labels are unverified.",
+  "files": {
+    "codes": {
+      "file": "04_Pete's_Dungeon_codes.png",
+      "sha256": "a259c786f14beb7ed2346670389bfeb29ff26e27aa3e99052f6fd3fe78fbd018"
+    },
+    "regions": {
+      "file": "04_Pete's_Dungeon_regions.png",
+      "sha256": "28bb61a7a14fa5198d78f2ec38b08d271018c050ff4d5dc3d87aaf17cff7baf5"
+    },
+    "boundaries": {
+      "file": "04_Pete's_Dungeon_boundaries.png",
+      "sha256": "0bb6c5b44c93f265b868de7657f51cb21c16810e2deac206075da62bc492487b"
+    },
+    "preview": {
+      "file": "04_Pete's_Dungeon_preview.png",
+      "sha256": "55a35befdc763e2ef668917e065c9f120efd60a19186d987c3ff80ad0b0bf2e0"
+    }
+  }
+}

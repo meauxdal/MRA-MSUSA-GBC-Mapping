@@ -33,7 +33,8 @@ matches the old PNG names using the map-plane offsets printed in the old grids.
 
 Selector 1 chooses the graphics descriptor, whose first byte is the metatile
 definition bank. Its next three bytes are an additional resource pointer (not
-used for the base-background raster). Its following two far pointers select
+used for the base-background raster; traced to MSUSA's terrain lookup below).
+Its following two far pointers select
 background tile graphics for VRAM banks 0 and 1. Each graphics resource begins
 with a block count; zero means 256. Each block is 16 bytes: one native 8×8,
 two-bitplane Game Boy tile. Selector 4 chooses a 64-byte RGB555 palette resource.
@@ -77,6 +78,102 @@ the `ce60=1` branch, which changes Nebraska's animation uploads. The gameplay
 meaning of that branch is not yet established; it is not silently applied to the
 default maps. Animation phase and game state still matter; a static map is not
 a complete representation of every frame or gameplay mode.
+
+### Complete animated course loops
+
+`tools/animations.py` hooks the original stream helpers to recover the stream
+table, destination tile range, frame source pointers, rate, and initial phase.
+Metadata is in `data/animation_sequences.json`; the `--special` run writes a
+separate `animation_sequences_special.json`. The helpers are MRA `1e:453e` /
+`1f:6578` and MSUSA `10:4407` / `11:7f95` / `17:48f9`.
+
+Each update adds an 8-bit rate to an 8-bit accumulator. Overflow increments the
+frame index modulo the stream's frame count and requests a tile upload. The
+period in updates is `256 * frame_count / gcd(rate, 256 * frame_count)`. The
+combined course period is the least common multiple of its stream periods.
+All recovered streams have disjoint destination ranges; overlapping streams
+are rejected because they would need ordered upload replay. The longest current
+combined period is 2,560 updates, about 42.86 seconds.
+
+Initialization calls MRA `1e:4045` or MSUSA `10:404b` for accumulator phases.
+MSUSA's animation workspace is cleared first: its initializer resets only nine
+frame-index bytes while Yellowstone uses twelve streams. Otherwise three indices
+inherit unrelated boot/menu RAM (observed `ee` in the isolated baseline). These
+exports use canonical frame-zero indices and ROM initializer accumulator phases,
+not that transient inherited state.
+
+Nominal timing is one update per 70,224-cycle display frame at 4,194,304 Hz,
+using the constants in the installed PyBoy runtime. This represents uninterrupted
+gameplay updates, not performance stalls, pauses, or MRA's scanline-gate skips.
+A live MSUSA Los Angeles check observed 172 updates in 180 display frames, with
+occasional two-frame gaps, so actual gameplay can run slower. These skips depend
+on gameplay workload and are not baked into a universal course GIF.
+
+`export_animations.py` rasterizes directly to palette indices (the 32 original
+background palette entries plus a transparent index). It updates only affected
+tiles, streams delta rectangles through pinned Pillow's GIF encoder, and retains
+only a few full canvases. There is no color quantization or resizing. Identical
+adjacent frames merge; transparent non-ROM margins remain transparent. Delays
+are differences between rounded absolute centisecond boundaries, keeping total
+loop error below 5 ms. Viewers may impose their own minimum delay on very short
+frames. All frames use disposal 1 and a shared palette; the first frame is a full
+canvas so the loop seam restores the initial background.
+
+Outputs: `images/animated/MRA/` (20 GIFs), `MSUSA/` (12), and `MSUSA_special/`
+(Nebraska only; unchanged dispatch entries are not duplicated). Manifests also
+record static courses, per-file hashes, encoded frame counts, sizes, duration
+and timing error. Full GIF export was measured at roughly 90 seconds. A native
+384×256 Yellowstone detail crop and its coordinates are saved beside the folders
+as `Yellowstone_detail.gif` / `.json`; it is a preview, not a full-stage map.
+
+`verify_animations.py` compares **every** accumulator, frame index, and upload
+request against original ROM code over each course's complete combined cycle,
+including the separate MSUSA branch. `verify_animation_exports.py` checks every
+GIF frame header, total duration and hash, three independent full-map raster
+phases, and the first three decoded GIF composites at native resolution. Later
+GIF frames are checked structurally rather than exhaustively decompressed.
+Results: `data/animation_verification*.json` and
+`data/animation_export_verification*.json`. All 32 default GIFs and the separate
+variant pass. Static course PNGs are unchanged. Hubs, sprites, runtime map edits,
+palette-only effects and animation of the extra research slots are outside this
+course tile-upload pass.
+
+### Source terrain boundaries (MSUSA prototype)
+
+`tools/terrain.py` translates MSUSA's integer-world-point lookup `00:1f08`.
+It uses the two map planes, the row table, and the graphics descriptor's
+previously unused far pointer (staged at `c60a..c60c`). For combined map value
+`N = L + 256*H`, the terrain record starts at resource offset
+`2*(N + floor(N/2))`. Each of its two three-byte records covers one 16-pixel
+horizontal half of the 32x32 cell. The shape byte, first terrain byte's flip
+flags, and fixed-ROM height profiles at `3980..39ff` select one of two terrain
+bytes. The caller at `1ff9` masks the selected byte to six bits and dispatches
+through bank 1's `6ee2` table. This supports shaped boundaries within cells,
+including diagonals; it is not an 8x8 artwork-tile occupancy test.
+
+The initial export is **Nebraska only**, engine index 19, resource `092700`.
+`verify_terrain.py` compares selected raw bytes against the original ROM
+lookup at corners, seeded random points, and transition neighbors for every
+distinct cell definition. All **7,600 samples / 380 definitions** pass; this
+is not exhaustive per-pixel emulation. The first broader check caught an
+off-by-one translation of `CPL; ADD 21`; corrected before final export.
+
+```powershell
+python tools/verify_terrain.py
+python tools/export_terrain.py
+```
+
+Outputs under `images/terrain/MSUSA/`: `_codes.png` stores numeric terrain
+codes as grayscale pixel values; `_regions.png` colors code 0 blue and code 1
+orange; `_boundaries.png` draws one-pixel pink lines at code changes over the
+native background. `_preview.png` thickens those lines for browsing only.
+Metadata and the verification report preserve dimensions, source and limits.
+The tools accept `--index`, but other courses have not been validated yet.
+
+**Limits:** These are static point-terrain regions. Behavior names, racer
+clearance, moving objects, camera limits, runtime edits, and playable-area
+reachability are not verified. No automatic cropping or solid/free labels
+are inferred. MRA's corresponding lookup remains untraced.
 
 ### Unmapped margins
 
