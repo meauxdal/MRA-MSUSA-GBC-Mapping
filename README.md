@@ -209,7 +209,7 @@ The full-screen title card shown before each course.
 
 ### Overworld
 
-The six overworld maps, in their source layout. The names are descriptions, not in-game titles. Pluto holes are all shown; in play, which holes are visible depends on game state.
+Todo: fix names.
 
 <!-- table:mra-overworld -->
 <table>
@@ -226,9 +226,9 @@ The six overworld maps, in their source layout. The names are descriptions, not 
 </table>
 <!-- /table -->
 
-### World maps
+### Adventure maps
 
-The five world maps reached by train from the station. The names are descriptions, not in-game titles. The solid band at the top of Wild West and Fairground is in the game's own map data; whether play ever scrolls it into view has not been checked.
+Todo: fix filenames.
 
 <!-- table:mra-worlds -->
 <table>
