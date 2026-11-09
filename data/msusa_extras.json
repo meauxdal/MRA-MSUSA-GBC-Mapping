@@ -10,9 +10,14 @@
     "status": "coherent source background; descriptive label only; gameplay identity and reachability unverified"
   },
   "23": {
-    "name": "Extra 23: unresolved graphics",
+    "name": "Extra 23: unfinished arena",
     "filename": "23_Unresolved_Graphics.png",
-    "status": "unresolved: descriptor-referenced graphics render scrambled terrain; this is a diagnostic source rendering, not a corrected map"
+    "status": "unresolved: descriptor-referenced graphics render scrambled terrain; this is a diagnostic source rendering, not a corrected map",
+    "reconstruction": {
+      "filename": "23_Unfinished_Arena.png",
+      "tool": "tools/reconstruct_slot23.py",
+      "status": "conjectural: slot 23's cell grid redrawn with City Arena (slot 24) metatiles and graphics, then hand-patched from City Arena cells; not recovered from ROM; descriptive label only; gameplay identity and reachability unverified"
+    }
   },
   "24": {
     "name": "Extra 24: city arena",

@@ -54,6 +54,8 @@ def main():
                 animation_uploads=len(patches.get(str(course.index),[])),
                 unmapped_8px_tiles=len(unmapped),
                 sha256=hashlib.sha256((dest/filename).read_bytes()).hexdigest()))
+            if "reconstruction" in entry:
+                manifest[-1]["reconstruction"]=entry["reconstruction"]
             print(f"{game}:{course.index:02d} {im.width}x{im.height} {filename}",flush=True)
         (dest/"manifest.json").write_text(json.dumps(manifest,indent=2)+"\n")
         if thumbs:

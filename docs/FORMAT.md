@@ -94,14 +94,18 @@ Pete's Dungeon has 144 subtile lookups in the far-right margin of its map that l
 | --- | --- | --- | --- | --- |
 | 21 | `0800c5` | `08027b` | 7 | Walled garden, 1248×704 |
 | 22 | `0800cc` | `080282` | 7 | Log arena, 1024×864 |
-| 23 | `0800d3` | `080289` | 7 | Scrambled graphics, 1216×864 |
+| 23 | `0800d3` | `080289` | 7 | Scrambled graphics, 1216×864; conjectural reconstruction as an unfinished arena |
 | 24 | `0800da` | `080290` | 10 | City arena, 1376×928; 145 transparent non-ROM subtiles |
 
 The graphics descriptors for slots 21–23 end after the bank-0 graphics pointer; their length follows from the next pointer in the table. The regular loader `00:1921` ignores this and reads a bank-1 far pointer from the first three bytes of the next descriptor, giving fixed-ROM CPU addresses `2371`, `2375` and `2271`. These are not real bank-1 resources. No mapped subtile in slots 21–23 uses VRAM bank 1, so this does not affect the exports, and the exporter treats bank 1 as absent.
 
 `tools/verify_msusa_extras.py` runs the original loader with the LCD on (its graphics transfer waits for VBlank). It compares both loaded map planes and the staged graphics bytes, then checks six renderer samples and three raster windows per slot. Every mapped subtile uses graphics inside its declared resource.
 
-Slot 23 renders exactly what the loader stages, and it is still scrambled, so the source data itself is wrong or incomplete for it. A heuristic search over simple fixes (uniform tile-number offsets, a 128-tile rotation, each named course's tileset) found nothing coherent, though it was not exhaustive. The fault could be in tile numbering, the referenced tileset, or the metatile definitions. Slot 24's non-ROM reads depend on other memory and stay transparent. No route to these slots in normal play, in-game names, or alternate loader has been found, and no animation uploads are assumed for them.
+Slot 23 renders exactly what the loader stages, and it is still scrambled, so the source data itself is wrong or incomplete for it. Simple fixes (uniform tile-number offsets, a 128-tile rotation, each named course's tileset) found nothing coherent. `23_Unresolved_Graphics.png` stays as the diagnostic source rendering.
+
+Slot 23's cell grid and terrain codes do read as an early City Arena with a different layout: an oceanside track with 90° turns, buildings along the top and planters inside. `tools/reconstruct_slot23.py` redraws it as `23_Unfinished_Arena.png` in three steps. First it maps each slot 23 cell ID to a City Arena ID with the same terrain template, choosing by how well neighbours join. Then it quilts the grid from those IDs and from City Arena cells copied at a few fixed offsets; road-coded cells keep their mapped ID. Finally it applies 181 hand patches, each taken from City Arena cells, which fix seams such as the shore steps, kerbs, planters and the bottom tip. Slot 23 road-codes the shoreline steps and a short alley in the top building, which the City Arena does not. The result is conjectural, not recovered from ROM, and `data/msusa_extras.json` labels it that way.
+
+Slot 24's non-ROM reads depend on other memory and stay transparent. No route to these slots in normal play, in-game names, or alternate loader has been found, and no animation uploads are assumed for them.
 
 ## MRA exploration areas
 

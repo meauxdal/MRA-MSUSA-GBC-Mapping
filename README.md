@@ -23,7 +23,7 @@ Full-size PNGs and GIFs are at native resolution with the original palettes: no 
 - **Exploration areas:** the six MRA overworld maps, in their source layout. Pluto holes are all shown; in play, which holes are visible depends on game state.
 - **Animated courses:** looping GIFs of every course with animated background tiles. Frame order, speed and starting phase come from the ROM, and timing is accurate to within 5 ms per loop at the nominal 59.73 Hz. The other courses have no animated tiles. The MSUSA variant is Nebraska's alternate animation branch (`ce60=1`).
 - **Terrain:** the terrain code the game reads at every pixel, exported as a raw code image, a colored region map, a boundary overlay on the background, and a browsing preview. Codes are numbered, not named: what each code does in play (road, wall, slow ground) has not been traced yet.
-- **MSUSA extra slots:** four engine slots after the 21 named courses. Two are clean arenas (a walled garden and a log arena), one has scrambled graphics, and one has 145 tiles with no ROM source. Whether any of them is reachable in normal play is unknown.
+- **MSUSA extra slots:** four engine slots after the 21 named courses. Two are clean arenas (a walled garden and a log arena), one has scrambled graphics (shown with a conjectural, hand-patched reconstruction as an unfinished city arena), and one has 145 tiles with no ROM source. Whether any of them is reachable in normal play is unknown.
 
 ## Not included
 
@@ -40,6 +40,7 @@ python -m pip install -r requirements.txt
 python tools/trace_animations.py
 python tools/export_maps.py
 python tools/export_maps.py --extras
+python tools/reconstruct_slot23.py
 python tools/export_hubs.py
 
 # Animated GIFs (about 90 s). Add --special to these two commands and to both animation verify commands to build and check the Nebraska variant.
