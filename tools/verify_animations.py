@@ -6,7 +6,7 @@ from emulator import Machine
 from maps import ROOT
 
 
-def check(game, entries, special=False):
+def check(game, entries):
     machine=Machine(game)
     p=machine.p
     cfg=ROUTINES[game]
@@ -21,7 +21,7 @@ def check(game, entries, special=False):
     try:
         for key,animation in entries.items():
             index=int(key)
-            initialize(machine,game,index,special)
+            initialize(machine,game,index)
             period=animation["period_ticks"]
             uploads=0
             for tick in range(1,max(1,period)+1):
@@ -51,14 +51,12 @@ def check(game, entries, special=False):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--special",action="store_true")
-    args=parser.parse_args()
-    metadata=json.loads(metadata_path(args.special).read_text())
+    parser.parse_args()
+    metadata=json.loads(metadata_path().read_text())
     result=dict(method="Compare every accumulator, frame index and upload request with original ROM code over one complete combined cycle per course.",
         limits="Isolated nominal updates; excludes gameplay stalls, MRA LY gate skips, sprites and runtime map edits.",
-        games={game:check(game,entries,args.special) for game,entries in metadata["games"].items()})
-    suffix="_special" if args.special else ""
-    (ROOT/"data"/f"animation_verification{suffix}.json").write_text(json.dumps(result,indent=2)+"\n")
+        games={game:check(game,entries) for game,entries in metadata["games"].items()})
+    (ROOT/"data"/"animation_verification.json").write_text(json.dumps(result,indent=2)+"\n")
 
 
 if __name__=="__main__":

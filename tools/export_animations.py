@@ -10,7 +10,7 @@ import time
 from pathlib import Path
 import numpy as np
 from PIL import Image, GifImagePlugin
-from maps import ROOT, read_rom, courses
+from maps import ROOT, OBSERVED_FILL, read_rom, courses
 from animations import TICK_SECONDS, metadata_path, patches_at, timeline
 
 
@@ -30,7 +30,14 @@ class IndexedMap:
                 positions=positions[~np.isin(positions,list(missing))]
             self.positions[int(n),int(a)]=(positions//self.width,positions%self.width)
         self.previous=None
-        self.palette=[v for rgb in course.palette() for v in rgb]+[0]*(768-96)
+        colors=course.palette()
+        self.palette=[v for rgb in colors for v in rgb]+[0]*(768-96)
+        fill=OBSERVED_FILL.get((course.game,course.index))
+        if fill and missing:
+            # Observed colour for lookups outside the ROM; see maps.py.
+            index=colors.index(fill)
+            for t in missing:
+                self.view[t//self.width,:,t%self.width,:]=index
 
     def frame(self, patches):
         gfx,_=self.course.graphics(patches)
@@ -120,25 +127,19 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--game",choices=["mra","msusa","all"],default="all")
     parser.add_argument("--index",type=int)
-    parser.add_argument("--special",action="store_true",help="Separate MSUSA CE60=1 variant")
     parser.add_argument("--output",type=Path,default=ROOT/"images/animated")
     args=parser.parse_args()
-    if args.special and args.game=="mra":
-        parser.error("--special applies only to MSUSA")
-    metadata=json.loads(metadata_path(args.special).read_text())
-    default=json.loads(metadata_path().read_text()) if args.special else None
+    metadata=json.loads(metadata_path().read_text())
     catalog=json.loads((ROOT/"data/catalog.json").read_text())
-    games=["msusa"] if args.special else list(metadata["games"]) if args.game=="all" else [args.game]
+    games=list(metadata["games"]) if args.game=="all" else [args.game]
     for game in games:
-        dest=args.output/(game.upper()+("_special" if args.special else ""))
+        dest=args.output/game.upper()
         dest.mkdir(parents=True,exist_ok=True)
         manifest=[]
         for course in courses(game,read_rom(game)):
             if args.index is not None and args.index!=course.index:
                 continue
             animation=metadata["games"][game][str(course.index)]
-            if args.special and animation==default["games"][game][str(course.index)]:
-                continue
             entry=catalog[game][str(course.index)]
             row=dict(index=course.index,name=entry["name"],file=None,
                 period_ticks=animation["period_ticks"],streams=len(animation["streams"]),

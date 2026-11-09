@@ -344,7 +344,36 @@
       "tiles": 8
     }
   ],
-  "19": [],
+  "19": [
+    {
+      "dest": 36864,
+      "bank": 16,
+      "source": 17504,
+      "vram_bank": 0,
+      "tiles": 12
+    },
+    {
+      "dest": 37056,
+      "bank": 16,
+      "source": 18096,
+      "vram_bank": 0,
+      "tiles": 7
+    },
+    {
+      "dest": 37168,
+      "bank": 16,
+      "source": 18448,
+      "vram_bank": 0,
+      "tiles": 16
+    },
+    {
+      "dest": 37424,
+      "bank": 16,
+      "source": 19232,
+      "vram_bank": 0,
+      "tiles": 11
+    }
+  ],
   "20": [
     {
       "dest": 36864,

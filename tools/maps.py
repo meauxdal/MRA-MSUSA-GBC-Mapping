@@ -135,21 +135,31 @@ def courses(game, data, *, include_extras=False):
         yield Course(game,index,desc,selectors,w,h,low,high,data[g],offsets,
                      far(data,cfg["palettes"]+selectors[4]*3),data)
 
+# Subtile lookups past the metatile bank read CPU $8000 (VRAM) on hardware, so
+# the ROM alone doesn't decide them. Where gameplay footage shows what appears
+# there, that colour is drawn; the rest stay transparent. Pete's Dungeon: the
+# bottom-right subtile of its margin filler cell shows black in play.
+OBSERVED_FILL = {("mra", 4): (0, 0, 0)}
+
 def render(course, patches=(), full_range=False):
     unmapped=set()
     pairs=course.tile_pairs(unmapped)
     gfx,lengths=course.graphics(patches)
     colors=course.palette(full_range)
-    return render_tiles(course.width*4,course.height*4,pairs,gfx,colors,unmapped)
+    fill=OBSERVED_FILL.get((course.game,course.index))
+    return render_tiles(course.width*4,course.height*4,pairs,gfx,colors,unmapped,fill)
 
-def render_tiles(width,height,pairs,gfx,colors,unmapped=None):
+def render_tiles(width,height,pairs,gfx,colors,unmapped=None,fill=None):
     from PIL import Image
     unmapped=unmapped or set()
     cache={}
-    result=Image.new("RGBA" if unmapped else "RGB",(width*8,height*8))
+    result=Image.new("RGBA" if unmapped and not fill else "RGB",(width*8,height*8))
     tw=width
     for i in range(0,len(pairs),2):
         if i//2 in unmapped:
+            if fill:
+                t=i//2
+                result.paste(fill,((t%tw)*8,(t//tw)*8,(t%tw)*8+8,(t//tw)*8+8))
             continue
         n,a=pairs[i:i+2]
         key=(n,a & 0x6f)  # bit 7 is sprite priority, not a background color change

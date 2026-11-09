@@ -59,7 +59,7 @@
   },
   {
     "index": 23,
-    "name": "Extra 23: unresolved graphics",
+    "name": "Extra 23: unfinished arena",
     "file": "23_Unresolved_Graphics.png",
     "status": "unresolved: descriptor-referenced graphics render scrambled terrain; this is a diagnostic source rendering, not a corrected map",
     "width": 1216,
@@ -84,7 +84,12 @@
     "palette": "0x083138",
     "animation_uploads": 0,
     "unmapped_8px_tiles": 0,
-    "sha256": "a1806a4ba26c7cbeee09c16629a722294cd7853a521668639178273d83779008"
+    "sha256": "a1806a4ba26c7cbeee09c16629a722294cd7853a521668639178273d83779008",
+    "reconstruction": {
+      "filename": "23_Unfinished_Arena.png",
+      "tool": "tools/reconstruct_slot23.py",
+      "status": "conjectural: slot 23's cell grid redrawn with City Arena (slot 24) metatiles and graphics, then hand-patched from City Arena cells; not recovered from ROM; descriptive label only; gameplay identity and reachability unverified"
+    }
   },
   {
     "index": 24,

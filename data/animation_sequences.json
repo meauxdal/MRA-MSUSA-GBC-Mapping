@@ -2534,8 +2534,77 @@
         ]
       },
       "19": {
-        "period_ticks": 0,
-        "streams": []
+        "period_ticks": 128,
+        "streams": [
+          {
+            "bank": 16,
+            "table": 263254,
+            "counter": 56480,
+            "initial_accumulator": 0,
+            "initial_frame": 0,
+            "speed": 42,
+            "dest": 36864,
+            "tiles": 12,
+            "vram_bank": 0,
+            "sources": [
+              17504,
+              17696,
+              17888
+            ],
+            "period_ticks": 128
+          },
+          {
+            "bank": 16,
+            "table": 263840,
+            "counter": 56482,
+            "initial_accumulator": 0,
+            "initial_frame": 0,
+            "speed": 42,
+            "dest": 37056,
+            "tiles": 7,
+            "vram_bank": 0,
+            "sources": [
+              18096,
+              18208,
+              18320
+            ],
+            "period_ticks": 128
+          },
+          {
+            "bank": 16,
+            "table": 264192,
+            "counter": 56484,
+            "initial_accumulator": 0,
+            "initial_frame": 0,
+            "speed": 42,
+            "dest": 37168,
+            "tiles": 16,
+            "vram_bank": 0,
+            "sources": [
+              18448,
+              18704,
+              18960
+            ],
+            "period_ticks": 128
+          },
+          {
+            "bank": 16,
+            "table": 264976,
+            "counter": 56486,
+            "initial_accumulator": 0,
+            "initial_frame": 0,
+            "speed": 42,
+            "dest": 37424,
+            "tiles": 11,
+            "vram_bank": 0,
+            "sources": [
+              19232,
+              19408,
+              19584
+            ],
+            "period_ticks": 128
+          }
+        ]
       },
       "20": {
         "period_ticks": 64,
