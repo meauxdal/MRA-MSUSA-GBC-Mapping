@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Castle World",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "Pirate World",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "Wild West World",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "Sweets World",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "Fairground World",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Los Angeles",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Grand Canyon",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Yosemite",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card San Francisco",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Seattle",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Montana",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Yellowstone",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Utah",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Milwaukee",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Colorado",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Nebraska",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Texas",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Gulf Coast",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Louisiana",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Indianapolis",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Boston",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Smoky Mountains",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Florida Everglades",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Daytona Beach",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Washington D.C.",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Golfe du Mexique",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Louisiane",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "card Golfk\u00fcste",
+    "returned": true,
+    "palette": "fade buffer cc40",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "US map Start",
+    "returned": true,
+    "palette": "static: 09:6786 loads 09:6ce6",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
+    "name": "US map Complete",
+    "returned": true,
+    "palette": "static: 09:6786 loads 09:6ce6",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  }
+]

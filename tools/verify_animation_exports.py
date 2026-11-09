@@ -54,11 +54,10 @@ def gif_frames(path):
     return (width,height),frames
 
 
-def check(game, special=False):
-    group=game.upper()+("_special" if special else "")
-    directory=ROOT/"images/animated"/group
+def check(game):
+    directory=ROOT/"images/animated"/game.upper()
     manifest=json.loads((directory/"manifest.json").read_text())
-    metadata=json.loads(metadata_path(special).read_text())["games"][game]
+    metadata=json.loads(metadata_path().read_text())["games"][game]
     course_by_index={c.index:c for c in courses(game,read_rom(game))}
     results=[]
     for entry in manifest:
@@ -106,20 +105,18 @@ def check(game, special=False):
                     break
         results.append(dict(index=course.index,frames=len(encoded),duration_ms=duration,
             raster_phases=ticks,decoded_native_frames=decoded,result="exact"))
-        print(f"PASS {group}:{course.index:02d}: {len(encoded)} GIF frames, timing, raster and composites",flush=True)
+        print(f"PASS {game.upper()}:{course.index:02d}: {len(encoded)} GIF frames, timing, raster and composites",flush=True)
     return results
 
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--special",action="store_true")
-    args=parser.parse_args()
-    games=["msusa"] if args.special else ["mra","msusa"]
+    parser.parse_args()
+    games=["mra","msusa"]
     result=dict(method="Every GIF frame header, duration and hash; three independent native raster phases and first three decoded composites per GIF.",
         limits="Later GIF frames checked structurally, not exhaustively decompressed; source timing is verified separately over full cycles.",
-        games={g:check(g,args.special) for g in games})
-    suffix="_special" if args.special else ""
-    (ROOT/"data"/f"animation_export_verification{suffix}.json").write_text(json.dumps(result,indent=2)+"\n")
+        games={g:check(g) for g in games})
+    (ROOT/"data"/"animation_export_verification.json").write_text(json.dumps(result,indent=2)+"\n")
 
 
 if __name__=="__main__":

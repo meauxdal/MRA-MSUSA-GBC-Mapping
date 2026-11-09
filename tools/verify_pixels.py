@@ -50,7 +50,13 @@ def check(game, *, extras=False):
                 p.tick(3,True)
                 actual=np.array(p.screen.image.convert("RGB"))
                 wanted=np.array(exported.crop((x*8,y*8,x*8+160,y*8+144)))
+                # Lookups outside the ROM have no source data to emulate;
+                # they are either transparent or an observed fill (maps.py).
                 valid=wanted[:,:,3]!=0
+                for t in missing:
+                    ty,tx=divmod(t,course.width*4)
+                    if x<=tx<x+20 and y<=ty<y+18:
+                        valid[(ty-y)*8:(ty-y)*8+8,(tx-x)*8:(tx-x)*8+8]=False
                 unequal=np.any(actual!=wanted[:,:,:3],axis=2)&valid
                 if unequal.any():
                     pos=np.argwhere(unequal)[0]

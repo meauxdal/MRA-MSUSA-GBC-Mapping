@@ -30,6 +30,20 @@ This page lists the code and RAM traced in both games. Data formats are describe
 
 The decompressor writes attributes to WRAM banks 2–4 and tile IDs to banks 5–7.
 
+### Full-screen backgrounds
+
+| Purpose | Address |
+| --- | --- |
+| Banked tile copy to WRAM (A bank, B WRAM bank, C tiles, 0 = 256) | MRA `00:1f82`, MSUSA `00:1baa` |
+| Palette to `cc40` fade buffer (B palettes from DE) | MRA `00:3147`, MSUSA `00:2b84` |
+| WRAM banks 1/2 → VRAM banks 0/1 at `8800` | MRA `04:5b4a` |
+| MRA world map loaders | `0a:56f3`, `0a:5207`, `0a:4fea`, `0a:53f7`, `0a:4dbe` |
+| MSUSA course card loader | `12:52b7` |
+| MSUSA US map loader / palette setup | `09:6252` / `09:6786` |
+| MSUSA US map state markers | `09:63b0` (called for 20 states × 4 sub-tiles) |
+
+See [Full-screen backgrounds](FORMAT.md#full-screen-backgrounds) for the data layout.
+
 ### MSUSA gameplay
 
 | Purpose | Address |
@@ -56,9 +70,12 @@ The decompressor writes attributes to WRAM banks 2–4 and tile IDs to banks 5�
 | `c618`, `c619` | MSUSA | Bank byte and trampoline for the player update |
 | `c626..c629` | MSUSA | Course script trampoline |
 | `c63b` | MSUSA | Flag the idle loop waits on |
+| `cc40` | both | Palette fade buffer, 3 bytes per color (MRA 5-bit, MSUSA ×8) |
+| `ce38` | MSUSA | Language for the course cards: `81` French, `82` German |
+| `ce5e` | MSUSA | Course index in US-map order; also the US map progress (states up to it are drawn reached) |
 | `ce7b` | MRA | Animation selector |
 | `ce8c` | MSUSA | Animation selector |
-| `ce60` | MSUSA | Selects an alternate animation branch (changes Nebraska); what sets it in play is unknown |
+| `ce60` | MSUSA | Mode flag, set to 1 by a menu routine at `09:5918` and cleared by others (such as `09:58b0`). Read in many banks. With 0, Nebraska's windmills don't animate; normal play has them spinning, so captures use 1 |
 | `dca0..dcb7` (WRAM bank 5) | MSUSA | Animation stream counters |
 | `c000..c3ff` | MSUSA | Four kart records (below) |
 | `ff9d` | MSUSA | High byte of the current kart record (`c0..c3`) |
@@ -109,7 +126,7 @@ The games run at one main-loop pass per 70,224-cycle frame at 4,194,304 Hz (abou
 - **Terrain behavior:** what each terrain code does in play, how kart clearance is tested against it, and where MRA dispatches its codes.
 - **MSUSA "phantom hit":** a rare unexplained knockback in Time Trial, best known at the end of the fence at the Los Angeles lower-boardwalk U-turn (around map pixel 515,400). Scripted jumps and visible AI karts have been ruled out. The two remaining hypotheses are a wall push-out error when a contact probe lands inside a thin wall or on a 256-pixel seam, and stale records in `c100..c3ff` that are still collision-tested in Time Trial.
 - **MSUSA extra slots 21–24:** whether any normal mode loads them, and where slot 23's correct graphics come from.
-- **`ce60`:** what sets the alternate animation branch during play.
+- **`ce60`:** which menu choice the setting routine at `09:5918` belongs to, and what else the flag changes.
 - **Runtime layers:** sprites, pickups, markers, Pluto-hole state, and runtime map edits are not yet traced.
 
 ## Research tools

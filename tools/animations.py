@@ -10,6 +10,10 @@ from maps import ROOT, CONFIG, read_rom, courses
 from emulator import Machine
 
 TICK_SECONDS = 70224 / 4194304
+# MSUSA mode flag ce60 is set to 1 by a menu routine (09:5918) before racing;
+# with 0, Nebraska's windmills stay still. Normal play has them spinning. MRA
+# keeps its previous capture value.
+CE60 = {"mra": 0, "msusa": 1}
 ROUTINES = {
     "mra": dict(bank=30, init=0x4045, update=0x421f, selector=0xce7b,
                 helpers=[(30,0x453e),(31,0x6578)], upload=0x1477),
@@ -18,13 +22,13 @@ ROUTINES = {
 }
 
 
-def initialize(machine, game, index, special=False):
+def initialize(machine, game, index):
     machine.reset()
     p=machine.p
     cfg=ROUTINES[game]
     p.memory[0xff40]=0
     p.memory[cfg["selector"]]=index
-    p.memory[0xce60]=int(special)
+    p.memory[0xce60]=CE60[game]
     if game=="msusa":
         # A canonical steady-state loop must not inherit boot/menu RAM. The ROM
         # initializer resets only nine frame-index bytes, although Yellowstone
@@ -46,7 +50,7 @@ def prepare_update(p, game):
         p.memory[0xc65f]=0
 
 
-def collect(game, special=False):
+def collect(game):
     rom=read_rom(game)
     cfg=ROUTINES[game]
     machine=Machine(game)
@@ -54,7 +58,7 @@ def collect(game, special=False):
     result={}
     try:
         for course in courses(game,rom):
-            initialize(machine,game,course.index,special)
+            initialize(machine,game,course.index)
             streams=[]
 
             def inspect(bank):
@@ -121,21 +125,20 @@ def timeline(animation):
     return list(zip(boundaries,boundaries[1:]+[period]))
 
 
-def metadata_path(special=False):
-    return ROOT/"data"/("animation_sequences_special.json" if special else "animation_sequences.json")
+def metadata_path():
+    return ROOT/"data"/"animation_sequences.json"
 
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--special",action="store_true",help="Separate MSUSA CE60=1 variant")
-    args=parser.parse_args()
-    games=["msusa"] if args.special else list(CONFIG)
+    parser.parse_args()
+    games=list(CONFIG)
     report=dict(tick_cycles=70224,clock_hz=4194304,
         timing="Nominal one animation update per display frame; no gameplay lag or pauses.",
         initialization="ROM initializer accumulator phases; canonical frame-zero indices, without inherited boot/menu RAM.",
         rom_sha256={g:CONFIG[g]["sha256"] for g in games},
-        games={g:collect(g,args.special) for g in games})
-    metadata_path(args.special).write_text(json.dumps(report,indent=2)+"\n")
+        games={g:collect(g) for g in games})
+    metadata_path().write_text(json.dumps(report,indent=2)+"\n")
 
 
 if __name__=="__main__":

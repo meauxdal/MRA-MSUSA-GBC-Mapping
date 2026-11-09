@@ -6,8 +6,9 @@ import argparse
 import json
 from emulator import Machine
 from maps import ROOT,CONFIG
+from animations import CE60
 
-def trace(game,special=False):
+def trace(game):
     machine=Machine(game)
     p=machine.p
     result={}
@@ -24,7 +25,7 @@ def trace(game,special=False):
                 bank,address,dma=30,0x421f,0x1477
             else:
                 p.memory[0xce8c]=level
-                p.memory[0xce60]=int(special)
+                p.memory[0xce60]=CE60[game]
                 p.memory[0xff70]=5
                 for address in range(0xdca0,0xdcb8):
                     p.memory[address]=255
@@ -42,13 +43,11 @@ def trace(game,special=False):
             print(f"{game}:{level:02d}: {len(events)} animation uploads",flush=True)
     finally:
         machine.close()
-    suffix="_special" if special else ""
-    (ROOT/"data"/f"{game}_animations{suffix}.json").write_text(json.dumps(result,indent=2)+"\n")
+    (ROOT/"data"/f"{game}_animations.json").write_text(json.dumps(result,indent=2)+"\n")
 
 if __name__=="__main__":
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--game",choices=["mra","msusa","all"],default="all")
-    parser.add_argument("--special",action="store_true",help="MSUSA CE60=1 branch; emits separate metadata")
     args=parser.parse_args()
     for game in (["mra","msusa"] if args.game=="all" else [args.game]):
-        trace(game,args.special)
+        trace(game)

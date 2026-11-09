@@ -1,0 +1,38 @@
+[
+  {
+    "index": 0,
+    "name": "US map, start",
+    "file": "01_US_Map_Start.png",
+    "loader": "09:6252",
+    "width": 40,
+    "height": 28,
+    "tile_ids": "0x027016",
+    "attributes": "0x027476",
+    "graphics": [
+      "0x281730",
+      "0x282730"
+    ],
+    "palette": "0x026ce6",
+    "markers": "09:63b0",
+    "progress": 0,
+    "sha256": "62611f0790831fe3bf9b2b4f4430a37c819988c364b4c119030f8b0a1de1b028"
+  },
+  {
+    "index": 1,
+    "name": "US map, complete",
+    "file": "02_US_Map_Complete.png",
+    "loader": "09:6252",
+    "width": 40,
+    "height": 28,
+    "tile_ids": "0x027016",
+    "attributes": "0x027476",
+    "graphics": [
+      "0x281730",
+      "0x282730"
+    ],
+    "palette": "0x026ce6",
+    "markers": "09:63b0",
+    "progress": 19,
+    "sha256": "f59abfde7c75e773335ea2fff93c28b1812acdaebc8c03f5bbfe526b75c7bdbd"
+  }
+]

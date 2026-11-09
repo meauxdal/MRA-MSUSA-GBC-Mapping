@@ -1,0 +1,370 @@
+[
+  {
+    "index": 0,
+    "name": "Los Angeles",
+    "file": "01_Los_Angeles.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1b99a0",
+    "attributes": "0x1b9b08",
+    "graphics": [
+      "0x1eccf0",
+      "0x1edcf0"
+    ],
+    "palette": "0x04b4c7",
+    "sha256": "ff185bbd04866492782ffdb814ed3c58924eca402a7a0616af21a12cbbbc1633"
+  },
+  {
+    "index": 1,
+    "name": "Grand Canyon",
+    "file": "02_Grand_Canyon.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1b9c70",
+    "attributes": "0x1b9dd8",
+    "graphics": [
+      "0x1ee000",
+      "0x1ef000"
+    ],
+    "palette": "0x04b507",
+    "sha256": "591c5e358493f86113e856bb6fc24a3115510982b4254f74d97767f420764e64"
+  },
+  {
+    "index": 2,
+    "name": "Yosemite",
+    "file": "03_Yosemite.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1b9f40",
+    "attributes": "0x1ba0a8",
+    "graphics": [
+      "0x1ef3b0",
+      "0x1f03b0"
+    ],
+    "palette": "0x04b547",
+    "sha256": "fa7ed9dcf091b5606e1fd8b154de2d7601c235e17747c66ea1a68b0a3a336ecc"
+  },
+  {
+    "index": 3,
+    "name": "San Francisco",
+    "file": "04_San_Francisco.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1ba210",
+    "attributes": "0x1ba378",
+    "graphics": [
+      "0x1f0750",
+      "0x1f1750"
+    ],
+    "palette": "0x04b587",
+    "sha256": "a86dafe7be8ba92087372bfaab8f0c0e8dfcebb95b8dc207890ead72f38dd9c5"
+  },
+  {
+    "index": 4,
+    "name": "Seattle",
+    "file": "05_Seattle.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1ba4e0",
+    "attributes": "0x1ba648",
+    "graphics": [
+      "0x1f1980",
+      "0x1f2980"
+    ],
+    "palette": "0x04b5c7",
+    "sha256": "2d3e78c1bcdea6d4fc811449b07caee89e8a87eae538df2a035ed4e6e277c9ce"
+  },
+  {
+    "index": 5,
+    "name": "Montana",
+    "file": "06_Montana.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1ba7b0",
+    "attributes": "0x1ba918",
+    "graphics": [
+      "0x1f2e80",
+      "0x1f3e80"
+    ],
+    "palette": "0x04b607",
+    "sha256": "9fc7c1454255c30443946475857cb0c238b50dbe14569a48c4bf0a94f3f3bfd4"
+  },
+  {
+    "index": 6,
+    "name": "Yellowstone",
+    "file": "07_Yellowstone.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1baa80",
+    "attributes": "0x1babe8",
+    "graphics": [
+      "0x1f4320",
+      "0x1f5320"
+    ],
+    "palette": "0x04b647",
+    "sha256": "ac307fa7bd284699ad81e784c2b068c6fd8f6d6775a7929a517c547422f030ca"
+  },
+  {
+    "index": 7,
+    "name": "Utah",
+    "file": "08_Utah.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1bad50",
+    "attributes": "0x1baeb8",
+    "graphics": [
+      "0x1f5940",
+      "0x1f6940"
+    ],
+    "palette": "0x04b687",
+    "sha256": "85a1db1ab61532617f24e8c886d4b07a3ff8e6090f11817b4987f5d87e18c7c8"
+  },
+  {
+    "index": 8,
+    "name": "Milwaukee",
+    "file": "09_Milwaukee.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1bb020",
+    "attributes": "0x1bb188",
+    "graphics": [
+      "0x1f69d0",
+      "0x-04000"
+    ],
+    "palette": "0x04b6c7",
+    "sha256": "36c98bdec3655cdefeec5b52de63db534dec00d91f2dddd1c1fcc6a3048f82d7"
+  },
+  {
+    "index": 9,
+    "name": "Colorado",
+    "file": "10_Colorado.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1bb2f0",
+    "attributes": "0x1bb458",
+    "graphics": [
+      "0x1f78d0",
+      "0x1f88d0"
+    ],
+    "palette": "0x04b707",
+    "sha256": "c44dfe54a7dcb70845ff8a566ba8bf21ec0abf9e65d704409f15f41c7dfa7b48"
+  },
+  {
+    "index": 10,
+    "name": "Nebraska",
+    "file": "11_Nebraska.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1bb890",
+    "attributes": "0x1bb9f8",
+    "graphics": [
+      "0x1f9a10",
+      "0x1faa10"
+    ],
+    "palette": "0x04b787",
+    "sha256": "60295bd77cf96ade73bce4c8c922fc99ed6bcc735f847663f44510c164ab6ecb"
+  },
+  {
+    "index": 11,
+    "name": "Texas",
+    "file": "12_Texas.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1bb5c0",
+    "attributes": "0x1bb728",
+    "graphics": [
+      "0x1f8b00",
+      "0x-04000"
+    ],
+    "palette": "0x04b747",
+    "sha256": "223bcfa20438ef0c1e8b1bbd9ad00d0247ef3136ce5f44c68138f230e0cab14d"
+  },
+  {
+    "index": 12,
+    "name": "Gulf Coast",
+    "file": "13_Gulf_Coast.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1bbb60",
+    "attributes": "0x1bbcc8",
+    "graphics": [
+      "0x1facd0",
+      "0x1fbcd0"
+    ],
+    "palette": "0x04b7c7",
+    "sha256": "69ab72b4bbe2bb84a29493a36ab66f3514f977783b55535d84f53bfcf4278001"
+  },
+  {
+    "index": 13,
+    "name": "Louisiana",
+    "file": "14_Louisiana.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1bc000",
+    "attributes": "0x1bc168",
+    "graphics": [
+      "0x1fc090",
+      "0x1fd090"
+    ],
+    "palette": "0x04b807",
+    "sha256": "82c2022e58e459eadf7038288763a0aefa6e6737b29931db078c77d22d82c88e"
+  },
+  {
+    "index": 14,
+    "name": "Indianapolis",
+    "file": "15_Indianapolis.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1bc2d0",
+    "attributes": "0x1bc438",
+    "graphics": [
+      "0x1fd6d0",
+      "0x1fe6d0"
+    ],
+    "palette": "0x04b847",
+    "sha256": "94dddd4e07247d20d8d6048f641ac070d9411d58a38ae533987666971ec42b71"
+  },
+  {
+    "index": 15,
+    "name": "Boston",
+    "file": "16_Boston.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1bc5a0",
+    "attributes": "0x1bc708",
+    "graphics": [
+      "0x1fe6e0",
+      "0x1ff6e0"
+    ],
+    "palette": "0x04b887",
+    "sha256": "0b7df28182a5729be5d30fc34e61b21fee587d1ce54447920aa1016fa49ac822"
+  },
+  {
+    "index": 16,
+    "name": "Smoky Mountains",
+    "file": "17_Smoky_Mountains.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1bc870",
+    "attributes": "0x1bc9d8",
+    "graphics": [
+      "0x1ff840",
+      "0x200840"
+    ],
+    "palette": "0x04b8c7",
+    "sha256": "d1ef553e38c78d32f83082658564253c79bdac02dd5bf2344e160915c43c21b1"
+  },
+  {
+    "index": 17,
+    "name": "Florida Everglades",
+    "file": "18_Florida_Everglades.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1bcb40",
+    "attributes": "0x1bcca8",
+    "graphics": [
+      "0x200b40",
+      "0x201b40"
+    ],
+    "palette": "0x04b907",
+    "sha256": "4efb4c379cf494df77cde1b23865895b5d1676c63f3c89ecfeeb5e1c39305109"
+  },
+  {
+    "index": 18,
+    "name": "Daytona Beach",
+    "file": "19_Daytona_Beach.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1bce10",
+    "attributes": "0x1bcf78",
+    "graphics": [
+      "0x202060",
+      "0x-04000"
+    ],
+    "palette": "0x04b947",
+    "sha256": "f3fe04495ecedb18bf23e73845d4228c0e6ce718a771d887afd5646ba7383780"
+  },
+  {
+    "index": 19,
+    "name": "Washington D.C.",
+    "file": "20_Washington_DC.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1bd0e0",
+    "attributes": "0x1bd248",
+    "graphics": [
+      "0x202f00",
+      "0x203f00"
+    ],
+    "palette": "0x04b987",
+    "sha256": "9821ca923e8eb8043e32bffab4df2292b29bb4aafb4d603ce099e288cf07df0c"
+  },
+  {
+    "index": 20,
+    "name": "Golfe du Mexique",
+    "file": "21_Golfe_du_Mexique.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1c3954",
+    "attributes": "0x1c3abc",
+    "graphics": [
+      "0x1d42f0",
+      "0x1d52f0"
+    ],
+    "palette": "0x04b7c7",
+    "sha256": "c204e5e0abc5cdac9dd8dd19b0f2205e8030cdb49430fc8ecab7f57d2cc6ef62"
+  },
+  {
+    "index": 21,
+    "name": "Louisiane",
+    "file": "22_Louisiane.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1c3684",
+    "attributes": "0x1c37ec",
+    "graphics": [
+      "0x1d6a70",
+      "0x1d7a70"
+    ],
+    "palette": "0x04b807",
+    "sha256": "29c3fe93930d34639215dbb5a47455f632a4b8bdaca65bc8d01fed9b9f3e8ebc"
+  },
+  {
+    "index": 22,
+    "name": "Golfk\u00fcste",
+    "file": "23_Golfkueste.png",
+    "loader": "12:52b7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1c3c24",
+    "attributes": "0x1c3d8c",
+    "graphics": [
+      "0x1d5670",
+      "0x1d6670"
+    ],
+    "palette": "0x04b7c7",
+    "sha256": "1b74bef809c3be3b02426f96d06e447dd3b1025a1a6d8c3795d5f2e62d628d62"
+  }
+]

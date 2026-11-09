@@ -39,11 +39,11 @@ Some animated tiles are placeholders in the static graphics. `tools/trace_animat
 | Animation dispatch | `1e:421f` (skips the LY gate at `4215`) | `10:41e2` |
 | Upload queue hook | `00:1477` | `00:10e5` |
 
-The animation selector is at `ce7b` in MRA and `ce8c` in MSUSA. MSUSA's animation counters are in WRAM bank 5 at `dca0..dcb7`, including Yellowstone's 12 separate streams. The default capture uses `ce60=0`. A separate capture, `msusa_animations_special.json`, records the `ce60=1` branch, which changes Nebraska's animation uploads. What sets that branch during play is unknown, so it is not applied to the default maps.
+The animation selector is at `ce7b` in MRA and `ce8c` in MSUSA. MSUSA's animation counters are in WRAM bank 5 at `dca0..dcb7`, including Yellowstone's 12 separate streams. MSUSA captures use `ce60=1`, the value a menu routine (`09:5918`) sets before racing. With `ce60=0` Nebraska's windmills don't animate, and in normal play they spin; no other course depends on the flag.
 
 ### Animated course loops
 
-`tools/animations.py` hooks the games' stream helpers to recover each stream's destination tile range, frame source pointers, rate and starting phase. The helpers are MRA `1e:453e` / `1f:6578` and MSUSA `10:4407` / `11:7f95` / `17:48f9`. Results go to `data/animation_sequences.json`, or `animation_sequences_special.json` with `--special`.
+`tools/animations.py` hooks the games' stream helpers to recover each stream's destination tile range, frame source pointers, rate and starting phase. The helpers are MRA `1e:453e` / `1f:6578` and MSUSA `10:4407` / `11:7f95` / `17:48f9`. Results go to `data/animation_sequences.json`.
 
 Each update adds an 8-bit rate to an 8-bit accumulator. On overflow, the frame index advances modulo the stream's frame count and a tile upload is queued. A stream's period in updates is `256 * frame_count / gcd(rate, 256 * frame_count)`, and a course's combined period is the least common multiple of its stream periods. The longest is 2,560 updates, about 42.86 seconds. All recovered streams write to disjoint tile ranges; the exporter rejects overlapping streams, which would need ordered replay.
 
@@ -53,7 +53,7 @@ Timing assumes one update per 70,224-cycle frame at 4,194,304 Hz (about 59.73 Hz
 
 `tools/export_animations.py` rasterizes straight to palette indices: the 32 original background colors plus one transparent index. It redraws only changed tiles and writes delta rectangles with Pillow's GIF encoder, without quantization or resizing. Identical adjacent frames are merged. Each frame delay is the difference between rounded absolute centisecond timestamps, so the total loop error stays under 5 ms. Viewers may enforce their own minimum delay on very short frames. Every frame uses disposal 1 and the shared palette; the first frame is a full canvas, so the loop restarts cleanly.
 
-Outputs are `images/animated/MRA/` (20 GIFs), `MSUSA/` (12) and `MSUSA_special/` (Nebraska only). Each manifest lists the static courses as well as per-file hashes, frame counts, sizes, durations and timing error.
+Outputs are `images/animated/MRA/` (20 GIFs), and `MSUSA/` (13). Each manifest lists the static courses as well as per-file hashes, frame counts, sizes, durations and timing error.
 
 ### Terrain
 
@@ -71,7 +71,7 @@ In MSUSA, the caller at `00:1ff9` masks the selected byte to six bits and dispat
 
 `tools/export_terrain.py` writes four images per course under `images/terrain/MRA/` and `MSUSA/`:
 
-- `_codes.png`: grayscale, where each pixel value is the terrain code.
+- `_codes.png`: grayscale, where each pixel value is the terrain code. Meant for scripts: the values are small, so it looks black in an image viewer.
 - `_regions.png`: code 0 blue, 1 orange, 2 purple, 3 yellow.
 - `_boundaries.png`: one-pixel pink lines at every code change, drawn over the native background.
 - `_preview.png`: thicker lines for browsing, with a legend.
@@ -84,7 +84,7 @@ Each course also gets a JSON file with dimensions, resource offset and per-code 
 
 ### Unmapped margins
 
-Pete's Dungeon has 144 subtile lookups in the far-right margin of its map that land outside the switchable ROM window. They read non-ROM memory, so they are exported as transparent rather than guessed, and the manifest records the count. No other course has such lookups. Whether the camera can reach this margin is unverified.
+Pete's Dungeon has 144 subtile lookups that land outside the switchable ROM window. All of them are the bottom-right 8×8 subtile of metatile 1024, the filler cell in the map's far-right margin: its lookup resolves to CPU address `$8000`, the start of VRAM, so the tile it shows depends on VRAM contents at the time. In gameplay footage these subtiles appear black, so they are drawn in the course's black (`OBSERVED_FILL` in `tools/maps.py`); the manifest still records the count. No other named course has such lookups.
 
 ### Four extra MSUSA slots
 
@@ -130,6 +130,45 @@ The palette pointer is part of the graphics descriptor and uses the same RGB555 
 
 The source layouts include open and filled Pluto holes. In a fresh town state, runtime edits replace five 4×4-tile hole patches with grass (80 tiles), and those account for every difference between the source town layout and live RAM. The exports keep the source layout, so they show all holes at once, which never happens in play.
 
+## Full-screen backgrounds
+
+The MRA world maps and the MSUSA course cards and US map are stored raw, with no compression. Each screen has a tile-ID plane and an attribute plane of the same size, one byte per 8-pixel tile, row by row, and two 256-tile graphics blocks. A plain banked copy (`00:1f82` in MRA, `00:1baa` in MSUSA) moves each block to WRAM bank 1 or 2, continuing into the next ROM bank when it crosses `8000`. A second copy then moves both blocks to VRAM banks 0 and 1 at `8800`–`97ff`. The screens use signed tile addressing, so tile ID `n` is always byte `n × 16` of its block. `tools/export_screens.py` writes them to `images/screens/`.
+
+Neither game's loader writes palette RAM. Both unpack the RGB555 palette into a fade buffer at `cc40` (MRA `00:3147` stores 5-bit components; MSUSA `00:2b84` stores them multiplied by 8), and the VBlank fade uploads it.
+
+### MRA world maps
+
+Each of the five world maps has its own hard-coded loader in bank `0a`. The exporter reads each loader's operands rather than keeping a table:
+
+| Map | Loader | Size (tiles) | Graphics (bank 0, bank 1) | Palette |
+| --- | --- | --- | --- | --- |
+| Castle | `0a:56f3` | 28×28 | `276e90`, `277e90` | `0a:6af4` |
+| Pirate | `0a:5207` | 28×32 | `279840`, `27a840` | `0a:6bfc` |
+| Wild West | `0a:4fea` | 32×32 | `27a890` | `0a:6c3c` |
+| Sweets | `0a:53f7` | 28×32 | `2785f0`, `2795f0` | `0a:6b9c` |
+| Fairground | `0a:4dbe` | 32×32 | `292620`, `293620` | `0a:6c7c` |
+
+The planes are copied by `LD B,height / LD HL,ids / LD DE,d000 / LD A,width` (attributes to `d400`), with the plane bank in `ff96` when it is not `0a`. The palette is the `DE` operand of `LD B,8 / LD DE,palette / CALL 3147`. Wild West loads only a bank 0 block, and none of its cells use VRAM bank 1. The solid top band on Wild West and Fairground is in the plane data.
+
+### MSUSA course cards
+
+The card loader is `12:52b7`. Card order is the course index `ce5e`, which follows the US map from west to east, not the race order. If the language byte `ce38` is `81`, cards 12 and 13 (Gulf Coast, Louisiana) become 20 and 21 (Golfe du Mexique, Louisiane); if it is `82`, card 12 becomes 22 (Golfküste). There is no Secret Track! card.
+
+Two tables of six-byte entries hold two big-endian far pointers (**bank, high, low**) each: graphics blocks at `4a923` (`12:6923`) and planes at `4a9ad` (`12:69ad`), both indexed by the card number after language substitution. The planes are 20×18 tiles. The palette pointer table at `4aa37` (`12:6a37`) is indexed by `ce5e` itself, so the language variants keep their English card's palette.
+
+### MSUSA US map
+
+The US map is loaded by `09:6252`. It is 40×28 tiles (320×224 pixels), wider than the screen, and is scrolled from WRAM bank 2. Its tile IDs are at `27016`, its attributes at `27476`, its graphics blocks at `281730` and `282730` (`a0:5730`, `a0:6730`), and its palette at `26ce6` (`09:6ce6`, loaded by the screen setup at `09:6786`).
+
+The raw planes contain plain placeholder squares where the state markers go. For each of the 20 states, `09:63b0` draws a 2×2 marker over them:
+
+1. The state's slot is `byte(09:64f1 + state) >> 2`.
+2. A source offset comes from the word table at `09:6479` if the state is reached (`state ≤ ce5e`), otherwise `09:64a1`. The target map cell comes from `09:64c9`. Sub-tiles step by 1 across and by 20 (source) or 40 (map) down.
+3. The marker tile's graphics, `a0:5200 + byte(09:78d6 + source) × 16`, overwrite the graphics of the placeholder tile already at that cell, in the VRAM bank its attribute selects.
+4. The cell's flip and palette bits (`67`) are replaced by `byte(09:7aa2 + source)`. Priority, VRAM bank and bit 4 (`98`) are kept.
+
+State 0 always counts as reached, so the exports show progress 0 (only Los Angeles reached) and 19 (every state reached).
+
 ## Verification
 
 | Script | Method | Result |
@@ -138,9 +177,10 @@ The source layouts include open and filled Pluto holes. In a fresh town state, r
 | `verify_pixels.py` | Loads the decoded tiles and palettes into the emulator with sprites off and compares three raster windows per course with the exported PNG. | 43/43, about 2.97 million pixels; `data/pixel_verification.json` |
 | `verify_hubs.py` | Runs the original decompressors and compares both full map planes and 8,192 graphics bytes. | 6/6 exact; `data/hub_verification.json` |
 | `verify_msusa_extras.py` | Original loader, renderer and rasterizer checks (see above). | 4/4 source-exact; `data/msusa_extras_verification.json` |
-| `verify_animations.py` | Compares every accumulator, frame index and upload request with the original code over each course's full cycle. | 10,635 updates (2,080 for the variant); `data/animation_verification*.json` |
-| `verify_animation_exports.py` | Checks every GIF frame header, duration and hash, three full-map raster phases, and the first three decoded frames at native size. Later frames are checked structurally. | 32 GIFs + variant; `data/animation_export_verification*.json` |
+| `verify_animations.py` | Compares every accumulator, frame index and upload request with the original code over each course's full cycle. | 10,762 updates; `data/animation_verification.json` |
+| `verify_animation_exports.py` | Checks every GIF frame header, duration and hash, three full-map raster phases, and the first three decoded frames at native size. Later frames are checked structurally. | 33 GIFs; `data/animation_export_verification.json` |
 | `verify_terrain.py` | Sampled comparison against the original point lookup (see [Terrain](#terrain)). | 43/43; `data/terrain_verification_*.json` |
+| `verify_screens.py` | Runs each original full-screen loader and compares the tile map (VRAM `9800`, or WRAM bank 2 for the US map, markers included), every tile the screen uses, and the palette in the `cc40` fade buffer. The US map palette is checked statically against the code at `09:6786`. | 30/30 exact; `data/screen_verification.json` |
 
 These checks confirm that the source data is decoded correctly. They do not show that every pixel can be reached by the gameplay camera, and they cover background layers only: sprites, pickups, opponents, some start/finish markers, state-dependent scenery and runtime map edits are outside their scope.
 

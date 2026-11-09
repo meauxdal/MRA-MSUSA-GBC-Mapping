@@ -1,0 +1,82 @@
+[
+  {
+    "index": 1,
+    "name": "Castle World",
+    "file": "01_Castle_World.png",
+    "loader": "0a:56f3",
+    "width": 28,
+    "height": 28,
+    "tile_ids": "0x02acbc",
+    "attributes": "0x02afcc",
+    "graphics": [
+      "0x276e90",
+      "0x277e90"
+    ],
+    "palette": "0x02aaf4",
+    "sha256": "4ca91b51bec73a249af769aecfbd75d2f7ecea42561d12c34144f9244ef825fe"
+  },
+  {
+    "index": 2,
+    "name": "Pirate World",
+    "file": "02_Pirate_World.png",
+    "loader": "0a:5207",
+    "width": 28,
+    "height": 32,
+    "tile_ids": "0x266248",
+    "attributes": "0x2665c8",
+    "graphics": [
+      "0x279840",
+      "0x27a840"
+    ],
+    "palette": "0x02abfc",
+    "sha256": "e58b039bfe4875c015538df95cd4e0a99201ac4956c56a09becdcabea04d6122"
+  },
+  {
+    "index": 3,
+    "name": "Wild West World",
+    "file": "03_Wild_West_World.png",
+    "loader": "0a:4fea",
+    "width": 32,
+    "height": 32,
+    "tile_ids": "0x264f78",
+    "attributes": "0x265378",
+    "graphics": [
+      "0x27a890",
+      null
+    ],
+    "palette": "0x02ac3c",
+    "sha256": "1ccef584d71d562b87f8b37a4582a9450d7a11eaa338a48c1bbd295107c303cf"
+  },
+  {
+    "index": 4,
+    "name": "Sweets World",
+    "file": "04_Sweets_World.png",
+    "loader": "0a:53f7",
+    "width": 28,
+    "height": 32,
+    "tile_ids": "0x02b2dc",
+    "attributes": "0x02b65c",
+    "graphics": [
+      "0x2785f0",
+      "0x2795f0"
+    ],
+    "palette": "0x02ab9c",
+    "sha256": "b3f8b47089e5bdb7a01ddc801272b351a87511e2b0a6d142a879f8c6e98ec083"
+  },
+  {
+    "index": 5,
+    "name": "Fairground World",
+    "file": "05_Fairground_World.png",
+    "loader": "0a:4dbe",
+    "width": 32,
+    "height": 32,
+    "tile_ids": "0x265778",
+    "attributes": "0x265b78",
+    "graphics": [
+      "0x292620",
+      "0x293620"
+    ],
+    "palette": "0x02ac7c",
+    "sha256": "a97b420b38626cac4d65a73932241449d8b76d7e65dde148ac3df576aa027638"
+  }
+]
