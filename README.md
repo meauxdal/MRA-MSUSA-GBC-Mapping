@@ -69,7 +69,7 @@ Previously unseen course data. Apparently for a multiplayer mode. Two of the fou
 
 ### US map
 
-The course select map, with each state's marker drawn the way the game draws it: once at the start (only Los Angeles reached) and once with every state reached.
+Course select map with minimum and maximum courses unlocked.
 
 <!-- table:msusa-us-map -->
 <table>
@@ -82,7 +82,7 @@ The course select map, with each state's marker drawn the way the game draws it:
 
 ### Course cards
 
-The full-screen title card shown before each course, in US-map order. The last three are the French and German versions of Gulf Coast and Louisiana, which the game swaps in by language. There is no card for Secret Track!
+The full-screen title card shown before each course.
 
 <!-- table:msusa-cards -->
 <table>
@@ -125,8 +125,6 @@ The full-screen title card shown before each course, in US-map order. The last t
 <!-- /table -->
 
 ### Terrain
-
-The terrain code the game reads at every pixel, shown as a colored region map and as a boundary overlay on the background. Codes are numbered, not named: what each code does in play (road, wall, slow ground) has not been traced yet.
 
 <!-- table:msusa-terrain -->
 <table>
@@ -235,13 +233,13 @@ The five world maps reached by train from the station. The names are description
 <!-- table:mra-worlds -->
 <table>
 <tr>
-<td align="center" valign="top"><a href="images/screens/MRA_worlds/01_Castle_World.png"><img src="images/thumbs/MRA_worlds/01_Castle_World.png" width="180" height="180" alt="Castle World"></a><br>Castle World<br><sub><a href="images/screens/MRA_worlds/01_Castle_World.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MRA_worlds/02_Pirate_World.png"><img src="images/thumbs/MRA_worlds/02_Pirate_World.png" width="157" height="180" alt="Pirate World"></a><br>Pirate World<br><sub><a href="images/screens/MRA_worlds/02_Pirate_World.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MRA_worlds/03_Wild_West_World.png"><img src="images/thumbs/MRA_worlds/03_Wild_West_World.png" width="180" height="180" alt="Wild West World"></a><br>Wild West World<br><sub><a href="images/screens/MRA_worlds/03_Wild_West_World.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MRA_worlds/04_Sweets_World.png"><img src="images/thumbs/MRA_worlds/04_Sweets_World.png" width="157" height="180" alt="Sweets World"></a><br>Sweets World<br><sub><a href="images/screens/MRA_worlds/04_Sweets_World.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_worlds/01_Castle_World.png"><img src="images/thumbs/MRA_worlds/01_Castle_World.png" width="180" height="180" alt="Castle World"></a><br>Mickey's Medieval Adventure<br><sub><a href="images/screens/MRA_worlds/01_Castle_World.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_worlds/02_Pirate_World.png"><img src="images/thumbs/MRA_worlds/02_Pirate_World.png" width="157" height="180" alt="Pirate World"></a><br>Donald's Pirate Adventure<br><sub><a href="images/screens/MRA_worlds/02_Pirate_World.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_worlds/03_Wild_West_World.png"><img src="images/thumbs/MRA_worlds/03_Wild_West_World.png" width="180" height="180" alt="Wild West World"></a><br>Minnie's Frontier Adventure<br><sub><a href="images/screens/MRA_worlds/03_Wild_West_World.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_worlds/04_Sweets_World.png"><img src="images/thumbs/MRA_worlds/04_Sweets_World.png" width="157" height="180" alt="Sweets World"></a><br>Daisy's Wonderland Adventure<br><sub><a href="images/screens/MRA_worlds/04_Sweets_World.png">PNG</a></sub></td>
 </tr>
 <tr>
-<td align="center" valign="top"><a href="images/screens/MRA_worlds/05_Fairground_World.png"><img src="images/thumbs/MRA_worlds/05_Fairground_World.png" width="180" height="180" alt="Fairground World"></a><br>Fairground World<br><sub><a href="images/screens/MRA_worlds/05_Fairground_World.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_worlds/05_Fairground_World.png"><img src="images/thumbs/MRA_worlds/05_Fairground_World.png" width="180" height="180" alt="Fairground World"></a><br>Goofy's Fairground Adventure<br><sub><a href="images/screens/MRA_worlds/05_Fairground_World.png">PNG</a></sub></td>
 </tr>
 </table>
 <!-- /table -->
