@@ -1,0 +1,562 @@
+[
+  {
+    "index": 0,
+    "world": 1,
+    "stage": 1,
+    "width": 448,
+    "height": 448,
+    "metatiles": "14x14",
+    "stage_data": "0x3e0000",
+    "world_header": "0x3c16ae",
+    "metatile_defs": "0x3c8000",
+    "graphics": "0x3de550",
+    "palette": "0x3c09eb",
+    "animated_tiles": {
+      "bone": "0x8c",
+      "item": "0xef"
+    },
+    "name": "Let's Get Started",
+    "file": "01_Let's_Get_Started.png",
+    "sha256": "644ee37491590068c5370779fef92d670b31a66cdf19f6e3035d49f377d0752a"
+  },
+  {
+    "index": 1,
+    "world": 1,
+    "stage": 2,
+    "width": 704,
+    "height": 480,
+    "metatiles": "22x15",
+    "stage_data": "0x3e00f2",
+    "world_header": "0x3c16ae",
+    "metatile_defs": "0x3c8000",
+    "graphics": "0x3de550",
+    "palette": "0x3c09eb",
+    "animated_tiles": {
+      "bone": "0x8c",
+      "item": "0xef"
+    },
+    "name": "Squares",
+    "file": "02_Squares.png",
+    "sha256": "ae707dd45a3a03b45eda488260e6f8051622182590ab6951a130e24f63e6a6b1"
+  },
+  {
+    "index": 2,
+    "world": 1,
+    "stage": 3,
+    "width": 640,
+    "height": 480,
+    "metatiles": "20x15",
+    "stage_data": "0x3e026a",
+    "world_header": "0x3c16ae",
+    "metatile_defs": "0x3c8000",
+    "graphics": "0x3de550",
+    "palette": "0x3c09eb",
+    "animated_tiles": {
+      "bone": "0x8c",
+      "item": "0xef"
+    },
+    "name": "Meet Butch",
+    "file": "03_Meet_Butch.png",
+    "sha256": "1631f6bcb55f7ced3fc4abfc6e02c8df952d41abedfa42296987275298a76286"
+  },
+  {
+    "index": 3,
+    "world": 1,
+    "stage": 4,
+    "width": 352,
+    "height": 320,
+    "metatiles": "11x10",
+    "stage_data": "0x3e03c4",
+    "world_header": "0x3c16ae",
+    "metatile_defs": "0x3c8000",
+    "graphics": "0x3de550",
+    "palette": "0x3c09eb",
+    "animated_tiles": {
+      "bone": "0x8c",
+      "item": "0xef"
+    },
+    "name": "Bash the Bully",
+    "file": "04_Bash_the_Bully.png",
+    "sha256": "65c2c73ff37764a23b295ec5754cb6c77c0ebca8f14368ba4079093f3c2e9450"
+  },
+  {
+    "index": 4,
+    "world": 2,
+    "stage": 1,
+    "width": 640,
+    "height": 576,
+    "metatiles": "20x18",
+    "stage_data": "0x3e0460",
+    "world_header": "0x3c171b",
+    "metatile_defs": "0x3ca000",
+    "graphics": "0x3d8010",
+    "palette": "0x3c0a73",
+    "animated_tiles": {
+      "bone": "0x29",
+      "item": "0xef"
+    },
+    "name": "Jawbreaker Roll",
+    "file": "05_Jawbreaker_Roll.png",
+    "sha256": "67c1c66f424e8dca679b922c0ec89de1294e229a6526e62a4900a639d777ade6"
+  },
+  {
+    "index": 5,
+    "world": 2,
+    "stage": 2,
+    "width": 608,
+    "height": 416,
+    "metatiles": "19x13",
+    "stage_data": "0x3e05f6",
+    "world_header": "0x3c171b",
+    "metatile_defs": "0x3ca000",
+    "graphics": "0x3d8010",
+    "palette": "0x3c0a73",
+    "animated_tiles": {
+      "bone": "0x29",
+      "item": "0xef"
+    },
+    "name": "Butch Chase",
+    "file": "06_Butch_Chase.png",
+    "sha256": "9cca133ad19cf75a0024f071dd93dbeaef0305007da0d42b97ab6e98ff198679"
+  },
+  {
+    "index": 6,
+    "world": 2,
+    "stage": 3,
+    "width": 672,
+    "height": 448,
+    "metatiles": "21x14",
+    "stage_data": "0x3e071b",
+    "world_header": "0x3c171b",
+    "metatile_defs": "0x3ca000",
+    "graphics": "0x3d8010",
+    "palette": "0x3c0a73",
+    "animated_tiles": {
+      "bone": "0x29",
+      "item": "0xef"
+    },
+    "name": "Candy Columns",
+    "file": "07_Candy_Columns.png",
+    "sha256": "a3ebca2cc948c346f8f4c49c619e931db0d42e81616f58d63e6c11e1e7a37d51"
+  },
+  {
+    "index": 7,
+    "world": 2,
+    "stage": 4,
+    "width": 288,
+    "height": 384,
+    "metatiles": "9x12",
+    "stage_data": "0x3e086f",
+    "world_header": "0x3c171b",
+    "metatile_defs": "0x3ca000",
+    "graphics": "0x3d8010",
+    "palette": "0x3c0a73",
+    "animated_tiles": {
+      "bone": "0x29",
+      "item": "0xef"
+    },
+    "name": "One Chance Candy Smash",
+    "file": "08_One_Chance_Candy_Smash.png",
+    "sha256": "cd091876289aa07516a3bfd01a85db9ab2f17c8ada566e3971fe7c7d052ce931"
+  },
+  {
+    "index": 8,
+    "world": 3,
+    "stage": 1,
+    "width": 672,
+    "height": 480,
+    "metatiles": "21x15",
+    "stage_data": "0x3e0acd",
+    "world_header": "0x3c1788",
+    "metatile_defs": "0x3cc000",
+    "graphics": "0x3d8680",
+    "palette": "0x3c0b03",
+    "animated_tiles": {
+      "bone": "0xe3",
+      "item": "0xef"
+    },
+    "name": "Pieces of Nineteen",
+    "file": "09_Pieces_of_Nineteen.png",
+    "sha256": "0c69b584befaef9b19dd0d5fe79500aa4e4e754a6bbfb981a88eeec79dda9f35"
+  },
+  {
+    "index": 9,
+    "world": 3,
+    "stage": 2,
+    "width": 384,
+    "height": 384,
+    "metatiles": "12x12",
+    "stage_data": "0x3e0909",
+    "world_header": "0x3c1788",
+    "metatile_defs": "0x3cc000",
+    "graphics": "0x3d8680",
+    "palette": "0x3c0b03",
+    "animated_tiles": {
+      "bone": "0xe3",
+      "item": "0xef"
+    },
+    "name": "Barrels Away",
+    "file": "10_Barrels_Away.png",
+    "sha256": "cdb29821301d2dc167080ddd7169ddfb9678625b4ff15aeeae846addd539cf76"
+  },
+  {
+    "index": 10,
+    "world": 3,
+    "stage": 3,
+    "width": 576,
+    "height": 384,
+    "metatiles": "18x12",
+    "stage_data": "0x3e09c7",
+    "world_header": "0x3c1788",
+    "metatile_defs": "0x3cc000",
+    "graphics": "0x3d8680",
+    "palette": "0x3c0b03",
+    "animated_tiles": {
+      "bone": "0xe3",
+      "item": "0xef"
+    },
+    "name": "Butch's Slimy Demise",
+    "file": "11_Butch's_Slimy_Demise.png",
+    "sha256": "356ca9f3b40cc369b7e2ca0baea98e2f0261f86f2ff5e06f5d3237fe6e972d41"
+  },
+  {
+    "index": 11,
+    "world": 3,
+    "stage": 4,
+    "width": 448,
+    "height": 288,
+    "metatiles": "14x9",
+    "stage_data": "0x3e0c36",
+    "world_header": "0x3c1788",
+    "metatile_defs": "0x3cc000",
+    "graphics": "0x3d8680",
+    "palette": "0x3c0b03",
+    "animated_tiles": {
+      "bone": "0xe3",
+      "item": "0xef"
+    },
+    "name": "Double Barrel Drop",
+    "file": "12_Double_Barrel_Drop.png",
+    "sha256": "cce67e402e1248faa6cb8ce211f177e47b37eaaf203d1dcba1d27957be648a1b"
+  },
+  {
+    "index": 12,
+    "world": 4,
+    "stage": 1,
+    "width": 416,
+    "height": 384,
+    "metatiles": "13x12",
+    "stage_data": "0x3e0ce2",
+    "world_header": "0x3c180b",
+    "metatile_defs": "0x3d2000",
+    "graphics": "0x3d9680",
+    "palette": "0x3c0b93",
+    "animated_tiles": {
+      "bone": "0x88",
+      "item": "0xef"
+    },
+    "name": "Pluto's Panic",
+    "file": "13_Pluto's_Panic.png",
+    "sha256": "d3b5d1f3891daa96f20111b0f1a7268a7e825caeb46921c50f42fddcd90f300e"
+  },
+  {
+    "index": 13,
+    "world": 4,
+    "stage": 2,
+    "width": 352,
+    "height": 704,
+    "metatiles": "11x22",
+    "stage_data": "0x3e0dac",
+    "world_header": "0x3c180b",
+    "metatile_defs": "0x3d2000",
+    "graphics": "0x3d9680",
+    "palette": "0x3c0b93",
+    "animated_tiles": {
+      "bone": "0x88",
+      "item": "0xef"
+    },
+    "name": "From the Top",
+    "file": "14_From_the_Top.png",
+    "sha256": "6b091f3e808a150cf7c574084c07b4344d31e3f279fcd99b822004e1fa1caa5f"
+  },
+  {
+    "index": 14,
+    "world": 4,
+    "stage": 3,
+    "width": 640,
+    "height": 320,
+    "metatiles": "20x10",
+    "stage_data": "0x3e0ecc",
+    "world_header": "0x3c180b",
+    "metatile_defs": "0x3d2000",
+    "graphics": "0x3d9680",
+    "palette": "0x3c0b93",
+    "animated_tiles": {
+      "bone": "0x88",
+      "item": "0xef"
+    },
+    "name": "Keep Diggin'",
+    "file": "15_Keep_Diggin'.png",
+    "sha256": "408d6c9372f03f1a94c3d8fec704aa7d1c263e7d9f4a58fad70c1cdf73ad13fc"
+  },
+  {
+    "index": 15,
+    "world": 4,
+    "stage": 4,
+    "width": 384,
+    "height": 352,
+    "metatiles": "12x11",
+    "stage_data": "0x3e0fc2",
+    "world_header": "0x3c180b",
+    "metatile_defs": "0x3d2000",
+    "graphics": "0x3d9680",
+    "palette": "0x3c0b93",
+    "animated_tiles": {
+      "bone": "0x88",
+      "item": "0xef"
+    },
+    "name": "Boulder Drop",
+    "file": "16_Boulder_Drop.png",
+    "sha256": "04d3e95453f507499964f0058e2ade8084aef878f19e6c4aa73826890a457b4e"
+  },
+  {
+    "index": 16,
+    "world": 5,
+    "stage": 1,
+    "width": 352,
+    "height": 544,
+    "metatiles": "11x17",
+    "stage_data": "0x3e1074",
+    "world_header": "0x3c180b",
+    "metatile_defs": "0x3d2000",
+    "graphics": "0x3d9680",
+    "palette": "0x3c0b93",
+    "animated_tiles": {
+      "bone": "0x88",
+      "item": "0xef"
+    },
+    "name": "Back and Forth",
+    "file": "17_Back_and_Forth.png",
+    "sha256": "b5b1c3e90895b4153790fe8b6e788a5bd5e372343ca22c4800d4105e1b366f2e"
+  },
+  {
+    "index": 17,
+    "world": 5,
+    "stage": 2,
+    "width": 288,
+    "height": 416,
+    "metatiles": "9x13",
+    "stage_data": "0x3e115d",
+    "world_header": "0x3c180b",
+    "metatile_defs": "0x3d2000",
+    "graphics": "0x3d9680",
+    "palette": "0x3c0b93",
+    "animated_tiles": {
+      "bone": "0x88",
+      "item": "0xef"
+    },
+    "name": "Rock and Roll",
+    "file": "18_Rock_and_Roll.png",
+    "sha256": "eb911c539f4defef2674f3a9fb35a16c37d03b3304563fe5d615a0e4968339b8"
+  },
+  {
+    "index": 18,
+    "world": 5,
+    "stage": 3,
+    "width": 352,
+    "height": 288,
+    "metatiles": "11x9",
+    "stage_data": "0x3e1200",
+    "world_header": "0x3c180b",
+    "metatile_defs": "0x3d2000",
+    "graphics": "0x3d9680",
+    "palette": "0x3c0b93",
+    "animated_tiles": {
+      "bone": "0x88",
+      "item": "0xef"
+    },
+    "name": "Quick Dig",
+    "file": "19_Quick_Dig.png",
+    "sha256": "267aeb542701e439bd285ba018960938ac98cfda0b3a46817ccb00a0dd34ab71"
+  },
+  {
+    "index": 19,
+    "world": 5,
+    "stage": 4,
+    "width": 288,
+    "height": 352,
+    "metatiles": "9x11",
+    "stage_data": "0x3e1291",
+    "world_header": "0x3c180b",
+    "metatile_defs": "0x3d2000",
+    "graphics": "0x3d9680",
+    "palette": "0x3c0b93",
+    "animated_tiles": {
+      "bone": "0x88",
+      "item": "0xef"
+    },
+    "name": "Harrowing Rock Hollow",
+    "file": "20_Harrowing_Rock_Hollow.png",
+    "sha256": "b06ab162407b5e62d6f00789ac7b2664c42188b02f7e2aa8c408f4bd29109bec"
+  },
+  {
+    "index": 20,
+    "world": 6,
+    "stage": 1,
+    "width": 448,
+    "height": 416,
+    "metatiles": "14x13",
+    "stage_data": "0x3e1322",
+    "world_header": "0x3c1878",
+    "metatile_defs": "0x3ce000",
+    "graphics": "0x3da190",
+    "palette": "0x3c0c23",
+    "animated_tiles": {
+      "bone": "0x84",
+      "item": "0x98"
+    },
+    "name": "Root of the Problem",
+    "file": "21_Root_of_the_Problem.png",
+    "sha256": "323b94c067b099bfce82868b1599881a8ac186e3b7212090291a426738f36bda"
+  },
+  {
+    "index": 21,
+    "world": 6,
+    "stage": 2,
+    "width": 384,
+    "height": 384,
+    "metatiles": "12x12",
+    "stage_data": "0x3e14ea",
+    "world_header": "0x3c1878",
+    "metatile_defs": "0x3ce000",
+    "graphics": "0x3da190",
+    "palette": "0x3c0c23",
+    "animated_tiles": {
+      "bone": "0x84",
+      "item": "0x98"
+    },
+    "name": "Circle of Growth",
+    "file": "22_Circle_of_Growth.png",
+    "sha256": "010f5adff488cf193cf9541ae6ba757599786a7a4eb3a0843b2fe90a63a9f535"
+  },
+  {
+    "index": 22,
+    "world": 6,
+    "stage": 3,
+    "width": 416,
+    "height": 448,
+    "metatiles": "13x14",
+    "stage_data": "0x3e1406",
+    "world_header": "0x3c1878",
+    "metatile_defs": "0x3ce000",
+    "graphics": "0x3da190",
+    "palette": "0x3c0c23",
+    "animated_tiles": {
+      "bone": "0x84",
+      "item": "0x98"
+    },
+    "name": "Log Jam",
+    "file": "23_Log_Jam.png",
+    "sha256": "a382bdd899be52aed8022b09b668dac8259620f3b776d0604841fed49eecd1a4"
+  },
+  {
+    "index": 23,
+    "world": 6,
+    "stage": 4,
+    "width": 416,
+    "height": 384,
+    "metatiles": "13x12",
+    "stage_data": "0x3e15a8",
+    "world_header": "0x3c1878",
+    "metatile_defs": "0x3ce000",
+    "graphics": "0x3da190",
+    "palette": "0x3c0c23",
+    "animated_tiles": {
+      "bone": "0x84",
+      "item": "0x98"
+    },
+    "name": "Quick Slime",
+    "file": "24_Quick_Slime.png",
+    "sha256": "88e6b482de4555e1d53a4050b59c2523781a774fa38e30526265aa21be94487e"
+  },
+  {
+    "index": 24,
+    "world": 7,
+    "stage": 1,
+    "width": 416,
+    "height": 288,
+    "metatiles": "13x9",
+    "stage_data": "0x3e1672",
+    "world_header": "0x3c18e5",
+    "metatile_defs": "0x3d0000",
+    "graphics": "0x3dac20",
+    "palette": "0x3c0cb3",
+    "animated_tiles": {
+      "bone": "0x57",
+      "item": "0x5b"
+    },
+    "name": "Ducks in a Row",
+    "file": "25_Ducks_in_a_Row.png",
+    "sha256": "b2a25ee927c6946aa8e6deba3ab57c482ffd2424eff7075038c3aabfef1a1054"
+  },
+  {
+    "index": 25,
+    "world": 7,
+    "stage": 2,
+    "width": 416,
+    "height": 384,
+    "metatiles": "13x12",
+    "stage_data": "0x3e1715",
+    "world_header": "0x3c18e5",
+    "metatile_defs": "0x3d0000",
+    "graphics": "0x3dac20",
+    "palette": "0x3c0cb3",
+    "animated_tiles": {
+      "bone": "0x57",
+      "item": "0x5b"
+    },
+    "name": "Domino Ducks",
+    "file": "26_Domino_Ducks.png",
+    "sha256": "f1d1800b4cc6f14cf42b0e3a6302c1b1a659be0b5f5ca18135c16e2a87d26ac9"
+  },
+  {
+    "index": 26,
+    "world": 7,
+    "stage": 3,
+    "width": 608,
+    "height": 672,
+    "metatiles": "19x21",
+    "stage_data": "0x3e17df",
+    "world_header": "0x3c18e5",
+    "metatile_defs": "0x3d0000",
+    "graphics": "0x3dac20",
+    "palette": "0x3c0cb3",
+    "animated_tiles": {
+      "bone": "0x57",
+      "item": "0x5b"
+    },
+    "name": "Duck Drop",
+    "file": "27_Duck_Drop.png",
+    "sha256": "2c5f282ab75c1347c0d79fa6c321cb0104f30a0d2596501d9152eab10cb348ca"
+  },
+  {
+    "index": 27,
+    "world": 7,
+    "stage": 4,
+    "width": 448,
+    "height": 480,
+    "metatiles": "14x15",
+    "stage_data": "0x3e199c",
+    "world_header": "0x3c18e5",
+    "metatile_defs": "0x3d0000",
+    "graphics": "0x3dac20",
+    "palette": "0x3c0cb3",
+    "animated_tiles": {
+      "bone": "0x57",
+      "item": "0x5b"
+    },
+    "name": "Duck!",
+    "file": "28_Duck!.png",
+    "sha256": "b5a8bd6cac8cbefeae8c2da17bdf9257e28ace3642b1da143e56ccb9173d7d07"
+  }
+]

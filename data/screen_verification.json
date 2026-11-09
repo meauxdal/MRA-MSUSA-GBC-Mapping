@@ -1,6 +1,6 @@
 [
   {
-    "name": "Castle World",
+    "name": "Mickey's Medieval Adventure",
     "returned": true,
     "palette": "fade buffer cc40",
     "tile_mismatches": 0,
@@ -8,7 +8,7 @@
     "ok": true
   },
   {
-    "name": "Pirate World",
+    "name": "Donald's Pirate Adventure",
     "returned": true,
     "palette": "fade buffer cc40",
     "tile_mismatches": 0,
@@ -16,7 +16,7 @@
     "ok": true
   },
   {
-    "name": "Wild West World",
+    "name": "Minnie's Frontier Adventure",
     "returned": true,
     "palette": "fade buffer cc40",
     "tile_mismatches": 0,
@@ -24,7 +24,7 @@
     "ok": true
   },
   {
-    "name": "Sweets World",
+    "name": "Daisy's Wonderland Adventure",
     "returned": true,
     "palette": "fade buffer cc40",
     "tile_mismatches": 0,
@@ -32,7 +32,7 @@
     "ok": true
   },
   {
-    "name": "Fairground World",
+    "name": "Goofy's Fairground Adventure",
     "returned": true,
     "palette": "fade buffer cc40",
     "tile_mismatches": 0,
@@ -193,30 +193,6 @@
   },
   {
     "name": "card Washington D.C.",
-    "returned": true,
-    "palette": "fade buffer cc40",
-    "tile_mismatches": 0,
-    "plane_mismatches": 0,
-    "ok": true
-  },
-  {
-    "name": "card Golfe du Mexique",
-    "returned": true,
-    "palette": "fade buffer cc40",
-    "tile_mismatches": 0,
-    "plane_mismatches": 0,
-    "ok": true
-  },
-  {
-    "name": "card Louisiane",
-    "returned": true,
-    "palette": "fade buffer cc40",
-    "tile_mismatches": 0,
-    "plane_mismatches": 0,
-    "ok": true
-  },
-  {
-    "name": "card Golfk\u00fcste",
     "returned": true,
     "palette": "fade buffer cc40",
     "tile_mismatches": 0,

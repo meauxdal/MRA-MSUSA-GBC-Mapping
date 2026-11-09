@@ -60,11 +60,11 @@ class Parts:
 
 # MRA world maps, reached from the train station. Hard-coded loaders in bank 0a.
 WORLDS=[
-    (0x56f3, "Castle"),
-    (0x5207, "Pirate"),
-    (0x4fea, "Wild West"),
-    (0x53f7, "Sweets"),
-    (0x4dbe, "Fairground"),
+    (0x56f3, "Mickey's Medieval Adventure"),
+    (0x5207, "Donald's Pirate Adventure"),
+    (0x4fea, "Minnie's Frontier Adventure"),
+    (0x53f7, "Daisy's Wonderland Adventure"),
+    (0x4dbe, "Goofy's Fairground Adventure"),
 ]
 PLANES=re.compile(rb"\x06(.)\x21(..)\x11\x00\xd0\x3e(.)\xe0\x94\x0e\x00"
                   rb"(?:\x3e(.)\xe0\x96)?", re.S)
@@ -95,8 +95,8 @@ def mra_worlds(rom):
         if bank1 and sources[1] is None:
             raise ValueError(f"{name}: {bank1} cells use VRAM bank 1 but no "
                              "bank 1 tiles are loaded")
-        yield dict(index=n, name=f"{name} World",
-                   file=f"{n:02d}_{name.replace(' ', '_')}_World.png",
+        yield dict(index=n, name=name,
+                   file=f"{n:02d}_{name.replace(' ', '_')}.png",
                    loader=f"0a:{entry:04x}", width=width, height=height,
                    tile_ids=f"0x{ids_at:06x}", attributes=f"0x{attrs_at:06x}",
                    graphics=[f"0x{s:06x}" if s is not None else None for s in sources],
@@ -110,8 +110,9 @@ CARDS=["Los Angeles", "Grand Canyon", "Yosemite", "San Francisco", "Seattle",
        "Montana", "Yellowstone", "Utah", "Milwaukee", "Colorado", "Nebraska",
        "Texas", "Gulf Coast", "Louisiana", "Indianapolis", "Boston",
        "Smoky Mountains", "Florida Everglades", "Daytona Beach",
-       "Washington D.C.", "Golfe du Mexique", "Louisiane", "Golfküste"]
-CARD_PALETTE={20: 12, 21: 13, 22: 12}  # palette index stays ce5e
+       "Washington D.C."]
+# Cards 20-22 are French/German text variants of cards 12 and 13 (same art,
+# rewritten name rows). Only the English set is exported.
 
 def far_be(rom, at):
     bank, high, low=rom[at:at+3]
@@ -126,8 +127,7 @@ def msusa_cards(rom):
             gfx.append(copy_tiles(rom, bank, address))
             sources.append(offset(bank, address))
         planes=[offset(*far_be(rom, offset(0x12, 0x69ad)+card*6+k)) for k in (0, 3)]
-        index=CARD_PALETTE.get(card, card)
-        palette=offset(0x12, le16(rom, offset(0x12, 0x6a37)+index*2))
+        palette=offset(0x12, le16(rom, offset(0x12, 0x6a37)+card*2))
         ids, attrs=(rom[at:at+20*18] for at in planes)
         stem=name.replace(" ", "_").replace(".", "").replace("ü", "ue")
         filename=f"{card+1:02d}_{stem}.png"

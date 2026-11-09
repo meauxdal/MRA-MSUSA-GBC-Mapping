@@ -124,6 +124,7 @@ TABLES = {
     "mra-courses": lambda: courses("MRA"),
     "mra-overworld": hubs,
     "mra-worlds": lambda: screens("MRA_worlds"),
+    "mra-dig": lambda: screens("MRA_dig"),
     "mra-terrain": lambda: terrain("MRA"),
 }
 

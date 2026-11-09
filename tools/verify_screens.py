@@ -93,12 +93,10 @@ def main():
 
     rom=read_rom("msusa")
     machine=Machine("msusa")
-    variants={20: (12, 0x81), 21: (13, 0x81), 22: (12, 0x82)}
     for entry, parts in screens.msusa_cards(rom):
-        course, language=variants.get(entry["index"], (entry["index"], 0))
-        def setup(memory, course=course, language=language):
+        def setup(memory, course=entry["index"]):
             memory[0xce5e]=course
-            memory[0xce38]=language
+            memory[0xce38]=0
         returned=run(machine, 0x12, 0x52b7, setup)
         results.append(check(f"card {entry['name']}", machine.p.memory, parts, rom, returned, bg_mismatches))
     for progress, label in screens.US_MAPS:

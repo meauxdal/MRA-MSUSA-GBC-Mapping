@@ -116,11 +116,6 @@ The full-screen title card shown before each course.
 <td align="center" valign="top"><a href="images/screens/MSUSA_cards/19_Daytona_Beach.png"><img src="images/thumbs/MSUSA_cards/19_Daytona_Beach.png" width="160" height="144" alt="Daytona Beach"></a><br>Daytona Beach<br><sub><a href="images/screens/MSUSA_cards/19_Daytona_Beach.png">PNG</a></sub></td>
 <td align="center" valign="top"><a href="images/screens/MSUSA_cards/20_Washington_DC.png"><img src="images/thumbs/MSUSA_cards/20_Washington_DC.png" width="160" height="144" alt="Washington D.C."></a><br>Washington D.C.<br><sub><a href="images/screens/MSUSA_cards/20_Washington_DC.png">PNG</a></sub></td>
 </tr>
-<tr>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/21_Golfe_du_Mexique.png"><img src="images/thumbs/MSUSA_cards/21_Golfe_du_Mexique.png" width="160" height="144" alt="Golfe du Mexique"></a><br>Golfe du Mexique<br><sub><a href="images/screens/MSUSA_cards/21_Golfe_du_Mexique.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/22_Louisiane.png"><img src="images/thumbs/MSUSA_cards/22_Louisiane.png" width="160" height="144" alt="Louisiane"></a><br>Louisiane<br><sub><a href="images/screens/MSUSA_cards/22_Louisiane.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/23_Golfkueste.png"><img src="images/thumbs/MSUSA_cards/23_Golfkueste.png" width="160" height="144" alt="Golfküste"></a><br>Golfküste<br><sub><a href="images/screens/MSUSA_cards/23_Golfkueste.png">PNG</a></sub></td>
-</tr>
 </table>
 <!-- /table -->
 
@@ -209,37 +204,88 @@ The full-screen title card shown before each course.
 
 ### Overworld
 
-Todo: fix names.
+The exploration areas between races, named as players know them (the game shows no title for them).
 
 <!-- table:mra-overworld -->
 <table>
 <tr>
-<td align="center" valign="top"><a href="images/reconstructed/MRA_hubs/00_Garage_and_test_track_entrance.png"><img src="images/thumbs/MRA_overworld/00_Garage_and_test_track_entrance.png" width="180" height="180" alt="Garage and test track entrance"></a><br>Garage and test track entrance<br><sub><a href="images/reconstructed/MRA_hubs/00_Garage_and_test_track_entrance.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/reconstructed/MRA_hubs/01_Town.png"><img src="images/thumbs/MRA_overworld/01_Town.png" width="180" height="135" alt="Town"></a><br>Town<br><sub><a href="images/reconstructed/MRA_hubs/01_Town.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/reconstructed/MRA_hubs/02_Railway_and_river.png"><img src="images/thumbs/MRA_overworld/02_Railway_and_river.png" width="180" height="154" alt="Railway and river"></a><br>Railway and river<br><sub><a href="images/reconstructed/MRA_hubs/02_Railway_and_river.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/reconstructed/MRA_hubs/03_Mushroom_clearing.png"><img src="images/thumbs/MRA_overworld/03_Mushroom_clearing.png" width="159" height="180" alt="Mushroom clearing"></a><br>Mushroom clearing<br><sub><a href="images/reconstructed/MRA_hubs/03_Mushroom_clearing.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/reconstructed/MRA_hubs/00_Ludwig_Von_Drake%27s_Garage.png"><img src="images/thumbs/MRA_overworld/00_Ludwig_Von_Drake%27s_Garage.png" width="180" height="180" alt="Ludwig Von Drake&#x27;s Garage"></a><br>Ludwig Von Drake&#x27;s Garage<br><sub><a href="images/reconstructed/MRA_hubs/00_Ludwig_Von_Drake%27s_Garage.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/reconstructed/MRA_hubs/01_Mickey%27s_Hometown.png"><img src="images/thumbs/MRA_overworld/01_Mickey%27s_Hometown.png" width="180" height="135" alt="Mickey&#x27;s Hometown"></a><br>Mickey&#x27;s Hometown<br><sub><a href="images/reconstructed/MRA_hubs/01_Mickey%27s_Hometown.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/reconstructed/MRA_hubs/02_Casey_Junior_Junction.png"><img src="images/thumbs/MRA_overworld/02_Casey_Junior_Junction.png" width="180" height="154" alt="Casey Junior Junction"></a><br>Casey Junior Junction<br><sub><a href="images/reconstructed/MRA_hubs/02_Casey_Junior_Junction.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/reconstructed/MRA_hubs/03_Magica_De_Spell%27s_House.png"><img src="images/thumbs/MRA_overworld/03_Magica_De_Spell%27s_House.png" width="159" height="180" alt="Magica De Spell&#x27;s House"></a><br>Magica De Spell&#x27;s House<br><sub><a href="images/reconstructed/MRA_hubs/03_Magica_De_Spell%27s_House.png">PNG</a></sub></td>
 </tr>
 <tr>
-<td align="center" valign="top"><a href="images/reconstructed/MRA_hubs/04_Treehouse_clearing.png"><img src="images/thumbs/MRA_overworld/04_Treehouse_clearing.png" width="180" height="158" alt="Treehouse clearing"></a><br>Treehouse clearing<br><sub><a href="images/reconstructed/MRA_hubs/04_Treehouse_clearing.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/reconstructed/MRA_hubs/05_Railway_strip.png"><img src="images/thumbs/MRA_overworld/05_Railway_strip.png" width="180" height="39" alt="Railway strip"></a><br>Railway strip<br><sub><a href="images/reconstructed/MRA_hubs/05_Railway_strip.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/reconstructed/MRA_hubs/04_Chip_%27n%27_Dale%27s_Treehouse_Glade.png"><img src="images/thumbs/MRA_overworld/04_Chip_%27n%27_Dale%27s_Treehouse_Glade.png" width="180" height="158" alt="Chip &#x27;n&#x27; Dale&#x27;s Treehouse Glade"></a><br>Chip &#x27;n&#x27; Dale&#x27;s Treehouse Glade<br><sub><a href="images/reconstructed/MRA_hubs/04_Chip_%27n%27_Dale%27s_Treehouse_Glade.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/reconstructed/MRA_hubs/05_Casey_Junior_Junction_Railway.png"><img src="images/thumbs/MRA_overworld/05_Casey_Junior_Junction_Railway.png" width="180" height="39" alt="Casey Junior Junction Railway"></a><br>Casey Junior Junction Railway<br><sub><a href="images/reconstructed/MRA_hubs/05_Casey_Junior_Junction_Railway.png">PNG</a></sub></td>
 </tr>
 </table>
 <!-- /table -->
 
 ### Adventure maps
 
-Todo: fix filenames.
+The five adventure world maps, reached from the train station, in ROM order.
 
 <!-- table:mra-worlds -->
 <table>
 <tr>
-<td align="center" valign="top"><a href="images/screens/MRA_worlds/01_Castle_World.png"><img src="images/thumbs/MRA_worlds/01_Castle_World.png" width="180" height="180" alt="Castle World"></a><br>Mickey's Medieval Adventure<br><sub><a href="images/screens/MRA_worlds/01_Castle_World.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MRA_worlds/02_Pirate_World.png"><img src="images/thumbs/MRA_worlds/02_Pirate_World.png" width="157" height="180" alt="Pirate World"></a><br>Donald's Pirate Adventure<br><sub><a href="images/screens/MRA_worlds/02_Pirate_World.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MRA_worlds/03_Wild_West_World.png"><img src="images/thumbs/MRA_worlds/03_Wild_West_World.png" width="180" height="180" alt="Wild West World"></a><br>Minnie's Frontier Adventure<br><sub><a href="images/screens/MRA_worlds/03_Wild_West_World.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MRA_worlds/04_Sweets_World.png"><img src="images/thumbs/MRA_worlds/04_Sweets_World.png" width="157" height="180" alt="Sweets World"></a><br>Daisy's Wonderland Adventure<br><sub><a href="images/screens/MRA_worlds/04_Sweets_World.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_worlds/01_Mickey%27s_Medieval_Adventure.png"><img src="images/thumbs/MRA_worlds/01_Mickey%27s_Medieval_Adventure.png" width="180" height="180" alt="Mickey&#x27;s Medieval Adventure"></a><br>Mickey&#x27;s Medieval Adventure<br><sub><a href="images/screens/MRA_worlds/01_Mickey%27s_Medieval_Adventure.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_worlds/02_Donald%27s_Pirate_Adventure.png"><img src="images/thumbs/MRA_worlds/02_Donald%27s_Pirate_Adventure.png" width="157" height="180" alt="Donald&#x27;s Pirate Adventure"></a><br>Donald&#x27;s Pirate Adventure<br><sub><a href="images/screens/MRA_worlds/02_Donald%27s_Pirate_Adventure.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_worlds/03_Minnie%27s_Frontier_Adventure.png"><img src="images/thumbs/MRA_worlds/03_Minnie%27s_Frontier_Adventure.png" width="180" height="180" alt="Minnie&#x27;s Frontier Adventure"></a><br>Minnie&#x27;s Frontier Adventure<br><sub><a href="images/screens/MRA_worlds/03_Minnie%27s_Frontier_Adventure.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_worlds/04_Daisy%27s_Wonderland_Adventure.png"><img src="images/thumbs/MRA_worlds/04_Daisy%27s_Wonderland_Adventure.png" width="157" height="180" alt="Daisy&#x27;s Wonderland Adventure"></a><br>Daisy&#x27;s Wonderland Adventure<br><sub><a href="images/screens/MRA_worlds/04_Daisy%27s_Wonderland_Adventure.png">PNG</a></sub></td>
 </tr>
 <tr>
-<td align="center" valign="top"><a href="images/screens/MRA_worlds/05_Fairground_World.png"><img src="images/thumbs/MRA_worlds/05_Fairground_World.png" width="180" height="180" alt="Fairground World"></a><br>Goofy's Fairground Adventure<br><sub><a href="images/screens/MRA_worlds/05_Fairground_World.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_worlds/05_Goofy%27s_Fairground_Adventure.png"><img src="images/thumbs/MRA_worlds/05_Goofy%27s_Fairground_Adventure.png" width="180" height="180" alt="Goofy&#x27;s Fairground Adventure"></a><br>Goofy&#x27;s Fairground Adventure<br><sub><a href="images/screens/MRA_worlds/05_Goofy%27s_Fairground_Adventure.png">PNG</a></sub></td>
+</tr>
+</table>
+<!-- /table -->
+
+### Pluto digging stages
+
+The underground levels Pluto digs into from a hole in town: 7 worlds of 4 stages, numbered by the game's stage index and named from each stage's title card. Bones and the second collectible spin in the game; the PNGs show the first frame of each.
+
+<!-- table:mra-dig -->
+<table>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/01_Let%27s_Get_Started.png"><img src="images/thumbs/MRA_dig/01_Let%27s_Get_Started.png" width="180" height="180" alt="Let&#x27;s Get Started"></a><br>Let&#x27;s Get Started<br><sub><a href="images/screens/MRA_dig/01_Let%27s_Get_Started.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/02_Squares.png"><img src="images/thumbs/MRA_dig/02_Squares.png" width="180" height="123" alt="Squares"></a><br>Squares<br><sub><a href="images/screens/MRA_dig/02_Squares.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/03_Meet_Butch.png"><img src="images/thumbs/MRA_dig/03_Meet_Butch.png" width="180" height="135" alt="Meet Butch"></a><br>Meet Butch<br><sub><a href="images/screens/MRA_dig/03_Meet_Butch.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/04_Bash_the_Bully.png"><img src="images/thumbs/MRA_dig/04_Bash_the_Bully.png" width="180" height="164" alt="Bash the Bully"></a><br>Bash the Bully<br><sub><a href="images/screens/MRA_dig/04_Bash_the_Bully.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/05_Jawbreaker_Roll.png"><img src="images/thumbs/MRA_dig/05_Jawbreaker_Roll.png" width="180" height="162" alt="Jawbreaker Roll"></a><br>Jawbreaker Roll<br><sub><a href="images/screens/MRA_dig/05_Jawbreaker_Roll.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/06_Butch_Chase.png"><img src="images/thumbs/MRA_dig/06_Butch_Chase.png" width="180" height="123" alt="Butch Chase"></a><br>Butch Chase<br><sub><a href="images/screens/MRA_dig/06_Butch_Chase.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/07_Candy_Columns.png"><img src="images/thumbs/MRA_dig/07_Candy_Columns.png" width="180" height="120" alt="Candy Columns"></a><br>Candy Columns<br><sub><a href="images/screens/MRA_dig/07_Candy_Columns.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/08_One_Chance_Candy_Smash.png"><img src="images/thumbs/MRA_dig/08_One_Chance_Candy_Smash.png" width="135" height="180" alt="One Chance Candy Smash"></a><br>One Chance Candy Smash<br><sub><a href="images/screens/MRA_dig/08_One_Chance_Candy_Smash.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/09_Pieces_of_Nineteen.png"><img src="images/thumbs/MRA_dig/09_Pieces_of_Nineteen.png" width="180" height="129" alt="Pieces of Nineteen"></a><br>Pieces of Nineteen<br><sub><a href="images/screens/MRA_dig/09_Pieces_of_Nineteen.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/10_Barrels_Away.png"><img src="images/thumbs/MRA_dig/10_Barrels_Away.png" width="180" height="180" alt="Barrels Away"></a><br>Barrels Away<br><sub><a href="images/screens/MRA_dig/10_Barrels_Away.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/11_Butch%27s_Slimy_Demise.png"><img src="images/thumbs/MRA_dig/11_Butch%27s_Slimy_Demise.png" width="180" height="120" alt="Butch&#x27;s Slimy Demise"></a><br>Butch&#x27;s Slimy Demise<br><sub><a href="images/screens/MRA_dig/11_Butch%27s_Slimy_Demise.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/12_Double_Barrel_Drop.png"><img src="images/thumbs/MRA_dig/12_Double_Barrel_Drop.png" width="180" height="116" alt="Double Barrel Drop"></a><br>Double Barrel Drop<br><sub><a href="images/screens/MRA_dig/12_Double_Barrel_Drop.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/13_Pluto%27s_Panic.png"><img src="images/thumbs/MRA_dig/13_Pluto%27s_Panic.png" width="180" height="166" alt="Pluto&#x27;s Panic"></a><br>Pluto&#x27;s Panic<br><sub><a href="images/screens/MRA_dig/13_Pluto%27s_Panic.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/14_From_the_Top.png"><img src="images/thumbs/MRA_dig/14_From_the_Top.png" width="90" height="180" alt="From the Top"></a><br>From the Top<br><sub><a href="images/screens/MRA_dig/14_From_the_Top.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/15_Keep_Diggin%27.png"><img src="images/thumbs/MRA_dig/15_Keep_Diggin%27.png" width="180" height="90" alt="Keep Diggin&#x27;"></a><br>Keep Diggin&#x27;<br><sub><a href="images/screens/MRA_dig/15_Keep_Diggin%27.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/16_Boulder_Drop.png"><img src="images/thumbs/MRA_dig/16_Boulder_Drop.png" width="180" height="165" alt="Boulder Drop"></a><br>Boulder Drop<br><sub><a href="images/screens/MRA_dig/16_Boulder_Drop.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/17_Back_and_Forth.png"><img src="images/thumbs/MRA_dig/17_Back_and_Forth.png" width="116" height="180" alt="Back and Forth"></a><br>Back and Forth<br><sub><a href="images/screens/MRA_dig/17_Back_and_Forth.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/18_Rock_and_Roll.png"><img src="images/thumbs/MRA_dig/18_Rock_and_Roll.png" width="125" height="180" alt="Rock and Roll"></a><br>Rock and Roll<br><sub><a href="images/screens/MRA_dig/18_Rock_and_Roll.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/19_Quick_Dig.png"><img src="images/thumbs/MRA_dig/19_Quick_Dig.png" width="180" height="147" alt="Quick Dig"></a><br>Quick Dig<br><sub><a href="images/screens/MRA_dig/19_Quick_Dig.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/20_Harrowing_Rock_Hollow.png"><img src="images/thumbs/MRA_dig/20_Harrowing_Rock_Hollow.png" width="147" height="180" alt="Harrowing Rock Hollow"></a><br>Harrowing Rock Hollow<br><sub><a href="images/screens/MRA_dig/20_Harrowing_Rock_Hollow.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/21_Root_of_the_Problem.png"><img src="images/thumbs/MRA_dig/21_Root_of_the_Problem.png" width="180" height="167" alt="Root of the Problem"></a><br>Root of the Problem<br><sub><a href="images/screens/MRA_dig/21_Root_of_the_Problem.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/22_Circle_of_Growth.png"><img src="images/thumbs/MRA_dig/22_Circle_of_Growth.png" width="180" height="180" alt="Circle of Growth"></a><br>Circle of Growth<br><sub><a href="images/screens/MRA_dig/22_Circle_of_Growth.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/23_Log_Jam.png"><img src="images/thumbs/MRA_dig/23_Log_Jam.png" width="167" height="180" alt="Log Jam"></a><br>Log Jam<br><sub><a href="images/screens/MRA_dig/23_Log_Jam.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/24_Quick_Slime.png"><img src="images/thumbs/MRA_dig/24_Quick_Slime.png" width="180" height="166" alt="Quick Slime"></a><br>Quick Slime<br><sub><a href="images/screens/MRA_dig/24_Quick_Slime.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/25_Ducks_in_a_Row.png"><img src="images/thumbs/MRA_dig/25_Ducks_in_a_Row.png" width="180" height="125" alt="Ducks in a Row"></a><br>Ducks in a Row<br><sub><a href="images/screens/MRA_dig/25_Ducks_in_a_Row.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/26_Domino_Ducks.png"><img src="images/thumbs/MRA_dig/26_Domino_Ducks.png" width="180" height="166" alt="Domino Ducks"></a><br>Domino Ducks<br><sub><a href="images/screens/MRA_dig/26_Domino_Ducks.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/27_Duck_Drop.png"><img src="images/thumbs/MRA_dig/27_Duck_Drop.png" width="163" height="180" alt="Duck Drop"></a><br>Duck Drop<br><sub><a href="images/screens/MRA_dig/27_Duck_Drop.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_dig/28_Duck%21.png"><img src="images/thumbs/MRA_dig/28_Duck%21.png" width="168" height="180" alt="Duck!"></a><br>Duck!<br><sub><a href="images/screens/MRA_dig/28_Duck%21.png">PNG</a></sub></td>
 </tr>
 </table>
 <!-- /table -->

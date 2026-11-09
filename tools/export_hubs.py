@@ -5,8 +5,10 @@ from PIL import Image,ImageDraw
 from maps import ROOT,read_rom
 from hubs import hubs
 
-NAMES=["Garage and test track entrance", "Town", "Railway and river",
-       "Mushroom clearing", "Treehouse clearing", "Railway strip"]
+# Area names as players know them.
+NAMES=["Ludwig Von Drake's Garage", "Mickey's Hometown", "Casey Junior Junction",
+       "Magica De Spell's House", "Chip 'n' Dale's Treehouse Glade",
+       "Casey Junior Junction Railway"]
 
 def main():
     out=ROOT/"images/reconstructed/MRA_hubs"
@@ -18,7 +20,7 @@ def main():
         im=hub.render()
         filename=f"{hub.index:02d}_{NAMES[hub.index].replace(' ','_')}.png"
         im.save(out/filename)
-        manifest.append(dict(index=hub.index,name=NAMES[hub.index],identification="visual description; not an in-game title",
+        manifest.append(dict(index=hub.index,name=NAMES[hub.index],identification="area name used by players; no on-screen title",
             file=filename,width=im.width,height=im.height,map=f"0x{hub.map_offset:06x}",
             graphics=f"0x{hub.graphics_offset:06x}",palette=f"0x{hub.palette_offset:06x}",
             status="base background; runtime map edits, sprites, and animation changes not included",

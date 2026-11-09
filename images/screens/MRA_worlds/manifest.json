@@ -1,8 +1,8 @@
 [
   {
     "index": 1,
-    "name": "Castle World",
-    "file": "01_Castle_World.png",
+    "name": "Mickey's Medieval Adventure",
+    "file": "01_Mickey's_Medieval_Adventure.png",
     "loader": "0a:56f3",
     "width": 28,
     "height": 28,
@@ -17,8 +17,8 @@
   },
   {
     "index": 2,
-    "name": "Pirate World",
-    "file": "02_Pirate_World.png",
+    "name": "Donald's Pirate Adventure",
+    "file": "02_Donald's_Pirate_Adventure.png",
     "loader": "0a:5207",
     "width": 28,
     "height": 32,
@@ -33,8 +33,8 @@
   },
   {
     "index": 3,
-    "name": "Wild West World",
-    "file": "03_Wild_West_World.png",
+    "name": "Minnie's Frontier Adventure",
+    "file": "03_Minnie's_Frontier_Adventure.png",
     "loader": "0a:4fea",
     "width": 32,
     "height": 32,
@@ -49,8 +49,8 @@
   },
   {
     "index": 4,
-    "name": "Sweets World",
-    "file": "04_Sweets_World.png",
+    "name": "Daisy's Wonderland Adventure",
+    "file": "04_Daisy's_Wonderland_Adventure.png",
     "loader": "0a:53f7",
     "width": 28,
     "height": 32,
@@ -65,8 +65,8 @@
   },
   {
     "index": 5,
-    "name": "Fairground World",
-    "file": "05_Fairground_World.png",
+    "name": "Goofy's Fairground Adventure",
+    "file": "05_Goofy's_Fairground_Adventure.png",
     "loader": "0a:4dbe",
     "width": 32,
     "height": 32,
