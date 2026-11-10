@@ -98,12 +98,9 @@ def arenas():
         name = e["name"].split(": ", 1)[1].capitalize()
         raw = folder/e["file"]
         rec = e.get("reconstruction")
-        if rec:
-            src = folder/rec["filename"]
-            links = [("Reconstruction", src), ("Raw", raw)]
-            name += " (conjectural)"
-        else:
-            src, links = raw, [("PNG", raw)]
+        src, links = raw, [("PNG", raw)]
+        if rec:    # the raw render stays the default; the guess is a link
+            links.append(("Reconstruction", folder/rec["filename"]))
         cells.append(cell(f"{e['index']}: {name}", src, "MSUSA_arenas",
                           links))
     return cells

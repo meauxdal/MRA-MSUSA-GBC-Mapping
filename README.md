@@ -14,6 +14,8 @@ Maps of every course in *Mickey's Racing Adventure* (Game Boy Color, 1999) and *
 
 ### Courses
 
+Course slots 0-20.
+
 <!-- table:msusa-courses -->
 <table>
 <tr>
@@ -54,14 +56,16 @@ Maps of every course in *Mickey's Racing Adventure* (Game Boy Color, 1999) and *
 
 ### Arenas
 
-Previously unseen course data. Apparently for a multiplayer mode. Slot 23's graphics are scrambled (see reconstruction for a general idea of what it may have looked like; there's not really any way to know for sure, but this tileset matches best).
+Previously unseen course data for slots 21-24. They appear to be for a multiplayer mode. 
+
+23 is scrambled. A reconstruction is linked beneath the image for a general idea of what it may have looked like.
 
 <!-- table:msusa-arenas -->
 <table>
 <tr>
 <td align="center" valign="top"><a href="images/reconstructed/MSUSA_extras/21_Walled_Garden.png"><img src="images/thumbs/MSUSA_arenas/21_Walled_Garden.png" width="180" height="102" alt="21: Walled garden"></a><br>21: Walled garden<br><sub><a href="images/reconstructed/MSUSA_extras/21_Walled_Garden.png">PNG</a></sub></td>
 <td align="center" valign="top"><a href="images/reconstructed/MSUSA_extras/22_Log_Arena.png"><img src="images/thumbs/MSUSA_arenas/22_Log_Arena.png" width="180" height="152" alt="22: Log arena"></a><br>22: Log arena<br><sub><a href="images/reconstructed/MSUSA_extras/22_Log_Arena.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/reconstructed/MSUSA_extras/23_Unfinished_Arena.png"><img src="images/thumbs/MSUSA_arenas/23_Unfinished_Arena.png" width="180" height="128" alt="23: Unfinished arena (conjectural)"></a><br>23: Unfinished arena (conjectural)<br><sub><a href="images/reconstructed/MSUSA_extras/23_Unfinished_Arena.png">Reconstruction</a> · <a href="images/reconstructed/MSUSA_extras/23_Unresolved_Graphics.png">Raw</a></sub></td>
+<td align="center" valign="top"><a href="images/reconstructed/MSUSA_extras/23_Unresolved_Graphics.png"><img src="images/thumbs/MSUSA_arenas/23_Unresolved_Graphics.png" width="180" height="128" alt="23: Unfinished arena"></a><br>23: Unfinished arena<br><sub><a href="images/reconstructed/MSUSA_extras/23_Unresolved_Graphics.png">PNG</a> · <a href="images/reconstructed/MSUSA_extras/23_Unfinished_Arena.png">Reconstruction</a></sub></td>
 <td align="center" valign="top"><a href="images/reconstructed/MSUSA_extras/24_City_Arena.png"><img src="images/thumbs/MSUSA_arenas/24_City_Arena.png" width="180" height="121" alt="24: City arena"></a><br>24: City arena<br><sub><a href="images/reconstructed/MSUSA_extras/24_City_Arena.png">PNG</a></sub></td>
 </tr>
 </table>
@@ -69,7 +73,7 @@ Previously unseen course data. Apparently for a multiplayer mode. Slot 23's grap
 
 ### US map
 
-Course select map with minimum and maximum courses unlocked.
+Course select map (initial and final variants).
 
 <!-- table:msusa-us-map -->
 <table>
@@ -80,9 +84,7 @@ Course select map with minimum and maximum courses unlocked.
 </table>
 <!-- /table -->
 
-### Course cards
-
-The full-screen title card shown before each course.
+### Course title cards
 
 <!-- table:msusa-cards -->
 <table>
@@ -120,6 +122,8 @@ The full-screen title card shown before each course.
 <!-- /table -->
 
 ### Terrain
+
+Underlying tile type data.
 
 <!-- table:msusa-terrain -->
 <table>
@@ -204,8 +208,6 @@ The full-screen title card shown before each course.
 
 ### Overworld
 
-The exploration areas between races, named as players know them (the game shows no title for them).
-
 <!-- table:mra-overworld -->
 <table>
 <tr>
@@ -222,8 +224,6 @@ The exploration areas between races, named as players know them (the game shows 
 <!-- /table -->
 
 ### Adventure maps
-
-The five adventure world maps, reached from the train station, in ROM order.
 
 <!-- table:mra-worlds -->
 <table>
@@ -289,6 +289,8 @@ The five adventure world maps, reached from the train station, in ROM order.
 <!-- /table -->
 
 ### Terrain
+
+You can see the true track shapes here; elevation is ignored.
 
 <!-- table:mra-terrain -->
 <table>
