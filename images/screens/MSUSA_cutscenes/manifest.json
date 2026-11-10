@@ -250,7 +250,7 @@
   {
     "index": 15,
     "name": "Ransom Note English",
-    "file": "15_Ransom_Note_English.png",
+    "file": "15_Ransom_Note_(English).png",
     "identification": "the weasels' ransom note (English)",
     "loader": "08:695a",
     "width": 20,
@@ -267,7 +267,7 @@
   {
     "index": 16,
     "name": "Ransom Note French",
-    "file": "16_Ransom_Note_French.png",
+    "file": "16_Ransom_Note_(French).png",
     "identification": "the weasels' ransom note (French)",
     "loader": "08:68c9",
     "width": 20,
@@ -284,7 +284,7 @@
   {
     "index": 17,
     "name": "Ransom Note German",
-    "file": "17_Ransom_Note_German.png",
+    "file": "17_Ransom_Note_(German).png",
     "identification": "the weasels' ransom note (German)",
     "loader": "08:68fa",
     "width": 20,
@@ -301,7 +301,7 @@
   {
     "index": 18,
     "name": "Ransom Note Spanish",
-    "file": "18_Ransom_Note_Spanish.png",
+    "file": "18_Ransom_Note_(Spanish).png",
     "identification": "the weasels' ransom note (Spanish)",
     "loader": "08:692a",
     "width": 20,

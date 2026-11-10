@@ -50,13 +50,13 @@ SCREENS=[
     # The ransom note is one loader (08:68c9-695a) that picks tiles and planes
     # from the language byte ce38: 80 English, 81 French, 82 German, 83
     # Spanish. The tile copies are in the dispatcher, not before each plane.
-    (0x08, 0x695a, "Ransom_Note_English", "the weasels' ransom note (English)",
+    (0x08, 0x695a, "Ransom_Note_(English)", "the weasels' ransom note (English)",
      [(0x75b0, 0x90, 1), (0x45b0, 0x91, 2)]),
-    (0x08, 0x68c9, "Ransom_Note_French", "the weasels' ransom note (French)",
+    (0x08, 0x68c9, "Ransom_Note_(French)", "the weasels' ransom note (French)",
      [(0x40b0, 0x76, 1)]),
-    (0x08, 0x68fa, "Ransom_Note_German", "the weasels' ransom note (German)",
+    (0x08, 0x68fa, "Ransom_Note_(German)", "the weasels' ransom note (German)",
      [(0x5050, 0x76, 1), (0x6050, 0x76, 2)]),
-    (0x08, 0x692a, "Ransom_Note_Spanish", "the weasels' ransom note (Spanish)",
+    (0x08, 0x692a, "Ransom_Note_(Spanish)", "the weasels' ransom note (Spanish)",
      [(0x6140, 0x76, 1)]),
     (0x05, 0x4ec2, "Yellow_Machine", "a yellow machine on black"),
     (0x04, 0x4e1c, "Trophy_Case_(French)", "trophy case (French)"),
