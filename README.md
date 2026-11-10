@@ -1,6 +1,6 @@
-# Mickey's Racing Adventure and Mickey's Speedway USA: GBC maps
+# Mickey's Racing Adventure and Mickey's Speedway USA (GBC) maps, etc.
 
-Maps of every course in *Mickey's Racing Adventure* (Game Boy Color, 1999) and *Mickey's Speedway USA* (Game Boy Color, 2001).
+Maps of every course in *Mickey's Racing Adventure* (Game Boy Color, 1999) and *Mickey's Speedway USA* (Game Boy Color, 2001). Plus lots of other stuff.
 
 <p align="center">
   <img src="images/showcase/MRA_Round_Table_Trouble.gif" width="400" height="300" alt="The castle wall and start line in Round Table Trouble (Mickey's Racing Adventure)">
