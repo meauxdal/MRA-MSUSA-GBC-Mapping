@@ -54,7 +54,7 @@ Maps of every course in *Mickey's Racing Adventure* (Game Boy Color, 1999) and *
 
 ### Arenas
 
-Previously unseen course data. Apparently for a multiplayer mode. Two of the four are clean, slot 23's graphics are scrambled (see reconstruction for one possible tileset match), and the city arena has 145 tiles with no ROM source. Names are not official.
+Previously unseen course data. Apparently for a multiplayer mode. Slot 23's graphics are scrambled (see reconstruction for a general idea of what it may have looked like; there's not really any way to know for sure, but this tileset matches best).
 
 <!-- table:msusa-arenas -->
 <table>
@@ -87,34 +87,34 @@ The full-screen title card shown before each course.
 <!-- table:msusa-cards -->
 <table>
 <tr>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/01_Los_Angeles.png"><img src="images/thumbs/MSUSA_cards/01_Los_Angeles.png" width="160" height="144" alt="Los Angeles"></a><br>Los Angeles<br><sub><a href="images/screens/MSUSA_cards/01_Los_Angeles.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/02_Grand_Canyon.png"><img src="images/thumbs/MSUSA_cards/02_Grand_Canyon.png" width="160" height="144" alt="Grand Canyon"></a><br>Grand Canyon<br><sub><a href="images/screens/MSUSA_cards/02_Grand_Canyon.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/03_Yosemite.png"><img src="images/thumbs/MSUSA_cards/03_Yosemite.png" width="160" height="144" alt="Yosemite"></a><br>Yosemite<br><sub><a href="images/screens/MSUSA_cards/03_Yosemite.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/04_San_Francisco.png"><img src="images/thumbs/MSUSA_cards/04_San_Francisco.png" width="160" height="144" alt="San Francisco"></a><br>San Francisco<br><sub><a href="images/screens/MSUSA_cards/04_San_Francisco.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/01_Los_Angeles.png"><img src="images/thumbs/MSUSA_cards/01_Los_Angeles.png" width="160" height="144" alt="Los Angeles"></a><br>Los Angeles<br><sub><a href="images/screens/MSUSA_cards/01_Los_Angeles.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/01_Los_Angeles.png">No caption</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/02_Grand_Canyon.png"><img src="images/thumbs/MSUSA_cards/02_Grand_Canyon.png" width="160" height="144" alt="Grand Canyon"></a><br>Grand Canyon<br><sub><a href="images/screens/MSUSA_cards/02_Grand_Canyon.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/02_Grand_Canyon.png">No caption</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/03_Yosemite.png"><img src="images/thumbs/MSUSA_cards/03_Yosemite.png" width="160" height="144" alt="Yosemite"></a><br>Yosemite<br><sub><a href="images/screens/MSUSA_cards/03_Yosemite.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/03_Yosemite.png">No caption</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/04_San_Francisco.png"><img src="images/thumbs/MSUSA_cards/04_San_Francisco.png" width="160" height="144" alt="San Francisco"></a><br>San Francisco<br><sub><a href="images/screens/MSUSA_cards/04_San_Francisco.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/04_San_Francisco.png">No caption</a></sub></td>
 </tr>
 <tr>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/05_Seattle.png"><img src="images/thumbs/MSUSA_cards/05_Seattle.png" width="160" height="144" alt="Seattle"></a><br>Seattle<br><sub><a href="images/screens/MSUSA_cards/05_Seattle.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/06_Montana.png"><img src="images/thumbs/MSUSA_cards/06_Montana.png" width="160" height="144" alt="Montana"></a><br>Montana<br><sub><a href="images/screens/MSUSA_cards/06_Montana.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/07_Yellowstone.png"><img src="images/thumbs/MSUSA_cards/07_Yellowstone.png" width="160" height="144" alt="Yellowstone"></a><br>Yellowstone<br><sub><a href="images/screens/MSUSA_cards/07_Yellowstone.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/08_Utah.png"><img src="images/thumbs/MSUSA_cards/08_Utah.png" width="160" height="144" alt="Utah"></a><br>Utah<br><sub><a href="images/screens/MSUSA_cards/08_Utah.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/05_Seattle.png"><img src="images/thumbs/MSUSA_cards/05_Seattle.png" width="160" height="144" alt="Seattle"></a><br>Seattle<br><sub><a href="images/screens/MSUSA_cards/05_Seattle.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/05_Seattle.png">No caption</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/06_Montana.png"><img src="images/thumbs/MSUSA_cards/06_Montana.png" width="160" height="144" alt="Montana"></a><br>Montana<br><sub><a href="images/screens/MSUSA_cards/06_Montana.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/06_Montana.png">No caption</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/07_Yellowstone.png"><img src="images/thumbs/MSUSA_cards/07_Yellowstone.png" width="160" height="144" alt="Yellowstone"></a><br>Yellowstone<br><sub><a href="images/screens/MSUSA_cards/07_Yellowstone.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/07_Yellowstone.png">No caption</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/08_Utah.png"><img src="images/thumbs/MSUSA_cards/08_Utah.png" width="160" height="144" alt="Utah"></a><br>Utah<br><sub><a href="images/screens/MSUSA_cards/08_Utah.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/08_Utah.png">No caption</a></sub></td>
 </tr>
 <tr>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/09_Milwaukee.png"><img src="images/thumbs/MSUSA_cards/09_Milwaukee.png" width="160" height="144" alt="Milwaukee"></a><br>Milwaukee<br><sub><a href="images/screens/MSUSA_cards/09_Milwaukee.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/10_Colorado.png"><img src="images/thumbs/MSUSA_cards/10_Colorado.png" width="160" height="144" alt="Colorado"></a><br>Colorado<br><sub><a href="images/screens/MSUSA_cards/10_Colorado.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/11_Nebraska.png"><img src="images/thumbs/MSUSA_cards/11_Nebraska.png" width="160" height="144" alt="Nebraska"></a><br>Nebraska<br><sub><a href="images/screens/MSUSA_cards/11_Nebraska.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/12_Texas.png"><img src="images/thumbs/MSUSA_cards/12_Texas.png" width="160" height="144" alt="Texas"></a><br>Texas<br><sub><a href="images/screens/MSUSA_cards/12_Texas.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/09_Milwaukee.png"><img src="images/thumbs/MSUSA_cards/09_Milwaukee.png" width="160" height="144" alt="Milwaukee"></a><br>Milwaukee<br><sub><a href="images/screens/MSUSA_cards/09_Milwaukee.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/09_Milwaukee.png">No caption</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/10_Colorado.png"><img src="images/thumbs/MSUSA_cards/10_Colorado.png" width="160" height="144" alt="Colorado"></a><br>Colorado<br><sub><a href="images/screens/MSUSA_cards/10_Colorado.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/10_Colorado.png">No caption</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/11_Nebraska.png"><img src="images/thumbs/MSUSA_cards/11_Nebraska.png" width="160" height="144" alt="Nebraska"></a><br>Nebraska<br><sub><a href="images/screens/MSUSA_cards/11_Nebraska.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/11_Nebraska.png">No caption</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/12_Texas.png"><img src="images/thumbs/MSUSA_cards/12_Texas.png" width="160" height="144" alt="Texas"></a><br>Texas<br><sub><a href="images/screens/MSUSA_cards/12_Texas.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/12_Texas.png">No caption</a></sub></td>
 </tr>
 <tr>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/13_Gulf_Coast.png"><img src="images/thumbs/MSUSA_cards/13_Gulf_Coast.png" width="160" height="144" alt="Gulf Coast"></a><br>Gulf Coast<br><sub><a href="images/screens/MSUSA_cards/13_Gulf_Coast.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/14_Louisiana.png"><img src="images/thumbs/MSUSA_cards/14_Louisiana.png" width="160" height="144" alt="Louisiana"></a><br>Louisiana<br><sub><a href="images/screens/MSUSA_cards/14_Louisiana.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/15_Indianapolis.png"><img src="images/thumbs/MSUSA_cards/15_Indianapolis.png" width="160" height="144" alt="Indianapolis"></a><br>Indianapolis<br><sub><a href="images/screens/MSUSA_cards/15_Indianapolis.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/16_Boston.png"><img src="images/thumbs/MSUSA_cards/16_Boston.png" width="160" height="144" alt="Boston"></a><br>Boston<br><sub><a href="images/screens/MSUSA_cards/16_Boston.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/13_Gulf_Coast.png"><img src="images/thumbs/MSUSA_cards/13_Gulf_Coast.png" width="160" height="144" alt="Gulf Coast"></a><br>Gulf Coast<br><sub><a href="images/screens/MSUSA_cards/13_Gulf_Coast.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/13_Gulf_Coast.png">No caption</a> · <a href="images/screens/MSUSA_cards/alt_language/21_Golfe_du_Mexique.png">Golfe du Mexique</a> · <a href="images/screens/MSUSA_cards/alt_language/23_Golfkueste.png">Golfküste</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/14_Louisiana.png"><img src="images/thumbs/MSUSA_cards/14_Louisiana.png" width="160" height="144" alt="Louisiana"></a><br>Louisiana<br><sub><a href="images/screens/MSUSA_cards/14_Louisiana.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/14_Louisiana.png">No caption</a> · <a href="images/screens/MSUSA_cards/alt_language/22_Louisiane.png">Louisiane</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/15_Indianapolis.png"><img src="images/thumbs/MSUSA_cards/15_Indianapolis.png" width="160" height="144" alt="Indianapolis"></a><br>Indianapolis<br><sub><a href="images/screens/MSUSA_cards/15_Indianapolis.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/15_Indianapolis.png">No caption</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/16_Boston.png"><img src="images/thumbs/MSUSA_cards/16_Boston.png" width="160" height="144" alt="Boston"></a><br>Boston<br><sub><a href="images/screens/MSUSA_cards/16_Boston.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/16_Boston.png">No caption</a></sub></td>
 </tr>
 <tr>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/17_Smoky_Mountains.png"><img src="images/thumbs/MSUSA_cards/17_Smoky_Mountains.png" width="160" height="144" alt="Smoky Mountains"></a><br>Smoky Mountains<br><sub><a href="images/screens/MSUSA_cards/17_Smoky_Mountains.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/18_Florida_Everglades.png"><img src="images/thumbs/MSUSA_cards/18_Florida_Everglades.png" width="160" height="144" alt="Florida Everglades"></a><br>Florida Everglades<br><sub><a href="images/screens/MSUSA_cards/18_Florida_Everglades.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/19_Daytona_Beach.png"><img src="images/thumbs/MSUSA_cards/19_Daytona_Beach.png" width="160" height="144" alt="Daytona Beach"></a><br>Daytona Beach<br><sub><a href="images/screens/MSUSA_cards/19_Daytona_Beach.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cards/20_Washington_DC.png"><img src="images/thumbs/MSUSA_cards/20_Washington_DC.png" width="160" height="144" alt="Washington D.C."></a><br>Washington D.C.<br><sub><a href="images/screens/MSUSA_cards/20_Washington_DC.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/17_Smoky_Mountains.png"><img src="images/thumbs/MSUSA_cards/17_Smoky_Mountains.png" width="160" height="144" alt="Smoky Mountains"></a><br>Smoky Mountains<br><sub><a href="images/screens/MSUSA_cards/17_Smoky_Mountains.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/17_Smoky_Mountains.png">No caption</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/18_Florida_Everglades.png"><img src="images/thumbs/MSUSA_cards/18_Florida_Everglades.png" width="160" height="144" alt="Florida Everglades"></a><br>Florida Everglades<br><sub><a href="images/screens/MSUSA_cards/18_Florida_Everglades.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/18_Florida_Everglades.png">No caption</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/19_Daytona_Beach.png"><img src="images/thumbs/MSUSA_cards/19_Daytona_Beach.png" width="160" height="144" alt="Daytona Beach"></a><br>Daytona Beach<br><sub><a href="images/screens/MSUSA_cards/19_Daytona_Beach.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/19_Daytona_Beach.png">No caption</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cards/20_Washington_DC.png"><img src="images/thumbs/MSUSA_cards/20_Washington_DC.png" width="160" height="144" alt="Washington D.C."></a><br>Washington D.C.<br><sub><a href="images/screens/MSUSA_cards/20_Washington_DC.png">PNG</a> · <a href="images/screens/MSUSA_cards/no_caption/20_Washington_DC.png">No caption</a></sub></td>
 </tr>
 </table>
 <!-- /table -->
@@ -239,9 +239,7 @@ The five adventure world maps, reached from the train station, in ROM order.
 </table>
 <!-- /table -->
 
-### Pluto digging stages
-
-The underground levels Pluto digs into from a hole in town: 7 worlds of 4 stages, numbered by the game's stage index and named from each stage's title card. Bones and the second collectible spin in the game; the PNGs show the first frame of each.
+### Pluto stages
 
 <!-- table:mra-dig -->
 <table>

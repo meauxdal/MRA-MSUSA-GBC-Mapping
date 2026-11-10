@@ -158,7 +158,7 @@ The planes are copied by `LD B,height / LD HL,ids / LD DE,d000 / LD A,width` (at
 
 ### MSUSA course cards
 
-The card loader is `12:52b7`. Card order is the course index `ce5e`, which follows the US map from west to east, not the race order. If the language byte `ce38` is `81`, cards 12 and 13 (Gulf Coast, Louisiana) become 20 and 21 (Golfe du Mexique, Louisiane); if it is `82`, card 12 becomes 22 (Golfküste). There is no Secret Track! card. The exports include only the 20 English cards. The variants reuse their English card's tilemap except the name rows 15-17 and have their own graphics blocks, with the name painted into the art tiles, so there is no text-free version of any card in the ROM.
+The card loader is `12:52b7`. Card order is the course index `ce5e`, which follows the US map from west to east, not the race order. If the language byte `ce38` is `81`, cards 12 and 13 (Gulf Coast, Louisiana) become 20 and 21 (Golfe du Mexique, Louisiane); if it is `82`, card 12 becomes 22 (Golfküste). There is no Secret Track! card. The 20 English cards are exported to `MSUSA_cards` and the three variants to `MSUSA_cards/alt_language`. The variants reuse their English card's tilemap except the name rows 15-17 and have their own graphics blocks, with the name painted into the art tiles, so there is no text-free version of any card in the ROM.
 
 Two tables of six-byte entries hold two big-endian far pointers (**bank, high, low**) each: graphics blocks at `4a923` (`12:6923`) and planes at `4a9ad` (`12:69ad`), both indexed by the card number after language substitution. The planes are 20×18 tiles. The palette pointer table at `4aa37` (`12:6a37`) is indexed by `ce5e` itself, so the language variants keep their English card's palette.
 
