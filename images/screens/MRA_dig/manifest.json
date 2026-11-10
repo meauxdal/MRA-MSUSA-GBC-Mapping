@@ -17,7 +17,9 @@
     },
     "name": "Let's Get Started",
     "file": "01_Let's_Get_Started.png",
-    "sha256": "644ee37491590068c5370779fef92d670b31a66cdf19f6e3035d49f377d0752a"
+    "sha256": "644ee37491590068c5370779fef92d670b31a66cdf19f6e3035d49f377d0752a",
+    "gif": "01_Let's_Get_Started.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 1,
@@ -37,7 +39,9 @@
     },
     "name": "Squares",
     "file": "02_Squares.png",
-    "sha256": "ae707dd45a3a03b45eda488260e6f8051622182590ab6951a130e24f63e6a6b1"
+    "sha256": "ae707dd45a3a03b45eda488260e6f8051622182590ab6951a130e24f63e6a6b1",
+    "gif": "02_Squares.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 2,
@@ -57,7 +61,9 @@
     },
     "name": "Meet Butch",
     "file": "03_Meet_Butch.png",
-    "sha256": "1631f6bcb55f7ced3fc4abfc6e02c8df952d41abedfa42296987275298a76286"
+    "sha256": "1631f6bcb55f7ced3fc4abfc6e02c8df952d41abedfa42296987275298a76286",
+    "gif": "03_Meet_Butch.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 3,
@@ -77,7 +83,9 @@
     },
     "name": "Bash the Bully",
     "file": "04_Bash_the_Bully.png",
-    "sha256": "65c2c73ff37764a23b295ec5754cb6c77c0ebca8f14368ba4079093f3c2e9450"
+    "sha256": "65c2c73ff37764a23b295ec5754cb6c77c0ebca8f14368ba4079093f3c2e9450",
+    "gif": "04_Bash_the_Bully.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 4,
@@ -97,7 +105,9 @@
     },
     "name": "Jawbreaker Roll",
     "file": "05_Jawbreaker_Roll.png",
-    "sha256": "67c1c66f424e8dca679b922c0ec89de1294e229a6526e62a4900a639d777ade6"
+    "sha256": "67c1c66f424e8dca679b922c0ec89de1294e229a6526e62a4900a639d777ade6",
+    "gif": "05_Jawbreaker_Roll.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 5,
@@ -117,7 +127,9 @@
     },
     "name": "Butch Chase",
     "file": "06_Butch_Chase.png",
-    "sha256": "9cca133ad19cf75a0024f071dd93dbeaef0305007da0d42b97ab6e98ff198679"
+    "sha256": "9cca133ad19cf75a0024f071dd93dbeaef0305007da0d42b97ab6e98ff198679",
+    "gif": "06_Butch_Chase.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 6,
@@ -137,7 +149,9 @@
     },
     "name": "Candy Columns",
     "file": "07_Candy_Columns.png",
-    "sha256": "a3ebca2cc948c346f8f4c49c619e931db0d42e81616f58d63e6c11e1e7a37d51"
+    "sha256": "a3ebca2cc948c346f8f4c49c619e931db0d42e81616f58d63e6c11e1e7a37d51",
+    "gif": "07_Candy_Columns.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 7,
@@ -157,7 +171,9 @@
     },
     "name": "One Chance Candy Smash",
     "file": "08_One_Chance_Candy_Smash.png",
-    "sha256": "cd091876289aa07516a3bfd01a85db9ab2f17c8ada566e3971fe7c7d052ce931"
+    "sha256": "cd091876289aa07516a3bfd01a85db9ab2f17c8ada566e3971fe7c7d052ce931",
+    "gif": "08_One_Chance_Candy_Smash.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 8,
@@ -177,7 +193,9 @@
     },
     "name": "Pieces of Nineteen",
     "file": "09_Pieces_of_Nineteen.png",
-    "sha256": "0c69b584befaef9b19dd0d5fe79500aa4e4e754a6bbfb981a88eeec79dda9f35"
+    "sha256": "0c69b584befaef9b19dd0d5fe79500aa4e4e754a6bbfb981a88eeec79dda9f35",
+    "gif": "09_Pieces_of_Nineteen.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 9,
@@ -197,7 +215,9 @@
     },
     "name": "Barrels Away",
     "file": "10_Barrels_Away.png",
-    "sha256": "cdb29821301d2dc167080ddd7169ddfb9678625b4ff15aeeae846addd539cf76"
+    "sha256": "cdb29821301d2dc167080ddd7169ddfb9678625b4ff15aeeae846addd539cf76",
+    "gif": "10_Barrels_Away.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 10,
@@ -217,7 +237,9 @@
     },
     "name": "Butch's Slimy Demise",
     "file": "11_Butch's_Slimy_Demise.png",
-    "sha256": "356ca9f3b40cc369b7e2ca0baea98e2f0261f86f2ff5e06f5d3237fe6e972d41"
+    "sha256": "356ca9f3b40cc369b7e2ca0baea98e2f0261f86f2ff5e06f5d3237fe6e972d41",
+    "gif": "11_Butch's_Slimy_Demise.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 11,
@@ -237,7 +259,9 @@
     },
     "name": "Double Barrel Drop",
     "file": "12_Double_Barrel_Drop.png",
-    "sha256": "cce67e402e1248faa6cb8ce211f177e47b37eaaf203d1dcba1d27957be648a1b"
+    "sha256": "cce67e402e1248faa6cb8ce211f177e47b37eaaf203d1dcba1d27957be648a1b",
+    "gif": "12_Double_Barrel_Drop.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 12,
@@ -257,7 +281,9 @@
     },
     "name": "Pluto's Panic",
     "file": "13_Pluto's_Panic.png",
-    "sha256": "d3b5d1f3891daa96f20111b0f1a7268a7e825caeb46921c50f42fddcd90f300e"
+    "sha256": "d3b5d1f3891daa96f20111b0f1a7268a7e825caeb46921c50f42fddcd90f300e",
+    "gif": "13_Pluto's_Panic.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 13,
@@ -277,7 +303,9 @@
     },
     "name": "From the Top",
     "file": "14_From_the_Top.png",
-    "sha256": "6b091f3e808a150cf7c574084c07b4344d31e3f279fcd99b822004e1fa1caa5f"
+    "sha256": "6b091f3e808a150cf7c574084c07b4344d31e3f279fcd99b822004e1fa1caa5f",
+    "gif": "14_From_the_Top.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 14,
@@ -297,7 +325,9 @@
     },
     "name": "Keep Diggin'",
     "file": "15_Keep_Diggin'.png",
-    "sha256": "408d6c9372f03f1a94c3d8fec704aa7d1c263e7d9f4a58fad70c1cdf73ad13fc"
+    "sha256": "408d6c9372f03f1a94c3d8fec704aa7d1c263e7d9f4a58fad70c1cdf73ad13fc",
+    "gif": "15_Keep_Diggin'.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 15,
@@ -317,7 +347,9 @@
     },
     "name": "Boulder Drop",
     "file": "16_Boulder_Drop.png",
-    "sha256": "04d3e95453f507499964f0058e2ade8084aef878f19e6c4aa73826890a457b4e"
+    "sha256": "04d3e95453f507499964f0058e2ade8084aef878f19e6c4aa73826890a457b4e",
+    "gif": "16_Boulder_Drop.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 16,
@@ -337,7 +369,9 @@
     },
     "name": "Back and Forth",
     "file": "17_Back_and_Forth.png",
-    "sha256": "b5b1c3e90895b4153790fe8b6e788a5bd5e372343ca22c4800d4105e1b366f2e"
+    "sha256": "b5b1c3e90895b4153790fe8b6e788a5bd5e372343ca22c4800d4105e1b366f2e",
+    "gif": "17_Back_and_Forth.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 17,
@@ -357,7 +391,9 @@
     },
     "name": "Rock and Roll",
     "file": "18_Rock_and_Roll.png",
-    "sha256": "eb911c539f4defef2674f3a9fb35a16c37d03b3304563fe5d615a0e4968339b8"
+    "sha256": "eb911c539f4defef2674f3a9fb35a16c37d03b3304563fe5d615a0e4968339b8",
+    "gif": "18_Rock_and_Roll.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 18,
@@ -377,7 +413,9 @@
     },
     "name": "Quick Dig",
     "file": "19_Quick_Dig.png",
-    "sha256": "267aeb542701e439bd285ba018960938ac98cfda0b3a46817ccb00a0dd34ab71"
+    "sha256": "267aeb542701e439bd285ba018960938ac98cfda0b3a46817ccb00a0dd34ab71",
+    "gif": "19_Quick_Dig.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 19,
@@ -397,7 +435,9 @@
     },
     "name": "Harrowing Rock Hollow",
     "file": "20_Harrowing_Rock_Hollow.png",
-    "sha256": "b06ab162407b5e62d6f00789ac7b2664c42188b02f7e2aa8c408f4bd29109bec"
+    "sha256": "b06ab162407b5e62d6f00789ac7b2664c42188b02f7e2aa8c408f4bd29109bec",
+    "gif": "20_Harrowing_Rock_Hollow.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 20,
@@ -417,7 +457,9 @@
     },
     "name": "Root of the Problem",
     "file": "21_Root_of_the_Problem.png",
-    "sha256": "323b94c067b099bfce82868b1599881a8ac186e3b7212090291a426738f36bda"
+    "sha256": "323b94c067b099bfce82868b1599881a8ac186e3b7212090291a426738f36bda",
+    "gif": "21_Root_of_the_Problem.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 21,
@@ -437,7 +479,9 @@
     },
     "name": "Circle of Growth",
     "file": "22_Circle_of_Growth.png",
-    "sha256": "010f5adff488cf193cf9541ae6ba757599786a7a4eb3a0843b2fe90a63a9f535"
+    "sha256": "010f5adff488cf193cf9541ae6ba757599786a7a4eb3a0843b2fe90a63a9f535",
+    "gif": "22_Circle_of_Growth.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 22,
@@ -457,7 +501,9 @@
     },
     "name": "Log Jam",
     "file": "23_Log_Jam.png",
-    "sha256": "a382bdd899be52aed8022b09b668dac8259620f3b776d0604841fed49eecd1a4"
+    "sha256": "a382bdd899be52aed8022b09b668dac8259620f3b776d0604841fed49eecd1a4",
+    "gif": "23_Log_Jam.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 23,
@@ -477,7 +523,9 @@
     },
     "name": "Quick Slime",
     "file": "24_Quick_Slime.png",
-    "sha256": "88e6b482de4555e1d53a4050b59c2523781a774fa38e30526265aa21be94487e"
+    "sha256": "88e6b482de4555e1d53a4050b59c2523781a774fa38e30526265aa21be94487e",
+    "gif": "24_Quick_Slime.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 24,
@@ -497,7 +545,9 @@
     },
     "name": "Ducks in a Row",
     "file": "25_Ducks_in_a_Row.png",
-    "sha256": "b2a25ee927c6946aa8e6deba3ab57c482ffd2424eff7075038c3aabfef1a1054"
+    "sha256": "b2a25ee927c6946aa8e6deba3ab57c482ffd2424eff7075038c3aabfef1a1054",
+    "gif": "25_Ducks_in_a_Row.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 25,
@@ -517,7 +567,9 @@
     },
     "name": "Domino Ducks",
     "file": "26_Domino_Ducks.png",
-    "sha256": "f1d1800b4cc6f14cf42b0e3a6302c1b1a659be0b5f5ca18135c16e2a87d26ac9"
+    "sha256": "f1d1800b4cc6f14cf42b0e3a6302c1b1a659be0b5f5ca18135c16e2a87d26ac9",
+    "gif": "26_Domino_Ducks.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 26,
@@ -537,7 +589,9 @@
     },
     "name": "Duck Drop",
     "file": "27_Duck_Drop.png",
-    "sha256": "2c5f282ab75c1347c0d79fa6c321cb0104f30a0d2596501d9152eab10cb348ca"
+    "sha256": "2c5f282ab75c1347c0d79fa6c321cb0104f30a0d2596501d9152eab10cb348ca",
+    "gif": "27_Duck_Drop.gif",
+    "gif_duration_ms": 1070
   },
   {
     "index": 27,
@@ -557,6 +611,8 @@
     },
     "name": "Duck!",
     "file": "28_Duck!.png",
-    "sha256": "b5a8bd6cac8cbefeae8c2da17bdf9257e28ace3642b1da143e56ccb9173d7d07"
+    "sha256": "b5a8bd6cac8cbefeae8c2da17bdf9257e28ace3642b1da143e56ccb9173d7d07",
+    "gif": "28_Duck!.gif",
+    "gif_duration_ms": 1070
   }
 ]

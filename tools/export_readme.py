@@ -122,6 +122,18 @@ def screens(group):
     return cells
 
 
+def dig():
+    folder = IMG/"screens"/"MRA_dig"
+    cells = []
+    for e in manifest(folder):
+        links = [("PNG", folder/e["file"])]
+        gif = folder/e["gif"] if "gif" in e else None
+        if gif and gif.exists():
+            links.append(("GIF", gif))
+        cells.append(cell(e["name"], folder/e["file"], "MRA_dig", links))
+    return cells
+
+
 TABLES = {
     "msusa-courses": lambda: courses("MSUSA"),
     "msusa-arenas": arenas,
@@ -131,7 +143,7 @@ TABLES = {
     "mra-courses": lambda: courses("MRA"),
     "mra-overworld": hubs,
     "mra-worlds": lambda: screens("MRA_worlds"),
-    "mra-dig": lambda: screens("MRA_dig"),
+    "mra-dig": dig,
     "mra-terrain": lambda: terrain("MRA"),
 }
 

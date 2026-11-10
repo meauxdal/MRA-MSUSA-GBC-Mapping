@@ -109,6 +109,36 @@ NAMES=[
     "Ducks in a Row", "Domino Ducks", "Duck Drop", "Duck!",
 ]
 
+# Bone cycle: the game steps the frame every 8 video frames (Game Boy Color
+# refresh is 4194304/70224 Hz), ping-ponging through the five frames.
+BONE_ORDER=[0, 1, 2, 3, 4, 3, 2, 1]
+STEP_CENTISECONDS=8*70224*100/4194304
+
+def write_bone_gif(path, rom, index):
+    """Lossless looping GIF of the stage with its bones spinning."""
+    import numpy as np
+    from PIL import Image
+    images=[]
+    for frame in BONE_ORDER:
+        entry, pairs, gfx, colors=decode(rom, index, (frame, 0))
+        images.append(np.asarray(render_tiles(entry["width"]//8,
+                                              entry["height"]//8, pairs, gfx, colors)))
+    palette=sorted({tuple(c) for a in images for c in a.reshape(-1, 3)})
+    lookup={c: i for i, c in enumerate(palette)}
+    flat=[v for c in palette for v in c]
+    frames=[]
+    for a in images:
+        p=Image.fromarray(np.array([[lookup[tuple(c)] for c in row] for row in a],
+                                   dtype=np.uint8), "P")
+        p.putpalette(flat)
+        frames.append(p)
+    # Round absolute boundaries so the loop length does not drift.
+    edges=[round(STEP_CENTISECONDS*i) for i in range(len(frames)+1)]
+    durations=[(edges[i+1]-edges[i])*10 for i in range(len(frames))]
+    frames[0].save(path, save_all=True, append_images=frames[1:], loop=0,
+                   duration=durations, optimize=False, disposal=1)
+    return sum(durations)
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--rom-dir", type=Path, default=ROOT/"local")
@@ -125,6 +155,8 @@ def main():
         entry["file"]=f"{index+1:02d}_{NAMES[index].replace(' ', '_')}.png"
         render_tiles(w, h, pairs, gfx, colors).save(args.output/entry["file"])
         entry["sha256"]=hashlib.sha256((args.output/entry["file"]).read_bytes()).hexdigest()
+        entry["gif"]=Path(entry["file"]).with_suffix(".gif").name
+        entry["gif_duration_ms"]=write_bone_gif(args.output/entry["gif"], rom, index)
         print(f"{entry['file']} {entry['width']}x{entry['height']}", flush=True)
         manifest.append(entry)
     (args.output/"manifest.json").write_text(json.dumps(manifest, indent=2)+"\n")
