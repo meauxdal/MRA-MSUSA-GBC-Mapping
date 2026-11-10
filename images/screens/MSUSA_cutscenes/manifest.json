@@ -249,8 +249,76 @@
   },
   {
     "index": 15,
+    "name": "Ransom Note English",
+    "file": "15_Ransom_Note_English.png",
+    "identification": "the weasels' ransom note (English)",
+    "loader": "08:695a",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1be030",
+    "attributes": "0x1be198",
+    "graphics": [
+      "0x2435b0",
+      "0x2445b0"
+    ],
+    "palette": "0x023b95",
+    "sha256": "a027520a1a8390aa8ec98c9a87d206c301ace8b574494c2ca86dba10e286dde2"
+  },
+  {
+    "index": 16,
+    "name": "Ransom Note French",
+    "file": "16_Ransom_Note_French.png",
+    "identification": "the weasels' ransom note (French)",
+    "loader": "08:68c9",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1c2e14",
+    "attributes": "0x1c2f7c",
+    "graphics": [
+      "0x1d80b0",
+      null
+    ],
+    "palette": "0x023b95",
+    "sha256": "435d25e71e24c03bd1de5aa7be9d7ab236e68ee56dc3ab95831bd9f24332af32"
+  },
+  {
+    "index": 17,
+    "name": "Ransom Note German",
+    "file": "17_Ransom_Note_German.png",
+    "identification": "the weasels' ransom note (German)",
+    "loader": "08:68fa",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1c30e4",
+    "attributes": "0x1c324c",
+    "graphics": [
+      "0x1d9050",
+      "0x1da050"
+    ],
+    "palette": "0x023b95",
+    "sha256": "143ea1002aea4a5569166fb69ff589174e93b0410bd36aea7ff4856783b84488"
+  },
+  {
+    "index": 18,
+    "name": "Ransom Note Spanish",
+    "file": "18_Ransom_Note_Spanish.png",
+    "identification": "the weasels' ransom note (Spanish)",
+    "loader": "08:692a",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1c33b4",
+    "attributes": "0x1c351c",
+    "graphics": [
+      "0x1da140",
+      null
+    ],
+    "palette": "0x023b95",
+    "sha256": "e8d063721d6f1e14b11988a7c827043e6dce6cba121e7c4ceaca62c1da2188b5"
+  },
+  {
+    "index": 19,
     "name": "Yellow Machine",
-    "file": "15_Yellow_Machine.png",
+    "file": "19_Yellow_Machine.png",
     "identification": "a yellow machine on black",
     "loader": "05:4ec2",
     "width": 20,
@@ -266,9 +334,9 @@
     "sha256": "1c182a4e1eb96ecf3c4b38af5ae9246bce10d6386d345cdb1f89fbe16556f6cb"
   },
   {
-    "index": 16,
+    "index": 20,
     "name": "Mode Select French",
-    "file": "16_Mode_Select_French.png",
+    "file": "20_Mode_Select_French.png",
     "identification": "mode select (French)",
     "loader": "04:4e1c",
     "width": 20,
@@ -283,9 +351,9 @@
     "sha256": "69b4c49af2bd33d04681b4cd07f4c4da557cf59e8e3fa642be4a359dc7fe5c6d"
   },
   {
-    "index": 17,
+    "index": 21,
     "name": "Mode Select German",
-    "file": "17_Mode_Select_German.png",
+    "file": "21_Mode_Select_German.png",
     "identification": "mode select (German)",
     "loader": "04:4e81",
     "width": 20,
@@ -300,9 +368,9 @@
     "sha256": "a929a0fcbef8380c656a5084f05c37298e95d4b8f6eada00f59ea3c47dbeb3cf"
   },
   {
-    "index": 18,
+    "index": 22,
     "name": "Mode Select Spanish",
-    "file": "18_Mode_Select_Spanish.png",
+    "file": "22_Mode_Select_Spanish.png",
     "identification": "mode select (Spanish)",
     "loader": "04:4ee6",
     "width": 20,
@@ -317,9 +385,9 @@
     "sha256": "97088641195841615836a2344be321a85b76e243b771d7b4815104d9297641b3"
   },
   {
-    "index": 19,
+    "index": 23,
     "name": "Mode Select English",
-    "file": "19_Mode_Select_English.png",
+    "file": "23_Mode_Select_English.png",
     "identification": "mode select (English)",
     "loader": "04:4f4b",
     "width": 20,
@@ -334,9 +402,9 @@
     "sha256": "7eeecdc4614710342c8343d19a7becc4f3c9728384c77ed0e97c86be1197e482"
   },
   {
-    "index": 20,
+    "index": 24,
     "name": "Language Select",
-    "file": "20_Language_Select.png",
+    "file": "24_Language_Select.png",
     "identification": "language selection",
     "loader": "12:6d66",
     "width": 20,

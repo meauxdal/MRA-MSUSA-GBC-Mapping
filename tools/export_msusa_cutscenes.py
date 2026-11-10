@@ -47,6 +47,17 @@ SCREENS=[
     (0x08, 0x6d18, "Daisy_on_Phone", "Daisy on the phone"),
     (0x08, 0x6dff, "Mickey_on_Phone", "Mickey on the phone"),
     (0x08, 0x6ee6, "Mickey_with_Letter", "Mickey reading a letter by a doghouse"),
+    # The ransom note is one loader (08:68c9-695a) that picks tiles and planes
+    # from the language byte ce38: 80 English, 81 French, 82 German, 83
+    # Spanish. The tile copies are in the dispatcher, not before each plane.
+    (0x08, 0x695a, "Ransom_Note_English", "the weasels' ransom note (English)",
+     [(0x75b0, 0x90, 1), (0x45b0, 0x91, 2)]),
+    (0x08, 0x68c9, "Ransom_Note_French", "the weasels' ransom note (French)",
+     [(0x40b0, 0x76, 1)]),
+    (0x08, 0x68fa, "Ransom_Note_German", "the weasels' ransom note (German)",
+     [(0x5050, 0x76, 1), (0x6050, 0x76, 2)]),
+    (0x08, 0x692a, "Ransom_Note_Spanish", "the weasels' ransom note (Spanish)",
+     [(0x6140, 0x76, 1)]),
     (0x05, 0x4ec2, "Yellow_Machine", "a yellow machine on black"),
     (0x04, 0x4e1c, "Mode_Select_French", "mode select (French)"),
     (0x04, 0x4e81, "Mode_Select_German", "mode select (German)"),
@@ -59,7 +70,9 @@ SCREENS=[
 DIALOGUE=(0x4351, 0x4438, 0x6665, 0x674c, 0x6a3f, 0x6b39, 0x6c30, 0x6d18,
           0x6dff, 0x6ee6, 0x4ec2)
 
-def decode(rom, bank, entry):
+def decode(rom, bank, entry, tiles=None):
+    """Decode one loader; tiles is [(address, bank, wram block)] when the
+    tile copies are not in the usual spot just before the id plane."""
     at=offset(bank, entry)
     ids=PLANES.match(rom, at)
     attrs=ATTRS.match(rom, ids.end()+5)
@@ -67,10 +80,11 @@ def decode(rom, bank, entry):
     assert attrs.group(1)==ids.group(1), entry
     gfx=[bytearray(4096), bytearray(4096)]
     sources=[None, None]
-    for copy in TILES.finditer(rom, at-200, at):
-        tile_bank, wram, count=copy.group(2)[0], copy.group(3)[0], copy.group(4)[0]
-        address=le16(copy.group(1), 0)
-        gfx[wram-1]=copy_tiles(rom, tile_bank, address, count or 256)
+    if tiles is None:
+        tiles=[(le16(copy.group(1), 0), copy.group(2)[0], copy.group(3)[0])
+               for copy in TILES.finditer(rom, at-200, at)]
+    for address, tile_bank, wram in tiles:
+        gfx[wram-1]=copy_tiles(rom, tile_bank, address, 256)
         sources[wram-1]=offset(tile_bank, address)
     palette=PALETTE.search(rom, at, at+0x300)
     palette=offset(bank, le16(palette.group(1), 0))
@@ -98,8 +112,8 @@ def main():
     rom=read_rom("msusa", args.rom_dir)
     dest=args.output/"MSUSA_cutscenes"
     manifest=[]
-    for n, (bank, entry, stem, description) in enumerate(SCREENS, 1):
-        info, parts=decode(rom, bank, entry)
+    for n, (bank, entry, stem, description, *tiles) in enumerate(SCREENS, 1):
+        info, parts=decode(rom, bank, entry, *tiles)
         entry_info=dict(index=n, name=stem.replace("_", " "),
                         file=f"{n:02d}_{stem}.png", identification=description,
                         **info)
