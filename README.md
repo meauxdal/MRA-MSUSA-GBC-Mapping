@@ -121,6 +121,43 @@ Course select map (initial and final variants).
 </table>
 <!-- /table -->
 
+### Cutscenes and screens
+
+<!-- table:msusa-cutscenes -->
+<table>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/01_Game_Over.png"><img src="images/thumbs/MSUSA_cutscenes/01_Game_Over.png" width="160" height="144" alt="Game Over"></a><br>Game Over<br><sub><a href="images/screens/MSUSA_cutscenes/01_Game_Over.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/02_Weasels_in_Jail.png"><img src="images/thumbs/MSUSA_cutscenes/02_Weasels_in_Jail.png" width="160" height="128" alt="Weasels in Jail"></a><br>Weasels in Jail<br><sub><a href="images/screens/MSUSA_cutscenes/02_Weasels_in_Jail.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/03_Green_Ring.png"><img src="images/thumbs/MSUSA_cutscenes/03_Green_Ring.png" width="160" height="128" alt="Green Ring"></a><br>Green Ring<br><sub><a href="images/screens/MSUSA_cutscenes/03_Green_Ring.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/04_Newspaper_Weasels_Jailed.png"><img src="images/thumbs/MSUSA_cutscenes/04_Newspaper_Weasels_Jailed.png" width="160" height="144" alt="Newspaper Weasels Jailed"></a><br>Newspaper Weasels Jailed<br><sub><a href="images/screens/MSUSA_cutscenes/04_Newspaper_Weasels_Jailed.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/05_Newspaper_Pluto_Rescued.png"><img src="images/thumbs/MSUSA_cutscenes/05_Newspaper_Pluto_Rescued.png" width="160" height="144" alt="Newspaper Pluto Rescued"></a><br>Newspaper Pluto Rescued<br><sub><a href="images/screens/MSUSA_cutscenes/05_Newspaper_Pluto_Rescued.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/06_Newspaper_Race_Ends.png"><img src="images/thumbs/MSUSA_cutscenes/06_Newspaper_Race_Ends.png" width="160" height="144" alt="Newspaper Race Ends"></a><br>Newspaper Race Ends<br><sub><a href="images/screens/MSUSA_cutscenes/06_Newspaper_Race_Ends.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/07_Ludwig_Von_Drake.png"><img src="images/thumbs/MSUSA_cutscenes/07_Ludwig_Von_Drake.png" width="160" height="128" alt="Ludwig Von Drake"></a><br>Ludwig Von Drake<br><sub><a href="images/screens/MSUSA_cutscenes/07_Ludwig_Von_Drake.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/08_Minnie_on_Phone.png"><img src="images/thumbs/MSUSA_cutscenes/08_Minnie_on_Phone.png" width="160" height="128" alt="Minnie on Phone"></a><br>Minnie on Phone<br><sub><a href="images/screens/MSUSA_cutscenes/08_Minnie_on_Phone.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/09_Goofy_on_Phone.png"><img src="images/thumbs/MSUSA_cutscenes/09_Goofy_on_Phone.png" width="160" height="128" alt="Goofy on Phone"></a><br>Goofy on Phone<br><sub><a href="images/screens/MSUSA_cutscenes/09_Goofy_on_Phone.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/10_Headset_Pilot.png"><img src="images/thumbs/MSUSA_cutscenes/10_Headset_Pilot.png" width="160" height="128" alt="Headset Pilot"></a><br>Headset Pilot<br><sub><a href="images/screens/MSUSA_cutscenes/10_Headset_Pilot.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/11_Donald_on_Phone.png"><img src="images/thumbs/MSUSA_cutscenes/11_Donald_on_Phone.png" width="160" height="128" alt="Donald on Phone"></a><br>Donald on Phone<br><sub><a href="images/screens/MSUSA_cutscenes/11_Donald_on_Phone.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/12_Daisy_on_Phone.png"><img src="images/thumbs/MSUSA_cutscenes/12_Daisy_on_Phone.png" width="160" height="128" alt="Daisy on Phone"></a><br>Daisy on Phone<br><sub><a href="images/screens/MSUSA_cutscenes/12_Daisy_on_Phone.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/13_Mickey_on_Phone.png"><img src="images/thumbs/MSUSA_cutscenes/13_Mickey_on_Phone.png" width="160" height="128" alt="Mickey on Phone"></a><br>Mickey on Phone<br><sub><a href="images/screens/MSUSA_cutscenes/13_Mickey_on_Phone.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/14_Mickey_with_Letter.png"><img src="images/thumbs/MSUSA_cutscenes/14_Mickey_with_Letter.png" width="160" height="128" alt="Mickey with Letter"></a><br>Mickey with Letter<br><sub><a href="images/screens/MSUSA_cutscenes/14_Mickey_with_Letter.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/15_Yellow_Machine.png"><img src="images/thumbs/MSUSA_cutscenes/15_Yellow_Machine.png" width="160" height="128" alt="Yellow Machine"></a><br>Yellow Machine<br><sub><a href="images/screens/MSUSA_cutscenes/15_Yellow_Machine.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/16_Mode_Select_French.png"><img src="images/thumbs/MSUSA_cutscenes/16_Mode_Select_French.png" width="160" height="144" alt="Mode Select French"></a><br>Mode Select French<br><sub><a href="images/screens/MSUSA_cutscenes/16_Mode_Select_French.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/17_Mode_Select_German.png"><img src="images/thumbs/MSUSA_cutscenes/17_Mode_Select_German.png" width="160" height="144" alt="Mode Select German"></a><br>Mode Select German<br><sub><a href="images/screens/MSUSA_cutscenes/17_Mode_Select_German.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/18_Mode_Select_Spanish.png"><img src="images/thumbs/MSUSA_cutscenes/18_Mode_Select_Spanish.png" width="160" height="144" alt="Mode Select Spanish"></a><br>Mode Select Spanish<br><sub><a href="images/screens/MSUSA_cutscenes/18_Mode_Select_Spanish.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/19_Mode_Select_English.png"><img src="images/thumbs/MSUSA_cutscenes/19_Mode_Select_English.png" width="160" height="144" alt="Mode Select English"></a><br>Mode Select English<br><sub><a href="images/screens/MSUSA_cutscenes/19_Mode_Select_English.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/20_Language_Select.png"><img src="images/thumbs/MSUSA_cutscenes/20_Language_Select.png" width="160" height="144" alt="Language Select"></a><br>Language Select<br><sub><a href="images/screens/MSUSA_cutscenes/20_Language_Select.png">PNG</a></sub></td>
+</tr>
+</table>
+<!-- /table -->
+
 ### Terrain
 
 Underlying tile type data.

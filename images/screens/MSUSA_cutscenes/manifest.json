@@ -1,0 +1,353 @@
+[
+  {
+    "index": 1,
+    "name": "Game Over",
+    "file": "01_Game_Over.png",
+    "identification": "GAME OVER on a checkerboard",
+    "loader": "08:410b",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1bf7f0",
+    "attributes": "0x1bf958",
+    "graphics": [
+      "0x1e5620",
+      null
+    ],
+    "palette": "0x023d95",
+    "sha256": "5d3c7d65b0ed69d817d3d7e9ec25fd12461458f4476b7a527d656b873863af2f"
+  },
+  {
+    "index": 2,
+    "name": "Weasels in Jail",
+    "file": "02_Weasels_in_Jail.png",
+    "identification": "the weasels behind bars",
+    "loader": "08:4351",
+    "width": 20,
+    "height": 16,
+    "tile_ids": "0x1bf070",
+    "attributes": "0x1bf1b0",
+    "graphics": [
+      "0x1ea2f0",
+      null
+    ],
+    "palette": "0x023cd5",
+    "note": "bottom two tile rows (dialogue box) cropped",
+    "sha256": "5f823fec9dadc6414ad51ba1439ed574375950628a6dcc473d8271ed350ef627"
+  },
+  {
+    "index": 3,
+    "name": "Green Ring",
+    "file": "03_Green_Ring.png",
+    "identification": "a green ring set with diamonds",
+    "loader": "08:4438",
+    "width": 20,
+    "height": 16,
+    "tile_ids": "0x1bedf0",
+    "attributes": "0x1bef30",
+    "graphics": [
+      "0x1e8790",
+      null
+    ],
+    "palette": "0x023c95",
+    "note": "bottom two tile rows (dialogue box) cropped",
+    "sha256": "d178b1f4221890f2bb0373cb343155af6f2c462dc362adaa06c16c1acc9835bd"
+  },
+  {
+    "index": 4,
+    "name": "Newspaper Weasels Jailed",
+    "file": "04_Newspaper_Weasels_Jailed.png",
+    "identification": "Hometown Herald: WEASELS JAILED",
+    "loader": "08:4540",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1beb20",
+    "attributes": "0x1bec88",
+    "graphics": [
+      "0x1e9120",
+      "0x1ea120"
+    ],
+    "palette": "0x023d15",
+    "sha256": "f7d053469c43a09afb63474aaf6f7a7fa3c18c6ba76c8320318e7abaa24bea5b"
+  },
+  {
+    "index": 5,
+    "name": "Newspaper Pluto Rescued",
+    "file": "05_Newspaper_Pluto_Rescued.png",
+    "identification": "Hometown Herald: PLUTO RESCUED",
+    "loader": "08:463e",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1be850",
+    "attributes": "0x1be9b8",
+    "graphics": [
+      "0x1e75e0",
+      "0x1e85e0"
+    ],
+    "palette": "0x023d55",
+    "sha256": "d22f8b1e562f177f125485bfcb67b9886f84091456ee008f4f9d0a0d3b98f182"
+  },
+  {
+    "index": 6,
+    "name": "Newspaper Race Ends",
+    "file": "06_Newspaper_Race_Ends.png",
+    "identification": "Hometown Herald: RACE ENDS!",
+    "loader": "08:473c",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1be580",
+    "attributes": "0x1be6e8",
+    "graphics": [
+      "0x1e64b0",
+      "0x1e74b0"
+    ],
+    "palette": "0x023c55",
+    "sha256": "ef867e04b17e4fa836bb5c20533a411859a931cd6eb01cf3a5bbc48181b98751"
+  },
+  {
+    "index": 7,
+    "name": "Ludwig Von Drake",
+    "file": "07_Ludwig_Von_Drake.png",
+    "identification": "Ludwig Von Drake waving",
+    "loader": "08:6665",
+    "width": 20,
+    "height": 16,
+    "tile_ids": "0x1bf570",
+    "attributes": "0x1bf6b0",
+    "graphics": [
+      "0x1eb280",
+      null
+    ],
+    "palette": "0x023c15",
+    "note": "bottom two tile rows (dialogue box) cropped",
+    "sha256": "17432850c61a6bbb059bfaa229144d9e0dc0a83911e3f67d4a5a8a3c7ff97139"
+  },
+  {
+    "index": 8,
+    "name": "Minnie on Phone",
+    "file": "08_Minnie_on_Phone.png",
+    "identification": "Minnie on the phone",
+    "loader": "08:674c",
+    "width": 20,
+    "height": 16,
+    "tile_ids": "0x1be300",
+    "attributes": "0x1be440",
+    "graphics": [
+      "0x2427e0",
+      null
+    ],
+    "palette": "0x023bd5",
+    "note": "bottom two tile rows (dialogue box) cropped",
+    "sha256": "102fb94aac0ebd564c7f6ec425439a5e6b421d7177b88e2a9569716d5c3d7b6b"
+  },
+  {
+    "index": 9,
+    "name": "Goofy on Phone",
+    "file": "09_Goofy_on_Phone.png",
+    "identification": "Goofy on the phone",
+    "loader": "08:6a3f",
+    "width": 20,
+    "height": 16,
+    "tile_ids": "0x1b0b40",
+    "attributes": "0x1b0c80",
+    "graphics": [
+      "0x241a50",
+      null
+    ],
+    "palette": "0x023b4d",
+    "note": "bottom two tile rows (dialogue box) cropped",
+    "sha256": "5b54229ab2c89de6943b31b80d0d2b11a913cae33a191b15cdf3c68decdb34d5"
+  },
+  {
+    "index": 10,
+    "name": "Headset Pilot",
+    "file": "10_Headset_Pilot.png",
+    "identification": "a character in a cap and headset at the controls",
+    "loader": "08:6b39",
+    "width": 20,
+    "height": 16,
+    "tile_ids": "0x1b08c0",
+    "attributes": "0x1b0a00",
+    "graphics": [
+      "0x240bd0",
+      null
+    ],
+    "palette": "0x023b0d",
+    "note": "bottom two tile rows (dialogue box) cropped",
+    "sha256": "f6cb39e62b06942da69bcd2fef60d98827f371bd231cf8455b3c7190e2639a2b"
+  },
+  {
+    "index": 11,
+    "name": "Donald on Phone",
+    "file": "11_Donald_on_Phone.png",
+    "identification": "Donald on the phone",
+    "loader": "08:6c30",
+    "width": 20,
+    "height": 16,
+    "tile_ids": "0x1b0640",
+    "attributes": "0x1b0780",
+    "graphics": [
+      "0x23d340",
+      "0x23e1d0"
+    ],
+    "palette": "0x023acd",
+    "note": "bottom two tile rows (dialogue box) cropped",
+    "sha256": "089d2edf1c39af67bb218f54bc01a3beb21ff384b448a5bb5bb5f1817754346e"
+  },
+  {
+    "index": 12,
+    "name": "Daisy on Phone",
+    "file": "12_Daisy_on_Phone.png",
+    "identification": "Daisy on the phone",
+    "loader": "08:6d18",
+    "width": 20,
+    "height": 16,
+    "tile_ids": "0x1b1090",
+    "attributes": "0x1b11f8",
+    "graphics": [
+      "0x23e1e0",
+      null
+    ],
+    "palette": "0x023a8d",
+    "note": "bottom two tile rows (dialogue box) cropped",
+    "sha256": "a9292b11a829c72456d5b0de31c47b1b05d1649641a3e36af663b940f484fd9f"
+  },
+  {
+    "index": 13,
+    "name": "Mickey on Phone",
+    "file": "13_Mickey_on_Phone.png",
+    "identification": "Mickey on the phone",
+    "loader": "08:6dff",
+    "width": 20,
+    "height": 16,
+    "tile_ids": "0x1b00f0",
+    "attributes": "0x1b0258",
+    "graphics": [
+      "0x23bac0",
+      null
+    ],
+    "palette": "0x023a0d",
+    "note": "bottom two tile rows (dialogue box) cropped",
+    "sha256": "b143bafbc57acbe3f1a023eb528084e96849c963a57eeb0d5c2a3b265966f331"
+  },
+  {
+    "index": 14,
+    "name": "Mickey with Letter",
+    "file": "14_Mickey_with_Letter.png",
+    "identification": "Mickey reading a letter by a doghouse",
+    "loader": "08:6ee6",
+    "width": 20,
+    "height": 16,
+    "tile_ids": "0x1b03c0",
+    "attributes": "0x1b0500",
+    "graphics": [
+      "0x23c680",
+      null
+    ],
+    "palette": "0x023a4d",
+    "note": "bottom two tile rows (dialogue box) cropped",
+    "sha256": "2c52b791d88057b0eb8e5d35384f7c22365517e034238c6b4ad4aa8eeab1d04b"
+  },
+  {
+    "index": 15,
+    "name": "Yellow Machine",
+    "file": "15_Yellow_Machine.png",
+    "identification": "a yellow machine on black",
+    "loader": "05:4ec2",
+    "width": 20,
+    "height": 16,
+    "tile_ids": "0x1b8168",
+    "attributes": "0x1b82d0",
+    "graphics": [
+      "0x23f190",
+      "0x240190"
+    ],
+    "palette": "0x017ad9",
+    "note": "bottom two tile rows (dialogue box) cropped",
+    "sha256": "1c182a4e1eb96ecf3c4b38af5ae9246bce10d6386d345cdb1f89fbe16556f6cb"
+  },
+  {
+    "index": 16,
+    "name": "Mode Select French",
+    "file": "16_Mode_Select_French.png",
+    "identification": "mode select (French)",
+    "loader": "04:4e1c",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1c7930",
+    "attributes": "0x1c7a98",
+    "graphics": [
+      "0x1d1da0",
+      "0x1d16c0"
+    ],
+    "palette": "0x012fc8",
+    "sha256": "69b4c49af2bd33d04681b4cd07f4c4da557cf59e8e3fa642be4a359dc7fe5c6d"
+  },
+  {
+    "index": 17,
+    "name": "Mode Select German",
+    "file": "17_Mode_Select_German.png",
+    "identification": "mode select (German)",
+    "loader": "04:4e81",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1c7c00",
+    "attributes": "0x1c7d68",
+    "graphics": [
+      "0x1d2290",
+      "0x1d16c0"
+    ],
+    "palette": "0x012fc8",
+    "sha256": "a929a0fcbef8380c656a5084f05c37298e95d4b8f6eada00f59ea3c47dbeb3cf"
+  },
+  {
+    "index": 18,
+    "name": "Mode Select Spanish",
+    "file": "18_Mode_Select_Spanish.png",
+    "identification": "mode select (Spanish)",
+    "loader": "04:4ee6",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1c8000",
+    "attributes": "0x1c8168",
+    "graphics": [
+      "0x1d2760",
+      "0x1d16c0"
+    ],
+    "palette": "0x012fc8",
+    "sha256": "97088641195841615836a2344be321a85b76e243b771d7b4815104d9297641b3"
+  },
+  {
+    "index": 19,
+    "name": "Mode Select English",
+    "file": "19_Mode_Select_English.png",
+    "identification": "mode select (English)",
+    "loader": "04:4f4b",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1c7660",
+    "attributes": "0x1c77c8",
+    "graphics": [
+      "0x1d18b0",
+      "0x1d16c0"
+    ],
+    "palette": "0x012fc8",
+    "sha256": "7eeecdc4614710342c8343d19a7becc4f3c9728384c77ed0e97c86be1197e482"
+  },
+  {
+    "index": 20,
+    "name": "Language Select",
+    "file": "20_Language_Select.png",
+    "identification": "language selection",
+    "loader": "12:6d66",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x1b8bb8",
+    "attributes": "0x1b8d20",
+    "graphics": [
+      "0x283730",
+      "0x283ac0"
+    ],
+    "palette": "0x04b46f",
+    "sha256": "218905f924ebcbd5dc5046ce83a525ed2906a1b45dd082000d43d987d7d8d77a"
+  }
+]

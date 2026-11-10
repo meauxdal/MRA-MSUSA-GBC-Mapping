@@ -139,6 +139,7 @@ TABLES = {
     "msusa-arenas": arenas,
     "msusa-us-map": lambda: screens("MSUSA_us_map"),
     "msusa-cards": lambda: screens("MSUSA_cards"),
+    "msusa-cutscenes": lambda: screens("MSUSA_cutscenes"),
     "msusa-terrain": lambda: terrain("MSUSA"),
     "mra-courses": lambda: courses("MRA"),
     "mra-overworld": hubs,
