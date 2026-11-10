@@ -124,11 +124,17 @@ The original decompressor is at file offset `1902d5` and runs from WRAM `c4d5`. 
 
 The graphics resource has three 16-bit pointers: the primary dictionary, the secondary stream and the secondary dictionary. The primary stream starts at byte 6. Graphics tokens emit byte pairs: `00` two zero bytes, `01` two `ff` bytes, `02` four zero bytes, `03` four `ff` bytes, `fe` two literal bytes, `04..fd` a dictionary pair, and `ff` ends the stream. The secondary stream loads VRAM bank 1 first; the primary stream then loads bank 0 and may run on into bank 1. `tools/hubs.py` keeps that order, including streams that cross the bank boundary in the middle of a token.
 
-The palette pointer is part of the graphics descriptor and uses the same RGB555 conversion as the race maps. The six map names are visual descriptions, not in-game titles.
+The palette pointer is part of the graphics descriptor and uses the same RGB555 conversion as the race maps. The game shows no title for these maps; they use the area names players know them by.
 
 ### Pluto holes
 
 The source layouts include open and filled Pluto holes. In a fresh town state, runtime edits replace five 4×4-tile hole patches with grass (80 tiles), and those account for every difference between the source town layout and live RAM. The exports keep the source layout, so they show all holes at once, which never happens in play.
+
+### Pluto digging stages
+
+The dig engine is ROM bank `f0`; `tools/export_dig.py` documents the layout in its header. The stage index `ff fe` is world×4+stage. `f0:568a` holds one pointer per world (7) to a block: a pointer to the world header, then four 5-byte stage entries whose first three bytes are a far pointer (bank, low, high) to the stage data. The builder (RAM `c9e0`, copied from `f0:484e`) reads a 12-byte stage header, 16 two-byte object entries, the width and height in 32×32 metatiles, then one metatile id per cell. Metatile `e` has 16 (tile, attribute) pairs at `base + e*2 + k*0x200`, and the builder clears attribute bit 4. Row `r` of each metatile goes to WRAM bank `r+1` at `d000`, 8 bytes per cell, and `f0:42a8` copies the visible window from there into the tile map.
+
+The world header gives the metatile bank and base, the graphics block (BG tiles in signed addressing, all in VRAM bank 0), five palette pointers (the second is the level palette) and five VRAM addresses of animated 2×2 tile groups. The fade-in at `f0:7cb5` steps by 10 and exits before its last step, so the screen keeps every channel at `(v*245+128)>>8`, which is what the exports use. Slot 0 is the bone (5 frames at `f7:6000`, played back and forth) and slot 3 a second collectible (4 frames at `f7:6440`); the graphics block holds placeholders for both, and the PNGs use frame 0.
 
 ## Full-screen backgrounds
 
@@ -142,17 +148,17 @@ Each of the five world maps has its own hard-coded loader in bank `0a`. The expo
 
 | Map | Loader | Size (tiles) | Graphics (bank 0, bank 1) | Palette |
 | --- | --- | --- | --- | --- |
-| Castle | `0a:56f3` | 28×28 | `276e90`, `277e90` | `0a:6af4` |
-| Pirate | `0a:5207` | 28×32 | `279840`, `27a840` | `0a:6bfc` |
-| Wild West | `0a:4fea` | 32×32 | `27a890` | `0a:6c3c` |
-| Sweets | `0a:53f7` | 28×32 | `2785f0`, `2795f0` | `0a:6b9c` |
-| Fairground | `0a:4dbe` | 32×32 | `292620`, `293620` | `0a:6c7c` |
+| Mickey's Medieval Adventure | `0a:56f3` | 28×28 | `276e90`, `277e90` | `0a:6af4` |
+| Donald's Pirate Adventure | `0a:5207` | 28×32 | `279840`, `27a840` | `0a:6bfc` |
+| Minnie's Frontier Adventure | `0a:4fea` | 32×32 | `27a890` | `0a:6c3c` |
+| Daisy's Wonderland Adventure | `0a:53f7` | 28×32 | `2785f0`, `2795f0` | `0a:6b9c` |
+| Goofy's Fairground Adventure | `0a:4dbe` | 32×32 | `292620`, `293620` | `0a:6c7c` |
 
 The planes are copied by `LD B,height / LD HL,ids / LD DE,d000 / LD A,width` (attributes to `d400`), with the plane bank in `ff96` when it is not `0a`. The palette is the `DE` operand of `LD B,8 / LD DE,palette / CALL 3147`. Wild West loads only a bank 0 block, and none of its cells use VRAM bank 1. The solid top band on Wild West and Fairground is in the plane data.
 
 ### MSUSA course cards
 
-The card loader is `12:52b7`. Card order is the course index `ce5e`, which follows the US map from west to east, not the race order. If the language byte `ce38` is `81`, cards 12 and 13 (Gulf Coast, Louisiana) become 20 and 21 (Golfe du Mexique, Louisiane); if it is `82`, card 12 becomes 22 (Golfküste). There is no Secret Track! card.
+The card loader is `12:52b7`. Card order is the course index `ce5e`, which follows the US map from west to east, not the race order. If the language byte `ce38` is `81`, cards 12 and 13 (Gulf Coast, Louisiana) become 20 and 21 (Golfe du Mexique, Louisiane); if it is `82`, card 12 becomes 22 (Golfküste). There is no Secret Track! card. The 20 English cards are exported to `MSUSA_cards` and the three variants to `MSUSA_cards/alt_language`. The variants reuse their English card's tilemap except the name rows 15-17 and have their own graphics blocks, with the name painted into the art tiles, so there is no text-free version of any card in the ROM.
 
 Two tables of six-byte entries hold two big-endian far pointers (**bank, high, low**) each: graphics blocks at `4a923` (`12:6923`) and planes at `4a9ad` (`12:69ad`), both indexed by the card number after language substitution. The planes are 20×18 tiles. The palette pointer table at `4aa37` (`12:6a37`) is indexed by `ce5e` itself, so the language variants keep their English card's palette.
 
@@ -181,6 +187,7 @@ State 0 always counts as reached, so the exports show progress 0 (only Los Angel
 | `verify_animation_exports.py` | Checks every GIF frame header, duration and hash, three full-map raster phases, and the first three decoded frames at native size. Later frames are checked structurally. | 33 GIFs; `data/animation_export_verification.json` |
 | `verify_terrain.py` | Sampled comparison against the original point lookup (see [Terrain](#terrain)). | 43/43; `data/terrain_verification_*.json` |
 | `verify_screens.py` | Runs each original full-screen loader and compares the tile map (VRAM `9800`, or WRAM bank 2 for the US map, markers included), every tile the screen uses, and the palette in the `cc40` fade buffer. The US map palette is checked statically against the code at `09:6786`. | 30/30 exact; `data/screen_verification.json` |
+| `verify_dig.py` | Replays a Pluto hole entry from a local save state, forces each stage index and compares the WRAM metatile grid, the faded palette buffer and hardware palettes 4-7, and every BG tile in VRAM (animated groups against their `f7` frames). | 28/28; `data/dig_verification.json` |
 
 These checks confirm that the source data is decoded correctly. They do not show that every pixel can be reached by the gameplay camera, and they cover background layers only: sprites, pickups, opponents, some start/finish markers, state-dependent scenery and runtime map edits are outside their scope.
 

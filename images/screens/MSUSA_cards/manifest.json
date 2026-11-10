@@ -318,53 +318,5 @@
     ],
     "palette": "0x04b987",
     "sha256": "9821ca923e8eb8043e32bffab4df2292b29bb4aafb4d603ce099e288cf07df0c"
-  },
-  {
-    "index": 20,
-    "name": "Golfe du Mexique",
-    "file": "21_Golfe_du_Mexique.png",
-    "loader": "12:52b7",
-    "width": 20,
-    "height": 18,
-    "tile_ids": "0x1c3954",
-    "attributes": "0x1c3abc",
-    "graphics": [
-      "0x1d42f0",
-      "0x1d52f0"
-    ],
-    "palette": "0x04b7c7",
-    "sha256": "c204e5e0abc5cdac9dd8dd19b0f2205e8030cdb49430fc8ecab7f57d2cc6ef62"
-  },
-  {
-    "index": 21,
-    "name": "Louisiane",
-    "file": "22_Louisiane.png",
-    "loader": "12:52b7",
-    "width": 20,
-    "height": 18,
-    "tile_ids": "0x1c3684",
-    "attributes": "0x1c37ec",
-    "graphics": [
-      "0x1d6a70",
-      "0x1d7a70"
-    ],
-    "palette": "0x04b807",
-    "sha256": "29c3fe93930d34639215dbb5a47455f632a4b8bdaca65bc8d01fed9b9f3e8ebc"
-  },
-  {
-    "index": 22,
-    "name": "Golfk\u00fcste",
-    "file": "23_Golfkueste.png",
-    "loader": "12:52b7",
-    "width": 20,
-    "height": 18,
-    "tile_ids": "0x1c3c24",
-    "attributes": "0x1c3d8c",
-    "graphics": [
-      "0x1d5670",
-      "0x1d6670"
-    ],
-    "palette": "0x04b7c7",
-    "sha256": "1b74bef809c3be3b02426f96d06e447dd3b1025a1a6d8c3795d5f2e62d628d62"
   }
 ]

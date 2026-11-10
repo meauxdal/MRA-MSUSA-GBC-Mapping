@@ -111,8 +111,18 @@ def arenas():
 
 def screens(group):
     folder = IMG/"screens"/group
-    return [cell(e["name"], folder/e["file"], group,
-                 [("PNG", folder/e["file"])]) for e in manifest(folder)]
+    cells = []
+    alt = folder/"alt_language"
+    alts = manifest(alt) if (alt/"manifest.json").exists() else []
+    for e in manifest(folder):
+        links = [("PNG", folder/e["file"])]
+        clean = folder/"no_caption"/e["file"]
+        if clean.exists():
+            links.append(("No caption", clean))
+        links += [(a["name"], alt/a["file"]) for a in alts
+                  if a["replaces"] == e["name"]]
+        cells.append(cell(e["name"], folder/e["file"], group, links))
+    return cells
 
 
 TABLES = {
@@ -124,6 +134,7 @@ TABLES = {
     "mra-courses": lambda: courses("MRA"),
     "mra-overworld": hubs,
     "mra-worlds": lambda: screens("MRA_worlds"),
+    "mra-dig": lambda: screens("MRA_dig"),
     "mra-terrain": lambda: terrain("MRA"),
 }
 

@@ -1,0 +1,282 @@
+[
+  {
+    "index": 0,
+    "name": "Let's Get Started",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 180,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 1,
+    "name": "Squares",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 175,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 2,
+    "name": "Meet Butch",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 176,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 3,
+    "name": "Bash the Bully",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 149,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 4,
+    "name": "Jawbreaker Roll",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 89,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 5,
+    "name": "Butch Chase",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 88,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 6,
+    "name": "Candy Columns",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 69,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 7,
+    "name": "One Chance Candy Smash",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 69,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 8,
+    "name": "Pieces of Nineteen",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 242,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 9,
+    "name": "Barrels Away",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 234,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 10,
+    "name": "Butch's Slimy Demise",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 238,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 11,
+    "name": "Double Barrel Drop",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 237,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 12,
+    "name": "Pluto's Panic",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 160,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 13,
+    "name": "From the Top",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 148,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 14,
+    "name": "Keep Diggin'",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 147,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 15,
+    "name": "Boulder Drop",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 164,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 16,
+    "name": "Back and Forth",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 164,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 17,
+    "name": "Rock and Roll",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 144,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 18,
+    "name": "Quick Dig",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 140,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 19,
+    "name": "Harrowing Rock Hollow",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 143,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 20,
+    "name": "Root of the Problem",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 153,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 21,
+    "name": "Circle of Growth",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 145,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 22,
+    "name": "Log Jam",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 149,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 23,
+    "name": "Quick Slime",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 149,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 24,
+    "name": "Ducks in a Row",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 104,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 25,
+    "name": "Domino Ducks",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 101,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 26,
+    "name": "Duck Drop",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 107,
+    "tile_mismatches": [],
+    "ok": true
+  },
+  {
+    "index": 27,
+    "name": "Duck!",
+    "metatiles": true,
+    "palette": true,
+    "hardware_palettes_4_7": true,
+    "tiles_checked": 111,
+    "tile_mismatches": [],
+    "ok": true
+  }
+]
