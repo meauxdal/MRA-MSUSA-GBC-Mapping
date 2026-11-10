@@ -1,0 +1,733 @@
+[
+  {
+    "index": 1,
+    "name": "Title Screen",
+    "file": "01_Title_Screen.png",
+    "identification": "title screen",
+    "loader": "08:42ac",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x2687a8",
+    "attributes": "0x268910",
+    "graphics": [
+      "0x29b0f0",
+      null
+    ],
+    "palette": "0x021aa2",
+    "sha256": "a1ee1c9a48d6e2f8000bf36ce315178aec302ab2c5e6f6f2eca4c0c1645b4e89"
+  },
+  {
+    "index": 2,
+    "name": "Opening Friends",
+    "file": "02_Opening_Friends.png",
+    "identification": "opening panorama: the friends at the party (256 px wide)",
+    "loader": "08:46d4",
+    "width": 32,
+    "height": 18,
+    "tile_ids": "0x270438",
+    "attributes": "0x270678",
+    "graphics": [
+      "0x2ab2d0",
+      "0x2ac2d0"
+    ],
+    "palette": "0x021e6a",
+    "sha256": "cd08a5241af5e9a34dc959a95c05af5d420b9ebc0d8248bd56a05a1d23a47cb2"
+  },
+  {
+    "index": 3,
+    "name": "Opening Hills",
+    "file": "03_Opening_Hills.png",
+    "identification": "opening panorama: hills and a tree (256 px wide)",
+    "loader": "08:48db",
+    "width": 32,
+    "height": 18,
+    "tile_ids": "0x269018",
+    "attributes": "0x269258",
+    "graphics": [
+      "0x29fe50",
+      "0x2a0e50"
+    ],
+    "palette": "0x021dea",
+    "sha256": "2abec3510e3d9f5c1d67cc308d1100ddd961146b1a53b440b724dc931a8c0f0f"
+  },
+  {
+    "index": 4,
+    "name": "Pluto and Mickey",
+    "file": "04_Pluto_and_Mickey.png",
+    "identification": "Pluto and Mickey",
+    "loader": "08:4a9b",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x268d48",
+    "attributes": "0x268eb0",
+    "graphics": [
+      "0x29ead0",
+      "0x29fad0"
+    ],
+    "palette": "0x021daa",
+    "sha256": "f9edfff9c6edb914c43b9472dee8c6b09559bd4a0fb664504075acf861781bb0"
+  },
+  {
+    "index": 5,
+    "name": "Wrecked Parade",
+    "file": "05_Wrecked_Parade.png",
+    "identification": "wrecked parade floats",
+    "loader": "08:4c0e",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x268a78",
+    "attributes": "0x268be0",
+    "graphics": [
+      "0x29c090",
+      "0x29d090"
+    ],
+    "palette": "0x021d2a",
+    "sha256": "532778bc2f5d7ac85a72ad5b336b5d921e563c28a05a039fc586113041d39c35"
+  },
+  {
+    "index": 6,
+    "name": "Mickey Alarmed",
+    "file": "06_Mickey_Alarmed.png",
+    "identification": "Mickey clutching his head",
+    "loader": "08:4d45",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x2636f8",
+    "attributes": "0x263860",
+    "graphics": [
+      "0x28b850",
+      null
+    ],
+    "palette": "0x021d6a",
+    "sha256": "62b88baa39fe8f7fb567cf08604d6ba57a845191998dc19a47b0bc84c6a4b171"
+  },
+  {
+    "index": 7,
+    "name": "Pete's Note",
+    "file": "07_Pete's_Note.png",
+    "identification": "Pete's ransom note",
+    "loader": "08:4e7c",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x2649d8",
+    "attributes": "0x264b40",
+    "graphics": [
+      "0x291910",
+      null
+    ],
+    "palette": "0x021caa",
+    "sha256": "333188f5ef1e056d658b7105001931922c34a36e7af828c07cb80a8bbef1dc32"
+  },
+  {
+    "index": 8,
+    "name": "Cloud Scuffle",
+    "file": "08_Cloud_Scuffle.png",
+    "identification": "the gang in a cloud of dust",
+    "loader": "08:5062",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x264ca8",
+    "attributes": "0x264e10",
+    "graphics": [
+      "0x29d4c0",
+      "0x29e4c0"
+    ],
+    "palette": "0x021b6a",
+    "sha256": "3c066be2576d6de4cd3364c88ab63e5a932ee5da918b02a515a075d64e4deb94"
+  },
+  {
+    "index": 9,
+    "name": "Toy Car Road",
+    "file": "09_Toy_Car_Road.png",
+    "identification": "toy car on the road",
+    "loader": "08:51f7",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x264708",
+    "attributes": "0x264870",
+    "graphics": [
+      "0x290300",
+      "0x291300"
+    ],
+    "palette": "0x021c6a",
+    "sha256": "4fd8814aee6ebb42f9cc1834134c2abdd60f54b8030cbcb91f518190c6c42c56"
+  },
+  {
+    "index": 10,
+    "name": "Pete's Hideout",
+    "file": "10_Pete's_Hideout.png",
+    "identification": "Pete and his gang in the hideout",
+    "loader": "08:533d",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x264438",
+    "attributes": "0x2645a0",
+    "graphics": [
+      "0x28ed80",
+      "0x28fd80"
+    ],
+    "palette": "0x021c2a",
+    "sha256": "fd49ef238cab66be7171da13460674e1d638b6f39ba9a2bc7fea25f03ea47482"
+  },
+  {
+    "index": 11,
+    "name": "Pete at the Window",
+    "file": "11_Pete_at_the_Window.png",
+    "identification": "Pete at a round window",
+    "loader": "08:5486",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x264168",
+    "attributes": "0x2642d0",
+    "graphics": [
+      "0x28d780",
+      "0x28e780"
+    ],
+    "palette": "0x021bea",
+    "sha256": "68ddc9e51114cece07d448eec6a1d8adf42410750d925c3332c92bcf698cc76d"
+  },
+  {
+    "index": 12,
+    "name": "Pete with Spyglass",
+    "file": "12_Pete_with_Spyglass.png",
+    "identification": "Pete looking through a spyglass",
+    "loader": "08:55cf",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x2639c8",
+    "attributes": "0x264000",
+    "graphics": [
+      "0x28c260",
+      "0x28d260"
+    ],
+    "palette": "0x021baa",
+    "sha256": "0f5b6a7db8d3b2c39ef4e5177d3c83cae20b70d95db3dbe15f97cb5d9cfa49fd"
+  },
+  {
+    "index": 13,
+    "name": "Dungeon Stairs",
+    "file": "13_Dungeon_Stairs.png",
+    "identification": "stairs behind open doors",
+    "loader": "08:5715",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x263428",
+    "attributes": "0x263590",
+    "graphics": [
+      "0x28a6a0",
+      "0x28b6a0"
+    ],
+    "palette": "0x021b2a",
+    "sha256": "60ff987027596a36f3179e6c2fb40206676932a828ddbe7f823122d63e6d6e27"
+  },
+  {
+    "index": 14,
+    "name": "Road to Pete's Tower",
+    "file": "14_Road_to_Pete's_Tower.png",
+    "identification": "tall image, 160x432: road up a hill to Pete's tower",
+    "loader": "08:5941",
+    "width": 20,
+    "height": 54,
+    "tile_ids": "0x262bb8",
+    "attributes": "0x262ff0",
+    "graphics": [
+      "0x2889d0",
+      "0x2899d0"
+    ],
+    "palette": "0x021ae2",
+    "sha256": "d4d471ae8eee41b78c77b1c7e3fe2dcec29ad980e66d4f9b38f3eac01ceaeedd"
+  },
+  {
+    "index": 15,
+    "name": "Pete Knight",
+    "file": "15_Pete_Knight.png",
+    "identification": "Pete in armor (puzzle picture)",
+    "loader": "16:5261",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x267488",
+    "attributes": "0x2675f0",
+    "graphics": [
+      "0x2976c0",
+      null
+    ],
+    "palette": "0x05ba40",
+    "sha256": "38cdf8d22445924ed3396bef82859ce20009b85d0deb6555fad43e4474c33f81"
+  },
+  {
+    "index": 16,
+    "name": "Pete Candy Canes",
+    "file": "16_Pete_Candy_Canes.png",
+    "identification": "Pete with candy canes (puzzle picture)",
+    "loader": "16:5371",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x266c18",
+    "attributes": "0x266d80",
+    "graphics": [
+      "0x294f90",
+      null
+    ],
+    "palette": "0x05bac0",
+    "sha256": "fc87ac35f4f4be2033be3d0cf6773f71b0531cca3b7ea58ca2877de3b46c3f45"
+  },
+  {
+    "index": 17,
+    "name": "Pete Cowboy",
+    "file": "17_Pete_Cowboy.png",
+    "identification": "Pete as a cowboy (puzzle picture)",
+    "loader": "16:5481",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x266ee8",
+    "attributes": "0x267050",
+    "graphics": [
+      "0x295cc0",
+      null
+    ],
+    "palette": "0x05ba80",
+    "sha256": "f77548c2f53cc62b39315f8c0b48a99a5db9eb2bbf26f767cda19ceb459c4b28"
+  },
+  {
+    "index": 18,
+    "name": "Pete Pirate",
+    "file": "18_Pete_Pirate.png",
+    "identification": "Pete as a pirate (puzzle picture)",
+    "loader": "16:5591",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x266948",
+    "attributes": "0x266ab0",
+    "graphics": [
+      "0x294230",
+      null
+    ],
+    "palette": "0x05bb40",
+    "sha256": "486c7bfcd5deed3feb09a7dffc8a1295539d85bcff9297fa30f68cb54cfd7aff"
+  },
+  {
+    "index": 19,
+    "name": "Pete Ringmaster",
+    "file": "19_Pete_Ringmaster.png",
+    "identification": "Pete as a ringmaster (puzzle picture)",
+    "loader": "16:56a1",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x2671b8",
+    "attributes": "0x267320",
+    "graphics": [
+      "0x296810",
+      null
+    ],
+    "palette": "0x05bb00",
+    "sha256": "671327fc5d0d881774b79772f84dbf6659fded2e6e67732c7cf79d0f7d69995e"
+  },
+  {
+    "index": 20,
+    "name": "Pete Caped",
+    "file": "20_Pete_Caped.png",
+    "identification": "Pete in a purple cape (puzzle picture)",
+    "loader": "16:580d",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x26fd8c",
+    "attributes": "0x270000",
+    "graphics": [
+      "0x2a9b50",
+      null
+    ],
+    "palette": "0x05bd40",
+    "sha256": "18efaf0d5444f24ac0c82973ad96dcb12e04ace7f6d3544762704178e6a6fb7e"
+  },
+  {
+    "index": 21,
+    "name": "Ticket Booth",
+    "file": "21_Ticket_Booth.png",
+    "identification": "ticket booth",
+    "loader": "09:4889",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x2613b0",
+    "attributes": "0x261518",
+    "graphics": [
+      "0x281580",
+      "0x282580"
+    ],
+    "palette": "0x027af6",
+    "sha256": "a372ede2bc0f66960c393fc9d1603474e860084cf8c157e440eb8429cab61fad"
+  },
+  {
+    "index": 22,
+    "name": "Interior Blue Stairs",
+    "file": "22_Interior_Blue_Stairs.png",
+    "identification": "interior with blue walls and stairs",
+    "loader": "09:5009",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x260000",
+    "attributes": "0x260168",
+    "graphics": [
+      "0x274780",
+      "0x275780"
+    ],
+    "palette": "0x027a36",
+    "sha256": "0c4bbe672ad5ab49c4fa002258c219e3def49919ce357981f3a2021a22414e86"
+  },
+  {
+    "index": 23,
+    "name": "Interior Pink Stairs",
+    "file": "23_Interior_Pink_Stairs.png",
+    "identification": "interior with pink walls and stairs",
+    "loader": "09:5460",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x2605a0",
+    "attributes": "0x260708",
+    "graphics": [
+      "0x27b630",
+      "0x27c630"
+    ],
+    "palette": "0x027a76",
+    "sha256": "ef1e7086325c9a11a23bbbe32c8c371c231be5414dc0f4719cec6e1a23e65268"
+  },
+  {
+    "index": 24,
+    "name": "Interior Green Yellow",
+    "file": "24_Interior_Green_Yellow.png",
+    "identification": "interior with green and yellow walls",
+    "loader": "09:5852",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x260870",
+    "attributes": "0x2609d8",
+    "graphics": [
+      "0x27ca00",
+      null
+    ],
+    "palette": "0x027b36",
+    "sha256": "876a6b25ba6c7914b53862d989f6b98b0b479defb8e4f6131bd97ba852e88b4d"
+  },
+  {
+    "index": 25,
+    "name": "Interior Wood Stairs",
+    "file": "25_Interior_Wood_Stairs.png",
+    "identification": "interior with wooden stairs and a red rug",
+    "loader": "09:5c7e",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x260b40",
+    "attributes": "0x260ca8",
+    "graphics": [
+      "0x27d9b0",
+      "0x27e9b0"
+    ],
+    "palette": "0x027b76",
+    "sha256": "7a005947a9a34793d357d5fc9dcea294c0c6fb28aedc2bbc329c1c1ac2775566"
+  },
+  {
+    "index": 26,
+    "name": "Interior Pink Arch",
+    "file": "26_Interior_Pink_Arch.png",
+    "identification": "interior with pink walls and an arched door",
+    "loader": "09:60d5",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x260e10",
+    "attributes": "0x260f78",
+    "graphics": [
+      "0x27ee00",
+      "0x27fe00"
+    ],
+    "palette": "0x027bb6",
+    "sha256": "e0c1042f1cba98ee6014c1a996aeb651f3a6e06539ff9730cd5697c8644ec206"
+  },
+  {
+    "index": 27,
+    "name": "Doghouse",
+    "file": "27_Doghouse.png",
+    "identification": "inside a doghouse",
+    "loader": "09:64de",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x2610e0",
+    "attributes": "0x261248",
+    "graphics": [
+      "0x27ffc0",
+      "0x280fc0"
+    ],
+    "palette": "0x027bf6",
+    "sha256": "067c34a98903762247ce9e75720025680110f3ec4a3f5563143a5a14c1997a13"
+  },
+  {
+    "index": 28,
+    "name": "Toy Race Exit",
+    "file": "28_Toy_Race_Exit.png",
+    "identification": "toy racers at the exit",
+    "loader": "09:73d4",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x261680",
+    "attributes": "0x2617e8",
+    "graphics": [
+      "0x2837b0",
+      "0x2847b0"
+    ],
+    "palette": "0x027c36",
+    "sha256": "810b590e3402a5b10eae49422d61b0d7fa26dfbbf6daebaa283407414f93bc9a"
+  },
+  {
+    "index": 29,
+    "name": "Laboratory",
+    "file": "29_Laboratory.png",
+    "identification": "laboratory",
+    "loader": "09:75ce",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x261950",
+    "attributes": "0x261ab8",
+    "graphics": [
+      "0x2826b0",
+      "0x2836b0"
+    ],
+    "palette": "0x027c76",
+    "sha256": "8646725f59cce7f88746dddd2f58c52e9521211899e0fd685ca2413b0c7888c2"
+  },
+  {
+    "index": 30,
+    "name": "Wreath",
+    "file": "30_Wreath.png",
+    "identification": "holly wreath on black",
+    "loader": "16:458d",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x265f78",
+    "attributes": "0x2660e0",
+    "graphics": [
+      "0x293ae0",
+      null
+    ],
+    "palette": "0x05bc40",
+    "sha256": "b3866496e0108e10e5a4f4236fb136535177d47813dd17d52d584406c944338e"
+  },
+  {
+    "index": 31,
+    "name": "Signboard",
+    "file": "31_Signboard.png",
+    "identification": "blank signboard",
+    "loader": "16:47dc",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x262348",
+    "attributes": "0x2624b0",
+    "graphics": [
+      "0x287110",
+      null
+    ],
+    "palette": "0x05bbc0",
+    "sha256": "8462257b7bc219236bea1b2c901934929bacc35ba170fe7c08e12b0adb7ecfe8"
+  },
+  {
+    "index": 32,
+    "name": "Speech Bubble",
+    "file": "32_Speech_Bubble.png",
+    "identification": "blank speech bubble",
+    "loader": "16:49cd",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x2628e8",
+    "attributes": "0x262a50",
+    "graphics": [
+      "0x2883f0",
+      null
+    ],
+    "palette": "0x05bc00",
+    "sha256": "110836886068d4ca4b2b6ba58ee8f715d2d1eb8ee839abc63b03148618d0f11a"
+  },
+  {
+    "index": 33,
+    "name": "Computer Desk",
+    "file": "33_Computer_Desk.png",
+    "identification": "desk with a computer",
+    "loader": "16:4fc0",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x262078",
+    "attributes": "0x2621e0",
+    "graphics": [
+      "0x285e20",
+      "0x286e20"
+    ],
+    "palette": "0x05bb80",
+    "sha256": "60900d116cc27760bd35af27aa4956e103eef5cd34999201b6ce7164d7580926"
+  },
+  {
+    "index": 34,
+    "name": "Language Select",
+    "file": "34_Language_Select.png",
+    "identification": "language selection",
+    "loader": "16:757e",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x267758",
+    "attributes": "0x2678c0",
+    "graphics": [
+      "0x298100",
+      "0x298380"
+    ],
+    "palette": "0x05bc88",
+    "sha256": "458b6ddc6f7977d44a26d4da4bc07de638d716dc3de17f9811f553a828ac13c7"
+  },
+  {
+    "index": 35,
+    "name": "Empty Frames",
+    "file": "35_Empty_Frames.png",
+    "identification": "three empty picture frames with name plates",
+    "loader": "18:4833",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x267e10",
+    "attributes": "0x268000",
+    "graphics": [
+      "0x299230",
+      null
+    ],
+    "palette": "0x063598",
+    "sha256": "9587a2a13c1616622862db84cc7b9b63712970524f402186729f0dd1c2ea16ad"
+  },
+  {
+    "index": 36,
+    "name": "Enter Your Name",
+    "file": "36_Enter_Your_Name.png",
+    "identification": "name entry",
+    "loader": "18:565e",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x268168",
+    "attributes": "0x2682d0",
+    "graphics": [
+      "0x299fe0",
+      null
+    ],
+    "palette": "0x063620",
+    "sha256": "cff50e256f9fb229e1942f927163e4b50acf4672bf00c30387c0f6e6133f3edf"
+  },
+  {
+    "index": 37,
+    "name": "Treasure Cave",
+    "file": "37_Treasure_Cave.png",
+    "identification": "treasure cave",
+    "loader": "18:664e",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x2602d0",
+    "attributes": "0x260438",
+    "graphics": [
+      "0x275850",
+      "0x276850"
+    ],
+    "palette": "0x0636b8",
+    "sha256": "d778f1444190d57bea81f1d1930b86601428ed9682cabf940332097ee955b3ae"
+  },
+  {
+    "index": 38,
+    "name": "Donald on Stage",
+    "file": "38_Donald_on_Stage.png",
+    "identification": "Donald on a stage",
+    "loader": "18:7379",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x262618",
+    "attributes": "0x262780",
+    "graphics": [
+      "0x287a40",
+      null
+    ],
+    "palette": "0x0636f8",
+    "sha256": "0951b07194e509b3ba2166830f7a7da055dfa32cfe05794ddc3f4a93db75bac9"
+  },
+  {
+    "index": 39,
+    "name": "Bulldog",
+    "file": "39_Bulldog.png",
+    "identification": "bulldog",
+    "loader": "19:44b0",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x270168",
+    "attributes": "0x2702d0",
+    "graphics": [
+      "0x2aa7b0",
+      null
+    ],
+    "palette": "0x066d6a",
+    "sha256": "34abc39e9e0a71be1c3f29d6ce6880f3b989c21505d4835a43ed677c57341d23"
+  },
+  {
+    "index": 40,
+    "name": "Shelf Hallway",
+    "file": "40_Shelf_Hallway.png",
+    "identification": "hallway with a shelf",
+    "loader": "19:4be4",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x26cb40",
+    "attributes": "0x26cca8",
+    "graphics": [
+      "0x2a8b90",
+      null
+    ],
+    "palette": "0x066c6a",
+    "sha256": "615ea6f7c10daff2c92b488623d8f9520cdf31d2cc148c27a1a68e5f4e707b0f"
+  },
+  {
+    "index": 41,
+    "name": "Letter",
+    "file": "41_Letter.png",
+    "identification": "blank letter",
+    "loader": "19:5d6c",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x26c870",
+    "attributes": "0x26c9d8",
+    "graphics": [
+      "0x2a8670",
+      null
+    ],
+    "palette": "0x066c2a",
+    "sha256": "42bd4c8506a257399ef7929bbf39f792c4f71499aebb298adc41452fbdc78e8f"
+  },
+  {
+    "index": 42,
+    "name": "Toy Shelf",
+    "file": "42_Toy_Shelf.png",
+    "identification": "shelf of toys",
+    "loader": "19:6097",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x268438",
+    "attributes": "0x2685a0",
+    "graphics": [
+      "0x29a7f0",
+      null
+    ],
+    "palette": "0x066bea",
+    "sha256": "6191079cc643dae71c6b54a93e00d2501ca185b6156b204657ce0789e77129a0"
+  },
+  {
+    "index": 43,
+    "name": "Post Office",
+    "file": "43_Post_Office.png",
+    "identification": "post office",
+    "loader": "19:6447",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x261da8",
+    "attributes": "0x261f10",
+    "graphics": [
+      "0x284be0",
+      "0x285be0"
+    ],
+    "palette": "0x066b52",
+    "sha256": "96cdf758070421db4738a58fa6b966384d0edefda6dbbcad3e98bfdf4f9e2abf"
+  }
+]

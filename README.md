@@ -288,6 +288,78 @@ Underlying tile type data.
 </table>
 <!-- /table -->
 
+### Cutscenes and screens
+
+<!-- table:mra-cutscenes -->
+<table>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/01_Title_Screen.png"><img src="images/thumbs/MRA_cutscenes/01_Title_Screen.png" width="160" height="144" alt="Title Screen"></a><br>Title Screen<br><sub><a href="images/screens/MRA_cutscenes/01_Title_Screen.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/02_Opening_Friends.png"><img src="images/thumbs/MRA_cutscenes/02_Opening_Friends.png" width="180" height="101" alt="Opening Friends"></a><br>Opening Friends<br><sub><a href="images/screens/MRA_cutscenes/02_Opening_Friends.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/03_Opening_Hills.png"><img src="images/thumbs/MRA_cutscenes/03_Opening_Hills.png" width="180" height="101" alt="Opening Hills"></a><br>Opening Hills<br><sub><a href="images/screens/MRA_cutscenes/03_Opening_Hills.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/04_Pluto_and_Mickey.png"><img src="images/thumbs/MRA_cutscenes/04_Pluto_and_Mickey.png" width="160" height="144" alt="Pluto and Mickey"></a><br>Pluto and Mickey<br><sub><a href="images/screens/MRA_cutscenes/04_Pluto_and_Mickey.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/05_Wrecked_Parade.png"><img src="images/thumbs/MRA_cutscenes/05_Wrecked_Parade.png" width="160" height="144" alt="Wrecked Parade"></a><br>Wrecked Parade<br><sub><a href="images/screens/MRA_cutscenes/05_Wrecked_Parade.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/06_Mickey_Alarmed.png"><img src="images/thumbs/MRA_cutscenes/06_Mickey_Alarmed.png" width="160" height="144" alt="Mickey Alarmed"></a><br>Mickey Alarmed<br><sub><a href="images/screens/MRA_cutscenes/06_Mickey_Alarmed.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/07_Pete%27s_Note.png"><img src="images/thumbs/MRA_cutscenes/07_Pete%27s_Note.png" width="160" height="144" alt="Pete&#x27;s Note"></a><br>Pete&#x27;s Note<br><sub><a href="images/screens/MRA_cutscenes/07_Pete%27s_Note.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/08_Cloud_Scuffle.png"><img src="images/thumbs/MRA_cutscenes/08_Cloud_Scuffle.png" width="160" height="144" alt="Cloud Scuffle"></a><br>Cloud Scuffle<br><sub><a href="images/screens/MRA_cutscenes/08_Cloud_Scuffle.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/09_Toy_Car_Road.png"><img src="images/thumbs/MRA_cutscenes/09_Toy_Car_Road.png" width="160" height="144" alt="Toy Car Road"></a><br>Toy Car Road<br><sub><a href="images/screens/MRA_cutscenes/09_Toy_Car_Road.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/10_Pete%27s_Hideout.png"><img src="images/thumbs/MRA_cutscenes/10_Pete%27s_Hideout.png" width="160" height="144" alt="Pete&#x27;s Hideout"></a><br>Pete&#x27;s Hideout<br><sub><a href="images/screens/MRA_cutscenes/10_Pete%27s_Hideout.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/11_Pete_at_the_Window.png"><img src="images/thumbs/MRA_cutscenes/11_Pete_at_the_Window.png" width="160" height="144" alt="Pete at the Window"></a><br>Pete at the Window<br><sub><a href="images/screens/MRA_cutscenes/11_Pete_at_the_Window.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/12_Pete_with_Spyglass.png"><img src="images/thumbs/MRA_cutscenes/12_Pete_with_Spyglass.png" width="160" height="144" alt="Pete with Spyglass"></a><br>Pete with Spyglass<br><sub><a href="images/screens/MRA_cutscenes/12_Pete_with_Spyglass.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/13_Dungeon_Stairs.png"><img src="images/thumbs/MRA_cutscenes/13_Dungeon_Stairs.png" width="160" height="144" alt="Dungeon Stairs"></a><br>Dungeon Stairs<br><sub><a href="images/screens/MRA_cutscenes/13_Dungeon_Stairs.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/14_Road_to_Pete%27s_Tower.png"><img src="images/thumbs/MRA_cutscenes/14_Road_to_Pete%27s_Tower.png" width="67" height="180" alt="Road to Pete&#x27;s Tower"></a><br>Road to Pete&#x27;s Tower<br><sub><a href="images/screens/MRA_cutscenes/14_Road_to_Pete%27s_Tower.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/15_Pete_Knight.png"><img src="images/thumbs/MRA_cutscenes/15_Pete_Knight.png" width="160" height="144" alt="Pete Knight"></a><br>Pete Knight<br><sub><a href="images/screens/MRA_cutscenes/15_Pete_Knight.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/16_Pete_Candy_Canes.png"><img src="images/thumbs/MRA_cutscenes/16_Pete_Candy_Canes.png" width="160" height="144" alt="Pete Candy Canes"></a><br>Pete Candy Canes<br><sub><a href="images/screens/MRA_cutscenes/16_Pete_Candy_Canes.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/17_Pete_Cowboy.png"><img src="images/thumbs/MRA_cutscenes/17_Pete_Cowboy.png" width="160" height="144" alt="Pete Cowboy"></a><br>Pete Cowboy<br><sub><a href="images/screens/MRA_cutscenes/17_Pete_Cowboy.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/18_Pete_Pirate.png"><img src="images/thumbs/MRA_cutscenes/18_Pete_Pirate.png" width="160" height="144" alt="Pete Pirate"></a><br>Pete Pirate<br><sub><a href="images/screens/MRA_cutscenes/18_Pete_Pirate.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/19_Pete_Ringmaster.png"><img src="images/thumbs/MRA_cutscenes/19_Pete_Ringmaster.png" width="160" height="144" alt="Pete Ringmaster"></a><br>Pete Ringmaster<br><sub><a href="images/screens/MRA_cutscenes/19_Pete_Ringmaster.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/20_Pete_Caped.png"><img src="images/thumbs/MRA_cutscenes/20_Pete_Caped.png" width="160" height="144" alt="Pete Caped"></a><br>Pete Caped<br><sub><a href="images/screens/MRA_cutscenes/20_Pete_Caped.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/21_Ticket_Booth.png"><img src="images/thumbs/MRA_cutscenes/21_Ticket_Booth.png" width="160" height="144" alt="Ticket Booth"></a><br>Ticket Booth<br><sub><a href="images/screens/MRA_cutscenes/21_Ticket_Booth.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/22_Interior_Blue_Stairs.png"><img src="images/thumbs/MRA_cutscenes/22_Interior_Blue_Stairs.png" width="160" height="144" alt="Interior Blue Stairs"></a><br>Interior Blue Stairs<br><sub><a href="images/screens/MRA_cutscenes/22_Interior_Blue_Stairs.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/23_Interior_Pink_Stairs.png"><img src="images/thumbs/MRA_cutscenes/23_Interior_Pink_Stairs.png" width="160" height="144" alt="Interior Pink Stairs"></a><br>Interior Pink Stairs<br><sub><a href="images/screens/MRA_cutscenes/23_Interior_Pink_Stairs.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/24_Interior_Green_Yellow.png"><img src="images/thumbs/MRA_cutscenes/24_Interior_Green_Yellow.png" width="160" height="144" alt="Interior Green Yellow"></a><br>Interior Green Yellow<br><sub><a href="images/screens/MRA_cutscenes/24_Interior_Green_Yellow.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/25_Interior_Wood_Stairs.png"><img src="images/thumbs/MRA_cutscenes/25_Interior_Wood_Stairs.png" width="160" height="144" alt="Interior Wood Stairs"></a><br>Interior Wood Stairs<br><sub><a href="images/screens/MRA_cutscenes/25_Interior_Wood_Stairs.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/26_Interior_Pink_Arch.png"><img src="images/thumbs/MRA_cutscenes/26_Interior_Pink_Arch.png" width="160" height="144" alt="Interior Pink Arch"></a><br>Interior Pink Arch<br><sub><a href="images/screens/MRA_cutscenes/26_Interior_Pink_Arch.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/27_Doghouse.png"><img src="images/thumbs/MRA_cutscenes/27_Doghouse.png" width="160" height="144" alt="Doghouse"></a><br>Doghouse<br><sub><a href="images/screens/MRA_cutscenes/27_Doghouse.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/28_Toy_Race_Exit.png"><img src="images/thumbs/MRA_cutscenes/28_Toy_Race_Exit.png" width="160" height="144" alt="Toy Race Exit"></a><br>Toy Race Exit<br><sub><a href="images/screens/MRA_cutscenes/28_Toy_Race_Exit.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/29_Laboratory.png"><img src="images/thumbs/MRA_cutscenes/29_Laboratory.png" width="160" height="144" alt="Laboratory"></a><br>Laboratory<br><sub><a href="images/screens/MRA_cutscenes/29_Laboratory.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/30_Wreath.png"><img src="images/thumbs/MRA_cutscenes/30_Wreath.png" width="160" height="144" alt="Wreath"></a><br>Wreath<br><sub><a href="images/screens/MRA_cutscenes/30_Wreath.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/31_Signboard.png"><img src="images/thumbs/MRA_cutscenes/31_Signboard.png" width="160" height="144" alt="Signboard"></a><br>Signboard<br><sub><a href="images/screens/MRA_cutscenes/31_Signboard.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/32_Speech_Bubble.png"><img src="images/thumbs/MRA_cutscenes/32_Speech_Bubble.png" width="160" height="144" alt="Speech Bubble"></a><br>Speech Bubble<br><sub><a href="images/screens/MRA_cutscenes/32_Speech_Bubble.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/33_Computer_Desk.png"><img src="images/thumbs/MRA_cutscenes/33_Computer_Desk.png" width="160" height="144" alt="Computer Desk"></a><br>Computer Desk<br><sub><a href="images/screens/MRA_cutscenes/33_Computer_Desk.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/34_Language_Select.png"><img src="images/thumbs/MRA_cutscenes/34_Language_Select.png" width="160" height="144" alt="Language Select"></a><br>Language Select<br><sub><a href="images/screens/MRA_cutscenes/34_Language_Select.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/35_Empty_Frames.png"><img src="images/thumbs/MRA_cutscenes/35_Empty_Frames.png" width="160" height="144" alt="Empty Frames"></a><br>Empty Frames<br><sub><a href="images/screens/MRA_cutscenes/35_Empty_Frames.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/36_Enter_Your_Name.png"><img src="images/thumbs/MRA_cutscenes/36_Enter_Your_Name.png" width="160" height="144" alt="Enter Your Name"></a><br>Enter Your Name<br><sub><a href="images/screens/MRA_cutscenes/36_Enter_Your_Name.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/37_Treasure_Cave.png"><img src="images/thumbs/MRA_cutscenes/37_Treasure_Cave.png" width="160" height="144" alt="Treasure Cave"></a><br>Treasure Cave<br><sub><a href="images/screens/MRA_cutscenes/37_Treasure_Cave.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/38_Donald_on_Stage.png"><img src="images/thumbs/MRA_cutscenes/38_Donald_on_Stage.png" width="160" height="144" alt="Donald on Stage"></a><br>Donald on Stage<br><sub><a href="images/screens/MRA_cutscenes/38_Donald_on_Stage.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/39_Bulldog.png"><img src="images/thumbs/MRA_cutscenes/39_Bulldog.png" width="160" height="144" alt="Bulldog"></a><br>Bulldog<br><sub><a href="images/screens/MRA_cutscenes/39_Bulldog.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/40_Shelf_Hallway.png"><img src="images/thumbs/MRA_cutscenes/40_Shelf_Hallway.png" width="160" height="144" alt="Shelf Hallway"></a><br>Shelf Hallway<br><sub><a href="images/screens/MRA_cutscenes/40_Shelf_Hallway.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/41_Letter.png"><img src="images/thumbs/MRA_cutscenes/41_Letter.png" width="160" height="144" alt="Letter"></a><br>Letter<br><sub><a href="images/screens/MRA_cutscenes/41_Letter.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/42_Toy_Shelf.png"><img src="images/thumbs/MRA_cutscenes/42_Toy_Shelf.png" width="160" height="144" alt="Toy Shelf"></a><br>Toy Shelf<br><sub><a href="images/screens/MRA_cutscenes/42_Toy_Shelf.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MRA_cutscenes/43_Post_Office.png"><img src="images/thumbs/MRA_cutscenes/43_Post_Office.png" width="160" height="144" alt="Post Office"></a><br>Post Office<br><sub><a href="images/screens/MRA_cutscenes/43_Post_Office.png">PNG</a></sub></td>
+</tr>
+</table>
+<!-- /table -->
+
 ### Terrain
 
 You can see the true track shapes here; elevation is ignored.

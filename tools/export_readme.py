@@ -144,6 +144,7 @@ TABLES = {
     "mra-overworld": hubs,
     "mra-worlds": lambda: screens("MRA_worlds"),
     "mra-dig": dig,
+    "mra-cutscenes": lambda: screens("MRA_cutscenes"),
     "mra-terrain": lambda: terrain("MRA"),
 }
 
