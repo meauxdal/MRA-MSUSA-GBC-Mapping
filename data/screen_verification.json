@@ -32,6 +32,14 @@
     "ok": true
   },
   {
+    "name": "Daisy's Wonderland lower palette swap",
+    "returned": true,
+    "palette": "WRAM d000 + STAT handler",
+    "tile_mismatches": 0,
+    "plane_mismatches": 0,
+    "ok": true
+  },
+  {
     "name": "Goofy's Fairground Adventure",
     "returned": true,
     "palette": "fade buffer cc40",

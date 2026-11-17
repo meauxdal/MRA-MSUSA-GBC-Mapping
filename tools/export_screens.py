@@ -11,6 +11,7 @@ import json
 import re
 from dataclasses import dataclass
 from pathlib import Path
+from PIL import Image
 from maps import ROOT, read_rom, render_tiles
 
 def offset(bank, address):
@@ -52,11 +53,29 @@ class Parts:
     attrs: bytes
     gfx: list
     palette: int
+    # Optional mid-frame palette swap: from tile row `split` down, the BG
+    # palettes listed in `slots` take the 4 palettes stored at `lower`.
+    lower: int = None
+    split: int = None
+    slots: tuple = ()
 
     def render(self, rom):
-        return render_tiles(self.width, self.height,
-                            interleave(self.ids, self.attrs), self.gfx,
-                            colors(rom, self.palette))
+        pairs=interleave(self.ids, self.attrs)
+        base=colors(rom, self.palette)
+        if self.lower is None:
+            return render_tiles(self.width, self.height, pairs, self.gfx, base)
+        swapped=list(base)
+        extra=colors(rom, self.lower)
+        for n, slot in enumerate(self.slots):
+            swapped[slot*4:slot*4+4]=extra[n*4:n*4+4]
+        cut=self.split*self.width*2
+        top=render_tiles(self.width, self.split, pairs[:cut], self.gfx, base)
+        rest=render_tiles(self.width, self.height-self.split, pairs[cut:],
+                          self.gfx, swapped)
+        image=Image.new("RGB", (self.width*8, self.height*8))
+        image.paste(top, (0, 0))
+        image.paste(rest, (0, self.split*8))
+        return image
 
 # MRA world maps, reached from the train station. Hard-coded loaders in bank 0a.
 WORLDS=[
@@ -71,6 +90,15 @@ PLANES=re.compile(rb"\x06(.)\x21(..)\x11\x00\xd0\x3e(.)\xe0\x94\x0e\x00"
 ATTRS=re.compile(rb"\x21(..)\x11\x00\xd4", re.S)
 TILES=re.compile(rb"\x21(..)\x11\x00\xd0\x3e(.)\x06(.)\x0e(.)\xcd\x82\x1f", re.S)
 PALETTE=re.compile(rb"\x06\x08\x11(..)\xcd\x47\x31", re.S)
+# Second palette set (Daisy's map only): 0a:5519 fades 4 palettes into WRAM
+# bank 3 d000 (LD B,4 / LD HL,d000 / LD DE,xxxx / CALL 30d8).
+LOWER=re.compile(rb"\x06\x04\x21\x00\xd0\x11(..)\xcd\xd8\x30", re.S)
+# The STAT handler (00:1445 -> 0a:55be) fires at LYC = 88 - SCY, i.e. at map
+# line 0x88, and copies those 4 palettes into BG palettes 0, 1, 2 and 4
+# (BCPS 80, then a0). Map row 17 only uses palette 7, so the swap shows from
+# tile row 18 on.
+LOWER_ROW=0x88//8
+LOWER_SLOTS=(0, 1, 2, 4)
 
 def mra_worlds(rom):
     for n, (entry, name) in enumerate(WORLDS, 1):
@@ -89,6 +117,8 @@ def mra_worlds(rom):
             gfx[wram-1]=copy_tiles(rom, bank, address, count or 256)
             sources[wram-1]=offset(bank, address)
         palette=offset(0x0a, le16(PALETTE.search(code).group(1), 0))
+        lower=LOWER.search(code)
+        lower=offset(0x0a, le16(lower.group(1), 0)) if lower else None
         size=width*height
         ids, attrs=rom[ids_at:ids_at+size], rom[attrs_at:attrs_at+size]
         bank1=sum(1 for a in attrs if a&8)
@@ -100,8 +130,12 @@ def mra_worlds(rom):
                    loader=f"0a:{entry:04x}", width=width, height=height,
                    tile_ids=f"0x{ids_at:06x}", attributes=f"0x{attrs_at:06x}",
                    graphics=[f"0x{s:06x}" if s is not None else None for s in sources],
-                   palette=f"0x{palette:06x}"), \
-            Parts(width, height, ids, attrs, gfx, palette)
+                   palette=f"0x{palette:06x}",
+                   **(dict(lower_palette=f"0x{lower:06x}",
+                           lower_from_row=LOWER_ROW,
+                           lower_slots=list(LOWER_SLOTS)) if lower else {})), \
+            Parts(width, height, ids, attrs, gfx, palette,
+                  *((lower, LOWER_ROW, LOWER_SLOTS) if lower else ()))
 
 # MSUSA course cards, loader 12:52b7. Card order is ce5e (west to east on the
 # US map), not the race catalog order. 20-22 are the French and German name

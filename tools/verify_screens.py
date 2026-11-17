@@ -82,6 +82,29 @@ def check(name, memory, parts, rom, returned, plane, static_palette=None):
           f"plane={result['plane_mismatches']}", flush=True)
     return result
 
+def check_lower(machine, rom, parts):
+    # Daisy's map swaps BG palettes 0, 1, 2 and 4 part-way down the screen.
+    # 0a:5519 fades 4 palettes into WRAM bank 3 d000 (full brightness = the
+    # ROM bytes), and the STAT handler 0a:55be writes them to BCPD (BCPS 80
+    # for 12 words, then a0 for 4 words) at LYC = 88 - SCY (0a:55aa).
+    machine.reset()
+    memory=machine.p.memory
+    memory[0xc6ad]=255
+    machine.call(0x0a, 0x5519)
+    memory[0xff70]=3
+    buffer=bytes(memory[0xd000+i] for i in range(32))
+    arm=bytes.fromhex("3e45ea9ecf3e14ea9fcffa6ec1473e8890e045c9")  # 0a:55aa
+    ok=(buffer==rom[parts.lower:parts.lower+32]
+        and rom[0x295aa:0x295be]==arm
+        and rom[0x295d3:0x295d7]==bytes.fromhex("3e80e068")
+        and rom[0x29606:0x2960a]==bytes.fromhex("3ea0e068")
+        and parts.slots==(0, 1, 2, 4))
+    result=dict(name="Daisy's Wonderland lower palette swap", returned=True,
+                palette="WRAM d000 + STAT handler" if ok else None,
+                tile_mismatches=0, plane_mismatches=0, ok=ok)
+    print(f"{'ok  ' if ok else 'FAIL'} {result['name']}", flush=True)
+    return result
+
 def main():
     results=[]
     rom=read_rom("mra")
@@ -89,6 +112,8 @@ def main():
     for (entry, parts), (address, _) in zip(screens.mra_worlds(rom), screens.WORLDS):
         returned=run(machine, 0x0a, address)
         results.append(check(entry["name"], machine.p.memory, parts, rom, returned, bg_mismatches))
+        if parts.lower is not None:
+            results.append(check_lower(machine, rom, parts))
     machine.close()
 
     rom=read_rom("msusa")

@@ -1,0 +1,24 @@
+[
+  {
+    "index": 1,
+    "name": "Mickey's Racing Adventure (Game Boy Color required)",
+    "file": "01_MRA_warning.png",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x0224b0",
+    "graphics": "0x021ed0",
+    "tile_count": 94,
+    "sha256": "30f78a39c31fc3e64fb8ccf3ed2f0826e2113009c1865f394ef49455a49f2fca"
+  },
+  {
+    "index": 2,
+    "name": "Mickey's Speedway USA (Game Boy Color required)",
+    "file": "02_MSUSA_warning.png",
+    "width": 20,
+    "height": 18,
+    "tile_ids": "0x013068",
+    "graphics": "0x0131d0",
+    "tile_count": 91,
+    "sha256": "f381319b22e2473b0db2fb69eb3790bd061fb255cac293d7e25c5ce197073428"
+  }
+]

@@ -61,7 +61,15 @@
       "0x2795f0"
     ],
     "palette": "0x02ab9c",
-    "sha256": "b3f8b47089e5bdb7a01ddc801272b351a87511e2b0a6d142a879f8c6e98ec083"
+    "lower_palette": "0x02abdc",
+    "lower_from_row": 17,
+    "lower_slots": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "sha256": "69531b2f2febf4f809a898a7e60cea7d1b1b019b26acf21cc66deb39e9ea16a7"
   },
   {
     "index": 5,
