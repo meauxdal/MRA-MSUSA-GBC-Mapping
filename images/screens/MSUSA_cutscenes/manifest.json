@@ -317,8 +317,8 @@
   },
   {
     "index": 19,
-    "name": "Yellow Machine",
-    "file": "19_Yellow_Machine.png",
+    "name": "Character Select",
+    "file": "19_Character_Select.png",
     "identification": "a yellow machine on black",
     "loader": "05:4ec2",
     "width": 20,

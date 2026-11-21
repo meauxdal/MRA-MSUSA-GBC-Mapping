@@ -58,7 +58,7 @@ SCREENS=[
      [(0x5050, 0x76, 1), (0x6050, 0x76, 2)]),
     (0x08, 0x692a, "Ransom_Note_(Spanish)", "the weasels' ransom note (Spanish)",
      [(0x6140, 0x76, 1)]),
-    (0x05, 0x4ec2, "Yellow_Machine", "a yellow machine on black"),
+    (0x05, 0x4ec2, "Character_Select", "a yellow machine on black"),
     (0x04, 0x4e1c, "Trophy_Case_(French)", "trophy case (French)"),
     (0x04, 0x4e81, "Trophy_Case_(German)", "trophy case (German)"),
     (0x04, 0x4ee6, "Trophy_Case_(Spanish)", "trophy case (Spanish)"),
