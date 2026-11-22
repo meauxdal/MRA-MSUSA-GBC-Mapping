@@ -175,6 +175,18 @@ The raw planes contain plain placeholder squares where the state markers go. For
 
 State 0 always counts as reached, so the exports show progress 0 (only Los Angeles reached) and 19 (every state reached).
 
+## MRA character sprites
+
+The overworld characters are hardware sprites in 8x16 mode. Their frames are stored uncompressed in banks `6c`-`7f`, as animation tables in one layout (`tools/export_sprites.py` documents it in full):
+
+- A table is a byte holding the frame count minus one, a zero byte, then one little-endian record pointer per frame. The first pointer is the table address + 2 + 2 × frame count.
+- A record is two header bytes (purpose unknown), the tile data pointer (same bank, 16-byte aligned), then one `dy, dx, attr` triple per sprite, zero-padded up to the tile data. `dy` and `dx` are signed offsets from the frame's anchor point; `attr` is the OAM attribute byte (bit 3 VRAM bank 1, bits 0-2 palette, bits 5 and 6 flips).
+- Sprite *i* uses tiles 2*i* and 2*i*+1 of the frame's tile data (2bpp, 32 bytes per sprite). The next record starts right after the tiles, padded to 16 bytes.
+- A table with one frame is a standing pose. The same poses and some animations are repeated in several banks.
+- All characters share eight OBJ palettes (BGR555) at `6c:4200`, copied to the town map banks at `63:7900`, `66:7700`, `67:7a00` and `69:7900`.
+
+The exporter lists 36 tables found with a scan for this layout: 21 walk cycles of 20 frames (Mickey, Pete, Daisy, Donald, Goofy and Minnie, each front, side and back), seven Pluto animations, items, money, a train and six sets of standing poses. The doghouse Pluto (`94:5860`), Clarabelle (`94:6ec0`), the save-screen Goofy portrait, the glove cursor and the world-map sprites use other loaders and are not covered. The racing karts are not sprites in either game.
+
 ## Verification
 
 | Script | Method | Result |
@@ -188,6 +200,7 @@ State 0 always counts as reached, so the exports show progress 0 (only Los Angel
 | `verify_terrain.py` | Sampled comparison against the original point lookup (see [Terrain](#terrain)). | 43/43; `data/terrain_verification_*.json` |
 | `verify_screens.py` | Runs each original full-screen loader and compares the tile map (VRAM `9800`, or WRAM bank 2 for the US map, markers included), every tile the screen uses, and the palette in the `cc40` fade buffer. The US map palette is checked statically against the code at `09:6786`. | 30/30 exact; `data/screen_verification.json` |
 | `verify_dig.py` | Replays a Pluto hole entry from a local save state, forces each stage index and compares the WRAM metatile grid, the faded palette buffer and hardware palettes 4-7, and every BG tile in VRAM (animated groups against their `f7` frames). | 28/28; `data/dig_verification.json` |
+| `verify_sprites.py` | Re-renders every sprite sheet and compares it with the manifest, then matches the game's live OAM, VRAM tile bytes and OBJ palettes against the ROM tables from local save states and a scripted walk. | 36/36 sheets; 61 distinct frames seen walking, no palette mismatches |
 
 These checks confirm that the source data is decoded correctly. They do not show that every pixel can be reached by the gameplay camera, and they cover background layers only: sprites, pickups, opponents, some start/finish markers, state-dependent scenery and runtime map edits are outside their scope.
 

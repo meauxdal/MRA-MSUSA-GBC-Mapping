@@ -1,0 +1,6739 @@
+[
+  {
+    "index": 1,
+    "name": "Mickey Walk Front",
+    "file": "01_Mickey_Walk_Front.png",
+    "identification": "Mickey walking toward the camera",
+    "cell_width": 34,
+    "cell_height": 70,
+    "anchor": [
+      16,
+      47
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "70:4000",
+        "frame": 0,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1c002a",
+        "tiles": "0x1c0060",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 1,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1c0220",
+        "tiles": "0x1c0260",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 2,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1c0440",
+        "tiles": "0x1c0470",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 3,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1c0630",
+        "tiles": "0x1c0670",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 4,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1c0850",
+        "tiles": "0x1c0890",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 5,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1c0ab0",
+        "tiles": "0x1c0af0",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 6,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1c0d10",
+        "tiles": "0x1c0d50",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 7,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1c0f30",
+        "tiles": "0x1c0f70",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 8,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1c1150",
+        "tiles": "0x1c1190",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 9,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1c1370",
+        "tiles": "0x1c13a0",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 10,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1c1540",
+        "tiles": "0x1c1570",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 11,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1c1710",
+        "tiles": "0x1c1740",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 12,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1c1900",
+        "tiles": "0x1c1940",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 13,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1c1b40",
+        "tiles": "0x1c1b80",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 14,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1c1da0",
+        "tiles": "0x1c1de0",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 15,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1c2000",
+        "tiles": "0x1c2040",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 16,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1c2240",
+        "tiles": "0x1c2280",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 17,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1c2460",
+        "tiles": "0x1c24a0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 18,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1c2680",
+        "tiles": "0x1c26c0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "70:4000",
+        "frame": 19,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1c28a0",
+        "tiles": "0x1c28d0",
+        "pieces": 13,
+        "also_at": []
+      }
+    ],
+    "gif": "01_Mickey_Walk_Front.gif",
+    "sha256": "7e328ef45f4188d114c2f9be1cce0bbc3916f30a09e0c6454dc3f6e228ae2101"
+  },
+  {
+    "index": 2,
+    "name": "Mickey Walk Side",
+    "file": "02_Mickey_Walk_Side.png",
+    "identification": "Mickey walking sideways (faces left; mirror for right)",
+    "cell_width": 40,
+    "cell_height": 66,
+    "anchor": [
+      19,
+      44
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "71:4000",
+        "frame": 0,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1c402a",
+        "tiles": "0x1c4070",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 1,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1c42b0",
+        "tiles": "0x1c42f0",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 2,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1c4510",
+        "tiles": "0x1c4550",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 3,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1c4770",
+        "tiles": "0x1c47b0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 4,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1c49b0",
+        "tiles": "0x1c49f0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 5,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1c4bd0",
+        "tiles": "0x1c4c00",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 6,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1c4dc0",
+        "tiles": "0x1c4df0",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 7,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1c4fb0",
+        "tiles": "0x1c4ff0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 8,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1c51d0",
+        "tiles": "0x1c5210",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 9,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1c5410",
+        "tiles": "0x1c5450",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 10,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1c5630",
+        "tiles": "0x1c5670",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 11,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1c5870",
+        "tiles": "0x1c58b0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 12,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1c5a90",
+        "tiles": "0x1c5ad0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 13,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1c5cd0",
+        "tiles": "0x1c5d10",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 14,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1c5f10",
+        "tiles": "0x1c5f50",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 15,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1c6130",
+        "tiles": "0x1c6170",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 16,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1c6390",
+        "tiles": "0x1c63d0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 17,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1c65d0",
+        "tiles": "0x1c6610",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 18,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1c67f0",
+        "tiles": "0x1c6830",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "71:4000",
+        "frame": 19,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1c6a10",
+        "tiles": "0x1c6a50",
+        "pieces": 18,
+        "also_at": []
+      }
+    ],
+    "gif": "02_Mickey_Walk_Side.gif",
+    "sha256": "ebd022dff740187ef8dffd008b7bc7a2c20c41deac661d651c6267d10a2f0ce6"
+  },
+  {
+    "index": 3,
+    "name": "Mickey Walk Back",
+    "file": "03_Mickey_Walk_Back.png",
+    "identification": "Mickey walking away",
+    "cell_width": 42,
+    "cell_height": 56,
+    "anchor": [
+      17,
+      37
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "72:4000",
+        "frame": 0,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1c802a",
+        "tiles": "0x1c8050",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 1,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1c81b0",
+        "tiles": "0x1c81e0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 2,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1c8360",
+        "tiles": "0x1c8390",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 3,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1c84d0",
+        "tiles": "0x1c8500",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 4,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1c8660",
+        "tiles": "0x1c8690",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 5,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1c8810",
+        "tiles": "0x1c8840",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 6,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1c89a0",
+        "tiles": "0x1c89d0",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 7,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1c8b30",
+        "tiles": "0x1c8b60",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 8,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1c8cc0",
+        "tiles": "0x1c8cf0",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 9,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1c8e30",
+        "tiles": "0x1c8e60",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 10,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1c8fc0",
+        "tiles": "0x1c8ff0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 11,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1c9170",
+        "tiles": "0x1c91a0",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 12,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1c9300",
+        "tiles": "0x1c9330",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 13,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1c9470",
+        "tiles": "0x1c94a0",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 14,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1c9600",
+        "tiles": "0x1c9630",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 15,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1c9790",
+        "tiles": "0x1c97c0",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 16,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1c9920",
+        "tiles": "0x1c9950",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 17,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1c9ab0",
+        "tiles": "0x1c9ae0",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 18,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1c9c40",
+        "tiles": "0x1c9c70",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "72:4000",
+        "frame": 19,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1c9db0",
+        "tiles": "0x1c9de0",
+        "pieces": 11,
+        "also_at": []
+      }
+    ],
+    "gif": "03_Mickey_Walk_Back.gif",
+    "sha256": "84e421fbf51e628abb8879a07580eaecf8454cc737a97b5f58e95eaab275470e"
+  },
+  {
+    "index": 4,
+    "name": "Mickey Poses",
+    "file": "04_Mickey_Poses.png",
+    "identification": "Mickey standing poses (front, side, back)",
+    "cell_width": 41,
+    "cell_height": 69,
+    "anchor": [
+      23,
+      48
+    ],
+    "columns": 3,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "6d:7400",
+        "frame": 0,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1b7404",
+        "tiles": "0x1b7440",
+        "pieces": 15,
+        "also_at": [
+          "6e:6400[0]"
+        ]
+      },
+      {
+        "table": "6d:7800",
+        "frame": 0,
+        "header": [
+          4,
+          2
+        ],
+        "record": "0x1b7804",
+        "tiles": "0x1b7850",
+        "pieces": 19,
+        "also_at": [
+          "6e:6800[0]"
+        ]
+      },
+      {
+        "table": "6d:7c00",
+        "frame": 0,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1b7c04",
+        "tiles": "0x1b7c30",
+        "pieces": 11,
+        "also_at": [
+          "6e:6c00[0]"
+        ]
+      }
+    ],
+    "sha256": "14bd65755c6df8c3dceead782e4a3b922ddab04d54a1468c4a6b9e5b7586f75e"
+  },
+  {
+    "index": 5,
+    "name": "Pete Walk Front",
+    "file": "05_Pete_Walk_Front.png",
+    "identification": "Pete walking toward the camera",
+    "cell_width": 34,
+    "cell_height": 52,
+    "anchor": [
+      16,
+      32
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "6d:4c00",
+        "frame": 0,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b4c2a",
+        "tiles": "0x1b4c60",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 1,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b4de0",
+        "tiles": "0x1b4e10",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 2,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b4f90",
+        "tiles": "0x1b4fc0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 3,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1b5140",
+        "tiles": "0x1b5170",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 4,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1b5310",
+        "tiles": "0x1b5340",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 5,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1b54e0",
+        "tiles": "0x1b5510",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 6,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b56b0",
+        "tiles": "0x1b56e0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 7,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b5860",
+        "tiles": "0x1b5890",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 8,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b5a10",
+        "tiles": "0x1b5a40",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 9,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b5bc0",
+        "tiles": "0x1b5bf0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 10,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1b5d70",
+        "tiles": "0x1b5da0",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 11,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1b5f40",
+        "tiles": "0x1b5f70",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 12,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b6110",
+        "tiles": "0x1b6140",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 13,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b62c0",
+        "tiles": "0x1b62f0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 14,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b6470",
+        "tiles": "0x1b64a0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 15,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1b6620",
+        "tiles": "0x1b6650",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 16,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1b67f0",
+        "tiles": "0x1b6820",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 17,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1b69c0",
+        "tiles": "0x1b69f0",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 18,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b6b90",
+        "tiles": "0x1b6bc0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6d:4c00",
+        "frame": 19,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b6d40",
+        "tiles": "0x1b6d70",
+        "pieces": 12,
+        "also_at": []
+      }
+    ],
+    "gif": "05_Pete_Walk_Front.gif",
+    "sha256": "6631792aa857617ad0cd6b75ec9da896b540d942f793bd118593eb5b0bee8597"
+  },
+  {
+    "index": 6,
+    "name": "Pete Walk Side",
+    "file": "06_Pete_Walk_Side.png",
+    "identification": "Pete walking sideways",
+    "cell_width": 40,
+    "cell_height": 54,
+    "anchor": [
+      13,
+      35
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "6e:4000",
+        "frame": 0,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b802a",
+        "tiles": "0x1b8060",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 1,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b81e0",
+        "tiles": "0x1b8210",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 2,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1b8390",
+        "tiles": "0x1b83c0",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 3,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b8560",
+        "tiles": "0x1b8590",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 4,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1b8710",
+        "tiles": "0x1b8740",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 5,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1b88a0",
+        "tiles": "0x1b88d0",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 6,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1b8a30",
+        "tiles": "0x1b8a50",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 7,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1b8b70",
+        "tiles": "0x1b8ba0",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 8,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1b8ce0",
+        "tiles": "0x1b8d10",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 9,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1b8e50",
+        "tiles": "0x1b8e80",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 10,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1b8fc0",
+        "tiles": "0x1b8ff0",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 11,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1b9130",
+        "tiles": "0x1b9160",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 12,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1b92a0",
+        "tiles": "0x1b92d0",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 13,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1b9410",
+        "tiles": "0x1b9440",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 14,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1b9580",
+        "tiles": "0x1b95b0",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 15,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b96f0",
+        "tiles": "0x1b9720",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 16,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1b98a0",
+        "tiles": "0x1b98d0",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 17,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b9a30",
+        "tiles": "0x1b9a60",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 18,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1b9be0",
+        "tiles": "0x1b9c10",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "6e:4000",
+        "frame": 19,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1b9db0",
+        "tiles": "0x1b9de0",
+        "pieces": 12,
+        "also_at": []
+      }
+    ],
+    "gif": "06_Pete_Walk_Side.gif",
+    "sha256": "aca1dc394d97de880291159106f99a96ceb7e274e039bae88280c8967ca66ee8"
+  },
+  {
+    "index": 7,
+    "name": "Pete Walk Back",
+    "file": "07_Pete_Walk_Back.png",
+    "identification": "Pete walking away",
+    "cell_width": 34,
+    "cell_height": 53,
+    "anchor": [
+      15,
+      33
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "6f:4000",
+        "frame": 0,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1bc02a",
+        "tiles": "0x1bc060",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 1,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1bc1e0",
+        "tiles": "0x1bc210",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 2,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1bc390",
+        "tiles": "0x1bc3c0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 3,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1bc540",
+        "tiles": "0x1bc570",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 4,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1bc6f0",
+        "tiles": "0x1bc720",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 5,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1bc880",
+        "tiles": "0x1bc8b0",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 6,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1bc9f0",
+        "tiles": "0x1bca20",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 7,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1bcba0",
+        "tiles": "0x1bcbd0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 8,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1bcd50",
+        "tiles": "0x1bcd80",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 9,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1bcf00",
+        "tiles": "0x1bcf30",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 10,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1bd0b0",
+        "tiles": "0x1bd0e0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 11,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1bd260",
+        "tiles": "0x1bd290",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 12,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1bd410",
+        "tiles": "0x1bd440",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 13,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1bd5c0",
+        "tiles": "0x1bd5f0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 14,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1bd770",
+        "tiles": "0x1bd7a0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 15,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1bd920",
+        "tiles": "0x1bd950",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 16,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1bdab0",
+        "tiles": "0x1bdae0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 17,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1bdc60",
+        "tiles": "0x1bdc90",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 18,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1bde10",
+        "tiles": "0x1bde40",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "6f:4000",
+        "frame": 19,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1bdfc0",
+        "tiles": "0x1bdff0",
+        "pieces": 11,
+        "also_at": []
+      }
+    ],
+    "gif": "07_Pete_Walk_Back.gif",
+    "sha256": "56feb70676ee528e62ec9136d7e71cd61d49a719f9fba023323c212a9e8fc161"
+  },
+  {
+    "index": 8,
+    "name": "Daisy Walk Front",
+    "file": "08_Daisy_Walk_Front.png",
+    "identification": "Daisy walking toward the camera",
+    "cell_width": 34,
+    "cell_height": 73,
+    "anchor": [
+      13,
+      51
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "73:4000",
+        "frame": 0,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1cc02a",
+        "tiles": "0x1cc060",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 1,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1cc220",
+        "tiles": "0x1cc250",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 2,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1cc410",
+        "tiles": "0x1cc440",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 3,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1cc600",
+        "tiles": "0x1cc630",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 4,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1cc7f0",
+        "tiles": "0x1cc820",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 5,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1cc9e0",
+        "tiles": "0x1cca10",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 6,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1ccbd0",
+        "tiles": "0x1ccc10",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 7,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1ccdf0",
+        "tiles": "0x1cce30",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 8,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1cd010",
+        "tiles": "0x1cd050",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 9,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1cd230",
+        "tiles": "0x1cd260",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 10,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1cd420",
+        "tiles": "0x1cd450",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 11,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1cd610",
+        "tiles": "0x1cd640",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 12,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1cd800",
+        "tiles": "0x1cd840",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 13,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1cda20",
+        "tiles": "0x1cda60",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 14,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1cdc40",
+        "tiles": "0x1cdc80",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 15,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1cde80",
+        "tiles": "0x1cdec0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 16,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1ce0c0",
+        "tiles": "0x1ce100",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 17,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1ce300",
+        "tiles": "0x1ce340",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 18,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1ce540",
+        "tiles": "0x1ce580",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "73:4000",
+        "frame": 19,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1ce760",
+        "tiles": "0x1ce790",
+        "pieces": 14,
+        "also_at": []
+      }
+    ],
+    "gif": "08_Daisy_Walk_Front.gif",
+    "sha256": "bbf9f30bec8cdccf79c9e6633fc84c3be30d11cc4736ecbad4385f5653c39cb8"
+  },
+  {
+    "index": 9,
+    "name": "Daisy Walk Side",
+    "file": "09_Daisy_Walk_Side.png",
+    "identification": "Daisy walking sideways",
+    "cell_width": 35,
+    "cell_height": 72,
+    "anchor": [
+      13,
+      50
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "74:4000",
+        "frame": 0,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1d002a",
+        "tiles": "0x1d0060",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 1,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1d0260",
+        "tiles": "0x1d02a0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 2,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1d04a0",
+        "tiles": "0x1d04e0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 3,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1d06e0",
+        "tiles": "0x1d0720",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 4,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1d0920",
+        "tiles": "0x1d0960",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 5,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1d0b40",
+        "tiles": "0x1d0b80",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 6,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1d0d60",
+        "tiles": "0x1d0da0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 7,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1d0f80",
+        "tiles": "0x1d0fb0",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 8,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1d1170",
+        "tiles": "0x1d11b0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 9,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1d1390",
+        "tiles": "0x1d13c0",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 10,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1d1560",
+        "tiles": "0x1d1590",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 11,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1d1750",
+        "tiles": "0x1d1780",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 12,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1d1920",
+        "tiles": "0x1d1960",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 13,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1d1b40",
+        "tiles": "0x1d1b80",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 14,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1d1d80",
+        "tiles": "0x1d1dc0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 15,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1d1fc0",
+        "tiles": "0x1d2000",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 16,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1d2200",
+        "tiles": "0x1d2240",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 17,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1d2420",
+        "tiles": "0x1d2460",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 18,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1d2640",
+        "tiles": "0x1d2680",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "74:4000",
+        "frame": 19,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1d2860",
+        "tiles": "0x1d28a0",
+        "pieces": 16,
+        "also_at": []
+      }
+    ],
+    "gif": "09_Daisy_Walk_Side.gif",
+    "sha256": "ff2b1223a19beff74650c5fdcb644ad77d0ceb2f6d67dc06defeefb3f63119a1"
+  },
+  {
+    "index": 10,
+    "name": "Daisy Walk Back",
+    "file": "10_Daisy_Walk_Back.png",
+    "identification": "Daisy walking away",
+    "cell_width": 35,
+    "cell_height": 67,
+    "anchor": [
+      14,
+      43
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "75:4000",
+        "frame": 0,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1d402a",
+        "tiles": "0x1d4060",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 1,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1d41e0",
+        "tiles": "0x1d4210",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 2,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1d4370",
+        "tiles": "0x1d43a0",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 3,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1d4540",
+        "tiles": "0x1d4570",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 4,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1d4710",
+        "tiles": "0x1d4740",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 5,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1d48e0",
+        "tiles": "0x1d4910",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 6,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1d4ab0",
+        "tiles": "0x1d4ae0",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 7,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1d4c80",
+        "tiles": "0x1d4cb0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 8,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1d4e30",
+        "tiles": "0x1d4e60",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 9,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1d4fe0",
+        "tiles": "0x1d5010",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 10,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1d5190",
+        "tiles": "0x1d51c0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 11,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1d5340",
+        "tiles": "0x1d5370",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 12,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1d54f0",
+        "tiles": "0x1d5520",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 13,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1d5680",
+        "tiles": "0x1d56b0",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 14,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1d5810",
+        "tiles": "0x1d5840",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 15,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1d59a0",
+        "tiles": "0x1d59d0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 16,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1d5b50",
+        "tiles": "0x1d5b80",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 17,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1d5d00",
+        "tiles": "0x1d5d30",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 18,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1d5eb0",
+        "tiles": "0x1d5ee0",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "75:4000",
+        "frame": 19,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1d6080",
+        "tiles": "0x1d60b0",
+        "pieces": 12,
+        "also_at": []
+      }
+    ],
+    "gif": "10_Daisy_Walk_Back.gif",
+    "sha256": "d2d77ec4d4b23359fe51b53800a7b03399c876a6fc3d862af6e4de0dac8a7ebd"
+  },
+  {
+    "index": 11,
+    "name": "Daisy Poses",
+    "file": "11_Daisy_Poses.png",
+    "identification": "Daisy standing poses",
+    "cell_width": 34,
+    "cell_height": 66,
+    "anchor": [
+      14,
+      48
+    ],
+    "columns": 3,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "6e:7200",
+        "frame": 0,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1bb204",
+        "tiles": "0x1bb240",
+        "pieces": 15,
+        "also_at": [
+          "6f:6300[0]"
+        ]
+      },
+      {
+        "table": "6e:7600",
+        "frame": 0,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1bb604",
+        "tiles": "0x1bb640",
+        "pieces": 16,
+        "also_at": [
+          "6f:6700[0]"
+        ]
+      },
+      {
+        "table": "6e:7a00",
+        "frame": 0,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1bba04",
+        "tiles": "0x1bba40",
+        "pieces": 14,
+        "also_at": [
+          "6f:6b00[0]"
+        ]
+      }
+    ],
+    "sha256": "6c11425bd2d941191599d605cd6c6049d08daaf21094263257024a3c50290d67"
+  },
+  {
+    "index": 12,
+    "name": "Donald Walk Front",
+    "file": "12_Donald_Walk_Front.png",
+    "identification": "Donald walking toward the camera",
+    "cell_width": 37,
+    "cell_height": 71,
+    "anchor": [
+      14,
+      50
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "76:4000",
+        "frame": 0,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1d802a",
+        "tiles": "0x1d8060",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 1,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1d8260",
+        "tiles": "0x1d82a0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 2,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1d84a0",
+        "tiles": "0x1d84e0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 3,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1d86e0",
+        "tiles": "0x1d8720",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 4,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1d8960",
+        "tiles": "0x1d89a0",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 5,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1d8be0",
+        "tiles": "0x1d8c20",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 6,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1d8e60",
+        "tiles": "0x1d8ea0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 7,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1d90a0",
+        "tiles": "0x1d90e0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 8,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1d92e0",
+        "tiles": "0x1d9320",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 9,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1d9500",
+        "tiles": "0x1d9540",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 10,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1d9720",
+        "tiles": "0x1d9760",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 11,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1d9940",
+        "tiles": "0x1d9980",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 12,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1d9b80",
+        "tiles": "0x1d9bc0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 13,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1d9dc0",
+        "tiles": "0x1d9e00",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 14,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1da020",
+        "tiles": "0x1da060",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 15,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1da2a0",
+        "tiles": "0x1da2e0",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 16,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1da500",
+        "tiles": "0x1da540",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 17,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1da760",
+        "tiles": "0x1da7a0",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 18,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1da9c0",
+        "tiles": "0x1daa00",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "76:4000",
+        "frame": 19,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1dabe0",
+        "tiles": "0x1dac20",
+        "pieces": 15,
+        "also_at": []
+      }
+    ],
+    "gif": "12_Donald_Walk_Front.gif",
+    "sha256": "58b7f3027f21363d457287ff28236a1986aa6dd287e2516645ef9d7b2b9a7766"
+  },
+  {
+    "index": 13,
+    "name": "Donald Walk Side",
+    "file": "13_Donald_Walk_Side.png",
+    "identification": "Donald walking sideways",
+    "cell_width": 47,
+    "cell_height": 71,
+    "anchor": [
+      17,
+      50
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "77:4000",
+        "frame": 0,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1dc02a",
+        "tiles": "0x1dc060",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 1,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1dc260",
+        "tiles": "0x1dc2a0",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 2,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1dc4c0",
+        "tiles": "0x1dc500",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 3,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1dc720",
+        "tiles": "0x1dc760",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 4,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1dc960",
+        "tiles": "0x1dc9a0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 5,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1dcba0",
+        "tiles": "0x1dcbd0",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 6,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1dcd90",
+        "tiles": "0x1dcdc0",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 7,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1dcf80",
+        "tiles": "0x1dcfc0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 8,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1dd1c0",
+        "tiles": "0x1dd200",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 9,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1dd420",
+        "tiles": "0x1dd460",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 10,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1dd660",
+        "tiles": "0x1dd6a0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 11,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1dd8a0",
+        "tiles": "0x1dd8e0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 12,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1ddae0",
+        "tiles": "0x1ddb20",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 13,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1ddd40",
+        "tiles": "0x1ddd80",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 14,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1ddf60",
+        "tiles": "0x1ddf90",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 15,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1de150",
+        "tiles": "0x1de190",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 16,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1de390",
+        "tiles": "0x1de3d0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 17,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1de5d0",
+        "tiles": "0x1de610",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 18,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1de7f0",
+        "tiles": "0x1de830",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "77:4000",
+        "frame": 19,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1dea50",
+        "tiles": "0x1dea90",
+        "pieces": 16,
+        "also_at": []
+      }
+    ],
+    "gif": "13_Donald_Walk_Side.gif",
+    "sha256": "6f38bb7d7d1185c20915b59404b022ab2a41a5deaf3ecf28ced1a636bb6295ea"
+  },
+  {
+    "index": 14,
+    "name": "Donald Walk Back",
+    "file": "14_Donald_Walk_Back.png",
+    "identification": "Donald walking away",
+    "cell_width": 36,
+    "cell_height": 68,
+    "anchor": [
+      14,
+      44
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "78:4000",
+        "frame": 0,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1e002a",
+        "tiles": "0x1e0060",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 1,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1e0220",
+        "tiles": "0x1e0250",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 2,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1e03f0",
+        "tiles": "0x1e0420",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 3,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1e05e0",
+        "tiles": "0x1e0620",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 4,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1e0800",
+        "tiles": "0x1e0840",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 5,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1e0a20",
+        "tiles": "0x1e0a60",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 6,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1e0c40",
+        "tiles": "0x1e0c80",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 7,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1e0e60",
+        "tiles": "0x1e0ea0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 8,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1e1080",
+        "tiles": "0x1e10b0",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 9,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1e1270",
+        "tiles": "0x1e12a0",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 10,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1e1460",
+        "tiles": "0x1e1490",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 11,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1e1650",
+        "tiles": "0x1e1680",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 12,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1e1820",
+        "tiles": "0x1e1850",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 13,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1e1a10",
+        "tiles": "0x1e1a50",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 14,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1e1c30",
+        "tiles": "0x1e1c70",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 15,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1e1e50",
+        "tiles": "0x1e1e90",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 16,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1e2070",
+        "tiles": "0x1e20b0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 17,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1e2290",
+        "tiles": "0x1e22d0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 18,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1e24b0",
+        "tiles": "0x1e24e0",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "78:4000",
+        "frame": 19,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1e26a0",
+        "tiles": "0x1e26d0",
+        "pieces": 13,
+        "also_at": []
+      }
+    ],
+    "gif": "14_Donald_Walk_Back.gif",
+    "sha256": "13d0418bd2d8844fca0d51d3105dd8f12065a70ccbfdab26335baa2b688e423e"
+  },
+  {
+    "index": 15,
+    "name": "Donald Poses",
+    "file": "15_Donald_Poses.png",
+    "identification": "Donald standing poses",
+    "cell_width": 35,
+    "cell_height": 68,
+    "anchor": [
+      14,
+      49
+    ],
+    "columns": 3,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "6f:7200",
+        "frame": 0,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1bf204",
+        "tiles": "0x1bf240",
+        "pieces": 17,
+        "also_at": [
+          "70:6c00[0]"
+        ]
+      },
+      {
+        "table": "6f:7600",
+        "frame": 0,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1bf604",
+        "tiles": "0x1bf640",
+        "pieces": 17,
+        "also_at": [
+          "70:7000[0]"
+        ]
+      },
+      {
+        "table": "6f:7a00",
+        "frame": 0,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1bfa04",
+        "tiles": "0x1bfa40",
+        "pieces": 15,
+        "also_at": [
+          "70:7400[0]"
+        ]
+      }
+    ],
+    "sha256": "e1b27dd94d83ac71c67fa9214f1aa0b4d955b30b9224221117f0a7f4c1abb7fd"
+  },
+  {
+    "index": 16,
+    "name": "Goofy Walk Front",
+    "file": "16_Goofy_Walk_Front.png",
+    "identification": "Goofy walking toward the camera",
+    "cell_width": 50,
+    "cell_height": 83,
+    "anchor": [
+      23,
+      58
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "7a:4000",
+        "frame": 0,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1e802a",
+        "tiles": "0x1e8060",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 1,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1e8260",
+        "tiles": "0x1e82a0",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 2,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1e84e0",
+        "tiles": "0x1e8520",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 3,
+        "header": [
+          4,
+          2
+        ],
+        "record": "0x1e8740",
+        "tiles": "0x1e8780",
+        "pieces": 19,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 4,
+        "header": [
+          4,
+          2
+        ],
+        "record": "0x1e89e0",
+        "tiles": "0x1e8a20",
+        "pieces": 19,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 5,
+        "header": [
+          4,
+          2
+        ],
+        "record": "0x1e8c80",
+        "tiles": "0x1e8cc0",
+        "pieces": 19,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 6,
+        "header": [
+          4,
+          2
+        ],
+        "record": "0x1e8f20",
+        "tiles": "0x1e8f60",
+        "pieces": 19,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 7,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1e91c0",
+        "tiles": "0x1e9200",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 8,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1e93e0",
+        "tiles": "0x1e9420",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 9,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1e9600",
+        "tiles": "0x1e9640",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 10,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1e9840",
+        "tiles": "0x1e9880",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 11,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1e9a80",
+        "tiles": "0x1e9ac0",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 12,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1e9ce0",
+        "tiles": "0x1e9d20",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 13,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1e9f60",
+        "tiles": "0x1e9fa0",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 14,
+        "header": [
+          4,
+          2
+        ],
+        "record": "0x1ea1e0",
+        "tiles": "0x1ea220",
+        "pieces": 19,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 15,
+        "header": [
+          4,
+          3
+        ],
+        "record": "0x1ea480",
+        "tiles": "0x1ea4c0",
+        "pieces": 20,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 16,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1ea740",
+        "tiles": "0x1ea780",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 17,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1ea9a0",
+        "tiles": "0x1ea9e0",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 18,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1eac00",
+        "tiles": "0x1eac40",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7a:4000",
+        "frame": 19,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1eae20",
+        "tiles": "0x1eae60",
+        "pieces": 17,
+        "also_at": []
+      }
+    ],
+    "gif": "16_Goofy_Walk_Front.gif",
+    "sha256": "c9413ed753d6e934cd23c7c04d8e6938c43eb93006ad5ddc42845c7d875cbc37"
+  },
+  {
+    "index": 17,
+    "name": "Goofy Walk Side",
+    "file": "17_Goofy_Walk_Side.png",
+    "identification": "Goofy walking sideways",
+    "cell_width": 50,
+    "cell_height": 83,
+    "anchor": [
+      23,
+      57
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "7b:4000",
+        "frame": 0,
+        "header": [
+          4,
+          2
+        ],
+        "record": "0x1ec02a",
+        "tiles": "0x1ec070",
+        "pieces": 19,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 1,
+        "header": [
+          4,
+          2
+        ],
+        "record": "0x1ec2d0",
+        "tiles": "0x1ec310",
+        "pieces": 19,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 2,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1ec570",
+        "tiles": "0x1ec5b0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 3,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1ec790",
+        "tiles": "0x1ec7d0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 4,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1ec9b0",
+        "tiles": "0x1ec9f0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 5,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1ecbd0",
+        "tiles": "0x1ecc10",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 6,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1ece10",
+        "tiles": "0x1ece50",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 7,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1ed090",
+        "tiles": "0x1ed0d0",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 8,
+        "header": [
+          4,
+          2
+        ],
+        "record": "0x1ed310",
+        "tiles": "0x1ed350",
+        "pieces": 19,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 9,
+        "header": [
+          4,
+          3
+        ],
+        "record": "0x1ed5b0",
+        "tiles": "0x1ed5f0",
+        "pieces": 20,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 10,
+        "header": [
+          5,
+          0
+        ],
+        "record": "0x1ed870",
+        "tiles": "0x1ed8c0",
+        "pieces": 21,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 11,
+        "header": [
+          5,
+          0
+        ],
+        "record": "0x1edb60",
+        "tiles": "0x1edbb0",
+        "pieces": 21,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 12,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1ede50",
+        "tiles": "0x1ede90",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 13,
+        "header": [
+          4,
+          2
+        ],
+        "record": "0x1ee0d0",
+        "tiles": "0x1ee110",
+        "pieces": 19,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 14,
+        "header": [
+          4,
+          2
+        ],
+        "record": "0x1ee370",
+        "tiles": "0x1ee3b0",
+        "pieces": 19,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 15,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1ee610",
+        "tiles": "0x1ee650",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 16,
+        "header": [
+          4,
+          2
+        ],
+        "record": "0x1ee870",
+        "tiles": "0x1ee8b0",
+        "pieces": 19,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 17,
+        "header": [
+          4,
+          2
+        ],
+        "record": "0x1eeb10",
+        "tiles": "0x1eeb50",
+        "pieces": 19,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 18,
+        "header": [
+          4,
+          3
+        ],
+        "record": "0x1eedb0",
+        "tiles": "0x1eedf0",
+        "pieces": 20,
+        "also_at": []
+      },
+      {
+        "table": "7b:4000",
+        "frame": 19,
+        "header": [
+          4,
+          2
+        ],
+        "record": "0x1ef070",
+        "tiles": "0x1ef0b0",
+        "pieces": 19,
+        "also_at": []
+      }
+    ],
+    "gif": "17_Goofy_Walk_Side.gif",
+    "sha256": "27d8a6a7cca27e3b4ae134ba9cdb4f3d136f8cbf1d8779d21afd5270c7bd67ed"
+  },
+  {
+    "index": 18,
+    "name": "Goofy Walk Back",
+    "file": "18_Goofy_Walk_Back.png",
+    "identification": "Goofy walking away",
+    "cell_width": 48,
+    "cell_height": 82,
+    "anchor": [
+      22,
+      57
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "7c:4000",
+        "frame": 0,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f002a",
+        "tiles": "0x1f0070",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 1,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1f02b0",
+        "tiles": "0x1f02f0",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 2,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1f0510",
+        "tiles": "0x1f0550",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 3,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f0770",
+        "tiles": "0x1f07b0",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 4,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1f09f0",
+        "tiles": "0x1f0a30",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 5,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1f0c50",
+        "tiles": "0x1f0c90",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 6,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1f0eb0",
+        "tiles": "0x1f0ef0",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 7,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1f1110",
+        "tiles": "0x1f1150",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 8,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1f1350",
+        "tiles": "0x1f1390",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 9,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f1590",
+        "tiles": "0x1f15d0",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 10,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1f1810",
+        "tiles": "0x1f1850",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 11,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1f1a70",
+        "tiles": "0x1f1ab0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 12,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f1cb0",
+        "tiles": "0x1f1cf0",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 13,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f1f30",
+        "tiles": "0x1f1f70",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 14,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1f21b0",
+        "tiles": "0x1f21f0",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 15,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f2410",
+        "tiles": "0x1f2450",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 16,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f2690",
+        "tiles": "0x1f26d0",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 17,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f2910",
+        "tiles": "0x1f2950",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 18,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f2b90",
+        "tiles": "0x1f2bd0",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7c:4000",
+        "frame": 19,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f2e10",
+        "tiles": "0x1f2e50",
+        "pieces": 18,
+        "also_at": []
+      }
+    ],
+    "gif": "18_Goofy_Walk_Back.gif",
+    "sha256": "b445293d76e877b5ff0a1a264c1a6f12324b93483bbb3ede788c2113dd57d741"
+  },
+  {
+    "index": 19,
+    "name": "Goofy Poses",
+    "file": "19_Goofy_Poses.png",
+    "identification": "Goofy standing poses",
+    "cell_width": 36,
+    "cell_height": 80,
+    "anchor": [
+      15,
+      57
+    ],
+    "columns": 3,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "72:7800",
+        "frame": 0,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1cb804",
+        "tiles": "0x1cb840",
+        "pieces": 18,
+        "also_at": [
+          "75:7c00[0]"
+        ]
+      },
+      {
+        "table": "72:7c00",
+        "frame": 0,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1cbc04",
+        "tiles": "0x1cbc40",
+        "pieces": 17,
+        "also_at": [
+          "76:7000[0]"
+        ]
+      },
+      {
+        "table": "73:7b00",
+        "frame": 0,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1cfb04",
+        "tiles": "0x1cfb40",
+        "pieces": 16,
+        "also_at": [
+          "76:7400[0]"
+        ]
+      }
+    ],
+    "sha256": "a41f98d04454a0a9c6bfecd10574dccaaff53cceda1e4d560d9c16d915256d5e"
+  },
+  {
+    "index": 20,
+    "name": "Minnie Walk Front",
+    "file": "20_Minnie_Walk_Front.png",
+    "identification": "Minnie walking toward the camera",
+    "cell_width": 42,
+    "cell_height": 69,
+    "anchor": [
+      18,
+      48
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "7d:4000",
+        "frame": 0,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1f402a",
+        "tiles": "0x1f4070",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 1,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1f4290",
+        "tiles": "0x1f42d0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 2,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f44d0",
+        "tiles": "0x1f4510",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 3,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f4750",
+        "tiles": "0x1f4790",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 4,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1f49d0",
+        "tiles": "0x1f4a10",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 5,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f4c30",
+        "tiles": "0x1f4c70",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 6,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1f4eb0",
+        "tiles": "0x1f4ef0",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 7,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1f5110",
+        "tiles": "0x1f5150",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 8,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f5370",
+        "tiles": "0x1f53b0",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 9,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f55f0",
+        "tiles": "0x1f5630",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 10,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f5870",
+        "tiles": "0x1f58b0",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 11,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f5af0",
+        "tiles": "0x1f5b30",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 12,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f5d70",
+        "tiles": "0x1f5db0",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 13,
+        "header": [
+          4,
+          2
+        ],
+        "record": "0x1f5ff0",
+        "tiles": "0x1f6030",
+        "pieces": 19,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 14,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f6290",
+        "tiles": "0x1f62d0",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 15,
+        "header": [
+          4,
+          2
+        ],
+        "record": "0x1f6510",
+        "tiles": "0x1f6550",
+        "pieces": 19,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 16,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1f67b0",
+        "tiles": "0x1f67f0",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 17,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1f6a10",
+        "tiles": "0x1f6a50",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 18,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f6c70",
+        "tiles": "0x1f6cb0",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7d:4000",
+        "frame": 19,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1f6ef0",
+        "tiles": "0x1f6f30",
+        "pieces": 16,
+        "also_at": []
+      }
+    ],
+    "gif": "20_Minnie_Walk_Front.gif",
+    "sha256": "6c274268b60ce63d11e3e024a16b7c5c255e100232f867c396cba77a39b2095d"
+  },
+  {
+    "index": 21,
+    "name": "Minnie Walk Side",
+    "file": "21_Minnie_Walk_Side.png",
+    "identification": "Minnie walking sideways",
+    "cell_width": 41,
+    "cell_height": 68,
+    "anchor": [
+      19,
+      49
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "7e:4000",
+        "frame": 0,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f802a",
+        "tiles": "0x1f8070",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 1,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f82b0",
+        "tiles": "0x1f82f0",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 2,
+        "header": [
+          4,
+          1
+        ],
+        "record": "0x1f8530",
+        "tiles": "0x1f8570",
+        "pieces": 18,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 3,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1f87b0",
+        "tiles": "0x1f87f0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 4,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1f89d0",
+        "tiles": "0x1f8a10",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 5,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1f8bf0",
+        "tiles": "0x1f8c30",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 6,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1f8e10",
+        "tiles": "0x1f8e50",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 7,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1f9030",
+        "tiles": "0x1f9070",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 8,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1f9250",
+        "tiles": "0x1f9290",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 9,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1f9490",
+        "tiles": "0x1f94d0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 10,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1f96d0",
+        "tiles": "0x1f9710",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 11,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1f9910",
+        "tiles": "0x1f9950",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 12,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1f9b50",
+        "tiles": "0x1f9b90",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 13,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1f9d90",
+        "tiles": "0x1f9dd0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 14,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1f9fb0",
+        "tiles": "0x1f9ff0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 15,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1fa1d0",
+        "tiles": "0x1fa210",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 16,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1fa3f0",
+        "tiles": "0x1fa430",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 17,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1fa610",
+        "tiles": "0x1fa650",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 18,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1fa830",
+        "tiles": "0x1fa870",
+        "pieces": 17,
+        "also_at": []
+      },
+      {
+        "table": "7e:4000",
+        "frame": 19,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1faa90",
+        "tiles": "0x1faad0",
+        "pieces": 17,
+        "also_at": []
+      }
+    ],
+    "gif": "21_Minnie_Walk_Side.gif",
+    "sha256": "2676b01f5d7e641dd4d35d6315af1722aa6181bc32ce4b49ddb6223220be8cb5"
+  },
+  {
+    "index": 22,
+    "name": "Minnie Walk Back",
+    "file": "22_Minnie_Walk_Back.png",
+    "identification": "Minnie walking away",
+    "cell_width": 42,
+    "cell_height": 68,
+    "anchor": [
+      19,
+      47
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "7f:4000",
+        "frame": 0,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1fc02a",
+        "tiles": "0x1fc060",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 1,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1fc1e0",
+        "tiles": "0x1fc210",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 2,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1fc3b0",
+        "tiles": "0x1fc3f0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 3,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1fc5d0",
+        "tiles": "0x1fc610",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 4,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1fc7f0",
+        "tiles": "0x1fc830",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 5,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1fca30",
+        "tiles": "0x1fca70",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 6,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1fcc70",
+        "tiles": "0x1fccb0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 7,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1fceb0",
+        "tiles": "0x1fcee0",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 8,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1fd0a0",
+        "tiles": "0x1fd0d0",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 9,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1fd270",
+        "tiles": "0x1fd2a0",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 10,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1fd460",
+        "tiles": "0x1fd490",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 11,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1fd650",
+        "tiles": "0x1fd680",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 12,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1fd840",
+        "tiles": "0x1fd870",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 13,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1fda10",
+        "tiles": "0x1fda40",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 14,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1fdbe0",
+        "tiles": "0x1fdc20",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 15,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1fde20",
+        "tiles": "0x1fde60",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 16,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1fe060",
+        "tiles": "0x1fe0a0",
+        "pieces": 16,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 17,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1fe2a0",
+        "tiles": "0x1fe2e0",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 18,
+        "header": [
+          3,
+          2
+        ],
+        "record": "0x1fe4c0",
+        "tiles": "0x1fe500",
+        "pieces": 15,
+        "also_at": []
+      },
+      {
+        "table": "7f:4000",
+        "frame": 19,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1fe6e0",
+        "tiles": "0x1fe710",
+        "pieces": 13,
+        "also_at": []
+      }
+    ],
+    "gif": "22_Minnie_Walk_Back.gif",
+    "sha256": "1760f39f76202b620778ada1659ae1672e50448f7cc438af88efef8bc304e95a"
+  },
+  {
+    "index": 23,
+    "name": "Minnie Poses",
+    "file": "23_Minnie_Poses.png",
+    "identification": "Minnie standing poses",
+    "cell_width": 36,
+    "cell_height": 67,
+    "anchor": [
+      17,
+      46
+    ],
+    "columns": 3,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "76:7b00",
+        "frame": 0,
+        "header": [
+          4,
+          0
+        ],
+        "record": "0x1dbb04",
+        "tiles": "0x1dbb40",
+        "pieces": 17,
+        "also_at": [
+          "77:7900[0]"
+        ]
+      },
+      {
+        "table": "77:7200",
+        "frame": 0,
+        "header": [
+          3,
+          3
+        ],
+        "record": "0x1df204",
+        "tiles": "0x1df240",
+        "pieces": 16,
+        "also_at": [
+          "79:6900[0]"
+        ]
+      },
+      {
+        "table": "77:7600",
+        "frame": 0,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1df604",
+        "tiles": "0x1df630",
+        "pieces": 12,
+        "also_at": [
+          "77:7d00[0]"
+        ]
+      }
+    ],
+    "sha256": "e24e9e7dc87d3d81b9a4e94214b6f0c547e0c1d8c6b8cf6c020151aec5803720"
+  },
+  {
+    "index": 24,
+    "name": "Pluto Anim 1",
+    "file": "24_Pluto_Anim_1.png",
+    "identification": "Pluto animation",
+    "cell_width": 37,
+    "cell_height": 70,
+    "anchor": [
+      16,
+      41
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "72:6100",
+        "frame": 0,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1ca11a",
+        "tiles": "0x1ca140",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "72:6100",
+        "frame": 1,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1ca280",
+        "tiles": "0x1ca2a0",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "72:6100",
+        "frame": 2,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1ca3c0",
+        "tiles": "0x1ca3f0",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "72:6100",
+        "frame": 3,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1ca530",
+        "tiles": "0x1ca550",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "72:6100",
+        "frame": 4,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1ca670",
+        "tiles": "0x1ca690",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "72:6100",
+        "frame": 5,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1ca7b0",
+        "tiles": "0x1ca7d0",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "72:6100",
+        "frame": 6,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1ca8f0",
+        "tiles": "0x1ca910",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "72:6100",
+        "frame": 7,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1caa30",
+        "tiles": "0x1caa50",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "72:6100",
+        "frame": 8,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1cab70",
+        "tiles": "0x1cab90",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "72:6100",
+        "frame": 9,
+        "header": [
+          1,
+          1
+        ],
+        "record": "0x1cacb0",
+        "tiles": "0x1cacd0",
+        "pieces": 6,
+        "also_at": []
+      },
+      {
+        "table": "72:6100",
+        "frame": 10,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1cad90",
+        "tiles": "0x1cadc0",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "72:6100",
+        "frame": 11,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1caf00",
+        "tiles": "0x1caf30",
+        "pieces": 10,
+        "also_at": []
+      }
+    ],
+    "gif": "24_Pluto_Anim_1.gif",
+    "sha256": "6f95e28ce8d23389f3574c77480c87fba7601e0886a1c765393e355d6af6edd5"
+  },
+  {
+    "index": 25,
+    "name": "Pluto Anim 2",
+    "file": "25_Pluto_Anim_2.png",
+    "identification": "Pluto animation",
+    "cell_width": 43,
+    "cell_height": 67,
+    "anchor": [
+      21,
+      29
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "73:6b00",
+        "frame": 0,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1ceb1a",
+        "tiles": "0x1ceb40",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "73:6b00",
+        "frame": 1,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1cec60",
+        "tiles": "0x1cec80",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "73:6b00",
+        "frame": 2,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1ceda0",
+        "tiles": "0x1cedc0",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "73:6b00",
+        "frame": 3,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1ceee0",
+        "tiles": "0x1cef00",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "73:6b00",
+        "frame": 4,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1cf000",
+        "tiles": "0x1cf020",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "73:6b00",
+        "frame": 5,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1cf120",
+        "tiles": "0x1cf140",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "73:6b00",
+        "frame": 6,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1cf240",
+        "tiles": "0x1cf260",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "73:6b00",
+        "frame": 7,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1cf380",
+        "tiles": "0x1cf3a0",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "73:6b00",
+        "frame": 8,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1cf4c0",
+        "tiles": "0x1cf4e0",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "73:6b00",
+        "frame": 9,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1cf5e0",
+        "tiles": "0x1cf600",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "73:6b00",
+        "frame": 10,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1cf720",
+        "tiles": "0x1cf740",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "73:6b00",
+        "frame": 11,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1cf840",
+        "tiles": "0x1cf860",
+        "pieces": 8,
+        "also_at": []
+      }
+    ],
+    "gif": "25_Pluto_Anim_2.gif",
+    "sha256": "9bd4505785881818f5ef1fbc175dc2907c99f3d4b8872da1b1531765ebf88ba2"
+  },
+  {
+    "index": 26,
+    "name": "Pluto Anim 3",
+    "file": "26_Pluto_Anim_3.png",
+    "identification": "Pluto animation",
+    "cell_width": 25,
+    "cell_height": 51,
+    "anchor": [
+      11,
+      29
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "74:7000",
+        "frame": 0,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1d301a",
+        "tiles": "0x1d3040",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "74:7000",
+        "frame": 1,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1d3140",
+        "tiles": "0x1d3160",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "74:7000",
+        "frame": 2,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1d3260",
+        "tiles": "0x1d3280",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "74:7000",
+        "frame": 3,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1d3380",
+        "tiles": "0x1d33a0",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "74:7000",
+        "frame": 4,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1d34a0",
+        "tiles": "0x1d34c0",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "74:7000",
+        "frame": 5,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1d35c0",
+        "tiles": "0x1d35e0",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "74:7000",
+        "frame": 6,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1d36e0",
+        "tiles": "0x1d3700",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "74:7000",
+        "frame": 7,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1d3800",
+        "tiles": "0x1d3820",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "74:7000",
+        "frame": 8,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1d3920",
+        "tiles": "0x1d3940",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "74:7000",
+        "frame": 9,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1d3a40",
+        "tiles": "0x1d3a60",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "74:7000",
+        "frame": 10,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1d3b60",
+        "tiles": "0x1d3b80",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "74:7000",
+        "frame": 11,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1d3c80",
+        "tiles": "0x1d3ca0",
+        "pieces": 8,
+        "also_at": []
+      }
+    ],
+    "gif": "26_Pluto_Anim_3.gif",
+    "sha256": "a4ca9527bd993a8e03590b2c8b1d207f120d394b755d684be731091b447e90e1"
+  },
+  {
+    "index": 27,
+    "name": "Pluto Anim 4",
+    "file": "27_Pluto_Anim_4.png",
+    "identification": "Pluto lying down",
+    "cell_width": 59,
+    "cell_height": 57,
+    "anchor": [
+      28,
+      38
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "75:6400",
+        "frame": 0,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1d641a",
+        "tiles": "0x1d6450",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "75:6400",
+        "frame": 1,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1d65d0",
+        "tiles": "0x1d6600",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "75:6400",
+        "frame": 2,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1d6780",
+        "tiles": "0x1d67b0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "75:6400",
+        "frame": 3,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1d6930",
+        "tiles": "0x1d6960",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "75:6400",
+        "frame": 4,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1d6ac0",
+        "tiles": "0x1d6af0",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "75:6400",
+        "frame": 5,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1d6c50",
+        "tiles": "0x1d6c80",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "75:6400",
+        "frame": 6,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1d6de0",
+        "tiles": "0x1d6e10",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "75:6400",
+        "frame": 7,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1d6f70",
+        "tiles": "0x1d6fa0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "75:6400",
+        "frame": 8,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1d7120",
+        "tiles": "0x1d7150",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "75:6400",
+        "frame": 9,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1d72d0",
+        "tiles": "0x1d7300",
+        "pieces": 14,
+        "also_at": []
+      },
+      {
+        "table": "75:6400",
+        "frame": 10,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1d74c0",
+        "tiles": "0x1d74f0",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "75:6400",
+        "frame": 11,
+        "header": [
+          3,
+          1
+        ],
+        "record": "0x1d7650",
+        "tiles": "0x1d7680",
+        "pieces": 14,
+        "also_at": []
+      }
+    ],
+    "gif": "27_Pluto_Anim_4.gif",
+    "sha256": "8150e88713bd3ed8a089f5d9b4d7512dd1bb40585248caa053981cf559462ae2"
+  },
+  {
+    "index": 28,
+    "name": "Pluto Anim 5",
+    "file": "28_Pluto_Anim_5.png",
+    "identification": "Pluto animation",
+    "cell_width": 38,
+    "cell_height": 78,
+    "anchor": [
+      16,
+      36
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "78:6a00",
+        "frame": 0,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1e2a1a",
+        "tiles": "0x1e2a40",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "78:6a00",
+        "frame": 1,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1e2ba0",
+        "tiles": "0x1e2bd0",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "78:6a00",
+        "frame": 2,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1e2d10",
+        "tiles": "0x1e2d40",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "78:6a00",
+        "frame": 3,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1e2e80",
+        "tiles": "0x1e2eb0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "78:6a00",
+        "frame": 4,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1e3030",
+        "tiles": "0x1e3060",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "78:6a00",
+        "frame": 5,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1e31c0",
+        "tiles": "0x1e31f0",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "78:6a00",
+        "frame": 6,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1e3350",
+        "tiles": "0x1e3380",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "78:6a00",
+        "frame": 7,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1e34c0",
+        "tiles": "0x1e34f0",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "78:6a00",
+        "frame": 8,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1e3630",
+        "tiles": "0x1e3660",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "78:6a00",
+        "frame": 9,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1e37c0",
+        "tiles": "0x1e37f0",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "78:6a00",
+        "frame": 10,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1e3930",
+        "tiles": "0x1e3960",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "78:6a00",
+        "frame": 11,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1e3ac0",
+        "tiles": "0x1e3af0",
+        "pieces": 10,
+        "also_at": []
+      }
+    ],
+    "gif": "28_Pluto_Anim_5.gif",
+    "sha256": "4b44af3b14918e1b226376a38282b6dd8a1c0cc15753b35eaa02a83c5326c8f0"
+  },
+  {
+    "index": 29,
+    "name": "Pluto Anim 6",
+    "file": "29_Pluto_Anim_6.png",
+    "identification": "Pluto animation",
+    "cell_width": 61,
+    "cell_height": 66,
+    "anchor": [
+      26,
+      41
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "79:4000",
+        "frame": 0,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1e401a",
+        "tiles": "0x1e4050",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "79:4000",
+        "frame": 1,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1e41f0",
+        "tiles": "0x1e4220",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "79:4000",
+        "frame": 2,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1e43c0",
+        "tiles": "0x1e43f0",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "79:4000",
+        "frame": 3,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1e4550",
+        "tiles": "0x1e4580",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "79:4000",
+        "frame": 4,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1e4700",
+        "tiles": "0x1e4730",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "79:4000",
+        "frame": 5,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1e48b0",
+        "tiles": "0x1e48e0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "79:4000",
+        "frame": 6,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1e4a60",
+        "tiles": "0x1e4a90",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "79:4000",
+        "frame": 7,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1e4c10",
+        "tiles": "0x1e4c40",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "79:4000",
+        "frame": 8,
+        "header": [
+          3,
+          0
+        ],
+        "record": "0x1e4de0",
+        "tiles": "0x1e4e10",
+        "pieces": 13,
+        "also_at": []
+      },
+      {
+        "table": "79:4000",
+        "frame": 9,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1e4fb0",
+        "tiles": "0x1e4fe0",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "79:4000",
+        "frame": 10,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1e5160",
+        "tiles": "0x1e5190",
+        "pieces": 12,
+        "also_at": []
+      },
+      {
+        "table": "79:4000",
+        "frame": 11,
+        "header": [
+          2,
+          3
+        ],
+        "record": "0x1e5310",
+        "tiles": "0x1e5340",
+        "pieces": 12,
+        "also_at": []
+      }
+    ],
+    "gif": "29_Pluto_Anim_6.gif",
+    "sha256": "4b9c75503beed1cbb7d0335e3fc9c52e901bcaa68ac72c68baf723b832d7e41e"
+  },
+  {
+    "index": 30,
+    "name": "Pluto Anim 7",
+    "file": "30_Pluto_Anim_7.png",
+    "identification": "Pluto animation (red palette)",
+    "cell_width": 44,
+    "cell_height": 49,
+    "anchor": [
+      19,
+      30
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "79:5800",
+        "frame": 0,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1e5818",
+        "tiles": "0x1e5840",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "79:5800",
+        "frame": 1,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1e5980",
+        "tiles": "0x1e59b0",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "79:5800",
+        "frame": 2,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1e5af0",
+        "tiles": "0x1e5b20",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "79:5800",
+        "frame": 3,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1e5c60",
+        "tiles": "0x1e5c90",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "79:5800",
+        "frame": 4,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1e5dd0",
+        "tiles": "0x1e5df0",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "79:5800",
+        "frame": 5,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1e5f10",
+        "tiles": "0x1e5f30",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "79:5800",
+        "frame": 6,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1e6050",
+        "tiles": "0x1e6080",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "79:5800",
+        "frame": 7,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1e61e0",
+        "tiles": "0x1e6200",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "79:5800",
+        "frame": 8,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1e6320",
+        "tiles": "0x1e6340",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "79:5800",
+        "frame": 9,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1e6460",
+        "tiles": "0x1e6480",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "79:5800",
+        "frame": 10,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1e65a0",
+        "tiles": "0x1e65d0",
+        "pieces": 11,
+        "also_at": []
+      }
+    ],
+    "gif": "30_Pluto_Anim_7.gif",
+    "sha256": "63fdc436493a75e5f81e03378a3de636e100debda11d68528e92ac86f39023da"
+  },
+  {
+    "index": 31,
+    "name": "Pluto Poses",
+    "file": "31_Pluto_Poses.png",
+    "identification": "Pluto standing poses",
+    "cell_width": 42,
+    "cell_height": 59,
+    "anchor": [
+      16,
+      37
+    ],
+    "columns": 6,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "70:7b00",
+        "frame": 0,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1c3b04",
+        "tiles": "0x1c3b30",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "71:7200",
+        "frame": 0,
+        "header": [
+          2,
+          2
+        ],
+        "record": "0x1c7204",
+        "tiles": "0x1c7230",
+        "pieces": 11,
+        "also_at": []
+      },
+      {
+        "table": "71:7500",
+        "frame": 0,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1c7504",
+        "tiles": "0x1c7530",
+        "pieces": 9,
+        "also_at": []
+      },
+      {
+        "table": "71:7800",
+        "frame": 0,
+        "header": [
+          1,
+          3
+        ],
+        "record": "0x1c7804",
+        "tiles": "0x1c7820",
+        "pieces": 8,
+        "also_at": []
+      },
+      {
+        "table": "71:7b00",
+        "frame": 0,
+        "header": [
+          2,
+          1
+        ],
+        "record": "0x1c7b04",
+        "tiles": "0x1c7b30",
+        "pieces": 10,
+        "also_at": []
+      },
+      {
+        "table": "72:7200",
+        "frame": 0,
+        "header": [
+          2,
+          0
+        ],
+        "record": "0x1cb204",
+        "tiles": "0x1cb230",
+        "pieces": 9,
+        "also_at": []
+      }
+    ],
+    "sha256": "147fe2d7e7f3864fd6b417eb58a71da41c1b6a68887d649a16b6a568d2822159"
+  },
+  {
+    "index": 32,
+    "name": "Item Burger",
+    "file": "32_Item_Burger.png",
+    "identification": "small food item",
+    "cell_width": 16,
+    "cell_height": 17,
+    "anchor": [
+      7,
+      8
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [
+      "79:7000",
+      "79:7500"
+    ],
+    "frames": [
+      {
+        "table": "6c:7100",
+        "frame": 0,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b3116",
+        "tiles": "0x1b3120",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7100",
+        "frame": 1,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b3160",
+        "tiles": "0x1b3170",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7100",
+        "frame": 2,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b31b0",
+        "tiles": "0x1b31c0",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7100",
+        "frame": 3,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b3200",
+        "tiles": "0x1b3210",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7100",
+        "frame": 4,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b3250",
+        "tiles": "0x1b3260",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7100",
+        "frame": 5,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b32a0",
+        "tiles": "0x1b32b0",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7100",
+        "frame": 6,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b32f0",
+        "tiles": "0x1b3300",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7100",
+        "frame": 7,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b3340",
+        "tiles": "0x1b3350",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7100",
+        "frame": 8,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b3390",
+        "tiles": "0x1b33a0",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7100",
+        "frame": 9,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b33e0",
+        "tiles": "0x1b33f0",
+        "pieces": 2,
+        "also_at": []
+      }
+    ],
+    "gif": "32_Item_Burger.gif",
+    "sha256": "a6e59a5112a8786b10bff964e6b6326be238b9ddac00863aea98a1bc432ec109"
+  },
+  {
+    "index": 33,
+    "name": "Item Blue",
+    "file": "33_Item_Blue.png",
+    "identification": "small blue item",
+    "cell_width": 17,
+    "cell_height": 16,
+    "anchor": [
+      7,
+      7
+    ],
+    "columns": 10,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "6c:7600",
+        "frame": 0,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b3616",
+        "tiles": "0x1b3620",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7600",
+        "frame": 1,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b3660",
+        "tiles": "0x1b3670",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7600",
+        "frame": 2,
+        "header": [
+          0,
+          0
+        ],
+        "record": "0x1b36b0",
+        "tiles": "0x1b36c0",
+        "pieces": 1,
+        "also_at": []
+      },
+      {
+        "table": "6c:7600",
+        "frame": 3,
+        "header": [
+          0,
+          0
+        ],
+        "record": "0x1b36e0",
+        "tiles": "0x1b36f0",
+        "pieces": 1,
+        "also_at": []
+      },
+      {
+        "table": "6c:7600",
+        "frame": 4,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b3710",
+        "tiles": "0x1b3720",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7600",
+        "frame": 5,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b3760",
+        "tiles": "0x1b3770",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7600",
+        "frame": 6,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b37b0",
+        "tiles": "0x1b37c0",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7600",
+        "frame": 7,
+        "header": [
+          0,
+          0
+        ],
+        "record": "0x1b3800",
+        "tiles": "0x1b3810",
+        "pieces": 1,
+        "also_at": []
+      },
+      {
+        "table": "6c:7600",
+        "frame": 8,
+        "header": [
+          0,
+          0
+        ],
+        "record": "0x1b3830",
+        "tiles": "0x1b3840",
+        "pieces": 1,
+        "also_at": []
+      },
+      {
+        "table": "6c:7600",
+        "frame": 9,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b3860",
+        "tiles": "0x1b3870",
+        "pieces": 2,
+        "also_at": []
+      }
+    ],
+    "gif": "33_Item_Blue.gif",
+    "sha256": "ccbdcb12adef75921cdad481611888008b2ac95d7300a7fd8bc6650ba31581fa"
+  },
+  {
+    "index": 34,
+    "name": "Item Pink",
+    "file": "34_Item_Pink.png",
+    "identification": "small pink item",
+    "cell_width": 17,
+    "cell_height": 16,
+    "anchor": [
+      -7,
+      -6
+    ],
+    "columns": 9,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "6c:7b00",
+        "frame": 0,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b3b16",
+        "tiles": "0x1b3b20",
+        "pieces": 2,
+        "also_at": [
+          "6c:7b00[5]"
+        ]
+      },
+      {
+        "table": "6c:7b00",
+        "frame": 1,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b3b60",
+        "tiles": "0x1b3b70",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7b00",
+        "frame": 2,
+        "header": [
+          0,
+          0
+        ],
+        "record": "0x1b3bb0",
+        "tiles": "0x1b3bc0",
+        "pieces": 1,
+        "also_at": []
+      },
+      {
+        "table": "6c:7b00",
+        "frame": 3,
+        "header": [
+          0,
+          0
+        ],
+        "record": "0x1b3be0",
+        "tiles": "0x1b3bf0",
+        "pieces": 1,
+        "also_at": []
+      },
+      {
+        "table": "6c:7b00",
+        "frame": 4,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b3c10",
+        "tiles": "0x1b3c20",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7b00",
+        "frame": 6,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b3cb0",
+        "tiles": "0x1b3cc0",
+        "pieces": 2,
+        "also_at": []
+      },
+      {
+        "table": "6c:7b00",
+        "frame": 7,
+        "header": [
+          0,
+          0
+        ],
+        "record": "0x1b3d00",
+        "tiles": "0x1b3d10",
+        "pieces": 1,
+        "also_at": []
+      },
+      {
+        "table": "6c:7b00",
+        "frame": 8,
+        "header": [
+          0,
+          0
+        ],
+        "record": "0x1b3d30",
+        "tiles": "0x1b3d40",
+        "pieces": 1,
+        "also_at": []
+      },
+      {
+        "table": "6c:7b00",
+        "frame": 9,
+        "header": [
+          0,
+          1
+        ],
+        "record": "0x1b3d60",
+        "tiles": "0x1b3d70",
+        "pieces": 2,
+        "also_at": []
+      }
+    ],
+    "gif": "34_Item_Pink.gif",
+    "sha256": "74eb2ec212c8650d5af65e54184faa193fe6080508834a732c3aec0c47b60f59"
+  },
+  {
+    "index": 35,
+    "name": "Money",
+    "file": "35_Money.png",
+    "identification": "banknote",
+    "cell_width": 25,
+    "cell_height": 19,
+    "anchor": [
+      12,
+      10
+    ],
+    "columns": 5,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "6d:4000",
+        "frame": 0,
+        "header": [
+          0,
+          2
+        ],
+        "record": "0x1b400c",
+        "tiles": "0x1b4020",
+        "pieces": 3,
+        "also_at": []
+      },
+      {
+        "table": "6d:4000",
+        "frame": 1,
+        "header": [
+          0,
+          2
+        ],
+        "record": "0x1b4080",
+        "tiles": "0x1b4090",
+        "pieces": 3,
+        "also_at": []
+      },
+      {
+        "table": "6d:4000",
+        "frame": 2,
+        "header": [
+          0,
+          2
+        ],
+        "record": "0x1b40f0",
+        "tiles": "0x1b4100",
+        "pieces": 3,
+        "also_at": []
+      },
+      {
+        "table": "6d:4000",
+        "frame": 3,
+        "header": [
+          0,
+          2
+        ],
+        "record": "0x1b4160",
+        "tiles": "0x1b4170",
+        "pieces": 3,
+        "also_at": []
+      },
+      {
+        "table": "6d:4000",
+        "frame": 4,
+        "header": [
+          0,
+          2
+        ],
+        "record": "0x1b41d0",
+        "tiles": "0x1b41e0",
+        "pieces": 3,
+        "also_at": []
+      }
+    ],
+    "gif": "35_Money.gif",
+    "sha256": "7be85fb4a478f3d0be0cfd6af0a54dffc460ae0e8c15796adac4ddc3705a3a41"
+  },
+  {
+    "index": 36,
+    "name": "Train",
+    "file": "36_Train.png",
+    "identification": "toy train",
+    "cell_width": 70,
+    "cell_height": 51,
+    "anchor": [
+      39,
+      26
+    ],
+    "columns": 4,
+    "palette": "0x1b0200",
+    "copies": [],
+    "frames": [
+      {
+        "table": "7f:6b00",
+        "frame": 0,
+        "header": [
+          6,
+          1
+        ],
+        "record": "0x1feb0a",
+        "tiles": "0x1feb60",
+        "pieces": 26,
+        "also_at": []
+      },
+      {
+        "table": "7f:6b00",
+        "frame": 1,
+        "header": [
+          6,
+          1
+        ],
+        "record": "0x1feea0",
+        "tiles": "0x1fef00",
+        "pieces": 26,
+        "also_at": []
+      },
+      {
+        "table": "7f:6b00",
+        "frame": 2,
+        "header": [
+          6,
+          1
+        ],
+        "record": "0x1ff240",
+        "tiles": "0x1ff2a0",
+        "pieces": 26,
+        "also_at": []
+      },
+      {
+        "table": "7f:6b00",
+        "frame": 3,
+        "header": [
+          6,
+          1
+        ],
+        "record": "0x1ff5e0",
+        "tiles": "0x1ff640",
+        "pieces": 26,
+        "also_at": []
+      }
+    ],
+    "gif": "36_Train.gif",
+    "sha256": "58aece091d7f11bb05c495d98a240a0b5fe2ee707f9683d28ebda943c1e47c9b"
+  }
+]

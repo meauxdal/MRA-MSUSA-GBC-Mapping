@@ -207,6 +207,69 @@ Maps of every course in *Mickey's Racing Adventure* (Game Boy Color, 1999) and *
 </table>
 <!-- /table -->
 
+### Characters (sprites)
+
+The overworld characters are real hardware sprites. Each sheet lays the frames out in a grid with a common anchor, so they line up; the GIFs play the walk cycles. The side-view walks face left, and the game mirrors them for the other direction. The sprites are in the game's own colours.
+
+<!-- table:mra-sprites -->
+<table>
+<tr>
+<td align="center" valign="top"><a href="images/sprites/MRA/01_Mickey_Walk_Front.png"><img src="images/thumbs/MRA_sprites/01_Mickey_Walk_Front.png" width="68" height="140" alt="Mickey Walk Front"></a><br>Mickey Walk Front<br><sub><a href="images/sprites/MRA/01_Mickey_Walk_Front.png">PNG</a> · <a href="images/sprites/MRA/01_Mickey_Walk_Front.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/02_Mickey_Walk_Side.png"><img src="images/thumbs/MRA_sprites/02_Mickey_Walk_Side.png" width="80" height="132" alt="Mickey Walk Side"></a><br>Mickey Walk Side<br><sub><a href="images/sprites/MRA/02_Mickey_Walk_Side.png">PNG</a> · <a href="images/sprites/MRA/02_Mickey_Walk_Side.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/03_Mickey_Walk_Back.png"><img src="images/thumbs/MRA_sprites/03_Mickey_Walk_Back.png" width="84" height="112" alt="Mickey Walk Back"></a><br>Mickey Walk Back<br><sub><a href="images/sprites/MRA/03_Mickey_Walk_Back.png">PNG</a> · <a href="images/sprites/MRA/03_Mickey_Walk_Back.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/04_Mickey_Poses.png"><img src="images/thumbs/MRA_sprites/04_Mickey_Poses.png" width="82" height="138" alt="Mickey Poses"></a><br>Mickey Poses<br><sub><a href="images/sprites/MRA/04_Mickey_Poses.png">PNG</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/sprites/MRA/05_Pete_Walk_Front.png"><img src="images/thumbs/MRA_sprites/05_Pete_Walk_Front.png" width="68" height="104" alt="Pete Walk Front"></a><br>Pete Walk Front<br><sub><a href="images/sprites/MRA/05_Pete_Walk_Front.png">PNG</a> · <a href="images/sprites/MRA/05_Pete_Walk_Front.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/06_Pete_Walk_Side.png"><img src="images/thumbs/MRA_sprites/06_Pete_Walk_Side.png" width="80" height="108" alt="Pete Walk Side"></a><br>Pete Walk Side<br><sub><a href="images/sprites/MRA/06_Pete_Walk_Side.png">PNG</a> · <a href="images/sprites/MRA/06_Pete_Walk_Side.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/07_Pete_Walk_Back.png"><img src="images/thumbs/MRA_sprites/07_Pete_Walk_Back.png" width="68" height="106" alt="Pete Walk Back"></a><br>Pete Walk Back<br><sub><a href="images/sprites/MRA/07_Pete_Walk_Back.png">PNG</a> · <a href="images/sprites/MRA/07_Pete_Walk_Back.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/08_Daisy_Walk_Front.png"><img src="images/thumbs/MRA_sprites/08_Daisy_Walk_Front.png" width="68" height="146" alt="Daisy Walk Front"></a><br>Daisy Walk Front<br><sub><a href="images/sprites/MRA/08_Daisy_Walk_Front.png">PNG</a> · <a href="images/sprites/MRA/08_Daisy_Walk_Front.gif">GIF</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/sprites/MRA/09_Daisy_Walk_Side.png"><img src="images/thumbs/MRA_sprites/09_Daisy_Walk_Side.png" width="70" height="144" alt="Daisy Walk Side"></a><br>Daisy Walk Side<br><sub><a href="images/sprites/MRA/09_Daisy_Walk_Side.png">PNG</a> · <a href="images/sprites/MRA/09_Daisy_Walk_Side.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/10_Daisy_Walk_Back.png"><img src="images/thumbs/MRA_sprites/10_Daisy_Walk_Back.png" width="70" height="134" alt="Daisy Walk Back"></a><br>Daisy Walk Back<br><sub><a href="images/sprites/MRA/10_Daisy_Walk_Back.png">PNG</a> · <a href="images/sprites/MRA/10_Daisy_Walk_Back.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/11_Daisy_Poses.png"><img src="images/thumbs/MRA_sprites/11_Daisy_Poses.png" width="68" height="132" alt="Daisy Poses"></a><br>Daisy Poses<br><sub><a href="images/sprites/MRA/11_Daisy_Poses.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/12_Donald_Walk_Front.png"><img src="images/thumbs/MRA_sprites/12_Donald_Walk_Front.png" width="74" height="142" alt="Donald Walk Front"></a><br>Donald Walk Front<br><sub><a href="images/sprites/MRA/12_Donald_Walk_Front.png">PNG</a> · <a href="images/sprites/MRA/12_Donald_Walk_Front.gif">GIF</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/sprites/MRA/13_Donald_Walk_Side.png"><img src="images/thumbs/MRA_sprites/13_Donald_Walk_Side.png" width="94" height="142" alt="Donald Walk Side"></a><br>Donald Walk Side<br><sub><a href="images/sprites/MRA/13_Donald_Walk_Side.png">PNG</a> · <a href="images/sprites/MRA/13_Donald_Walk_Side.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/14_Donald_Walk_Back.png"><img src="images/thumbs/MRA_sprites/14_Donald_Walk_Back.png" width="72" height="136" alt="Donald Walk Back"></a><br>Donald Walk Back<br><sub><a href="images/sprites/MRA/14_Donald_Walk_Back.png">PNG</a> · <a href="images/sprites/MRA/14_Donald_Walk_Back.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/15_Donald_Poses.png"><img src="images/thumbs/MRA_sprites/15_Donald_Poses.png" width="70" height="136" alt="Donald Poses"></a><br>Donald Poses<br><sub><a href="images/sprites/MRA/15_Donald_Poses.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/16_Goofy_Walk_Front.png"><img src="images/thumbs/MRA_sprites/16_Goofy_Walk_Front.png" width="100" height="166" alt="Goofy Walk Front"></a><br>Goofy Walk Front<br><sub><a href="images/sprites/MRA/16_Goofy_Walk_Front.png">PNG</a> · <a href="images/sprites/MRA/16_Goofy_Walk_Front.gif">GIF</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/sprites/MRA/17_Goofy_Walk_Side.png"><img src="images/thumbs/MRA_sprites/17_Goofy_Walk_Side.png" width="100" height="166" alt="Goofy Walk Side"></a><br>Goofy Walk Side<br><sub><a href="images/sprites/MRA/17_Goofy_Walk_Side.png">PNG</a> · <a href="images/sprites/MRA/17_Goofy_Walk_Side.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/18_Goofy_Walk_Back.png"><img src="images/thumbs/MRA_sprites/18_Goofy_Walk_Back.png" width="96" height="164" alt="Goofy Walk Back"></a><br>Goofy Walk Back<br><sub><a href="images/sprites/MRA/18_Goofy_Walk_Back.png">PNG</a> · <a href="images/sprites/MRA/18_Goofy_Walk_Back.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/19_Goofy_Poses.png"><img src="images/thumbs/MRA_sprites/19_Goofy_Poses.png" width="72" height="160" alt="Goofy Poses"></a><br>Goofy Poses<br><sub><a href="images/sprites/MRA/19_Goofy_Poses.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/20_Minnie_Walk_Front.png"><img src="images/thumbs/MRA_sprites/20_Minnie_Walk_Front.png" width="84" height="138" alt="Minnie Walk Front"></a><br>Minnie Walk Front<br><sub><a href="images/sprites/MRA/20_Minnie_Walk_Front.png">PNG</a> · <a href="images/sprites/MRA/20_Minnie_Walk_Front.gif">GIF</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/sprites/MRA/21_Minnie_Walk_Side.png"><img src="images/thumbs/MRA_sprites/21_Minnie_Walk_Side.png" width="82" height="136" alt="Minnie Walk Side"></a><br>Minnie Walk Side<br><sub><a href="images/sprites/MRA/21_Minnie_Walk_Side.png">PNG</a> · <a href="images/sprites/MRA/21_Minnie_Walk_Side.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/22_Minnie_Walk_Back.png"><img src="images/thumbs/MRA_sprites/22_Minnie_Walk_Back.png" width="84" height="136" alt="Minnie Walk Back"></a><br>Minnie Walk Back<br><sub><a href="images/sprites/MRA/22_Minnie_Walk_Back.png">PNG</a> · <a href="images/sprites/MRA/22_Minnie_Walk_Back.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/23_Minnie_Poses.png"><img src="images/thumbs/MRA_sprites/23_Minnie_Poses.png" width="72" height="134" alt="Minnie Poses"></a><br>Minnie Poses<br><sub><a href="images/sprites/MRA/23_Minnie_Poses.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/24_Pluto_Anim_1.png"><img src="images/thumbs/MRA_sprites/24_Pluto_Anim_1.png" width="74" height="140" alt="Pluto Anim 1"></a><br>Pluto Anim 1<br><sub><a href="images/sprites/MRA/24_Pluto_Anim_1.png">PNG</a> · <a href="images/sprites/MRA/24_Pluto_Anim_1.gif">GIF</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/sprites/MRA/25_Pluto_Anim_2.png"><img src="images/thumbs/MRA_sprites/25_Pluto_Anim_2.png" width="86" height="134" alt="Pluto Anim 2"></a><br>Pluto Anim 2<br><sub><a href="images/sprites/MRA/25_Pluto_Anim_2.png">PNG</a> · <a href="images/sprites/MRA/25_Pluto_Anim_2.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/26_Pluto_Anim_3.png"><img src="images/thumbs/MRA_sprites/26_Pluto_Anim_3.png" width="50" height="102" alt="Pluto Anim 3"></a><br>Pluto Anim 3<br><sub><a href="images/sprites/MRA/26_Pluto_Anim_3.png">PNG</a> · <a href="images/sprites/MRA/26_Pluto_Anim_3.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/27_Pluto_Anim_4.png"><img src="images/thumbs/MRA_sprites/27_Pluto_Anim_4.png" width="118" height="114" alt="Pluto Anim 4"></a><br>Pluto Anim 4<br><sub><a href="images/sprites/MRA/27_Pluto_Anim_4.png">PNG</a> · <a href="images/sprites/MRA/27_Pluto_Anim_4.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/28_Pluto_Anim_5.png"><img src="images/thumbs/MRA_sprites/28_Pluto_Anim_5.png" width="76" height="156" alt="Pluto Anim 5"></a><br>Pluto Anim 5<br><sub><a href="images/sprites/MRA/28_Pluto_Anim_5.png">PNG</a> · <a href="images/sprites/MRA/28_Pluto_Anim_5.gif">GIF</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/sprites/MRA/29_Pluto_Anim_6.png"><img src="images/thumbs/MRA_sprites/29_Pluto_Anim_6.png" width="122" height="132" alt="Pluto Anim 6"></a><br>Pluto Anim 6<br><sub><a href="images/sprites/MRA/29_Pluto_Anim_6.png">PNG</a> · <a href="images/sprites/MRA/29_Pluto_Anim_6.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/30_Pluto_Anim_7.png"><img src="images/thumbs/MRA_sprites/30_Pluto_Anim_7.png" width="88" height="98" alt="Pluto Anim 7"></a><br>Pluto Anim 7<br><sub><a href="images/sprites/MRA/30_Pluto_Anim_7.png">PNG</a> · <a href="images/sprites/MRA/30_Pluto_Anim_7.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/31_Pluto_Poses.png"><img src="images/thumbs/MRA_sprites/31_Pluto_Poses.png" width="84" height="118" alt="Pluto Poses"></a><br>Pluto Poses<br><sub><a href="images/sprites/MRA/31_Pluto_Poses.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/32_Item_Burger.png"><img src="images/thumbs/MRA_sprites/32_Item_Burger.png" width="32" height="34" alt="Item Burger"></a><br>Item Burger<br><sub><a href="images/sprites/MRA/32_Item_Burger.png">PNG</a> · <a href="images/sprites/MRA/32_Item_Burger.gif">GIF</a></sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="images/sprites/MRA/33_Item_Blue.png"><img src="images/thumbs/MRA_sprites/33_Item_Blue.png" width="34" height="32" alt="Item Blue"></a><br>Item Blue<br><sub><a href="images/sprites/MRA/33_Item_Blue.png">PNG</a> · <a href="images/sprites/MRA/33_Item_Blue.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/34_Item_Pink.png"><img src="images/thumbs/MRA_sprites/34_Item_Pink.png" width="34" height="32" alt="Item Pink"></a><br>Item Pink<br><sub><a href="images/sprites/MRA/34_Item_Pink.png">PNG</a> · <a href="images/sprites/MRA/34_Item_Pink.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/35_Money.png"><img src="images/thumbs/MRA_sprites/35_Money.png" width="50" height="38" alt="Money"></a><br>Money<br><sub><a href="images/sprites/MRA/35_Money.png">PNG</a> · <a href="images/sprites/MRA/35_Money.gif">GIF</a></sub></td>
+<td align="center" valign="top"><a href="images/sprites/MRA/36_Train.png"><img src="images/thumbs/MRA_sprites/36_Train.png" width="140" height="102" alt="Train"></a><br>Train<br><sub><a href="images/sprites/MRA/36_Train.png">PNG</a> · <a href="images/sprites/MRA/36_Train.gif">GIF</a></sub></td>
+</tr>
+</table>
+<!-- /table -->
+
 ### Terrain
 
 You can see the true track shapes here; elevation is ignored.
@@ -386,13 +449,13 @@ Course select map (initial and final variants).
 <tr>
 <td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/13_Mickey_on_Phone.png"><img src="images/thumbs/MSUSA_cutscenes/13_Mickey_on_Phone.png" width="160" height="128" alt="Mickey on Phone"></a><br>Mickey on Phone<br><sub><a href="images/screens/MSUSA_cutscenes/13_Mickey_on_Phone.png">PNG</a></sub></td>
 <td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/14_Mickey_with_Letter.png"><img src="images/thumbs/MSUSA_cutscenes/14_Mickey_with_Letter.png" width="160" height="128" alt="Mickey with Letter"></a><br>Mickey with Letter<br><sub><a href="images/screens/MSUSA_cutscenes/14_Mickey_with_Letter.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/15_Ransom_Note_%28English%29.png"><img src="images/thumbs/MSUSA_cutscenes/15_Ransom_Note_%28English%29.png" width="160" height="144" alt="Ransom Note (English)"></a><br>Ransom Note (English)<br><sub><a href="images/screens/MSUSA_cutscenes/15_Ransom_Note_%28English%29.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/16_Ransom_Note_%28French%29.png"><img src="images/thumbs/MSUSA_cutscenes/16_Ransom_Note_%28French%29.png" width="160" height="144" alt="Ransom Note (French)"></a><br>Ransom Note (French)<br><sub><a href="images/screens/MSUSA_cutscenes/16_Ransom_Note_%28French%29.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/15_Ransom_Note_%28English%29.png"><img src="images/thumbs/MSUSA_cutscenes/15_Ransom_Note_%28English%29.png" width="160" height="144" alt="Ransom Note English"></a><br>Ransom Note English<br><sub><a href="images/screens/MSUSA_cutscenes/15_Ransom_Note_%28English%29.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/16_Ransom_Note_%28French%29.png"><img src="images/thumbs/MSUSA_cutscenes/16_Ransom_Note_%28French%29.png" width="160" height="144" alt="Ransom Note French"></a><br>Ransom Note French<br><sub><a href="images/screens/MSUSA_cutscenes/16_Ransom_Note_%28French%29.png">PNG</a></sub></td>
 </tr>
 <tr>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/17_Ransom_Note_%28German%29.png"><img src="images/thumbs/MSUSA_cutscenes/17_Ransom_Note_%28German%29.png" width="160" height="144" alt="Ransom Note (German)"></a><br>Ransom Note (German)<br><sub><a href="images/screens/MSUSA_cutscenes/17_Ransom_Note_%28German%29.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/18_Ransom_Note_%28Spanish%29.png"><img src="images/thumbs/MSUSA_cutscenes/18_Ransom_Note_%28Spanish%29.png" width="160" height="144" alt="Ransom Note (Spanish)"></a><br>Ransom Note (Spanish)<br><sub><a href="images/screens/MSUSA_cutscenes/18_Ransom_Note_%28Spanish%29.png">PNG</a></sub></td>
-<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/19_Character_Select.png"><img src="images/thumbs/MSUSA_cutscenes/19_Character_Select.png" width="160" height="128" alt="Yellow Machine"></a><br>Character Select<br><sub><a href="images/screens/MSUSA_cutscenes/19_Character_Select.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/17_Ransom_Note_%28German%29.png"><img src="images/thumbs/MSUSA_cutscenes/17_Ransom_Note_%28German%29.png" width="160" height="144" alt="Ransom Note German"></a><br>Ransom Note German<br><sub><a href="images/screens/MSUSA_cutscenes/17_Ransom_Note_%28German%29.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/18_Ransom_Note_%28Spanish%29.png"><img src="images/thumbs/MSUSA_cutscenes/18_Ransom_Note_%28Spanish%29.png" width="160" height="144" alt="Ransom Note Spanish"></a><br>Ransom Note Spanish<br><sub><a href="images/screens/MSUSA_cutscenes/18_Ransom_Note_%28Spanish%29.png">PNG</a></sub></td>
+<td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/19_Character_Select.png"><img src="images/thumbs/MSUSA_cutscenes/19_Character_Select.png" width="160" height="128" alt="Character Select"></a><br>Character Select<br><sub><a href="images/screens/MSUSA_cutscenes/19_Character_Select.png">PNG</a></sub></td>
 <td align="center" valign="top"><a href="images/screens/MSUSA_cutscenes/20_Trophy_Case_%28French%29.png"><img src="images/thumbs/MSUSA_cutscenes/20_Trophy_Case_%28French%29.png" width="160" height="144" alt="Trophy Case (French)"></a><br>Trophy Case (French)<br><sub><a href="images/screens/MSUSA_cutscenes/20_Trophy_Case_%28French%29.png">PNG</a></sub></td>
 </tr>
 <tr>

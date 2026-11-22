@@ -134,6 +134,29 @@ def dig():
     return cells
 
 
+def sprites():
+    """Character sprite sheets; the thumbnail is the first frame at 2x."""
+    folder = IMG/"sprites"/"MRA"
+    cells = []
+    for e in manifest(folder):
+        sheet = folder/e["file"]
+        dst = THUMBS/"MRA_sprites"/sheet.name
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        frame = Image.open(sheet).crop((0, 0, e["cell_width"], e["cell_height"]))
+        frame = frame.resize((frame.width*2, frame.height*2), Image.NEAREST)
+        frame.save(dst, optimize=True)
+        links = [("PNG", sheet)]
+        if "gif" in e:
+            links.append(("GIF", folder/e["gif"]))
+        files = " · ".join(link(p, text) for text, p in links)
+        img = (f'<img src="{quote(dst.relative_to(ROOT).as_posix())}" '
+               f'width="{frame.width}" height="{frame.height}" '
+               f'alt="{html.escape(e["name"])}">')
+        cells.append(f'<td align="center" valign="top">{link(sheet, img)}<br>'
+                     f'{html.escape(e["name"])}<br><sub>{files}</sub></td>')
+    return cells
+
+
 TABLES = {
     "msusa-courses": lambda: courses("MSUSA"),
     "msusa-arenas": arenas,
@@ -146,6 +169,7 @@ TABLES = {
     "mra-worlds": lambda: screens("MRA_worlds"),
     "mra-dig": dig,
     "mra-cutscenes": lambda: screens("MRA_cutscenes"),
+    "mra-sprites": sprites,
     "mra-terrain": lambda: terrain("MRA"),
 }
 
